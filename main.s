@@ -1,54 +1,67 @@
 	.file	"main.cpp"
 	.text
-	.section .rdata,"dr"
+#APP
+	.globl _ZSt21ios_base_library_initv
+	.section	.rodata
 .LC0:
-	.ascii "Hello world\0"
+	.string	"Hello world"
+#NO_APP
 	.text
 	.globl	main
-	.def	main;	.scl	2;	.type	32;	.endef
-	.seh_proc	main
+	.type	main, @function
 main:
-.LFB2214:
+.LFB1988:
+	.cfi_startproc
+	endbr64
 	pushq	%rbp
-	.seh_pushreg	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
 	movq	%rsp, %rbp
-	.seh_setframe	%rbp, 0
-	subq	$32, %rsp
-	.seh_stackalloc	32
-	.seh_endprologue
-	call	__main
+	.cfi_def_cfa_register 6
 	leaq	.LC0(%rip), %rax
-	movq	%rax, %rdx
-	movq	.refptr._ZSt4cout(%rip), %rax
-	movq	%rax, %rcx
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
-	movq	%rax, %rcx
-	movq	.refptr._ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_(%rip), %rax
-	movq	%rax, %rdx
-	call	_ZNSolsEPFRSoS_E
+	movq	%rax, %rsi
+	leaq	_ZSt4cout(%rip), %rax
+	movq	%rax, %rdi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	movq	_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_@GOTPCREL(%rip), %rdx
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSolsEPFRSoS_E@PLT
 	movl	$0, %eax
-	addq	$32, %rsp
 	popq	%rbp
+	.cfi_def_cfa 7, 8
 	ret
-	.seh_endproc
-	.section .rdata,"dr"
+	.cfi_endproc
+.LFE1988:
+	.size	main, .-main
+	.section	.rodata
+	.type	_ZNSt8__detail30__integer_to_chars_is_unsignedIjEE, @object
+	.size	_ZNSt8__detail30__integer_to_chars_is_unsignedIjEE, 1
 _ZNSt8__detail30__integer_to_chars_is_unsignedIjEE:
 	.byte	1
+	.type	_ZNSt8__detail30__integer_to_chars_is_unsignedImEE, @object
+	.size	_ZNSt8__detail30__integer_to_chars_is_unsignedImEE, 1
 _ZNSt8__detail30__integer_to_chars_is_unsignedImEE:
 	.byte	1
+	.type	_ZNSt8__detail30__integer_to_chars_is_unsignedIyEE, @object
+	.size	_ZNSt8__detail30__integer_to_chars_is_unsignedIyEE, 1
 _ZNSt8__detail30__integer_to_chars_is_unsignedIyEE:
 	.byte	1
-	.def	__main;	.scl	2;	.type	32;	.endef
-	.ident	"GCC: (Rev2, Built by MSYS2 project) 14.2.0"
-	.def	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc;	.scl	2;	.type	32;	.endef
-	.def	_ZNSolsEPFRSoS_E;	.scl	2;	.type	32;	.endef
-	.section	.rdata$.refptr._ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_, "dr"
-	.globl	.refptr._ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
-	.linkonce	discard
-.refptr._ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_:
-	.quad	_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
-	.section	.rdata$.refptr._ZSt4cout, "dr"
-	.globl	.refptr._ZSt4cout
-	.linkonce	discard
-.refptr._ZSt4cout:
-	.quad	_ZSt4cout
+	.ident	"GCC: (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0"
+	.section	.note.GNU-stack,"",@progbits
+	.section	.note.gnu.property,"a"
+	.align 8
+	.long	1f - 0f
+	.long	4f - 1f
+	.long	5
+0:
+	.string	"GNU"
+1:
+	.align 8
+	.long	0xc0000002
+	.long	3f - 2f
+2:
+	.long	0x3
+3:
+	.align 8
+4:

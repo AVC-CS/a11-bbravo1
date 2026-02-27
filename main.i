@@ -1,25 +1,24 @@
 # 0 "main.cpp"
 # 0 "<built-in>"
 # 0 "<command-line>"
+# 1 "/usr/include/stdc-predef.h" 1 3 4
+# 0 "<command-line>" 2
 # 1 "main.cpp"
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/iostream" 1 3
-# 36 "C:/msys64/ucrt64/include/c++/14.2.0/iostream" 3
+# 1 "/usr/include/c++/13/iostream" 1 3
+# 36 "/usr/include/c++/13/iostream" 3
        
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/iostream" 3
+# 37 "/usr/include/c++/13/iostream" 3
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/requires_hosted.h" 1 3
-# 31 "C:/msys64/ucrt64/include/c++/14.2.0/bits/requires_hosted.h" 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h" 1 3
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h" 3
-       
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h" 3
-# 308 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h" 3
+# 1 "/usr/include/c++/13/bits/requires_hosted.h" 1 3
+# 31 "/usr/include/c++/13/bits/requires_hosted.h" 3
+# 1 "/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h" 1 3
+# 306 "/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h" 3
 
-# 308 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h" 3
+# 306 "/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h" 3
 namespace std
 {
-  typedef long long unsigned int size_t;
-  typedef long long int ptrdiff_t;
+  typedef long unsigned int size_t;
+  typedef long int ptrdiff_t;
 
 
   typedef decltype(nullptr) nullptr_t;
@@ -31,12 +30,12 @@ namespace std
   extern "C++" __attribute__ ((__noreturn__, __always_inline__))
   inline void __terminate() noexcept
   {
-    void terminate() noexcept __attribute__ ((__noreturn__,__cold__));
+    void terminate() noexcept __attribute__ ((__noreturn__));
     terminate();
   }
 #pragma GCC visibility pop
 }
-# 341 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h" 3
+# 339 "/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h" 3
 namespace std
 {
   inline namespace __cxx11 __attribute__((__abi_tag__ ("cxx11"))) { }
@@ -45,7 +44,7 @@ namespace __gnu_cxx
 {
   inline namespace __cxx11 __attribute__((__abi_tag__ ("cxx11"))) { }
 }
-# 534 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h" 3
+# 532 "/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h" 3
 namespace std
 {
 #pragma GCC visibility push(default)
@@ -53,7 +52,6 @@ namespace std
 
 
 
-  __attribute__((__always_inline__))
   constexpr inline bool
   __is_constant_evaluated() noexcept
   {
@@ -69,90 +67,93 @@ namespace std
   }
 #pragma GCC visibility pop
 }
-# 573 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h" 3
-namespace std
+# 679 "/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h" 3
+# 1 "/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h" 1 3
+# 39 "/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h" 3
+# 1 "/usr/include/features.h" 1 3 4
+# 394 "/usr/include/features.h" 3 4
+# 1 "/usr/include/features-time64.h" 1 3 4
+# 20 "/usr/include/features-time64.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
+# 21 "/usr/include/features-time64.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/timesize.h" 1 3 4
+# 19 "/usr/include/x86_64-linux-gnu/bits/timesize.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
+# 20 "/usr/include/x86_64-linux-gnu/bits/timesize.h" 2 3 4
+# 22 "/usr/include/features-time64.h" 2 3 4
+# 395 "/usr/include/features.h" 2 3 4
+# 502 "/usr/include/features.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 1 3 4
+# 576 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
+# 577 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/long-double.h" 1 3 4
+# 578 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4
+# 503 "/usr/include/features.h" 2 3 4
+# 526 "/usr/include/features.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 1 3 4
+# 10 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/gnu/stubs-64.h" 1 3 4
+# 11 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 2 3 4
+# 527 "/usr/include/features.h" 2 3 4
+# 40 "/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h" 2 3
+# 680 "/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h" 2 3
+
+
+# 1 "/usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h" 1 3
+# 683 "/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h" 2 3
+# 882 "/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h" 3
+# 1 "/usr/include/c++/13/pstl/pstl_config.h" 1 3
+# 883 "/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h" 2 3
+# 32 "/usr/include/c++/13/bits/requires_hosted.h" 2 3
+# 39 "/usr/include/c++/13/iostream" 2 3
+
+
+# 1 "/usr/include/c++/13/ostream" 1 3
+# 36 "/usr/include/c++/13/ostream" 3
+       
+# 37 "/usr/include/c++/13/ostream" 3
+
+
+
+# 1 "/usr/include/c++/13/ios" 1 3
+# 36 "/usr/include/c++/13/ios" 3
+       
+# 37 "/usr/include/c++/13/ios" 3
+
+
+
+# 1 "/usr/include/c++/13/iosfwd" 1 3
+# 36 "/usr/include/c++/13/iosfwd" 3
+       
+# 37 "/usr/include/c++/13/iosfwd" 3
+
+
+
+
+# 1 "/usr/include/c++/13/bits/stringfwd.h" 1 3
+# 37 "/usr/include/c++/13/bits/stringfwd.h" 3
+       
+# 38 "/usr/include/c++/13/bits/stringfwd.h" 3
+
+
+# 1 "/usr/include/c++/13/bits/memoryfwd.h" 1 3
+# 46 "/usr/include/c++/13/bits/memoryfwd.h" 3
+       
+# 47 "/usr/include/c++/13/bits/memoryfwd.h" 3
+
+
+
+namespace std __attribute__ ((__visibility__ ("default")))
 {
-#pragma GCC visibility push(default)
 
-  extern "C++" __attribute__ ((__noreturn__))
-  void
-  __glibcxx_assert_fail
-    (const char* __file, int __line, const char* __function,
-     const char* __condition)
-  noexcept;
-#pragma GCC visibility pop
-}
-# 601 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h" 3
-namespace std
-{
-  __attribute__((__always_inline__,__visibility__("default")))
-  inline void
-  __glibcxx_assert_fail()
-  { }
-}
-# 680 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h" 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h" 1 3
-# 681 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h" 2 3
-
-
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/cpu_defines.h" 1 3
-# 684 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h" 2 3
-# 825 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h" 3
-namespace __gnu_cxx
-{
-  typedef __decltype(0.0bf16) __bfloat16_t;
-}
-# 887 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h" 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/pstl/pstl_config.h" 1 3
-# 888 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h" 2 3
-# 32 "C:/msys64/ucrt64/include/c++/14.2.0/bits/requires_hosted.h" 2 3
-# 39 "C:/msys64/ucrt64/include/c++/14.2.0/iostream" 2 3
-
-
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 1 3
-# 36 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
-       
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
-
-
-
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/ios" 1 3
-# 36 "C:/msys64/ucrt64/include/c++/14.2.0/ios" 3
-       
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/ios" 3
-
-
-
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/iosfwd" 1 3
-# 36 "C:/msys64/ucrt64/include/c++/14.2.0/iosfwd" 3
-       
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/iosfwd" 3
-
-
-
-
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stringfwd.h" 1 3
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stringfwd.h" 3
-       
-# 38 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stringfwd.h" 3
-
-
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/memoryfwd.h" 1 3
-# 46 "C:/msys64/ucrt64/include/c++/14.2.0/bits/memoryfwd.h" 3
-       
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/bits/memoryfwd.h" 3
-
-
-
-namespace std
-{
-
-# 64 "C:/msys64/ucrt64/include/c++/14.2.0/bits/memoryfwd.h" 3
+# 64 "/usr/include/c++/13/bits/memoryfwd.h" 3
   template<typename>
     class allocator;
 
   template<>
     class allocator<void>;
+
 
 
 
@@ -167,9 +168,9 @@ namespace std
 
 
 }
-# 41 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stringfwd.h" 2 3
+# 41 "/usr/include/c++/13/bits/stringfwd.h" 2 3
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -208,7 +209,7 @@ namespace __cxx11 {
 
 
   typedef basic_string<wchar_t> wstring;
-# 89 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stringfwd.h" 3
+# 89 "/usr/include/c++/13/bits/stringfwd.h" 3
   typedef basic_string<char16_t> u16string;
 
 
@@ -219,1608 +220,818 @@ namespace __cxx11 {
 
 
 }
-# 42 "C:/msys64/ucrt64/include/c++/14.2.0/iosfwd" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/postypes.h" 1 3
-# 38 "C:/msys64/ucrt64/include/c++/14.2.0/bits/postypes.h" 3
+# 42 "/usr/include/c++/13/iosfwd" 2 3
+# 1 "/usr/include/c++/13/bits/postypes.h" 1 3
+# 38 "/usr/include/c++/13/bits/postypes.h" 3
        
-# 39 "C:/msys64/ucrt64/include/c++/14.2.0/bits/postypes.h" 3
+# 39 "/usr/include/c++/13/bits/postypes.h" 3
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/cwchar" 1 3
-# 39 "C:/msys64/ucrt64/include/c++/14.2.0/cwchar" 3
+# 1 "/usr/include/c++/13/cwchar" 1 3
+# 39 "/usr/include/c++/13/cwchar" 3
        
-# 40 "C:/msys64/ucrt64/include/c++/14.2.0/cwchar" 3
+# 40 "/usr/include/c++/13/cwchar" 3
 
 
 
 
-# 1 "C:/msys64/ucrt64/include/wchar.h" 1 3
-# 9 "C:/msys64/ucrt64/include/wchar.h" 3
-# 1 "C:/msys64/ucrt64/include/corecrt.h" 1 3
-# 10 "C:/msys64/ucrt64/include/corecrt.h" 3
-# 1 "C:/msys64/ucrt64/include/_mingw.h" 1 3
-# 10 "C:/msys64/ucrt64/include/_mingw.h" 3
-# 1 "C:/msys64/ucrt64/include/_mingw_mac.h" 1 3
-# 98 "C:/msys64/ucrt64/include/_mingw_mac.h" 3
-             
-# 107 "C:/msys64/ucrt64/include/_mingw_mac.h" 3
-             
-# 316 "C:/msys64/ucrt64/include/_mingw_mac.h" 3
-       
-# 395 "C:/msys64/ucrt64/include/_mingw_mac.h" 3
-       
-# 11 "C:/msys64/ucrt64/include/_mingw.h" 2 3
-# 1 "C:/msys64/ucrt64/include/_mingw_secapi.h" 1 3
-# 44 "C:/msys64/ucrt64/include/_mingw_secapi.h" 3
-extern "C++" {
-template <bool __test, typename __dsttype>
-  struct __if_array;
-template <typename __dsttype>
-  struct __if_array <true, __dsttype> {
-    typedef __dsttype __type;
+# 1 "/usr/include/wchar.h" 1 3 4
+# 27 "/usr/include/wchar.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
+# 28 "/usr/include/wchar.h" 2 3 4
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/floatn.h" 1 3 4
+# 119 "/usr/include/x86_64-linux-gnu/bits/floatn.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 1 3 4
+# 24 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/long-double.h" 1 3 4
+# 25 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 2 3 4
+# 120 "/usr/include/x86_64-linux-gnu/bits/floatn.h" 2 3 4
+# 31 "/usr/include/wchar.h" 2 3 4
+
+
+
+
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h" 1 3 4
+# 214 "/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h" 3 4
+typedef long unsigned int size_t;
+# 36 "/usr/include/wchar.h" 2 3 4
+
+
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h" 1 3 4
+# 40 "/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h" 3 4
+typedef __builtin_va_list __gnuc_va_list;
+# 39 "/usr/include/wchar.h" 2 3 4
+
+
+
+
+typedef __gnuc_va_list va_list;
+
+
+
+
+
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/wchar.h" 1 3 4
+# 52 "/usr/include/wchar.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/wint_t.h" 1 3 4
+# 20 "/usr/include/x86_64-linux-gnu/bits/types/wint_t.h" 3 4
+typedef unsigned int wint_t;
+# 53 "/usr/include/wchar.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h" 1 3 4
+
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h" 1 3 4
+# 13 "/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h" 3 4
+typedef struct
+{
+  int __count;
+  union
+  {
+    unsigned int __wch;
+    char __wchb[4];
+  } __value;
+} __mbstate_t;
+# 5 "/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h" 2 3 4
+
+typedef __mbstate_t mbstate_t;
+# 54 "/usr/include/wchar.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/__FILE.h" 1 3 4
+
+
+
+struct _IO_FILE;
+typedef struct _IO_FILE __FILE;
+# 55 "/usr/include/wchar.h" 2 3 4
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/FILE.h" 1 3 4
+
+
+
+struct _IO_FILE;
+
+
+typedef struct _IO_FILE FILE;
+# 58 "/usr/include/wchar.h" 2 3 4
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/locale_t.h" 1 3 4
+# 22 "/usr/include/x86_64-linux-gnu/bits/types/locale_t.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h" 1 3 4
+# 27 "/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h" 3 4
+struct __locale_struct
+{
+
+  struct __locale_data *__locales[13];
+
+
+  const unsigned short int *__ctype_b;
+  const int *__ctype_tolower;
+  const int *__ctype_toupper;
+
+
+  const char *__names[13];
 };
-}
-# 12 "C:/msys64/ucrt64/include/_mingw.h" 2 3
-# 296 "C:/msys64/ucrt64/include/_mingw.h" 3
-# 1 "C:/msys64/ucrt64/include/vadefs.h" 1 3
-# 9 "C:/msys64/ucrt64/include/vadefs.h" 3
-# 1 "C:/msys64/ucrt64/include/_mingw.h" 1 3
-# 675 "C:/msys64/ucrt64/include/_mingw.h" 3
-# 1 "C:/msys64/ucrt64/include/sdks/_mingw_ddk.h" 1 3
-# 676 "C:/msys64/ucrt64/include/_mingw.h" 2 3
-# 10 "C:/msys64/ucrt64/include/vadefs.h" 2 3
 
+typedef struct __locale_struct *__locale_t;
+# 23 "/usr/include/x86_64-linux-gnu/bits/types/locale_t.h" 2 3 4
 
-
-
-#pragma pack(push,_CRT_PACKING)
-
-
-
+typedef __locale_t locale_t;
+# 61 "/usr/include/wchar.h" 2 3 4
+# 90 "/usr/include/wchar.h" 3 4
 extern "C" {
 
 
 
-
-
-  typedef __builtin_va_list __gnuc_va_list;
-
+struct tm;
 
 
 
+extern wchar_t *wcscpy (wchar_t *__restrict __dest,
+   const wchar_t *__restrict __src)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
 
 
-  typedef __gnuc_va_list va_list;
-# 99 "C:/msys64/ucrt64/include/vadefs.h" 3
+extern wchar_t *wcsncpy (wchar_t *__restrict __dest,
+    const wchar_t *__restrict __src, size_t __n)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+extern size_t wcslcpy (wchar_t *__restrict __dest,
+         const wchar_t *__restrict __src, size_t __n)
+  noexcept (true) __attribute__ ((__nonnull__ (1, 2))) __attribute__ ((__access__ (__write_only__, 1, 3)));
+
+
+
+extern size_t wcslcat (wchar_t *__restrict __dest,
+         const wchar_t *__restrict __src, size_t __n)
+  noexcept (true) __attribute__ ((__nonnull__ (1, 2))) __attribute__ ((__access__ (__read_write__, 1, 3)));
+
+
+
+extern wchar_t *wcscat (wchar_t *__restrict __dest,
+   const wchar_t *__restrict __src)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+extern wchar_t *wcsncat (wchar_t *__restrict __dest,
+    const wchar_t *__restrict __src, size_t __n)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int wcscmp (const wchar_t *__s1, const wchar_t *__s2)
+     noexcept (true) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+
+extern int wcsncmp (const wchar_t *__s1, const wchar_t *__s2, size_t __n)
+     noexcept (true) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+extern int wcscasecmp (const wchar_t *__s1, const wchar_t *__s2) noexcept (true);
+
+
+extern int wcsncasecmp (const wchar_t *__s1, const wchar_t *__s2,
+   size_t __n) noexcept (true);
+
+
+
+extern int wcscasecmp_l (const wchar_t *__s1, const wchar_t *__s2,
+    locale_t __loc) noexcept (true);
+
+extern int wcsncasecmp_l (const wchar_t *__s1, const wchar_t *__s2,
+     size_t __n, locale_t __loc) noexcept (true);
+
+
+
+
+extern int wcscoll (const wchar_t *__s1, const wchar_t *__s2) noexcept (true);
+
+
+
+extern size_t wcsxfrm (wchar_t *__restrict __s1,
+         const wchar_t *__restrict __s2, size_t __n) noexcept (true);
+
+
+
+
+
+
+
+extern int wcscoll_l (const wchar_t *__s1, const wchar_t *__s2,
+        locale_t __loc) noexcept (true);
+
+
+
+
+extern size_t wcsxfrm_l (wchar_t *__s1, const wchar_t *__s2,
+    size_t __n, locale_t __loc) noexcept (true);
+
+
+extern wchar_t *wcsdup (const wchar_t *__s) noexcept (true)
+  __attribute__ ((__malloc__)) __attribute__ ((__malloc__ (__builtin_free, 1)));
+
+
+
+
+extern "C++" wchar_t *wcschr (wchar_t *__wcs, wchar_t __wc)
+     noexcept (true) __asm ("wcschr") __attribute__ ((__pure__));
+extern "C++" const wchar_t *wcschr (const wchar_t *__wcs, wchar_t __wc)
+     noexcept (true) __asm ("wcschr") __attribute__ ((__pure__));
+
+
+
+
+
+
+extern "C++" wchar_t *wcsrchr (wchar_t *__wcs, wchar_t __wc)
+     noexcept (true) __asm ("wcsrchr") __attribute__ ((__pure__));
+extern "C++" const wchar_t *wcsrchr (const wchar_t *__wcs, wchar_t __wc)
+     noexcept (true) __asm ("wcsrchr") __attribute__ ((__pure__));
+# 206 "/usr/include/wchar.h" 3 4
+extern wchar_t *wcschrnul (const wchar_t *__s, wchar_t __wc)
+     noexcept (true) __attribute__ ((__pure__));
+
+
+
+
+extern size_t wcscspn (const wchar_t *__wcs, const wchar_t *__reject)
+     noexcept (true) __attribute__ ((__pure__));
+
+
+extern size_t wcsspn (const wchar_t *__wcs, const wchar_t *__accept)
+     noexcept (true) __attribute__ ((__pure__));
+
+
+extern "C++" wchar_t *wcspbrk (wchar_t *__wcs, const wchar_t *__accept)
+     noexcept (true) __asm ("wcspbrk") __attribute__ ((__pure__));
+extern "C++" const wchar_t *wcspbrk (const wchar_t *__wcs,
+         const wchar_t *__accept)
+     noexcept (true) __asm ("wcspbrk") __attribute__ ((__pure__));
+
+
+
+
+
+
+extern "C++" wchar_t *wcsstr (wchar_t *__haystack, const wchar_t *__needle)
+     noexcept (true) __asm ("wcsstr") __attribute__ ((__pure__));
+extern "C++" const wchar_t *wcsstr (const wchar_t *__haystack,
+        const wchar_t *__needle)
+     noexcept (true) __asm ("wcsstr") __attribute__ ((__pure__));
+
+
+
+
+
+
+extern wchar_t *wcstok (wchar_t *__restrict __s,
+   const wchar_t *__restrict __delim,
+   wchar_t **__restrict __ptr) noexcept (true);
+
+
+extern size_t wcslen (const wchar_t *__s) noexcept (true) __attribute__ ((__pure__));
+
+
+
+
+extern "C++" wchar_t *wcswcs (wchar_t *__haystack, const wchar_t *__needle)
+     noexcept (true) __asm ("wcswcs") __attribute__ ((__pure__));
+extern "C++" const wchar_t *wcswcs (const wchar_t *__haystack,
+        const wchar_t *__needle)
+     noexcept (true) __asm ("wcswcs") __attribute__ ((__pure__));
+# 265 "/usr/include/wchar.h" 3 4
+extern size_t wcsnlen (const wchar_t *__s, size_t __maxlen)
+     noexcept (true) __attribute__ ((__pure__));
+
+
+
+
+
+extern "C++" wchar_t *wmemchr (wchar_t *__s, wchar_t __c, size_t __n)
+     noexcept (true) __asm ("wmemchr") __attribute__ ((__pure__));
+extern "C++" const wchar_t *wmemchr (const wchar_t *__s, wchar_t __c,
+         size_t __n)
+     noexcept (true) __asm ("wmemchr") __attribute__ ((__pure__));
+
+
+
+
+
+
+extern int wmemcmp (const wchar_t *__s1, const wchar_t *__s2, size_t __n)
+     noexcept (true) __attribute__ ((__pure__));
+
+
+extern wchar_t *wmemcpy (wchar_t *__restrict __s1,
+    const wchar_t *__restrict __s2, size_t __n) noexcept (true);
+
+
+
+extern wchar_t *wmemmove (wchar_t *__s1, const wchar_t *__s2, size_t __n)
+     noexcept (true);
+
+
+extern wchar_t *wmemset (wchar_t *__s, wchar_t __c, size_t __n) noexcept (true);
+
+
+
+
+extern wchar_t *wmempcpy (wchar_t *__restrict __s1,
+     const wchar_t *__restrict __s2, size_t __n)
+     noexcept (true);
+
+
+
+
+
+extern wint_t btowc (int __c) noexcept (true);
+
+
+
+extern int wctob (wint_t __c) noexcept (true);
+
+
+
+extern int mbsinit (const mbstate_t *__ps) noexcept (true) __attribute__ ((__pure__));
+
+
+
+extern size_t mbrtowc (wchar_t *__restrict __pwc,
+         const char *__restrict __s, size_t __n,
+         mbstate_t *__restrict __p) noexcept (true);
+
+
+extern size_t wcrtomb (char *__restrict __s, wchar_t __wc,
+         mbstate_t *__restrict __ps) noexcept (true);
+
+
+extern size_t __mbrlen (const char *__restrict __s, size_t __n,
+   mbstate_t *__restrict __ps) noexcept (true);
+extern size_t mbrlen (const char *__restrict __s, size_t __n,
+        mbstate_t *__restrict __ps) noexcept (true);
+# 362 "/usr/include/wchar.h" 3 4
+extern size_t mbsrtowcs (wchar_t *__restrict __dst,
+    const char **__restrict __src, size_t __len,
+    mbstate_t *__restrict __ps) noexcept (true);
+
+
+
+extern size_t wcsrtombs (char *__restrict __dst,
+    const wchar_t **__restrict __src, size_t __len,
+    mbstate_t *__restrict __ps) noexcept (true);
+
+
+
+
+
+extern size_t mbsnrtowcs (wchar_t *__restrict __dst,
+     const char **__restrict __src, size_t __nmc,
+     size_t __len, mbstate_t *__restrict __ps) noexcept (true);
+
+
+
+extern size_t wcsnrtombs (char *__restrict __dst,
+     const wchar_t **__restrict __src,
+     size_t __nwc, size_t __len,
+     mbstate_t *__restrict __ps) noexcept (true);
+
+
+
+
+
+
+extern int wcwidth (wchar_t __c) noexcept (true);
+
+
+
+extern int wcswidth (const wchar_t *__s, size_t __n) noexcept (true);
+
+
+
+
+
+extern double wcstod (const wchar_t *__restrict __nptr,
+        wchar_t **__restrict __endptr) noexcept (true);
+
+
+
+extern float wcstof (const wchar_t *__restrict __nptr,
+       wchar_t **__restrict __endptr) noexcept (true);
+extern long double wcstold (const wchar_t *__restrict __nptr,
+       wchar_t **__restrict __endptr) noexcept (true);
+# 422 "/usr/include/wchar.h" 3 4
+extern _Float32 wcstof32 (const wchar_t *__restrict __nptr,
+     wchar_t **__restrict __endptr) noexcept (true);
+
+
+
+extern _Float64 wcstof64 (const wchar_t *__restrict __nptr,
+     wchar_t **__restrict __endptr) noexcept (true);
+
+
+
+extern _Float128 wcstof128 (const wchar_t *__restrict __nptr,
+       wchar_t **__restrict __endptr) noexcept (true);
+
+
+
+extern _Float32x wcstof32x (const wchar_t *__restrict __nptr,
+       wchar_t **__restrict __endptr) noexcept (true);
+
+
+
+extern _Float64x wcstof64x (const wchar_t *__restrict __nptr,
+       wchar_t **__restrict __endptr) noexcept (true);
+# 455 "/usr/include/wchar.h" 3 4
+extern long int wcstol (const wchar_t *__restrict __nptr,
+   wchar_t **__restrict __endptr, int __base) noexcept (true);
+
+
+
+extern unsigned long int wcstoul (const wchar_t *__restrict __nptr,
+      wchar_t **__restrict __endptr, int __base)
+     noexcept (true);
+
+
+
+
+__extension__
+extern long long int wcstoll (const wchar_t *__restrict __nptr,
+         wchar_t **__restrict __endptr, int __base)
+     noexcept (true);
+
+
+
+__extension__
+extern unsigned long long int wcstoull (const wchar_t *__restrict __nptr,
+     wchar_t **__restrict __endptr,
+     int __base) noexcept (true);
+
+
+
+
+
+__extension__
+extern long long int wcstoq (const wchar_t *__restrict __nptr,
+        wchar_t **__restrict __endptr, int __base)
+     noexcept (true);
+
+
+
+__extension__
+extern unsigned long long int wcstouq (const wchar_t *__restrict __nptr,
+           wchar_t **__restrict __endptr,
+           int __base) noexcept (true);
+
+
+
+
+
+
+extern long int wcstol (const wchar_t *__restrict __nptr, wchar_t **__restrict __endptr, int __base) noexcept (true) __asm__ ("" "__isoc23_wcstol")
+
+                                   ;
+extern unsigned long int wcstoul (const wchar_t *__restrict __nptr, wchar_t **__restrict __endptr, int __base) noexcept (true) __asm__ ("" "__isoc23_wcstoul")
+
+
+                                     ;
+__extension__
+extern long long int wcstoll (const wchar_t *__restrict __nptr, wchar_t **__restrict __endptr, int __base) noexcept (true) __asm__ ("" "__isoc23_wcstoll")
+
+
+                                        ;
+__extension__
+extern unsigned long long int wcstoull (const wchar_t *__restrict __nptr, wchar_t **__restrict __endptr, int __base) noexcept (true) __asm__ ("" "__isoc23_wcstoull")
+
+
+                                           ;
+
+__extension__
+extern long long int wcstoq (const wchar_t *__restrict __nptr, wchar_t **__restrict __endptr, int __base) noexcept (true) __asm__ ("" "__isoc23_wcstoll")
+
+                                         ;
+__extension__
+extern unsigned long long int wcstouq (const wchar_t *__restrict __nptr, wchar_t **__restrict __endptr, int __base) noexcept (true) __asm__ ("" "__isoc23_wcstoull")
+
+
+                                           ;
+# 561 "/usr/include/wchar.h" 3 4
+extern long int wcstol_l (const wchar_t *__restrict __nptr,
+     wchar_t **__restrict __endptr, int __base,
+     locale_t __loc) noexcept (true);
+
+extern unsigned long int wcstoul_l (const wchar_t *__restrict __nptr,
+        wchar_t **__restrict __endptr,
+        int __base, locale_t __loc) noexcept (true);
+
+__extension__
+extern long long int wcstoll_l (const wchar_t *__restrict __nptr,
+    wchar_t **__restrict __endptr,
+    int __base, locale_t __loc) noexcept (true);
+
+__extension__
+extern unsigned long long int wcstoull_l (const wchar_t *__restrict __nptr,
+       wchar_t **__restrict __endptr,
+       int __base, locale_t __loc)
+     noexcept (true);
+
+
+
+
+
+extern long int wcstol_l (const wchar_t *__restrict __nptr, wchar_t **__restrict __endptr, int __base, locale_t __loc) noexcept (true) __asm__ ("" "__isoc23_wcstol_l")
+
+
+                      ;
+extern unsigned long int wcstoul_l (const wchar_t *__restrict __nptr, wchar_t **__restrict __endptr, int __base, locale_t __loc) noexcept (true) __asm__ ("" "__isoc23_wcstoul_l")
+
+
+
+                         ;
+__extension__
+extern long long int wcstoll_l (const wchar_t *__restrict __nptr, wchar_t **__restrict __endptr, int __base, locale_t __loc) noexcept (true) __asm__ ("" "__isoc23_wcstoll_l")
+
+
+
+                            ;
+__extension__
+extern unsigned long long int wcstoull_l (const wchar_t *__restrict __nptr, wchar_t **__restrict __endptr, int __base, locale_t __loc) noexcept (true) __asm__ ("" "__isoc23_wcstoull_l")
+
+
+
+                               ;
+# 630 "/usr/include/wchar.h" 3 4
+extern double wcstod_l (const wchar_t *__restrict __nptr,
+   wchar_t **__restrict __endptr, locale_t __loc)
+     noexcept (true);
+
+extern float wcstof_l (const wchar_t *__restrict __nptr,
+         wchar_t **__restrict __endptr, locale_t __loc)
+     noexcept (true);
+
+extern long double wcstold_l (const wchar_t *__restrict __nptr,
+         wchar_t **__restrict __endptr,
+         locale_t __loc) noexcept (true);
+# 649 "/usr/include/wchar.h" 3 4
+extern _Float32 wcstof32_l (const wchar_t *__restrict __nptr,
+       wchar_t **__restrict __endptr,
+       locale_t __loc) noexcept (true);
+
+
+
+extern _Float64 wcstof64_l (const wchar_t *__restrict __nptr,
+       wchar_t **__restrict __endptr,
+       locale_t __loc) noexcept (true);
+
+
+
+extern _Float128 wcstof128_l (const wchar_t *__restrict __nptr,
+         wchar_t **__restrict __endptr,
+         locale_t __loc) noexcept (true);
+
+
+
+extern _Float32x wcstof32x_l (const wchar_t *__restrict __nptr,
+         wchar_t **__restrict __endptr,
+         locale_t __loc) noexcept (true);
+
+
+
+extern _Float64x wcstof64x_l (const wchar_t *__restrict __nptr,
+         wchar_t **__restrict __endptr,
+         locale_t __loc) noexcept (true);
+# 689 "/usr/include/wchar.h" 3 4
+extern wchar_t *wcpcpy (wchar_t *__restrict __dest,
+   const wchar_t *__restrict __src) noexcept (true);
+
+
+
+extern wchar_t *wcpncpy (wchar_t *__restrict __dest,
+    const wchar_t *__restrict __src, size_t __n)
+     noexcept (true);
+# 718 "/usr/include/wchar.h" 3 4
+extern __FILE *open_wmemstream (wchar_t **__bufloc, size_t *__sizeloc) noexcept (true)
+  __attribute__ ((__malloc__)) ;
+
+
+
+
+
+extern int fwide (__FILE *__fp, int __mode) noexcept (true);
+
+
+
+
+
+
+extern int fwprintf (__FILE *__restrict __stream,
+       const wchar_t *__restrict __format, ...)
+                                                           ;
+
+
+
+
+extern int wprintf (const wchar_t *__restrict __format, ...)
+                                                           ;
+
+extern int swprintf (wchar_t *__restrict __s, size_t __n,
+       const wchar_t *__restrict __format, ...)
+     noexcept (true) ;
+
+
+
+
+
+extern int vfwprintf (__FILE *__restrict __s,
+        const wchar_t *__restrict __format,
+        __gnuc_va_list __arg)
+                                                           ;
+
+
+
+
+extern int vwprintf (const wchar_t *__restrict __format,
+       __gnuc_va_list __arg)
+                                                           ;
+
+
+extern int vswprintf (wchar_t *__restrict __s, size_t __n,
+        const wchar_t *__restrict __format,
+        __gnuc_va_list __arg)
+     noexcept (true) ;
+
+
+
+
+
+
+extern int fwscanf (__FILE *__restrict __stream,
+      const wchar_t *__restrict __format, ...)
+                                                          ;
+
+
+
+
+extern int wscanf (const wchar_t *__restrict __format, ...)
+                                                          ;
+
+extern int swscanf (const wchar_t *__restrict __s,
+      const wchar_t *__restrict __format, ...)
+     noexcept (true) ;
+# 795 "/usr/include/wchar.h" 3 4
+extern int fwscanf (__FILE *__restrict __stream, const wchar_t *__restrict __format, ...) __asm__ ("" "__isoc23_fwscanf")
+
+
+                                                          ;
+extern int wscanf (const wchar_t *__restrict __format, ...) __asm__ ("" "__isoc23_wscanf")
+
+                                                          ;
+extern int swscanf (const wchar_t *__restrict __s, const wchar_t *__restrict __format, ...) noexcept (true) __asm__ ("" "__isoc23_swscanf")
+
+
+                                                          ;
+# 851 "/usr/include/wchar.h" 3 4
+extern int vfwscanf (__FILE *__restrict __s,
+       const wchar_t *__restrict __format,
+       __gnuc_va_list __arg)
+                                                          ;
+
+
+
+
+extern int vwscanf (const wchar_t *__restrict __format,
+      __gnuc_va_list __arg)
+                                                          ;
+
+extern int vswscanf (const wchar_t *__restrict __s,
+       const wchar_t *__restrict __format,
+       __gnuc_va_list __arg)
+     noexcept (true) ;
+# 875 "/usr/include/wchar.h" 3 4
+extern int vfwscanf (__FILE *__restrict __s, const wchar_t *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc23_vfwscanf")
+
+
+                                                          ;
+extern int vwscanf (const wchar_t *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc23_vwscanf")
+
+                                                          ;
+extern int vswscanf (const wchar_t *__restrict __s, const wchar_t *__restrict __format, __gnuc_va_list __arg) noexcept (true) __asm__ ("" "__isoc23_vswscanf")
+
+
+                                                          ;
+# 935 "/usr/include/wchar.h" 3 4
+extern wint_t fgetwc (__FILE *__stream);
+extern wint_t getwc (__FILE *__stream);
+
+
+
+
+
+extern wint_t getwchar (void);
+
+
+
+
+
+
+extern wint_t fputwc (wchar_t __wc, __FILE *__stream);
+extern wint_t putwc (wchar_t __wc, __FILE *__stream);
+
+
+
+
+
+extern wint_t putwchar (wchar_t __wc);
+
+
+
+
+
+
+
+extern wchar_t *fgetws (wchar_t *__restrict __ws, int __n,
+   __FILE *__restrict __stream);
+
+
+
+
+
+extern int fputws (const wchar_t *__restrict __ws,
+     __FILE *__restrict __stream);
+
+
+
+
+
+
+extern wint_t ungetwc (wint_t __wc, __FILE *__stream);
+# 990 "/usr/include/wchar.h" 3 4
+extern wint_t getwc_unlocked (__FILE *__stream);
+extern wint_t getwchar_unlocked (void);
+
+
+
+
+
+
+
+extern wint_t fgetwc_unlocked (__FILE *__stream);
+
+
+
+
+
+
+
+extern wint_t fputwc_unlocked (wchar_t __wc, __FILE *__stream);
+# 1016 "/usr/include/wchar.h" 3 4
+extern wint_t putwc_unlocked (wchar_t __wc, __FILE *__stream);
+extern wint_t putwchar_unlocked (wchar_t __wc);
+# 1026 "/usr/include/wchar.h" 3 4
+extern wchar_t *fgetws_unlocked (wchar_t *__restrict __ws, int __n,
+     __FILE *__restrict __stream);
+
+
+
+
+
+
+
+extern int fputws_unlocked (const wchar_t *__restrict __ws,
+       __FILE *__restrict __stream);
+
+
+
+
+
+
+extern size_t wcsftime (wchar_t *__restrict __s, size_t __maxsize,
+   const wchar_t *__restrict __format,
+   const struct tm *__restrict __tp) noexcept (true);
+
+
+
+
+extern size_t wcsftime_l (wchar_t *__restrict __s, size_t __maxsize,
+     const wchar_t *__restrict __format,
+     const struct tm *__restrict __tp,
+     locale_t __loc) noexcept (true);
+# 1073 "/usr/include/wchar.h" 3 4
 }
-
-
-
-#pragma pack(pop)
-# 297 "C:/msys64/ucrt64/include/_mingw.h" 2 3
-# 582 "C:/msys64/ucrt64/include/_mingw.h" 3
-extern "C" {
-# 594 "C:/msys64/ucrt64/include/_mingw.h" 3
-void __attribute__((__cdecl__)) __debugbreak(void);
-extern __inline__ __attribute__((__always_inline__,__gnu_inline__)) void __attribute__((__cdecl__)) __debugbreak(void)
-{
-
-  __asm__ __volatile__("int {$}3":);
-
-
-
-
-
-
-
-}
-# 615 "C:/msys64/ucrt64/include/_mingw.h" 3
-void __attribute__((__cdecl__)) __attribute__ ((__noreturn__)) __fastfail(unsigned int code);
-extern __inline__ __attribute__((__always_inline__,__gnu_inline__)) void __attribute__((__cdecl__)) __attribute__ ((__noreturn__)) __fastfail(unsigned int code)
-{
-
-  __asm__ __volatile__("int {$}0x29"::"c"(code));
-# 629 "C:/msys64/ucrt64/include/_mingw.h" 3
-  __builtin_unreachable();
-}
-# 655 "C:/msys64/ucrt64/include/_mingw.h" 3
-const char *__mingw_get_crt_info (void);
-
-
-}
-# 11 "C:/msys64/ucrt64/include/corecrt.h" 2 3
-
-
-
-
-#pragma pack(push,_CRT_PACKING)
-# 35 "C:/msys64/ucrt64/include/corecrt.h" 3
-__extension__ typedef unsigned long long size_t;
-# 45 "C:/msys64/ucrt64/include/corecrt.h" 3
-__extension__ typedef long long ssize_t;
-
-
-
-
-
-
-typedef size_t rsize_t;
-# 62 "C:/msys64/ucrt64/include/corecrt.h" 3
-__extension__ typedef long long intptr_t;
-# 75 "C:/msys64/ucrt64/include/corecrt.h" 3
-__extension__ typedef unsigned long long uintptr_t;
-# 88 "C:/msys64/ucrt64/include/corecrt.h" 3
-__extension__ typedef long long ptrdiff_t;
-# 106 "C:/msys64/ucrt64/include/corecrt.h" 3
-typedef unsigned short wint_t;
-typedef unsigned short wctype_t;
-
-
-
-
-
-typedef int errno_t;
-
-
-
-
-typedef long __time32_t;
-
-
-
-
-__extension__ typedef long long __time64_t;
-# 138 "C:/msys64/ucrt64/include/corecrt.h" 3
-typedef __time64_t time_t;
-# 430 "C:/msys64/ucrt64/include/corecrt.h" 3
-struct threadlocaleinfostruct;
-struct threadmbcinfostruct;
-typedef struct threadlocaleinfostruct *pthreadlocinfo;
-typedef struct threadmbcinfostruct *pthreadmbcinfo;
-struct __lc_time_data;
-
-typedef struct localeinfo_struct {
-  pthreadlocinfo locinfo;
-  pthreadmbcinfo mbcinfo;
-} _locale_tstruct,*_locale_t;
-
-
-
-typedef struct tagLC_ID {
-  unsigned short wLanguage;
-  unsigned short wCountry;
-  unsigned short wCodePage;
-} LC_ID,*LPLC_ID;
-
-
-
-
-typedef struct threadlocaleinfostruct {
-
-  const unsigned short *_locale_pctype;
-  int _locale_mb_cur_max;
-  unsigned int _locale_lc_codepage;
-# 482 "C:/msys64/ucrt64/include/corecrt.h" 3
-} threadlocinfo;
-# 501 "C:/msys64/ucrt64/include/corecrt.h" 3
-#pragma pack(pop)
-# 10 "C:/msys64/ucrt64/include/wchar.h" 2 3
-# 1 "C:/msys64/ucrt64/include/corecrt_stdio_config.h" 1 3
-# 11 "C:/msys64/ucrt64/include/wchar.h" 2 3
-# 1 "C:/msys64/ucrt64/include/corecrt_wstdlib.h" 1 3
-# 12 "C:/msys64/ucrt64/include/corecrt_wstdlib.h" 3
-extern "C" {
-
-
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _itow_s (int _Val,wchar_t *_DstBuf,size_t _SizeInWords,int _Radix);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _itow_s(int _Val, wchar_t (&_DstBuf)[__size], int _Radix) { return _itow_s(_Val, _DstBuf, __size, _Radix); } }
-
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _ltow_s (long _Val,wchar_t *_DstBuf,size_t _SizeInWords,int _Radix);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _ltow_s(long _Val, wchar_t (&_DstBuf)[__size], int _Radix) { return _ltow_s(_Val, _DstBuf, __size, _Radix); } }
-
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _ultow_s (unsigned long _Val,wchar_t *_DstBuf,size_t _SizeInWords,int _Radix);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _ultow_s(unsigned long _Val, wchar_t (&_DstBuf)[__size], int _Radix) { return _ultow_s(_Val, _DstBuf, __size, _Radix); } }
-
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wgetenv_s(size_t *_ReturnSize,wchar_t *_DstBuf,size_t _DstSizeInWords,const wchar_t *_VarName);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _wgetenv_s(size_t* _ReturnSize, wchar_t (&_DstBuf)[__size], const wchar_t* _VarName) { return _wgetenv_s(_ReturnSize, _DstBuf, __size, _VarName); } }
-
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wdupenv_s(wchar_t **_Buffer,size_t *_BufferSizeInWords,const wchar_t *_VarName);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _i64tow_s(long long _Val,wchar_t *_DstBuf,size_t _SizeInWords,int _Radix);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _ui64tow_s(unsigned long long _Val,wchar_t *_DstBuf,size_t _SizeInWords,int _Radix);
-
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wmakepath_s(wchar_t *_PathResult,size_t _SizeInWords,const wchar_t *_Drive,const wchar_t *_Dir,const wchar_t *_Filename,const wchar_t *_Ext);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _wmakepath_s(wchar_t (&_PathResult)[__size], const wchar_t* _Drive, const wchar_t* _Dir, const wchar_t* _Filename, const wchar_t* _Ext) { return _wmakepath_s(_PathResult,__size,_Drive,_Dir,_Filename,_Ext); } }
-
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wputenv_s(const wchar_t *_Name,const wchar_t *_Value);
-
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wsearchenv_s(const wchar_t *_Filename,const wchar_t *_EnvVar,wchar_t *_ResultPath,size_t _SizeInWords);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _wsearchenv_s(const wchar_t* _Filename, const wchar_t* _EnvVar, wchar_t (&_ResultPath)[__size]) { return _wsearchenv_s(_Filename, _EnvVar, _ResultPath, __size); } }
-
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wsplitpath_s(const wchar_t *_FullPath,wchar_t *_Drive,size_t _DriveSizeInWords,wchar_t *_Dir,size_t _DirSizeInWords,wchar_t *_Filename,size_t _FilenameSizeInWords,wchar_t *_Ext,size_t _ExtSizeInWords);
-  extern "C++" { template <size_t __drive_size, size_t __dir_size, size_t __name_size, size_t __ext_size> inline errno_t __attribute__((__cdecl__)) _wsplitpath_s(const wchar_t *_Dest, wchar_t (&__drive)[__drive_size], wchar_t (&__dir)[__dir_size], wchar_t (&__name)[__name_size], wchar_t (&__ext)[__ext_size]) { return _wsplitpath_s(_Dest, __drive, __drive_size, __dir, __dir_size, __name, __name_size, __ext, __ext_size); } }
-
-
-}
-# 12 "C:/msys64/ucrt64/include/wchar.h" 2 3
-# 26 "C:/msys64/ucrt64/include/wchar.h" 3
-#pragma pack(push,_CRT_PACKING)
-
-
-extern "C" {
-# 42 "C:/msys64/ucrt64/include/wchar.h" 3
-  struct _iobuf {
-    char *_ptr;
-    int _cnt;
-    char *_base;
-    int _flag;
-    int _file;
-    int _charbuf;
-    int _bufsiz;
-    char *_tmpfname;
-  };
-  typedef struct _iobuf FILE;
-
-
-
-__attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) __acrt_iob_func(unsigned index);
-
-  __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) __iob_func(void);
-# 70 "C:/msys64/ucrt64/include/wchar.h" 3
-  typedef unsigned long _fsize_t;
-
-
-
-
-  struct _wfinddata32_t {
-    unsigned attrib;
-    __time32_t time_create;
-    __time32_t time_access;
-    __time32_t time_write;
-    _fsize_t size;
-    wchar_t name[260];
-  };
-
-  struct _wfinddata32i64_t {
-    unsigned attrib;
-    __time32_t time_create;
-    __time32_t time_access;
-    __time32_t time_write;
-    __extension__ long long size;
-    wchar_t name[260];
-  };
-
-  struct _wfinddata64i32_t {
-    unsigned attrib;
-    __time64_t time_create;
-    __time64_t time_access;
-    __time64_t time_write;
-    _fsize_t size;
-    wchar_t name[260];
-  };
-
-  struct _wfinddata64_t {
-    unsigned attrib;
-    __time64_t time_create;
-    __time64_t time_access;
-    __time64_t time_write;
-    __extension__ long long size;
-    wchar_t name[260];
-  };
-# 157 "C:/msys64/ucrt64/include/wchar.h" 3
-  __attribute__ ((__dllimport__)) const unsigned short* __pctype_func(void);
-# 170 "C:/msys64/ucrt64/include/wchar.h" 3
-  extern const unsigned short ** __imp__wctype;
-
-
-
-  __attribute__ ((__dllimport__)) const wctype_t * __attribute__((__cdecl__)) __pwctype_func(void);
-# 198 "C:/msys64/ucrt64/include/wchar.h" 3
-  int __attribute__((__cdecl__)) iswalpha(wint_t _C);
-  int __attribute__((__cdecl__)) iswupper(wint_t _C);
-  int __attribute__((__cdecl__)) iswlower(wint_t _C);
-  int __attribute__((__cdecl__)) iswdigit(wint_t _C);
-  int __attribute__((__cdecl__)) iswxdigit(wint_t _C);
-  int __attribute__((__cdecl__)) iswspace(wint_t _C);
-  int __attribute__((__cdecl__)) iswpunct(wint_t _C);
-  int __attribute__((__cdecl__)) iswalnum(wint_t _C);
-  int __attribute__((__cdecl__)) iswprint(wint_t _C);
-  int __attribute__((__cdecl__)) iswgraph(wint_t _C);
-  int __attribute__((__cdecl__)) iswcntrl(wint_t _C);
-  int __attribute__((__cdecl__)) iswascii(wint_t _C);
-
-  int __attribute__((__cdecl__)) isleadbyte(int _C);
-
-  wint_t __attribute__((__cdecl__)) towupper(wint_t _C);
-  wint_t __attribute__((__cdecl__)) towlower(wint_t _C);
-  int __attribute__((__cdecl__)) iswctype(wint_t _C,wctype_t _Type);
-
-
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswalpha_l(wint_t _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswupper_l(wint_t _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswlower_l(wint_t _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswdigit_l(wint_t _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswxdigit_l(wint_t _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswspace_l(wint_t _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswpunct_l(wint_t _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswalnum_l(wint_t _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswprint_l(wint_t _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswgraph_l(wint_t _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswcntrl_l(wint_t _C,_locale_t _Locale);
-
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isleadbyte_l(int _C,_locale_t _Locale);
-
-  __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _towupper_l(wint_t _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _towlower_l(wint_t _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswctype_l(wint_t _C,wctype_t _Type,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) __iswcsymf(wint_t _C);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) __iswcsym(wint_t _C);
-
-
-
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswcsymf_l(wint_t _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iswcsym_l(wint_t _C,_locale_t _Locale);
-
-
-  int __attribute__((__cdecl__)) is_wctype(wint_t _C,wctype_t _Type);
-
-
-
-  int __attribute__((__cdecl__)) iswblank(wint_t _C);
-
-
-
-
-
-
-
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wgetcwd(wchar_t *_DstBuf,int _SizeInWords);
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wgetdcwd(int _Drive,wchar_t *_DstBuf,int _SizeInWords);
-
-  wchar_t *__attribute__((__cdecl__)) _wgetdcwd_nolock(int _Drive,wchar_t *_DstBuf,int _SizeInWords);
-
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wchdir(const wchar_t *_Path);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wmkdir(const wchar_t *_Path);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wrmdir(const wchar_t *_Path);
-
-
-
-
-
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _waccess(const wchar_t *_Filename,int _AccessMode);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wchmod(const wchar_t *_Filename,int _Mode);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcreat(const wchar_t *_Filename,int _PermissionMode) ;
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wfindfirst32(const wchar_t *_Filename,struct _wfinddata32_t *_FindData);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wfindnext32(intptr_t _FindHandle,struct _wfinddata32_t *_FindData);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wunlink(const wchar_t *_Filename);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wrename(const wchar_t *_OldFilename,const wchar_t *_NewFilename);
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wmktemp(wchar_t *_TemplateName) ;
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wfindfirst32i64(const wchar_t *_Filename,struct _wfinddata32i64_t *_FindData);
-  intptr_t __attribute__((__cdecl__)) _wfindfirst64i32(const wchar_t *_Filename,struct _wfinddata64i32_t *_FindData);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wfindfirst64(const wchar_t *_Filename,struct _wfinddata64_t *_FindData);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wfindnext32i64(intptr_t _FindHandle,struct _wfinddata32i64_t *_FindData);
-  int __attribute__((__cdecl__)) _wfindnext64i32(intptr_t _FindHandle,struct _wfinddata64i32_t *_FindData);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wfindnext64(intptr_t _FindHandle,struct _wfinddata64_t *_FindData);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wsopen_s(int *_FileHandle,const wchar_t *_Filename,int _OpenFlag,int _ShareFlag,int _PermissionFlag);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wopen(const wchar_t *_Filename,int _OpenFlag,...) ;
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wsopen(const wchar_t *_Filename,int _OpenFlag,int _ShareFlag,...) ;
-
-
-
-
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wsetlocale(int _Category,const wchar_t *_Locale);
-
-
-
-
-
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wexecl(const wchar_t *_Filename,const wchar_t *_ArgList,...);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wexecle(const wchar_t *_Filename,const wchar_t *_ArgList,...);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wexeclp(const wchar_t *_Filename,const wchar_t *_ArgList,...);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wexeclpe(const wchar_t *_Filename,const wchar_t *_ArgList,...);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wexecv(const wchar_t *_Filename,const wchar_t *const *_ArgList);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wexecve(const wchar_t *_Filename,const wchar_t *const *_ArgList,const wchar_t *const *_Env);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wexecvp(const wchar_t *_Filename,const wchar_t *const *_ArgList);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wexecvpe(const wchar_t *_Filename,const wchar_t *const *_ArgList,const wchar_t *const *_Env);
-
-
-
-
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wspawnl(int _Mode,const wchar_t *_Filename,const wchar_t *_ArgList,...);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wspawnle(int _Mode,const wchar_t *_Filename,const wchar_t *_ArgList,...);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wspawnlp(int _Mode,const wchar_t *_Filename,const wchar_t *_ArgList,...);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wspawnlpe(int _Mode,const wchar_t *_Filename,const wchar_t *_ArgList,...);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wspawnv(int _Mode,const wchar_t *_Filename,const wchar_t *const *_ArgList);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wspawnve(int _Mode,const wchar_t *_Filename,const wchar_t *const *_ArgList,const wchar_t *const *_Env);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wspawnvp(int _Mode,const wchar_t *_Filename,const wchar_t *const *_ArgList);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wspawnvpe(int _Mode,const wchar_t *_Filename,const wchar_t *const *_ArgList,const wchar_t *const *_Env);
-
-
-
-
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wsystem(const wchar_t *_Command);
-# 362 "C:/msys64/ucrt64/include/wchar.h" 3
-  typedef unsigned short _ino_t;
-
-  typedef unsigned short ino_t;
-
-
-
-
-
-  typedef unsigned int _dev_t;
-
-  typedef unsigned int dev_t;
-
-
-
-# 1 "C:/msys64/ucrt64/include/_mingw_off_t.h" 1 3
-
-
-
-
-  typedef long _off_t;
-
-  typedef long off32_t;
-
-
-
-
-
-  __extension__ typedef long long _off64_t;
-
-  __extension__ typedef long long off64_t;
-# 26 "C:/msys64/ucrt64/include/_mingw_off_t.h" 3
-typedef off32_t off_t;
-# 377 "C:/msys64/ucrt64/include/wchar.h" 2 3
-# 1 "C:/msys64/ucrt64/include/_mingw_stat64.h" 1 3
-# 19 "C:/msys64/ucrt64/include/_mingw_stat64.h" 3
-  struct _stat32 {
-    _dev_t st_dev;
-   _ino_t st_ino;
-    unsigned short st_mode;
-    short st_nlink;
-    short st_uid;
-    short st_gid;
-    _dev_t st_rdev;
-    _off_t st_size;
-    __time32_t st_atime;
-    __time32_t st_mtime;
-    __time32_t st_ctime;
-  };
-
-
-  struct stat {
-    _dev_t st_dev;
-    _ino_t st_ino;
-    unsigned short st_mode;
-    short st_nlink;
-    short st_uid;
-    short st_gid;
-    _dev_t st_rdev;
-    _off_t st_size;
-    time_t st_atime;
-    time_t st_mtime;
-    time_t st_ctime;
-  };
-
-
-  struct _stat32i64 {
-    _dev_t st_dev;
-    _ino_t st_ino;
-    unsigned short st_mode;
-    short st_nlink;
-    short st_uid;
-    short st_gid;
-    _dev_t st_rdev;
-    __extension__ long long st_size;
-    __time32_t st_atime;
-    __time32_t st_mtime;
-    __time32_t st_ctime;
-  };
-
-  struct _stat64i32 {
-    _dev_t st_dev;
-    _ino_t st_ino;
-    unsigned short st_mode;
-    short st_nlink;
-    short st_uid;
-    short st_gid;
-    _dev_t st_rdev;
-    _off_t st_size;
-    __time64_t st_atime;
-    __time64_t st_mtime;
-    __time64_t st_ctime;
-  };
-
-  struct _stat64 {
-    _dev_t st_dev;
-    _ino_t st_ino;
-    unsigned short st_mode;
-    short st_nlink;
-    short st_uid;
-    short st_gid;
-    _dev_t st_rdev;
-    __extension__ long long st_size;
-    __time64_t st_atime;
-    __time64_t st_mtime;
-    __time64_t st_ctime;
-  };
-# 378 "C:/msys64/ucrt64/include/wchar.h" 2 3
-
-
-
-
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wstat32(const wchar_t *_Name,struct _stat32 *_Stat);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wstat32i64(const wchar_t *_Name,struct _stat32i64 *_Stat);
-  int __attribute__((__cdecl__)) _wstat64i32(const wchar_t *_Name,struct _stat64i32 *_Stat);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wstat64(const wchar_t *_Name,struct _stat64 *_Stat);
-# 396 "C:/msys64/ucrt64/include/wchar.h" 3
-  __attribute__ ((__dllimport__)) wchar_t *_cgetws(wchar_t *_Buffer) ;
-  __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _getwch(void);
-  __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _getwche(void);
-  __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _putwch(wchar_t _WCh);
-  __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _ungetwch(wint_t _WCh);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _cputws(const wchar_t *_String);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _cwprintf(const wchar_t * __restrict__ _Format,...);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _cwscanf(const wchar_t * __restrict__ _Format,...);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _cwscanf_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,...);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vcwprintf(const wchar_t * __restrict__ _Format,va_list _ArgList);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _cwprintf_p(const wchar_t * __restrict__ _Format,...);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vcwprintf_p(const wchar_t * __restrict__ _Format,va_list _ArgList);
-
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _cwprintf_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,...);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vcwprintf_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,va_list _ArgList);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _cwprintf_p_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,...);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vcwprintf_p_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,va_list _ArgList);
-
-  wint_t __attribute__((__cdecl__)) _putwch_nolock(wchar_t _WCh);
-  wint_t __attribute__((__cdecl__)) _getwch_nolock(void);
-  wint_t __attribute__((__cdecl__)) _getwche_nolock(void);
-  wint_t __attribute__((__cdecl__)) _ungetwch_nolock(wint_t _WCh);
-
-
-
-
-  int __attribute__((__cdecl__)) __stdio_common_vswprintf_p(unsigned long long _Options, wchar_t *_Str, size_t _Len, const wchar_t *_Format, _locale_t _Locale, va_list _ArgList);
-  int __attribute__((__cdecl__)) __stdio_common_vfwprintf_p(unsigned long long _Options, FILE *_File, const wchar_t *_Format, _locale_t _Locale, va_list _ArgList);
-
-
-
-
-
-                                                     __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __mingw_swscanf(const wchar_t * __restrict__ _Src,const wchar_t * __restrict__ _Format,...);
-                                                     __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __mingw_vswscanf (const wchar_t * __restrict__ _Str,const wchar_t * __restrict__ Format,va_list argp);
-                                                     __attribute__ ((__nonnull__ (1)))
-  int __attribute__((__cdecl__)) __mingw_wscanf(const wchar_t * __restrict__ _Format,...);
-                                                     __attribute__ ((__nonnull__ (1)))
-  int __attribute__((__cdecl__)) __mingw_vwscanf(const wchar_t * __restrict__ Format, va_list argp);
-                                                     __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __mingw_fwscanf(FILE * __restrict__ _File,const wchar_t * __restrict__ _Format,...);
-                                                     __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __mingw_vfwscanf (FILE * __restrict__ fp, const wchar_t * __restrict__ Format,va_list argp);
-
-
-                                                      __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __mingw_fwprintf(FILE * __restrict__ _File,const wchar_t * __restrict__ _Format,...);
-                                                      __attribute__ ((__nonnull__ (1)))
-  int __attribute__((__cdecl__)) __mingw_wprintf(const wchar_t * __restrict__ _Format,...);
-                                                      __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __mingw_vfwprintf(FILE * __restrict__ _File,const wchar_t * __restrict__ _Format,va_list _ArgList);
-                                                     __attribute__ ((__nonnull__ (1)))
-  int __attribute__((__cdecl__)) __mingw_vwprintf(const wchar_t * __restrict__ _Format,va_list _ArgList);
-                                                      __attribute__ ((__nonnull__ (3)))
-  int __attribute__((__cdecl__)) __mingw_snwprintf (wchar_t * __restrict__ s, size_t n, const wchar_t * __restrict__ format, ...);
-                                                      __attribute__ ((__nonnull__ (3)))
-  int __attribute__((__cdecl__)) __mingw_vsnwprintf (wchar_t * __restrict__ , size_t, const wchar_t * __restrict__ , va_list);
-                                                      __attribute__ ((__nonnull__ (3)))
-  int __attribute__((__cdecl__)) __mingw_swprintf(wchar_t * __restrict__ , size_t, const wchar_t * __restrict__ , ...);
-                                                      __attribute__ ((__nonnull__ (3)))
-  int __attribute__((__cdecl__)) __mingw_vswprintf(wchar_t * __restrict__ , size_t, const wchar_t * __restrict__ ,va_list);
-
-                                                    __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __ms_swscanf(const wchar_t * __restrict__ _Src,const wchar_t * __restrict__ _Format,...);
-                                                    __attribute__ ((__nonnull__ (1)))
-  int __attribute__((__cdecl__)) __ms_wscanf(const wchar_t * __restrict__ _Format,...);
-                                                    __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __ms_fwscanf(FILE * __restrict__ _File,const wchar_t * __restrict__ _Format,...);
-
-                                                     __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __ms_fwprintf(FILE * __restrict__ _File,const wchar_t * __restrict__ _Format,...);
-                                                     __attribute__ ((__nonnull__ (1)))
-  int __attribute__((__cdecl__)) __ms_wprintf(const wchar_t * __restrict__ _Format,...);
-                                                    __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __ms_vfwprintf(FILE * __restrict__ _File,const wchar_t * __restrict__ _Format,va_list _ArgList);
-                                                    __attribute__ ((__nonnull__ (1)))
-  int __attribute__((__cdecl__)) __ms_vwprintf(const wchar_t * __restrict__ _Format,va_list _ArgList);
-                                                     __attribute__ ((__nonnull__ (3)))
-  int __attribute__((__cdecl__)) __ms_swprintf(wchar_t * __restrict__ , size_t, const wchar_t * __restrict__ , ...);
-                                                     __attribute__ ((__nonnull__ (3)))
-  int __attribute__((__cdecl__)) __ms_vswprintf(wchar_t * __restrict__ , size_t, const wchar_t * __restrict__ ,va_list);
-
-
-  int __attribute__((__cdecl__)) __stdio_common_vswprintf(unsigned long long options, wchar_t *str, size_t len, const wchar_t *format, _locale_t locale, va_list valist);
-  int __attribute__((__cdecl__)) __stdio_common_vfwprintf(unsigned long long options, FILE *file, const wchar_t *format, _locale_t locale, va_list valist);
-  int __attribute__((__cdecl__)) __stdio_common_vswscanf(unsigned long long options, const wchar_t *input, size_t length, const wchar_t *format, _locale_t locale, va_list valist);
-  int __attribute__((__cdecl__)) __stdio_common_vfwscanf(unsigned long long options, FILE *file, const wchar_t *format, _locale_t locale, va_list valist);
-
-
-
-
-
-
-
-                                                     __attribute__ ((__nonnull__ (2)))
-int swscanf(const wchar_t *__source, const wchar_t *__format, ...)
-__asm__("__mingw_swscanf");
-
-                                                     __attribute__ ((__nonnull__ (1)))
-int wscanf(const wchar_t *__format, ...)
-__asm__("__mingw_wscanf");
-
-                                                     __attribute__ ((__nonnull__ (2)))
-int fwscanf(FILE *__stream, const wchar_t *__format, ...)
-__asm__("__mingw_fwscanf");
-
-
-                                                     __attribute__ ((__nonnull__ (2)))
-int vswscanf (const wchar_t *__source, const wchar_t *__format, __builtin_va_list __local_argv)
-__asm__("__mingw_vswscanf");
-
-                                                     __attribute__ ((__nonnull__ (1)))
-int vwscanf(const wchar_t *__format, __builtin_va_list __local_argv)
-__asm__("__mingw_vwscanf");
-
-                                                     __attribute__ ((__nonnull__ (2)))
-int vfwscanf (FILE *__stream, const wchar_t *__format, __builtin_va_list __local_argv)
-__asm__("__mingw_vfwscanf");
-
-
-
-
-                                                      __attribute__ ((__nonnull__ (2)))
-int fwprintf (FILE *__stream, const wchar_t *__format, ...)
-__asm__("__mingw_fwprintf");
-
-                                                      __attribute__ ((__nonnull__ (1)))
-int wprintf (const wchar_t *__format, ...)
-__asm__("__mingw_wprintf");
-
-                                                      __attribute__ ((__nonnull__ (2)))
-int vfwprintf (FILE *__stream, const wchar_t *__format, __builtin_va_list __local_argv)
-__asm__("__mingw_vfwprintf");
-
-                                                      __attribute__ ((__nonnull__ (1)))
-int vwprintf (const wchar_t *__format, __builtin_va_list __local_argv)
-__asm__("__mingw_vwprintf");
-
-                                                      __attribute__ ((__nonnull__ (3)))
-int swprintf (wchar_t *__stream, size_t __n, const wchar_t *__format, ...)
-__asm__("__mingw_swprintf");
-
-                                                      __attribute__ ((__nonnull__ (3)))
-int vswprintf (wchar_t *__stream, size_t __n, const wchar_t *__format, __builtin_va_list __local_argv)
-__asm__("__mingw_vswprintf");
-
-
-
-                                                      __attribute__ ((__nonnull__ (3)))
-int snwprintf (wchar_t *__stream, size_t __n, const wchar_t *__format, ...)
-__asm__("__mingw_snwprintf");
-
-                                                      __attribute__ ((__nonnull__ (3)))
-int vsnwprintf (wchar_t *__stream, size_t __n, const wchar_t *__format, __builtin_va_list __local_argv)
-__asm__("__mingw_vsnwprintf");
-# 718 "C:/msys64/ucrt64/include/wchar.h" 3
-  __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) _wfsopen(const wchar_t *_Filename,const wchar_t *_Mode,int _ShFlag);
-
-
-  wint_t __attribute__((__cdecl__)) fgetwc(FILE *_File);
-  __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _fgetwchar(void);
-  wint_t __attribute__((__cdecl__)) fputwc(wchar_t _Ch,FILE *_File);
-  __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _fputwchar(wchar_t _Ch);
-  wint_t __attribute__((__cdecl__)) getwc(FILE *_File);
-  wint_t __attribute__((__cdecl__)) getwchar(void);
-  wint_t __attribute__((__cdecl__)) putwc(wchar_t _Ch,FILE *_File);
-  wint_t __attribute__((__cdecl__)) putwchar(wchar_t _Ch);
-  wint_t __attribute__((__cdecl__)) ungetwc(wint_t _Ch,FILE *_File);
-  wchar_t *__attribute__((__cdecl__)) fgetws(wchar_t * __restrict__ _Dst,int _SizeInWords,FILE * __restrict__ _File);
-  int __attribute__((__cdecl__)) fputws(const wchar_t * __restrict__ _Str,FILE * __restrict__ _File);
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _getws(wchar_t *_String) ;
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _putws(const wchar_t *_Str);
-
-
-  inline __attribute__((__cdecl__))
-  int __attribute__((__cdecl__)) _scwprintf(const wchar_t * __restrict__ _Format,...)
-  {
-    __builtin_va_list __ap;
-    int __ret;
-    __builtin_va_start(__ap, _Format);
-    __ret = __stdio_common_vswprintf((0x0004ULL | 0x0020ULL) | 0x0002ULL, 0LL, 0, _Format, 0LL, __ap);
-    __builtin_va_end(__ap);
-    return __ret;
-  }
-  int __attribute__((__cdecl__)) _snwprintf(wchar_t * __restrict__ _Dest,size_t _Count,const wchar_t * __restrict__ _Format,...) ;
-  inline __attribute__((__cdecl__))
-  int __attribute__((__cdecl__)) _vsnwprintf(wchar_t * __restrict__ _Dest,size_t _Count,const wchar_t * __restrict__ _Format,va_list _Args)
-  {
-    return __stdio_common_vswprintf((0x0004ULL | 0x0020ULL) | 0x0001ULL, _Dest, _Count, _Format, 0LL, _Args);
-  }
-# 801 "C:/msys64/ucrt64/include/wchar.h" 3
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vfwscanf_l(FILE *_File, const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vfwscanf(0x0002ULL, _File, _Format, _Locale, _ArgList);
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vwscanf_l(const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return _vfwscanf_l((__acrt_iob_func(0)), _Format, _Locale, _ArgList);
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _fwscanf_l(FILE *_File, const wchar_t *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vfwscanf_l(_File, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _wscanf_l(const wchar_t *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vfwscanf_l((__acrt_iob_func(0)), _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vsnwscanf_l(const wchar_t *_Src, size_t _MaxCount, const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vswscanf(0x0002ULL, _Src, _MaxCount, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _snwscanf_l(const wchar_t *_Src, size_t _MaxCount, const wchar_t *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vsnwscanf_l(_Src, _MaxCount, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _snwscanf(const wchar_t *_Src, size_t _MaxCount, const wchar_t *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vsnwscanf_l(_Src, _MaxCount, _Format, 0LL, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vswscanf_l(const wchar_t *_Src, const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vswscanf(0x0002ULL, _Src, (size_t)-1, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _swscanf_l(const wchar_t *_Src, const wchar_t *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vswscanf_l(_Src, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vfwprintf_p_l(FILE *_File, const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vfwprintf_p((0x0004ULL | 0x0020ULL), _File, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vwprintf_p_l(const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return _vfwprintf_p_l((__acrt_iob_func(1)), _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vfwprintf_p(FILE *_File, const wchar_t *_Format, va_list _ArgList)
-  {
-    return _vfwprintf_p_l(_File, _Format, 0LL, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vwprintf_p(const wchar_t *_Format, va_list _ArgList)
-  {
-    return _vfwprintf_p_l((__acrt_iob_func(1)), _Format, 0LL, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _fwprintf_p_l(FILE *_File, const wchar_t *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vfwprintf_p_l(_File, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _wprintf_p_l(const wchar_t *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vfwprintf_p_l((__acrt_iob_func(1)), _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _fwprintf_p(FILE *_File, const wchar_t *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vfwprintf_p_l(_File, _Format, 0LL, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _wprintf_p(const wchar_t *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vfwprintf_p_l((__acrt_iob_func(1)), _Format, 0LL, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vfwprintf_l(FILE *_File, const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vfwprintf((0x0004ULL | 0x0020ULL), _File, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vwprintf_l(const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return _vfwprintf_l((__acrt_iob_func(1)), _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _fwprintf_l(FILE *_File, const wchar_t *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vfwprintf_l(_File, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _wprintf_l(const wchar_t *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vfwprintf_l((__acrt_iob_func(1)), _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vswprintf_p_l(wchar_t *_DstBuf, size_t _MaxCount, const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vswprintf_p((0x0004ULL | 0x0020ULL), _DstBuf, _MaxCount, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vswprintf_p(wchar_t *_DstBuf, size_t _MaxCount, const wchar_t *_Format, va_list _ArgList)
-  {
-    return _vswprintf_p_l(_DstBuf, _MaxCount, _Format, 0LL, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _swprintf_p_l(wchar_t *_DstBuf, size_t _MaxCount, const wchar_t *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vswprintf_p_l(_DstBuf, _MaxCount, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _swprintf_p(wchar_t *_DstBuf, size_t _MaxCount, const wchar_t *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vswprintf_p_l(_DstBuf, _MaxCount, _Format, 0LL, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vsnwprintf_l(wchar_t *_DstBuf, size_t _MaxCount, const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vswprintf((0x0004ULL | 0x0020ULL) | 0x0001ULL, _DstBuf, _MaxCount, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _snwprintf_l(wchar_t *_DstBuf, size_t _MaxCount, const wchar_t *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vsnwprintf_l(_DstBuf, _MaxCount, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vscwprintf_p_l(const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vswprintf_p((0x0004ULL | 0x0020ULL) | 0x0002ULL, 0LL, 0, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vscwprintf_p(const wchar_t *_Format, va_list _ArgList)
-  {
-    return _vscwprintf_p_l(_Format, 0LL, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _scwprintf_p_l(const wchar_t *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vscwprintf_p_l(_Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _scwprintf_p(const wchar_t *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vscwprintf_p_l(_Format, 0LL, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vscwprintf_l(const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vswprintf((0x0004ULL | 0x0020ULL) | 0x0002ULL, 0LL, 0, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vscwprintf(const wchar_t *_Format, va_list _ArgList)
-  {
-    return _vscwprintf_l(_Format, 0LL, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _scwprintf_l(const wchar_t *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vscwprintf_l(_Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vswprintf_c_l(wchar_t *_DstBuf, size_t _MaxCount, const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vswprintf((0x0004ULL | 0x0020ULL), _DstBuf, _MaxCount, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) __vswprintf_l(wchar_t *_DstBuf, const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return _vswprintf_c_l(_DstBuf, (size_t)-1, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vswprintf_l(wchar_t *_DstBuf, size_t _MaxCount, const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return _vswprintf_c_l(_DstBuf, _MaxCount, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vswprintf(wchar_t *_DstBuf, const wchar_t *_Format, va_list _ArgList)
-  {
-    return _vswprintf_c_l(_DstBuf, (size_t)-1, _Format, 0LL, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _swprintf_c_l(wchar_t *_DstBuf, size_t _MaxCount, const wchar_t *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vswprintf_c_l(_DstBuf, _MaxCount, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) __swprintf_l(wchar_t *_DstBuf, const wchar_t *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vswprintf_c_l(_DstBuf, (size_t)-1, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _swprintf(wchar_t *_DstBuf, const wchar_t *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vswprintf_c_l(_DstBuf, (size_t)-1, _Format, 0LL, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-# 1110 "C:/msys64/ucrt64/include/wchar.h" 3
-# 1 "C:/msys64/ucrt64/include/swprintf.inl" 1 3
-# 14 "C:/msys64/ucrt64/include/swprintf.inl" 3
-extern "C++" {
-
-inline __attribute__((__cdecl__))
-                                                      __attribute__ ((__nonnull__ (2)))
-int vswprintf (wchar_t *__stream, const wchar_t *__format, __builtin_va_list __local_argv)
-{
-  return _vswprintf( __stream, __format, __local_argv );
-}
-
-inline __attribute__((__cdecl__))
-                                                      __attribute__ ((__nonnull__ (2)))
-int swprintf (wchar_t *__stream, const wchar_t *__format, ...)
-{
-# 37 "C:/msys64/ucrt64/include/swprintf.inl" 3
-  return _swprintf( __stream, __format, __builtin_va_arg_pack() );
-
-}
-
-}
-# 1111 "C:/msys64/ucrt64/include/wchar.h" 2 3
-# 1120 "C:/msys64/ucrt64/include/wchar.h" 3
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wtempnam(const wchar_t *_Directory,const wchar_t *_FilePrefix);
-# 1130 "C:/msys64/ucrt64/include/wchar.h" 3
-  __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) _wfdopen(int _FileHandle ,const wchar_t *_Mode);
-  __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) _wfopen(const wchar_t * __restrict__ _Filename,const wchar_t * __restrict__ _Mode) ;
-  __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) _wfreopen(const wchar_t * __restrict__ _Filename,const wchar_t * __restrict__ _Mode,FILE * __restrict__ _OldFile) ;
-
-
-
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _wperror(const wchar_t *_ErrMsg);
-
-  __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) _wpopen(const wchar_t *_Command,const wchar_t *_Mode);
-
-
-
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wremove(const wchar_t *_Filename);
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wtmpnam(wchar_t *_Buffer);
-
-  __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _fgetwc_nolock(FILE *_File);
-  __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _fputwc_nolock(wchar_t _Ch,FILE *_File);
-  __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _ungetwc_nolock(wint_t _Ch,FILE *_File);
-# 1171 "C:/msys64/ucrt64/include/wchar.h" 3
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _itow(int _Value,wchar_t *_Dest,int _Radix) ;
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _ltow(long _Value,wchar_t *_Dest,int _Radix) ;
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _ultow(unsigned long _Value,wchar_t *_Dest,int _Radix) ;
-  __attribute__ ((__dllimport__)) double __attribute__((__cdecl__)) _wcstod_l(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr,_locale_t _Locale);
-
-  double __attribute__((__cdecl__)) __mingw_wcstod(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr);
-  float __attribute__((__cdecl__)) __mingw_wcstof(const wchar_t * __restrict__ nptr, wchar_t ** __restrict__ endptr);
-  long double __attribute__((__cdecl__)) __mingw_wcstold(const wchar_t * __restrict__, wchar_t ** __restrict__);
-# 1191 "C:/msys64/ucrt64/include/wchar.h" 3
-  double __attribute__((__cdecl__)) wcstod(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr);
-  float __attribute__((__cdecl__)) wcstof(const wchar_t * __restrict__ nptr, wchar_t ** __restrict__ endptr);
-
-
-  long double __attribute__((__cdecl__)) wcstold (const wchar_t * __restrict__, wchar_t ** __restrict__);
-
-  long __attribute__((__cdecl__)) wcstol(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr,int _Radix);
-  __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wcstol_l(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr,int _Radix,_locale_t _Locale);
-  unsigned long __attribute__((__cdecl__)) wcstoul(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr,int _Radix);
-  __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _wcstoul_l(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr,int _Radix,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wgetenv(const wchar_t *_VarName) ;
-
-
-
-
-  __attribute__ ((__dllimport__)) double __attribute__((__cdecl__)) _wtof(const wchar_t *_Str);
-  __attribute__ ((__dllimport__)) double __attribute__((__cdecl__)) _wtof_l(const wchar_t *_Str,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wtoi(const wchar_t *_Str);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wtoi_l(const wchar_t *_Str,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wtol(const wchar_t *_Str);
-  __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wtol_l(const wchar_t *_Str,_locale_t _Locale);
-
-  __extension__ __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _i64tow(long long _Val,wchar_t *_DstBuf,int _Radix) ;
-  __extension__ __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _ui64tow(unsigned long long _Val,wchar_t *_DstBuf,int _Radix);
-  __extension__ __attribute__ ((__dllimport__)) long long __attribute__((__cdecl__)) _wtoi64(const wchar_t *_Str);
-  __extension__ __attribute__ ((__dllimport__)) long long __attribute__((__cdecl__)) _wtoi64_l(const wchar_t *_Str,_locale_t _Locale);
-  __extension__ __attribute__ ((__dllimport__)) long long __attribute__((__cdecl__)) _wcstoi64(const wchar_t *_Str,wchar_t **_EndPtr,int _Radix);
-  __extension__ __attribute__ ((__dllimport__)) long long __attribute__((__cdecl__)) _wcstoi64_l(const wchar_t *_Str,wchar_t **_EndPtr,int _Radix,_locale_t _Locale);
-  __extension__ __attribute__ ((__dllimport__)) unsigned long long __attribute__((__cdecl__)) _wcstoui64(const wchar_t *_Str,wchar_t **_EndPtr,int _Radix);
-  __extension__ __attribute__ ((__dllimport__)) unsigned long long __attribute__((__cdecl__)) _wcstoui64_l(const wchar_t *_Str,wchar_t **_EndPtr,int _Radix,_locale_t _Locale);
-
-
-
-
-
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wfullpath(wchar_t *_FullPath,const wchar_t *_Path,size_t _SizeInWords);
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _wmakepath(wchar_t *_ResultPath,const wchar_t *_Drive,const wchar_t *_Dir,const wchar_t *_Filename,const wchar_t *_Ext);
-
-
-
-
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wputenv(const wchar_t *_EnvString);
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _wsearchenv(const wchar_t *_Filename,const wchar_t *_EnvVar,wchar_t *_ResultPath) ;
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _wsplitpath(const wchar_t *_FullPath,wchar_t *_Drive,wchar_t *_Dir,wchar_t *_Filename,wchar_t *_Ext) ;
-
-
-
-
-
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcsdup(const wchar_t *_Str);
-  wchar_t *__attribute__((__cdecl__)) wcscat(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Source) ;
-  wchar_t *__attribute__((__cdecl__)) wcschr(const wchar_t *_Str,wchar_t _Ch);
-  int __attribute__((__cdecl__)) wcscmp(const wchar_t *_Str1,const wchar_t *_Str2);
-  wchar_t *__attribute__((__cdecl__)) wcscpy(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Source) ;
-  size_t __attribute__((__cdecl__)) wcscspn(const wchar_t *_Str,const wchar_t *_Control);
-  size_t __attribute__((__cdecl__)) wcslen(const wchar_t *_Str);
-  size_t __attribute__((__cdecl__)) wcsnlen(const wchar_t *_Src,size_t _MaxCount);
-  wchar_t *__attribute__((__cdecl__)) wcsncat(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Source,size_t _Count) ;
-  int __attribute__((__cdecl__)) wcsncmp(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount);
-  wchar_t *__attribute__((__cdecl__)) wcsncpy(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Source,size_t _Count) ;
-  wchar_t *__attribute__((__cdecl__)) _wcsncpy_l(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Source,size_t _Count,_locale_t _Locale) ;
-  wchar_t *__attribute__((__cdecl__)) wcspbrk(const wchar_t *_Str,const wchar_t *_Control);
-  wchar_t *__attribute__((__cdecl__)) wcsrchr(const wchar_t *_Str,wchar_t _Ch);
-  size_t __attribute__((__cdecl__)) wcsspn(const wchar_t *_Str,const wchar_t *_Control);
-  wchar_t *__attribute__((__cdecl__)) wcsstr(const wchar_t *_Str,const wchar_t *_SubStr);
-  wchar_t *__attribute__((__cdecl__)) wcstok(wchar_t * __restrict__ _Str,const wchar_t * __restrict__ _Delim,wchar_t ** __restrict__ _Ptr) ;
-  wchar_t *__attribute__((__cdecl__)) _wcstok(wchar_t * __restrict__ _Str,const wchar_t * __restrict__ _Delim) ;
-
-
-
-
-  extern "C++" inline wchar_t *__attribute__((__cdecl__)) wcstok(wchar_t * __restrict__ _Str,const wchar_t * __restrict__ _Delim) { return _wcstok(_Str, _Delim); }
-
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcserror(int _ErrNum) ;
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) __wcserror(const wchar_t *_Str) ;
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsicmp(const wchar_t *_Str1,const wchar_t *_Str2);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsicmp_l(const wchar_t *_Str1,const wchar_t *_Str2,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsnicmp(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsnicmp_l(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcsnset(wchar_t *_Str,wchar_t _Val,size_t _MaxCount) ;
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcsrev(wchar_t *_Str);
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcsset(wchar_t *_Str,wchar_t _Val) ;
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcslwr(wchar_t *_String) ;
-  __attribute__ ((__dllimport__)) wchar_t *_wcslwr_l(wchar_t *_String,_locale_t _Locale) ;
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcsupr(wchar_t *_String) ;
-  __attribute__ ((__dllimport__)) wchar_t *_wcsupr_l(wchar_t *_String,_locale_t _Locale) ;
-  size_t __attribute__((__cdecl__)) wcsxfrm(wchar_t * __restrict__ _Dst,const wchar_t * __restrict__ _Src,size_t _MaxCount);
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _wcsxfrm_l(wchar_t * __restrict__ _Dst,const wchar_t * __restrict__ _Src,size_t _MaxCount,_locale_t _Locale);
-  int __attribute__((__cdecl__)) wcscoll(const wchar_t *_Str1,const wchar_t *_Str2);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcscoll_l(const wchar_t *_Str1,const wchar_t *_Str2,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsicoll(const wchar_t *_Str1,const wchar_t *_Str2);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsicoll_l(const wchar_t *_Str1,const wchar_t *_Str2,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsncoll(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsncoll_l(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsnicoll(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsnicoll_l(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount,_locale_t _Locale);
-
-
-  wchar_t *__attribute__((__cdecl__)) wcsdup(const wchar_t *_Str) ;
-
-  int __attribute__((__cdecl__)) wcsicmp(const wchar_t *_Str1,const wchar_t *_Str2) ;
-  int __attribute__((__cdecl__)) wcsnicmp(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount) ;
-  wchar_t *__attribute__((__cdecl__)) wcsnset(wchar_t *_Str,wchar_t _Val,size_t _MaxCount) ;
-  wchar_t *__attribute__((__cdecl__)) wcsrev(wchar_t *_Str) ;
-  wchar_t *__attribute__((__cdecl__)) wcsset(wchar_t *_Str,wchar_t _Val) ;
-  wchar_t *__attribute__((__cdecl__)) wcslwr(wchar_t *_Str) ;
-  wchar_t *__attribute__((__cdecl__)) wcsupr(wchar_t *_Str) ;
-  int __attribute__((__cdecl__)) wcsicoll(const wchar_t *_Str1,const wchar_t *_Str2) ;
-
-
-
-
-
-  struct tm {
-    int tm_sec;
-    int tm_min;
-    int tm_hour;
-    int tm_mday;
-    int tm_mon;
-    int tm_year;
-    int tm_wday;
-    int tm_yday;
-    int tm_isdst;
-  };
-
-
-
-
-
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wasctime(const struct tm *_Tm);
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _wasctime_s (wchar_t *_Buf,size_t _SizeInWords,const struct tm *_Tm);
-  wchar_t *__attribute__((__cdecl__)) _wctime32(const __time32_t *_Time) ;
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _wctime32_s (wchar_t *_Buf,size_t _SizeInWords,const __time32_t *_Time);
-  size_t __attribute__((__cdecl__)) wcsftime(wchar_t * __restrict__ _Buf,size_t _SizeInWords,const wchar_t * __restrict__ _Format,const struct tm * __restrict__ _Tm);
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _wcsftime_l(wchar_t * __restrict__ _Buf,size_t _SizeInWords,const wchar_t * __restrict__ _Format,const struct tm * __restrict__ _Tm,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wstrdate(wchar_t *_Buffer) ;
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _wstrdate_s (wchar_t *_Buf,size_t _SizeInWords);
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wstrtime(wchar_t *_Buffer) ;
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _wstrtime_s (wchar_t *_Buf,size_t _SizeInWords);
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wctime64(const __time64_t *_Time) ;
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _wctime64_s (wchar_t *_Buf,size_t _SizeInWords,const __time64_t *_Time);
-
-
-
-  wchar_t *__attribute__((__cdecl__)) _wctime(const time_t *_Time) ;
-# 1347 "C:/msys64/ucrt64/include/wchar.h" 3
-  errno_t __attribute__((__cdecl__)) _wctime_s(wchar_t *, size_t, const time_t *);
-# 1360 "C:/msys64/ucrt64/include/wchar.h" 3
-  typedef struct _Mbstatet {
-    unsigned long _Wchar;
-    unsigned short _Byte, _State;
-  } _Mbstatet;
-  typedef _Mbstatet mbstate_t;
-
-
-
-  typedef wchar_t _Wint_t;
-
-  wint_t __attribute__((__cdecl__)) btowc(int);
-  size_t __attribute__((__cdecl__)) mbrlen(const char * __restrict__ _Ch,size_t _SizeInBytes,mbstate_t * __restrict__ _State);
-  size_t __attribute__((__cdecl__)) mbrtowc(wchar_t * __restrict__ _DstCh,const char * __restrict__ _SrcCh,size_t _SizeInBytes,mbstate_t * __restrict__ _State);
-  size_t __attribute__((__cdecl__)) mbsrtowcs(wchar_t * __restrict__ _Dest,const char ** __restrict__ _PSrc,size_t _Count,mbstate_t * __restrict__ _State) ;
-  size_t __attribute__((__cdecl__)) wcrtomb(char * __restrict__ _Dest,wchar_t _Source,mbstate_t * __restrict__ _State) ;
-  size_t __attribute__((__cdecl__)) wcsrtombs(char * __restrict__ _Dest,const wchar_t ** __restrict__ _PSource,size_t _Count,mbstate_t * __restrict__ _State) ;
-  int __attribute__((__cdecl__)) wctob(wint_t _WCh);
-
-
-  wchar_t *__attribute__((__cdecl__)) wmemset(wchar_t *s, wchar_t c, size_t n);
-  wchar_t *__attribute__((__cdecl__)) wmemchr(const wchar_t *s, wchar_t c, size_t n);
-  int __attribute__((__cdecl__)) wmemcmp(const wchar_t *s1, const wchar_t *s2,size_t n);
-  wchar_t *__attribute__((__cdecl__)) wmemcpy(wchar_t * __restrict__ s1,const wchar_t * __restrict__ s2,size_t n) ;
-  wchar_t * __attribute__((__cdecl__)) wmempcpy (wchar_t *_Dst, const wchar_t *_Src, size_t _Size);
-  wchar_t *__attribute__((__cdecl__)) wmemmove(wchar_t *s1, const wchar_t *s2, size_t n) ;
-  int __attribute__((__cdecl__)) fwide(FILE *stream,int mode);
-
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) mbsinit(const mbstate_t *_P) { return (!_P || _P->_Wchar == 0); }
-
-
-
-  __extension__ long long __attribute__((__cdecl__)) wcstoll(const wchar_t * __restrict__ nptr,wchar_t ** __restrict__ endptr, int base);
-  __extension__ unsigned long long __attribute__((__cdecl__)) wcstoull(const wchar_t * __restrict__ nptr,wchar_t ** __restrict__ endptr, int base);
-
-
-  void *__attribute__((__cdecl__)) memmove(void *_Dst,const void *_Src,size_t _MaxCount);
-  void *__attribute__((__cdecl__)) memcpy(void * __restrict__ _Dst,const void * __restrict__ _Src,size_t _MaxCount) ;
-# 1449 "C:/msys64/ucrt64/include/wchar.h" 3
-int __attribute__((__cdecl__)) __mingw_str_wide_utf8 (const wchar_t * const wptr, char **mbptr, size_t * buflen);
-# 1463 "C:/msys64/ucrt64/include/wchar.h" 3
-int __attribute__((__cdecl__)) __mingw_str_utf8_wide (const char *const mbptr, wchar_t ** wptr, size_t * buflen);
-# 1472 "C:/msys64/ucrt64/include/wchar.h" 3
-void __attribute__((__cdecl__)) __mingw_str_free(void *ptr);
-
-
-
-
-}
-
-
-#pragma pack(pop)
-
-# 1 "C:/msys64/ucrt64/include/sec_api/wchar_s.h" 1 3
-# 9 "C:/msys64/ucrt64/include/sec_api/wchar_s.h" 3
-# 1 "C:/msys64/ucrt64/include/wchar.h" 1 3
-# 10 "C:/msys64/ucrt64/include/sec_api/wchar_s.h" 2 3
-# 21 "C:/msys64/ucrt64/include/sec_api/wchar_s.h" 3
-extern "C" {
-
-
-
-
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _waccess_s (const wchar_t *_Filename,int _AccessMode);
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _wmktemp_s (wchar_t *_TemplateName,size_t _SizeInWords);
-
-
-
-
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _cgetws_s (wchar_t *_Buffer,size_t _SizeInWords,size_t *_SizeRead);
-  __attribute__((dllimport)) int __attribute__((__cdecl__)) _cwprintf_s (const wchar_t *_Format,...);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _cwscanf_s(const wchar_t *_Format,...);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _cwscanf_s_l(const wchar_t *_Format,_locale_t _Locale,...);
-  __attribute__((dllimport)) int __attribute__((__cdecl__)) _vcwprintf_s (const wchar_t *_Format,va_list _ArgList);
-  __attribute__((dllimport)) int __attribute__((__cdecl__)) _cwprintf_s_l (const wchar_t *_Format,_locale_t _Locale,...);
-  __attribute__((dllimport)) int __attribute__((__cdecl__)) _vcwprintf_s_l (const wchar_t *_Format,_locale_t _Locale,va_list _ArgList);
-
-
-
-
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _getws_s(wchar_t *_Str,size_t _SizeInWords);
-  extern "C++" { template <size_t __size> inline wchar_t* __attribute__((__cdecl__)) _getws_s(wchar_t (&_DstBuf)[__size]) { return _getws_s(_DstBuf,__size); } }
-
-
-  int __attribute__((__cdecl__)) __stdio_common_vswprintf_s(unsigned long long _Options, wchar_t *_Str, size_t _Len, const wchar_t *_Format, _locale_t _Locale, va_list _ArgList);
-  int __attribute__((__cdecl__)) __stdio_common_vsnwprintf_s(unsigned long long _Options, wchar_t *_Str, size_t _Len, size_t _MaxCount, const wchar_t *_Format, _locale_t _Locale, va_list _ArgList);
-  int __attribute__((__cdecl__)) __stdio_common_vfwprintf_s(unsigned long long _Options, FILE *_File, const wchar_t *_Format, _locale_t _Locale, va_list _ArgList);
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vfwscanf_s_l(FILE *_File, const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vfwscanf(0x0002ULL | 0x0001ULL, _File, _Format, _Locale, _ArgList);
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) vfwscanf_s(FILE* _File, const wchar_t *_Format, va_list _ArgList)
-  {
-    return _vfwscanf_s_l(_File, _Format, 0LL, _ArgList);
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vwscanf_s_l(const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return _vfwscanf_s_l((__acrt_iob_func(0)), _Format, _Locale, _ArgList);
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) vwscanf_s(const wchar_t *_Format, va_list _ArgList)
-  {
-    return _vfwscanf_s_l((__acrt_iob_func(0)), _Format, 0LL, _ArgList);
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _fwscanf_s_l(FILE *_File, const wchar_t *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vfwscanf_s_l(_File, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) fwscanf_s(FILE *_File, const wchar_t *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vfwscanf_s_l(_File, _Format, 0LL, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _wscanf_s_l(const wchar_t *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vfwscanf_s_l((__acrt_iob_func(0)), _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) wscanf_s(const wchar_t *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vfwscanf_s_l((__acrt_iob_func(0)), _Format, 0LL, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vswscanf_s_l(const wchar_t *_Src, const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vswscanf(0x0002ULL | 0x0001ULL, _Src, (size_t)-1, _Format, _Locale, _ArgList);
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) vswscanf_s(const wchar_t *_Src, const wchar_t *_Format, va_list _ArgList)
-  {
-    return _vswscanf_s_l(_Src, _Format, 0LL, _ArgList);
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _swscanf_s_l(const wchar_t *_Src, const wchar_t *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vswscanf_s_l(_Src, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) swscanf_s(const wchar_t *_Src, const wchar_t *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vswscanf_s_l(_Src, _Format, 0LL, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vsnwscanf_s_l(const wchar_t *_Src, size_t _MaxCount, const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vswscanf(0x0002ULL | 0x0001ULL, _Src, _MaxCount, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _snwscanf_s_l(const wchar_t *_Src, size_t _MaxCount, const wchar_t *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vsnwscanf_s_l(_Src, _MaxCount, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _snwscanf_s(const wchar_t *_Src, size_t _MaxCount, const wchar_t *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vsnwscanf_s_l(_Src, _MaxCount, _Format, 0LL, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vfwprintf_s_l(FILE *_File, const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vfwprintf_s((0x0004ULL | 0x0020ULL), _File, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vwprintf_s_l(const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return _vfwprintf_s_l((__acrt_iob_func(1)), _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) vfwprintf_s(FILE *_File, const wchar_t *_Format, va_list _ArgList)
-  {
-    return _vfwprintf_s_l(_File, _Format, 0LL, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) vwprintf_s(const wchar_t *_Format, va_list _ArgList)
-  {
-    return _vfwprintf_s_l((__acrt_iob_func(1)), _Format, 0LL, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _fwprintf_s_l(FILE *_File, const wchar_t *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vfwprintf_s_l(_File, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _wprintf_s_l(const wchar_t *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vfwprintf_s_l((__acrt_iob_func(1)), _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) fwprintf_s(FILE *_File, const wchar_t *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vfwprintf_s_l(_File, _Format, 0LL, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) wprintf_s(const wchar_t *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vfwprintf_s_l((__acrt_iob_func(1)), _Format, 0LL, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vswprintf_s_l(wchar_t *_DstBuf, size_t _DstSize, const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vswprintf_s((0x0004ULL | 0x0020ULL), _DstBuf, _DstSize, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) vswprintf_s(wchar_t *_DstBuf, size_t _DstSize, const wchar_t *_Format, va_list _ArgList)
-  {
-    return _vswprintf_s_l(_DstBuf, _DstSize, _Format, 0LL, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _swprintf_s_l(wchar_t *_DstBuf, size_t _DstSize, const wchar_t *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vswprintf_s_l(_DstBuf, _DstSize, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) swprintf_s(wchar_t *_DstBuf, size_t _DstSize, const wchar_t *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vswprintf_s_l(_DstBuf, _DstSize, _Format, 0LL, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vsnwprintf_s_l(wchar_t *_DstBuf, size_t _DstSize, size_t _MaxCount, const wchar_t *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vsnwprintf_s((0x0004ULL | 0x0020ULL), _DstBuf, _DstSize, _MaxCount, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vsnwprintf_s(wchar_t *_DstBuf, size_t _DstSize, size_t _MaxCount, const wchar_t *_Format, va_list _ArgList)
-  {
-    return _vsnwprintf_s_l(_DstBuf, _DstSize, _MaxCount, _Format, 0LL, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _snwprintf_s_l(wchar_t *_DstBuf, size_t _DstSize, size_t _MaxCount, const wchar_t *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vsnwprintf_s_l(_DstBuf, _DstSize, _MaxCount, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _snwprintf_s(wchar_t *_DstBuf, size_t _DstSize, size_t _MaxCount, const wchar_t *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vsnwprintf_s_l(_DstBuf, _DstSize, _MaxCount, _Format, 0LL, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-# 302 "C:/msys64/ucrt64/include/sec_api/wchar_s.h" 3
-  extern "C++" { template <size_t __size> inline int __attribute__((__cdecl__)) vswprintf_s(wchar_t (&_Dst)[__size], const wchar_t* _Format, va_list _ArgList) { return vswprintf_s(_Dst,__size,_Format,_ArgList); } }
-  extern "C++" { template <size_t __size> inline int __attribute__((__cdecl__)) swprintf_s(wchar_t (&_Dst)[__size], const wchar_t* _Format, ...) { va_list __vaargs; __builtin_va_start(__vaargs,_Format); int __retval = vswprintf_s(_Dst,__size,_Format,__vaargs); __builtin_va_end(__vaargs); return __retval; } }
-  extern "C++" { template <size_t __size> inline int __attribute__((__cdecl__)) _vsnwprintf_s(wchar_t (&_DstBuf)[__size], size_t _MaxCount, const wchar_t* _Format, va_list _ArgList) { return _vsnwprintf_s(_DstBuf,__size,_MaxCount,_Format,_ArgList); } }
-  extern "C++" { template <size_t __size> inline int __attribute__((__cdecl__)) _snwprintf_s(wchar_t (&_DstBuf)[__size], size_t _MaxCount, const wchar_t* _Format, ...) { va_list __vaargs; __builtin_va_start(__vaargs,_Format); int __retval = _vsnwprintf_s(_DstBuf,__size,_MaxCount,_Format,__vaargs); __builtin_va_end(__vaargs); return __retval; } }
-
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wfopen_s(FILE **_File,const wchar_t *_Filename,const wchar_t *_Mode);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wfreopen_s(FILE **_File,const wchar_t *_Filename,const wchar_t *_Mode,FILE *_OldFile);
-
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wtmpnam_s(wchar_t *_DstBuf,size_t _SizeInWords);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _wtmpnam_s(wchar_t (&_DstBuf)[__size]) { return _wtmpnam_s(_DstBuf,__size); } }
-
-
-
-
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) wcstok_s(wchar_t *_Str,const wchar_t *_Delim,wchar_t **_Context);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcserror_s(wchar_t *_Buf,size_t _SizeInWords,int _ErrNum);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _wcserror_s(wchar_t (&_Buf)[__size], int _ErrNum) { return _wcserror_s(_Buf,__size,_ErrNum); } }
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) __wcserror_s(wchar_t *_Buffer,size_t _SizeInWords,const wchar_t *_ErrMsg);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) __wcserror_s(wchar_t (&_Buffer)[__size], const wchar_t * _ErrMsg) { return __wcserror_s(_Buffer,__size,_ErrMsg); } }
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcsnset_s(wchar_t *_Dst,size_t _DstSizeInWords,wchar_t _Val,size_t _MaxCount);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _wcsnset_s(wchar_t (&_Dst)[__size], wchar_t _Val, size_t _MaxCount) { return _wcsnset_s(_Dst,__size,_Val,_MaxCount); } }
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcsset_s(wchar_t *_Str,size_t _SizeInWords,wchar_t _Val);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _wcsset_s(wchar_t (&_Str)[__size], wchar_t _Val) { return _wcsset_s(_Str,__size,_Val); } }
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcslwr_s(wchar_t *_Str,size_t _SizeInWords);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _wcslwr_s(wchar_t (&_Str)[__size]) { return _wcslwr_s(_Str,__size); } }
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcslwr_s_l(wchar_t *_Str,size_t _SizeInWords,_locale_t _Locale);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _wcslwr_s_l(wchar_t (&_Str)[__size], _locale_t _Locale) { return _wcslwr_s_l(_Str,__size,_Locale); } }
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcsupr_s(wchar_t *_Str,size_t _Size);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _wcsupr_s(wchar_t (&_Str)[__size]) { return _wcsupr_s(_Str,__size); } }
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcsupr_s_l(wchar_t *_Str,size_t _Size,_locale_t _Locale);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _wcsupr_s_l(wchar_t (&_Str)[__size], _locale_t _Locale) { return _wcsupr_s_l(_Str,__size,_Locale); } }
-
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) wcscat_s(wchar_t *_Dst, rsize_t _DstSize, const wchar_t *_Src);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) wcscat_s(wchar_t (&_Dest)[__size], const wchar_t * _Source) { return wcscat_s(_Dest,__size,_Source); } }
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) wcscpy_s(wchar_t *_Dst, rsize_t _DstSize, const wchar_t *_Src);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) wcscpy_s(wchar_t (&_Dest)[__size], const wchar_t * _Source) { return wcscpy_s(_Dest,__size,_Source); } }
-
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) wcsncat_s(wchar_t *_Dst,size_t _DstSizeInChars,const wchar_t *_Src,size_t _MaxCount);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) wcsncat_s(wchar_t (&_Dst)[__size], const wchar_t * _Src, size_t _MaxCount) { return wcsncat_s(_Dst,__size,_Src,_MaxCount); } }
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcsncat_s_l(wchar_t *_Dst,size_t _DstSizeInChars,const wchar_t *_Src,size_t _MaxCount,_locale_t _Locale);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _wcsncat_s_l(wchar_t (&_Dst)[__size], const wchar_t * _Src, size_t _MaxCount, _locale_t _Locale) { return _wcsncat_s_l(_Dst,__size,_Src,_MaxCount,_Locale); } }
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) wcsncpy_s(wchar_t *_Dst,size_t _DstSizeInChars,const wchar_t *_Src,size_t _MaxCount);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) wcsncpy_s(wchar_t (&_Dst)[__size], const wchar_t * _Src, size_t _MaxCount) { return wcsncpy_s(_Dst,__size,_Src,_MaxCount); } }
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcsncpy_s_l(wchar_t *_Dst,size_t _DstSizeInChars,const wchar_t *_Src,size_t _MaxCount,_locale_t _Locale);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _wcsncpy_s_l(wchar_t (&_Dst)[__size], const wchar_t * _Src, size_t _MaxCount, _locale_t _Locale) { return _wcsncpy_s_l(_Dst,__size,_Src,_MaxCount,_Locale); } }
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcstok_s_l(wchar_t *_Str,const wchar_t *_Delim,wchar_t **_Context,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcsset_s_l(wchar_t *_Str,size_t _SizeInChars,wchar_t _Val,_locale_t _Locale);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _wcsset_s_l(wchar_t (&_Str)[__size], wchar_t _Val, _locale_t _Locale) { return _wcsset_s_l(_Str,__size,_Val,_Locale); } }
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcsnset_s_l(wchar_t *_Str,size_t _SizeInChars,wchar_t _Val, size_t _Count,_locale_t _Locale);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _wcsnset_s_l(wchar_t (&_Str)[__size], wchar_t _Val, size_t _Count, _locale_t _Locale) { return _wcsnset_s_l(_Str,__size,_Val,_Count,_Locale); } }
-
-  inline __attribute__((__always_inline__)) size_t __attribute__((__cdecl__)) wcsnlen_s(const wchar_t * _src, size_t _count) {
-    return _src ? wcsnlen(_src, _count) : 0;
-  }
-
-
-
-
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _wasctime_s (wchar_t *_Buf,size_t _SizeInWords,const struct tm *_Tm);
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _wctime32_s (wchar_t *_Buf,size_t _SizeInWords,const __time32_t *_Time);
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _wstrdate_s (wchar_t *_Buf,size_t _SizeInWords);
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _wstrtime_s (wchar_t *_Buf,size_t _SizeInWords);
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _wctime64_s (wchar_t *_Buf,size_t _SizeInWords,const __time64_t *_Time);
-# 375 "C:/msys64/ucrt64/include/sec_api/wchar_s.h" 3
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) mbsrtowcs_s(size_t *_Retval,wchar_t *_Dst,size_t _SizeInWords,const char **_PSrc,size_t _N,mbstate_t *_State);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) mbsrtowcs_s(size_t* _Retval, wchar_t (&_Dst)[__size], const char** _PSrc, size_t _N, mbstate_t _State) { return mbsrtowcs_s(_Retval, _Dst, __size, _PSrc, _N, _State); } }
-
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) wcrtomb_s(size_t *_Retval,char *_Dst,size_t _SizeInBytes,wchar_t _Ch,mbstate_t *_State);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) wcrtomb_s(size_t* _Retval, char (&_Dst)[__size], wchar_t _Ch, mbstate_t _State) { return wcrtomb_s(_Retval, _Dst, __size, _Ch, _State); } }
-
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) wcsrtombs_s(size_t *_Retval,char *_Dst,size_t _SizeInBytes,const wchar_t **_Src,size_t _Size,mbstate_t *_State);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) wcsrtombs_s(size_t _Retval, char (&_Dst)[__size], const wchar_t** _Src, size_t _Size, mbstate_t _State) { return wcsrtombs_s(_Retval, _Dst, __size, _Src, _Size, _State); } }
-
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) wmemcpy_s (wchar_t *_dest,size_t _numberOfElements,const wchar_t *_src,size_t _count);
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) wmemmove_s(wchar_t *_dest,size_t _numberOfElements,const wchar_t *_src,size_t _count);
-
-
-
-}
-# 1483 "C:/msys64/ucrt64/include/wchar.h" 2 3
-# 45 "C:/msys64/ucrt64/include/c++/14.2.0/cwchar" 2 3
-# 62 "C:/msys64/ucrt64/include/c++/14.2.0/cwchar" 3
+# 45 "/usr/include/c++/13/cwchar" 2 3
+# 62 "/usr/include/c++/13/cwchar" 3
 namespace std
 {
   using ::mbstate_t;
 }
-# 135 "C:/msys64/ucrt64/include/c++/14.2.0/cwchar" 3
+# 135 "/usr/include/c++/13/cwchar" 3
 extern "C++"
 {
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -1894,29 +1105,7 @@ namespace std
   using ::wcsrchr;
   using ::wcsstr;
   using ::wmemchr;
-
-
-  inline wchar_t*
-  wcschr(wchar_t* __p, wchar_t __c)
-  { return wcschr(const_cast<const wchar_t*>(__p), __c); }
-
-  inline wchar_t*
-  wcspbrk(wchar_t* __s1, const wchar_t* __s2)
-  { return wcspbrk(const_cast<const wchar_t*>(__s1), __s2); }
-
-  inline wchar_t*
-  wcsrchr(wchar_t* __p, wchar_t __c)
-  { return wcsrchr(const_cast<const wchar_t*>(__p), __c); }
-
-  inline wchar_t*
-  wcsstr(wchar_t* __s1, const wchar_t* __s2)
-  { return wcsstr(const_cast<const wchar_t*>(__s1), __s2); }
-
-  inline wchar_t*
-  wmemchr(wchar_t* __p, wchar_t __c, size_t __n)
-  { return wmemchr(const_cast<const wchar_t*>(__p), __c, __n); }
-
-
+# 234 "/usr/include/c++/13/cwchar" 3
 
 }
 }
@@ -1935,7 +1124,7 @@ namespace __gnu_cxx
 
 
   using ::wcstold;
-# 260 "C:/msys64/ucrt64/include/c++/14.2.0/cwchar" 3
+# 260 "/usr/include/c++/13/cwchar" 3
   using ::wcstoll;
   using ::wcstoull;
 
@@ -1947,7 +1136,7 @@ namespace std
   using ::__gnu_cxx::wcstoll;
   using ::__gnu_cxx::wcstoull;
 }
-# 280 "C:/msys64/ucrt64/include/c++/14.2.0/cwchar" 3
+# 280 "/usr/include/c++/13/cwchar" 3
 namespace std
 {
 
@@ -1969,20 +1158,20 @@ namespace std
   using std::wcstoull;
 
 }
-# 41 "C:/msys64/ucrt64/include/c++/14.2.0/bits/postypes.h" 2 3
+# 41 "/usr/include/c++/13/bits/postypes.h" 2 3
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 62 "C:/msys64/ucrt64/include/c++/14.2.0/bits/postypes.h" 3
-  typedef long long int streamoff;
+# 62 "/usr/include/c++/13/bits/postypes.h" 3
+  typedef long int streamoff;
 
 
 
 
 
   typedef ptrdiff_t streamsize;
-# 81 "C:/msys64/ucrt64/include/c++/14.2.0/bits/postypes.h" 3
+# 81 "/usr/include/c++/13/bits/postypes.h" 3
   template<typename _StateT>
     class fpos
     {
@@ -1997,7 +1186,7 @@ namespace std
 
       fpos()
       : _M_off(0), _M_state() { }
-# 103 "C:/msys64/ucrt64/include/c++/14.2.0/bits/postypes.h" 3
+# 103 "/usr/include/c++/13/bits/postypes.h" 3
       fpos(streamoff __off)
       : _M_off(__off), _M_state() { }
 
@@ -2102,7 +1291,7 @@ namespace std
   typedef fpos<mbstate_t> streampos;
 
   typedef fpos<mbstate_t> wstreampos;
-# 215 "C:/msys64/ucrt64/include/c++/14.2.0/bits/postypes.h" 3
+# 215 "/usr/include/c++/13/bits/postypes.h" 3
   typedef fpos<mbstate_t> u16streampos;
 
   typedef fpos<mbstate_t> u32streampos;
@@ -2110,12 +1299,12 @@ namespace std
 
 
 }
-# 43 "C:/msys64/ucrt64/include/c++/14.2.0/iosfwd" 2 3
+# 43 "/usr/include/c++/13/iosfwd" 2 3
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 76 "C:/msys64/ucrt64/include/c++/14.2.0/iosfwd" 3
+# 76 "/usr/include/c++/13/iosfwd" 3
   class ios_base;
 
   template<typename _CharT, typename _Traits = char_traits<_CharT> >
@@ -2251,28 +1440,28 @@ namespace __cxx11 {
 
 
   typedef basic_fstream<wchar_t> wfstream;
-# 255 "C:/msys64/ucrt64/include/c++/14.2.0/iosfwd" 3
+# 255 "/usr/include/c++/13/iosfwd" 3
 
 }
-# 41 "C:/msys64/ucrt64/include/c++/14.2.0/ios" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/exception" 1 3
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/exception" 3
+# 41 "/usr/include/c++/13/ios" 2 3
+# 1 "/usr/include/c++/13/exception" 1 3
+# 33 "/usr/include/c++/13/exception" 3
        
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/exception" 3
+# 34 "/usr/include/c++/13/exception" 3
 
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/exception.h" 1 3
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/bits/exception.h" 3
+# 1 "/usr/include/c++/13/bits/exception.h" 1 3
+# 34 "/usr/include/c++/13/bits/exception.h" 3
        
-# 35 "C:/msys64/ucrt64/include/c++/14.2.0/bits/exception.h" 3
+# 35 "/usr/include/c++/13/bits/exception.h" 3
 
 
 
 extern "C++" {
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
-# 59 "C:/msys64/ucrt64/include/c++/14.2.0/bits/exception.h" 3
+# 59 "/usr/include/c++/13/bits/exception.h" 3
   class exception
   {
   public:
@@ -2296,20 +1485,13 @@ namespace std
 }
 
 }
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/exception" 2 3
-
-
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 1 3
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-       
-# 48 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-# 40 "C:/msys64/ucrt64/include/c++/14.2.0/exception" 2 3
+# 37 "/usr/include/c++/13/exception" 2 3
 
 extern "C++" {
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
-# 54 "C:/msys64/ucrt64/include/c++/14.2.0/exception" 3
+# 51 "/usr/include/c++/13/exception" 3
   class bad_exception : public exception
   {
   public:
@@ -2337,7 +1519,7 @@ namespace std
 
 
 
-  void terminate() noexcept __attribute__ ((__noreturn__,__cold__));
+  void terminate() noexcept __attribute__ ((__noreturn__));
 
 
 
@@ -2366,10 +1548,11 @@ namespace std
 
 
   __attribute__ ((__deprecated__))
-  void unexpected() __attribute__ ((__noreturn__,__cold__));
-# 124 "C:/msys64/ucrt64/include/c++/14.2.0/exception" 3
+  void unexpected() __attribute__ ((__noreturn__));
+# 121 "/usr/include/c++/13/exception" 3
   __attribute__ ((__deprecated__ ("use '" "std::uncaught_exceptions()" "' instead")))
   bool uncaught_exception() noexcept __attribute__ ((__pure__));
+
 
 
 
@@ -2382,10 +1565,10 @@ namespace std
 
 }
 
-namespace __gnu_cxx
+namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 {
 
-# 158 "C:/msys64/ucrt64/include/c++/14.2.0/exception" 3
+# 156 "/usr/include/c++/13/exception" 3
   void __verbose_terminate_handler();
 
 
@@ -2394,57 +1577,35 @@ namespace __gnu_cxx
 }
 
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_ptr.h" 1 3
-# 35 "C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_ptr.h" 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_defines.h" 1 3
-# 36 "C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_ptr.h" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_init_exception.h" 1 3
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_init_exception.h" 3
+# 1 "/usr/include/c++/13/bits/exception_ptr.h" 1 3
+# 35 "/usr/include/c++/13/bits/exception_ptr.h" 3
+# 1 "/usr/include/c++/13/bits/exception_defines.h" 1 3
+# 36 "/usr/include/c++/13/bits/exception_ptr.h" 2 3
+# 1 "/usr/include/c++/13/bits/cxxabi_init_exception.h" 1 3
+# 34 "/usr/include/c++/13/bits/cxxabi_init_exception.h" 3
        
-# 35 "C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_init_exception.h" 3
+# 35 "/usr/include/c++/13/bits/cxxabi_init_exception.h" 3
 
 #pragma GCC visibility push(default)
 
-# 1 "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h" 1 3 4
-# 1 "C:/msys64/ucrt64/include/stddef.h" 1 3 4
-
-
-
-
-
-
-# 1 "C:/msys64/ucrt64/include/crtdefs.h" 1 3 4
-# 8 "C:/msys64/ucrt64/include/stddef.h" 2 3 4
-
-
-
-
-
-extern "C" {
-
-
-
-
-  __attribute__ ((__dllimport__)) extern int *__attribute__((__cdecl__)) _errno(void);
-
-  errno_t __attribute__((__cdecl__)) _set_errno(int _Value);
-  errno_t __attribute__((__cdecl__)) _get_errno(int *_Value);
-
-
-  __attribute__ ((__dllimport__)) extern unsigned long __attribute__((__cdecl__)) __threadid(void);
-
-  __attribute__ ((__dllimport__)) extern uintptr_t __attribute__((__cdecl__)) __threadhandle(void);
-
-
-}
-# 424 "C:/msys64/ucrt64/include/stddef.h" 3 4
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h" 1 3 4
+# 145 "/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h" 3 4
+typedef long int ptrdiff_t;
+# 425 "/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h" 3 4
 typedef struct {
   long long __max_align_ll __attribute__((__aligned__(__alignof__(long long))));
   long double __max_align_ld __attribute__((__aligned__(__alignof__(long double))));
+# 436 "/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h" 3 4
 } max_align_t;
-# 2 "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h" 2 3 4
-# 39 "C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_init_exception.h" 2 3
-# 50 "C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_init_exception.h" 3
+
+
+
+
+
+
+  typedef decltype(nullptr) nullptr_t;
+# 39 "/usr/include/c++/13/bits/cxxabi_init_exception.h" 2 3
+# 50 "/usr/include/c++/13/bits/cxxabi_init_exception.h" 3
 namespace std
 {
   class type_info;
@@ -2475,18 +1636,18 @@ namespace __cxxabiv1
 
 
 #pragma GCC visibility pop
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_ptr.h" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/typeinfo" 1 3
-# 32 "C:/msys64/ucrt64/include/c++/14.2.0/typeinfo" 3
+# 37 "/usr/include/c++/13/bits/exception_ptr.h" 2 3
+# 1 "/usr/include/c++/13/typeinfo" 1 3
+# 32 "/usr/include/c++/13/typeinfo" 3
        
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/typeinfo" 3
+# 33 "/usr/include/c++/13/typeinfo" 3
 
 
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/hash_bytes.h" 1 3
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/bits/hash_bytes.h" 3
+# 1 "/usr/include/c++/13/bits/hash_bytes.h" 1 3
+# 33 "/usr/include/c++/13/bits/hash_bytes.h" 3
        
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/bits/hash_bytes.h" 3
+# 34 "/usr/include/c++/13/bits/hash_bytes.h" 3
 
 
 
@@ -2511,17 +1672,14 @@ namespace std
 
 
 }
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/typeinfo" 2 3
+# 37 "/usr/include/c++/13/typeinfo" 2 3
 
-
-
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 1 3
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-       
-# 48 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-# 41 "C:/msys64/ucrt64/include/c++/14.2.0/typeinfo" 2 3
 
 #pragma GCC visibility push(default)
+
+
+
+
 
 extern "C++" {
 
@@ -2529,7 +1687,7 @@ namespace __cxxabiv1
 {
   class __class_type_info;
 }
-# 83 "C:/msys64/ucrt64/include/c++/14.2.0/typeinfo" 3
+# 84 "/usr/include/c++/13/typeinfo" 3
 namespace std
 {
 
@@ -2605,16 +1763,45 @@ namespace std
 
     type_info& operator=(const type_info&) = delete;
     type_info(const type_info&) = delete;
-
-
-
-
-
-
-    bool __equal(const type_info&) const noexcept;
-
+# 167 "/usr/include/c++/13/typeinfo" 3
   };
-# 219 "C:/msys64/ucrt64/include/c++/14.2.0/typeinfo" 3
+
+
+  inline bool
+  type_info::before(const type_info& __arg) const noexcept
+  {
+
+
+
+
+    if (__name[0] != '*' || __arg.__name[0] != '*')
+      return __builtin_strcmp (__name, __arg.__name) < 0;
+# 187 "/usr/include/c++/13/typeinfo" 3
+    return __name < __arg.__name;
+  }
+
+
+
+  inline bool
+  type_info::operator==(const type_info& __arg) const noexcept
+  {
+    if (std::__is_constant_evaluated())
+      return this == &__arg;
+
+    if (__name == __arg.__name)
+      return true;
+
+
+
+
+
+
+    return __name[0] != '*' && __builtin_strcmp (__name, __arg.name()) == 0;
+
+
+
+  }
+# 220 "/usr/include/c++/13/typeinfo" 3
   class bad_cast : public exception
   {
   public:
@@ -2649,23 +1836,14 @@ namespace std
 }
 
 #pragma GCC visibility pop
-# 38 "C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_ptr.h" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/new" 1 3
-# 38 "C:/msys64/ucrt64/include/c++/14.2.0/new" 3
+# 38 "/usr/include/c++/13/bits/exception_ptr.h" 2 3
+# 1 "/usr/include/c++/13/new" 1 3
+# 38 "/usr/include/c++/13/new" 3
        
-# 39 "C:/msys64/ucrt64/include/c++/14.2.0/new" 3
+# 39 "/usr/include/c++/13/new" 3
 
 
 
-
-
-
-
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 1 3
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-       
-# 48 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/new" 2 3
 
 #pragma GCC visibility push(default)
 
@@ -2738,7 +1916,7 @@ namespace std
   new_handler get_new_handler() noexcept;
 
 }
-# 131 "C:/msys64/ucrt64/include/c++/14.2.0/new" 3
+# 126 "/usr/include/c++/13/new" 3
 [[__nodiscard__]] void* operator new(std::size_t)
   __attribute__((__externally_visible__));
 [[__nodiscard__]] void* operator new[](std::size_t)
@@ -2803,6 +1981,7 @@ namespace std
 {
 
 
+
   template<typename _Tp>
     [[nodiscard]] constexpr _Tp*
     launder(_Tp* __p) noexcept
@@ -2823,63 +2002,74 @@ namespace std
 
 
 
+
   inline constexpr size_t hardware_destructive_interference_size = 64;
   inline constexpr size_t hardware_constructive_interference_size = 64;
 
 }
-# 236 "C:/msys64/ucrt64/include/c++/14.2.0/new" 3
+# 236 "/usr/include/c++/13/new" 3
 #pragma GCC visibility pop
-# 39 "C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_ptr.h" 2 3
+# 39 "/usr/include/c++/13/bits/exception_ptr.h" 2 3
 
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/move.h" 1 3
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/bits/move.h" 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 1 3
-# 32 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 1 "/usr/include/c++/13/bits/move.h" 1 3
+# 37 "/usr/include/c++/13/bits/move.h" 3
+# 1 "/usr/include/c++/13/type_traits" 1 3
+# 32 "/usr/include/c++/13/type_traits" 3
        
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
-# 63 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 1 3
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-       
-# 48 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-# 64 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 2 3
+# 33 "/usr/include/c++/13/type_traits" 3
 
-namespace std
+
+
+
+
+
+
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
   template<typename _Tp>
     class reference_wrapper;
-# 86 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 61 "/usr/include/c++/13/type_traits" 3
   template<typename _Tp, _Tp __v>
     struct integral_constant
     {
       static constexpr _Tp value = __v;
-      using value_type = _Tp;
-      using type = integral_constant<_Tp, __v>;
+      typedef _Tp value_type;
+      typedef integral_constant<_Tp, __v> type;
       constexpr operator value_type() const noexcept { return value; }
+
+
 
 
       constexpr value_type operator()() const noexcept { return value; }
 
     };
-# 106 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+
+
+
+
+
+
+
+  using true_type = integral_constant<bool, true>;
+
+
+  using false_type = integral_constant<bool, false>;
+
+
+
   template<bool __v>
     using __bool_constant = integral_constant<bool, __v>;
 
 
 
-  using true_type = __bool_constant<true>;
-
-
-  using false_type = __bool_constant<false>;
-
 
 
 
   template<bool __v>
-    using bool_constant = __bool_constant<__v>;
+    using bool_constant = integral_constant<bool, __v>;
 
 
 
@@ -2893,7 +2083,7 @@ namespace std
 
   template<typename _Tp>
     struct enable_if<true, _Tp>
-    { using type = _Tp; };
+    { typedef _Tp type; };
 
 
   template<bool _Cond, typename _Tp = void>
@@ -2993,6 +2183,8 @@ namespace std
       struct __conjunction_impl<__enable_if_t<bool(_B1::value)>, _B1, _B2, _Bn...>
       { using type = typename __conjunction_impl<void, _B2, _Bn...>::type; };
   }
+
+
 
 
   template<typename... _Bn>
@@ -3182,7 +2374,7 @@ namespace std
   template<>
     struct __is_integral_helper<unsigned __int128>
     : public true_type { };
-# 460 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 440 "/usr/include/c++/13/type_traits" 3
   template<typename _Tp>
     struct is_integral
     : public __is_integral_helper<__remove_cv_t<_Tp>>::type
@@ -3204,7 +2396,7 @@ namespace std
   template<>
     struct __is_floating_point_helper<long double>
     : public true_type { };
-# 513 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 493 "/usr/include/c++/13/type_traits" 3
   template<>
     struct __is_floating_point_helper<__float128>
     : public true_type { };
@@ -3218,12 +2410,18 @@ namespace std
     { };
 
 
+  template<typename>
+    struct is_array
+    : public false_type { };
+
+  template<typename _Tp, std::size_t _Size>
+    struct is_array<_Tp[_Size]>
+    : public true_type { };
 
   template<typename _Tp>
-    struct is_array
-    : public __bool_constant<__is_array(_Tp)>
-    { };
-# 545 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+    struct is_array<_Tp[]>
+    : public true_type { };
+
   template<typename>
     struct __is_pointer_helper
     : public false_type { };
@@ -3256,42 +2454,68 @@ namespace std
     struct is_rvalue_reference<_Tp&&>
     : public true_type { };
 
+  template<typename>
+    struct __is_member_object_pointer_helper
+    : public false_type { };
+
+  template<typename _Tp, typename _Cp>
+    struct __is_member_object_pointer_helper<_Tp _Cp::*>
+    : public __not_<is_function<_Tp>>::type { };
 
 
   template<typename _Tp>
     struct is_member_object_pointer
-    : public __bool_constant<__is_member_object_pointer(_Tp)>
+    : public __is_member_object_pointer_helper<__remove_cv_t<_Tp>>::type
     { };
-# 601 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+
+  template<typename>
+    struct __is_member_function_pointer_helper
+    : public false_type { };
+
+  template<typename _Tp, typename _Cp>
+    struct __is_member_function_pointer_helper<_Tp _Cp::*>
+    : public is_function<_Tp>::type { };
+
+
   template<typename _Tp>
     struct is_member_function_pointer
-    : public __bool_constant<__is_member_function_pointer(_Tp)>
+    : public __is_member_function_pointer_helper<__remove_cv_t<_Tp>>::type
     { };
-# 622 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+
+
   template<typename _Tp>
     struct is_enum
-    : public __bool_constant<__is_enum(_Tp)>
+    : public integral_constant<bool, __is_enum(_Tp)>
     { };
 
 
   template<typename _Tp>
     struct is_union
-    : public __bool_constant<__is_union(_Tp)>
+    : public integral_constant<bool, __is_union(_Tp)>
     { };
 
 
   template<typename _Tp>
     struct is_class
-    : public __bool_constant<__is_class(_Tp)>
+    : public integral_constant<bool, __is_class(_Tp)>
     { };
-
 
 
   template<typename _Tp>
     struct is_function
-    : public __bool_constant<__is_function(_Tp)>
-    { };
-# 661 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+    : public __bool_constant<!is_const<const _Tp>::value> { };
+
+  template<typename _Tp>
+    struct is_function<_Tp&>
+    : public false_type { };
+
+  template<typename _Tp>
+    struct is_function<_Tp&&>
+    : public false_type { };
+
+
+
+
   template<typename _Tp>
     struct is_null_pointer
     : public false_type { };
@@ -3322,13 +2546,22 @@ namespace std
 
 
 
-
-
   template<typename _Tp>
     struct is_reference
-    : public __bool_constant<__is_reference(_Tp)>
+    : public false_type
     { };
-# 715 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+
+  template<typename _Tp>
+    struct is_reference<_Tp&>
+    : public true_type
+    { };
+
+  template<typename _Tp>
+    struct is_reference<_Tp&&>
+    : public true_type
+    { };
+
+
   template<typename _Tp>
     struct is_arithmetic
     : public __or_<is_integral<_Tp>, is_floating_point<_Tp>>::type
@@ -3342,12 +2575,12 @@ namespace std
     { };
 
 
-
   template<typename _Tp>
     struct is_object
-    : public __bool_constant<__is_object(_Tp)>
+    : public __not_<__or_<is_function<_Tp>, is_reference<_Tp>,
+                          is_void<_Tp>>>::type
     { };
-# 741 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+
   template<typename>
     struct is_member_pointer;
 
@@ -3361,15 +2594,24 @@ namespace std
 
   template<typename _Tp>
     struct is_compound
-    : public __bool_constant<!is_fundamental<_Tp>::value> { };
+    : public __not_<is_fundamental<_Tp>>::type { };
+
+
+  template<typename _Tp>
+    struct __is_member_pointer_helper
+    : public false_type { };
+
+  template<typename _Tp, typename _Cp>
+    struct __is_member_pointer_helper<_Tp _Cp::*>
+    : public true_type { };
 
 
 
   template<typename _Tp>
     struct is_member_pointer
-    : public __bool_constant<__is_member_pointer(_Tp)>
+    : public __is_member_pointer_helper<__remove_cv_t<_Tp>>::type
     { };
-# 779 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+
   template<typename, typename>
     struct is_same;
 
@@ -3385,7 +2627,7 @@ namespace std
    signed long long
 
    , signed __int128
-# 804 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 733 "/usr/include/c++/13/type_traits" 3
    >;
 
 
@@ -3396,7 +2638,7 @@ namespace std
    unsigned long long
 
    , unsigned __int128
-# 824 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 753 "/usr/include/c++/13/type_traits" 3
    >;
 
 
@@ -3431,7 +2673,7 @@ namespace std
 
   template<typename _Tp>
     struct is_trivial
-    : public __bool_constant<__is_trivial(_Tp)>
+    : public integral_constant<bool, __is_trivial(_Tp)>
     {
       static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
  "template argument must be a complete class or an unbounded array");
@@ -3440,7 +2682,7 @@ namespace std
 
   template<typename _Tp>
     struct is_trivially_copyable
-    : public __bool_constant<__is_trivially_copyable(_Tp)>
+    : public integral_constant<bool, __is_trivially_copyable(_Tp)>
     {
       static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
  "template argument must be a complete class or an unbounded array");
@@ -3449,7 +2691,7 @@ namespace std
 
   template<typename _Tp>
     struct is_standard_layout
-    : public __bool_constant<__is_standard_layout(_Tp)>
+    : public integral_constant<bool, __is_standard_layout(_Tp)>
     {
       static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
  "template argument must be a complete class or an unbounded array");
@@ -3464,7 +2706,7 @@ namespace std
     struct
    
     is_pod
-    : public __bool_constant<__is_pod(_Tp)>
+    : public integral_constant<bool, __is_pod(_Tp)>
     {
       static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
  "template argument must be a complete class or an unbounded array");
@@ -3478,7 +2720,7 @@ namespace std
     struct
     [[__deprecated__]]
     is_literal_type
-    : public __bool_constant<__is_literal_type(_Tp)>
+    : public integral_constant<bool, __is_literal_type(_Tp)>
     {
       static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
  "template argument must be a complete class or an unbounded array");
@@ -3487,28 +2729,29 @@ namespace std
 
   template<typename _Tp>
     struct is_empty
-    : public __bool_constant<__is_empty(_Tp)>
+    : public integral_constant<bool, __is_empty(_Tp)>
     { };
 
 
   template<typename _Tp>
     struct is_polymorphic
-    : public __bool_constant<__is_polymorphic(_Tp)>
+    : public integral_constant<bool, __is_polymorphic(_Tp)>
     { };
+
 
 
 
 
   template<typename _Tp>
     struct is_final
-    : public __bool_constant<__is_final(_Tp)>
+    : public integral_constant<bool, __is_final(_Tp)>
     { };
 
 
 
   template<typename _Tp>
     struct is_abstract
-    : public __bool_constant<__is_abstract(_Tp)>
+    : public integral_constant<bool, __is_abstract(_Tp)>
     { };
 
 
@@ -3519,7 +2762,7 @@ namespace std
 
   template<typename _Tp>
     struct __is_signed_helper<_Tp, true>
-    : public __bool_constant<_Tp(-1) < _Tp(0)>
+    : public integral_constant<bool, _Tp(-1) < _Tp(0)>
     { };
 
 
@@ -3571,7 +2814,7 @@ namespace std
     struct __is_array_unknown_bounds<_Tp[]>
     : public true_type
     { };
-# 1006 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 936 "/usr/include/c++/13/type_traits" 3
   struct __do_is_destructible_impl
   {
     template<typename _Tp, typename = decltype(declval<_Tp&>().~_Tp())>
@@ -3585,7 +2828,7 @@ namespace std
     struct __is_destructible_impl
     : public __do_is_destructible_impl
     {
-      using type = decltype(__test<_Tp>(0));
+      typedef decltype(__test<_Tp>(0)) type;
     };
 
   template<typename _Tp,
@@ -3639,7 +2882,7 @@ namespace std
     struct __is_nt_destructible_impl
     : public __do_is_nt_destructible_impl
     {
-      using type = decltype(__test<_Tp>(0));
+      typedef decltype(__test<_Tp>(0)) type;
     };
 
   template<typename _Tp,
@@ -3874,7 +3117,7 @@ namespace std
       static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
  "template argument must be a complete class or an unbounded array");
     };
-# 1319 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+
   struct __do_is_implicitly_default_constructible_impl
   {
     template <typename _Tp>
@@ -3891,7 +3134,7 @@ namespace std
     struct __is_implicitly_default_constructible_impl
     : public __do_is_implicitly_default_constructible_impl
     {
-      using type = decltype(__test(declval<_Tp>()));
+      typedef decltype(__test(declval<_Tp>())) type;
     };
 
   template<typename _Tp>
@@ -3904,7 +3147,6 @@ namespace std
     : public __and_<__is_constructible_impl<_Tp>,
       __is_implicitly_default_constructible_safe<_Tp>>::type
     { };
-
 
 
   template<typename _Tp>
@@ -3973,7 +3215,7 @@ namespace std
 
   template<typename _Tp>
     struct has_virtual_destructor
-    : public __bool_constant<__has_virtual_destructor(_Tp)>
+    : public integral_constant<bool, __has_virtual_destructor(_Tp)>
     {
       static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
  "template argument must be a complete class or an unbounded array");
@@ -4029,15 +3271,18 @@ namespace std
 
 
 
-
   template<typename _Tp, typename _Up>
     struct is_same
-    : public __bool_constant<__is_same(_Tp, _Up)>
+
+    : public integral_constant<bool, __is_same(_Tp, _Up)>
+
+
+
     { };
-# 1491 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 1409 "/usr/include/c++/13/type_traits" 3
   template<typename _Base, typename _Derived>
     struct is_base_of
-    : public __bool_constant<__is_base_of(_Base, _Derived)>
+    : public integral_constant<bool, __is_base_of(_Base, _Derived)>
     { };
 
 
@@ -4045,34 +3290,34 @@ namespace std
     struct is_convertible
     : public __bool_constant<__is_convertible(_From, _To)>
     { };
-# 1540 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 1458 "/usr/include/c++/13/type_traits" 3
   template<typename _ToElementType, typename _FromElementType>
     using __is_array_convertible
       = is_convertible<_FromElementType(*)[], _ToElementType(*)[]>;
-# 1603 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 1522 "/usr/include/c++/13/type_traits" 3
   template<typename _Tp>
     struct remove_const
-    { using type = _Tp; };
+    { typedef _Tp type; };
 
   template<typename _Tp>
     struct remove_const<_Tp const>
-    { using type = _Tp; };
+    { typedef _Tp type; };
 
 
   template<typename _Tp>
     struct remove_volatile
-    { using type = _Tp; };
+    { typedef _Tp type; };
 
   template<typename _Tp>
     struct remove_volatile<_Tp volatile>
-    { using type = _Tp; };
+    { typedef _Tp type; };
 
 
 
   template<typename _Tp>
     struct remove_cv
     { using type = __remove_cv(_Tp); };
-# 1644 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 1563 "/usr/include/c++/13/type_traits" 3
   template<typename _Tp>
     struct add_const
     { using type = _Tp const; };
@@ -4086,6 +3331,9 @@ namespace std
   template<typename _Tp>
     struct add_cv
     { using type = _Tp const volatile; };
+
+
+
 
 
 
@@ -4120,7 +3368,7 @@ namespace std
   template<typename _Tp>
     struct remove_reference
     { using type = __remove_reference(_Tp); };
-# 1706 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 1628 "/usr/include/c++/13/type_traits" 3
   template<typename _Tp>
     struct add_lvalue_reference
     { using type = __add_lval_ref_t<_Tp>; };
@@ -4154,69 +3402,69 @@ namespace std
 
   template<typename _Unqualified>
     struct __cv_selector<_Unqualified, false, false>
-    { using __type = _Unqualified; };
+    { typedef _Unqualified __type; };
 
   template<typename _Unqualified>
     struct __cv_selector<_Unqualified, false, true>
-    { using __type = volatile _Unqualified; };
+    { typedef volatile _Unqualified __type; };
 
   template<typename _Unqualified>
     struct __cv_selector<_Unqualified, true, false>
-    { using __type = const _Unqualified; };
+    { typedef const _Unqualified __type; };
 
   template<typename _Unqualified>
     struct __cv_selector<_Unqualified, true, true>
-    { using __type = const volatile _Unqualified; };
+    { typedef const volatile _Unqualified __type; };
 
   template<typename _Qualified, typename _Unqualified,
     bool _IsConst = is_const<_Qualified>::value,
     bool _IsVol = is_volatile<_Qualified>::value>
     class __match_cv_qualifiers
     {
-      using __match = __cv_selector<_Unqualified, _IsConst, _IsVol>;
+      typedef __cv_selector<_Unqualified, _IsConst, _IsVol> __match;
 
     public:
-      using __type = typename __match::__type;
+      typedef typename __match::__type __type;
     };
 
 
   template<typename _Tp>
     struct __make_unsigned
-    { using __type = _Tp; };
+    { typedef _Tp __type; };
 
   template<>
     struct __make_unsigned<char>
-    { using __type = unsigned char; };
+    { typedef unsigned char __type; };
 
   template<>
     struct __make_unsigned<signed char>
-    { using __type = unsigned char; };
+    { typedef unsigned char __type; };
 
   template<>
     struct __make_unsigned<short>
-    { using __type = unsigned short; };
+    { typedef unsigned short __type; };
 
   template<>
     struct __make_unsigned<int>
-    { using __type = unsigned int; };
+    { typedef unsigned int __type; };
 
   template<>
     struct __make_unsigned<long>
-    { using __type = unsigned long; };
+    { typedef unsigned long __type; };
 
   template<>
     struct __make_unsigned<long long>
-    { using __type = unsigned long long; };
+    { typedef unsigned long long __type; };
 
 
   __extension__
   template<>
     struct __make_unsigned<__int128>
-    { using __type = unsigned __int128; };
-# 1819 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+    { typedef unsigned __int128 __type; };
+# 1741 "/usr/include/c++/13/type_traits" 3
   template<typename _Tp,
     bool _IsInt = is_integral<_Tp>::value,
-    bool _IsEnum = __is_enum(_Tp)>
+    bool _IsEnum = is_enum<_Tp>::value>
     class __make_unsigned_selector;
 
   template<typename _Tp>
@@ -4278,7 +3526,7 @@ namespace std
       using __type
  = typename __make_unsigned_selector<wchar_t, false, true>::__type;
     };
-# 1893 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 1815 "/usr/include/c++/13/type_traits" 3
   template<>
     struct __make_unsigned<char16_t>
     {
@@ -4300,7 +3548,7 @@ namespace std
 
   template<typename _Tp>
     struct make_unsigned
-    { using type = typename __make_unsigned_selector<_Tp>::__type; };
+    { typedef typename __make_unsigned_selector<_Tp>::__type type; };
 
 
   template<> struct make_unsigned<bool>;
@@ -4313,41 +3561,41 @@ namespace std
 
   template<typename _Tp>
     struct __make_signed
-    { using __type = _Tp; };
+    { typedef _Tp __type; };
 
   template<>
     struct __make_signed<char>
-    { using __type = signed char; };
+    { typedef signed char __type; };
 
   template<>
     struct __make_signed<unsigned char>
-    { using __type = signed char; };
+    { typedef signed char __type; };
 
   template<>
     struct __make_signed<unsigned short>
-    { using __type = signed short; };
+    { typedef signed short __type; };
 
   template<>
     struct __make_signed<unsigned int>
-    { using __type = signed int; };
+    { typedef signed int __type; };
 
   template<>
     struct __make_signed<unsigned long>
-    { using __type = signed long; };
+    { typedef signed long __type; };
 
   template<>
     struct __make_signed<unsigned long long>
-    { using __type = signed long long; };
+    { typedef signed long long __type; };
 
 
   __extension__
   template<>
     struct __make_signed<unsigned __int128>
-    { using __type = __int128; };
-# 1979 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+    { typedef __int128 __type; };
+# 1901 "/usr/include/c++/13/type_traits" 3
   template<typename _Tp,
     bool _IsInt = is_integral<_Tp>::value,
-    bool _IsEnum = __is_enum(_Tp)>
+    bool _IsEnum = is_enum<_Tp>::value>
     class __make_signed_selector;
 
   template<typename _Tp>
@@ -4365,10 +3613,10 @@ namespace std
   template<typename _Tp>
     class __make_signed_selector<_Tp, false, true>
     {
-      using __unsigned_type = typename __make_unsigned_selector<_Tp>::__type;
+      typedef typename __make_unsigned_selector<_Tp>::__type __unsigned_type;
 
     public:
-      using __type = typename __make_signed_selector<__unsigned_type>::__type;
+      typedef typename __make_signed_selector<__unsigned_type>::__type __type;
     };
 
 
@@ -4381,7 +3629,7 @@ namespace std
       using __type
  = typename __make_signed_selector<wchar_t, false, true>::__type;
     };
-# 2025 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 1947 "/usr/include/c++/13/type_traits" 3
   template<>
     struct __make_signed<char16_t>
     {
@@ -4403,7 +3651,7 @@ namespace std
 
   template<typename _Tp>
     struct make_signed
-    { using type = typename __make_signed_selector<_Tp>::__type; };
+    { typedef typename __make_signed_selector<_Tp>::__type type; };
 
 
   template<> struct make_signed<bool>;
@@ -4426,28 +3674,28 @@ namespace std
 
   template<typename _Tp>
     struct remove_extent
-    { using type = _Tp; };
+    { typedef _Tp type; };
 
   template<typename _Tp, std::size_t _Size>
     struct remove_extent<_Tp[_Size]>
-    { using type = _Tp; };
+    { typedef _Tp type; };
 
   template<typename _Tp>
     struct remove_extent<_Tp[]>
-    { using type = _Tp; };
+    { typedef _Tp type; };
 
 
   template<typename _Tp>
     struct remove_all_extents
-    { using type = _Tp; };
+    { typedef _Tp type; };
 
   template<typename _Tp, std::size_t _Size>
     struct remove_all_extents<_Tp[_Size]>
-    { using type = typename remove_all_extents<_Tp>::type; };
+    { typedef typename remove_all_extents<_Tp>::type type; };
 
   template<typename _Tp>
     struct remove_all_extents<_Tp[]>
-    { using type = typename remove_all_extents<_Tp>::type; };
+    { typedef typename remove_all_extents<_Tp>::type type; };
 
 
 
@@ -4461,12 +3709,20 @@ namespace std
 
 
 
+  template<typename _Tp, typename>
+    struct __remove_pointer_helper
+    { typedef _Tp type; };
+
+  template<typename _Tp, typename _Up>
+    struct __remove_pointer_helper<_Tp, _Up*>
+    { typedef _Up type; };
 
 
   template<typename _Tp>
     struct remove_pointer
-    { using type = __remove_pointer(_Tp); };
-# 2124 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+    : public __remove_pointer_helper<_Tp, __remove_cv_t<_Tp>>
+    { };
+
   template<typename _Tp, typename = void>
     struct __add_pointer_helper
     { using type = _Tp; };
@@ -4508,7 +3764,7 @@ namespace std
  struct __attribute__((__aligned__)) { } __align;
       };
     };
-# 2179 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 2095 "/usr/include/c++/13/type_traits" 3
   template<std::size_t _Len, std::size_t _Align =
     __alignof__(typename __aligned_storage_msa<_Len>::__type)>
     struct
@@ -4542,7 +3798,7 @@ namespace std
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
-# 2225 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 2141 "/usr/include/c++/13/type_traits" 3
   template <size_t _Len, typename... _Types>
     struct
    
@@ -4558,7 +3814,7 @@ namespace std
 
       static const size_t alignment_value = __strictest::_S_alignment;
 
-      using type = typename aligned_storage<_S_len, alignment_value>::type;
+      typedef typename aligned_storage<_S_len, alignment_value>::type type;
     };
 
   template <size_t _Len, typename... _Types>
@@ -4605,13 +3861,13 @@ namespace std
   template<typename _Tp>
     struct __strip_reference_wrapper
     {
-      using __type = _Tp;
+      typedef _Tp __type;
     };
 
   template<typename _Tp>
     struct __strip_reference_wrapper<reference_wrapper<_Tp> >
     {
-      using __type = _Tp&;
+      typedef _Tp& __type;
     };
 
 
@@ -4638,20 +3894,20 @@ namespace std
 
   template<bool _Cond, typename _Iftrue, typename _Iffalse>
     struct conditional
-    { using type = _Iftrue; };
+    { typedef _Iftrue type; };
 
 
   template<typename _Iftrue, typename _Iffalse>
     struct conditional<false, _Iftrue, _Iffalse>
-    { using type = _Iffalse; };
+    { typedef _Iffalse type; };
 
 
   template<typename... _Tp>
     struct common_type;
-# 2340 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 2256 "/usr/include/c++/13/type_traits" 3
   template<typename _Tp>
     struct __success_type
-    { using type = _Tp; };
+    { typedef _Tp type; };
 
   struct __failure_type
   { };
@@ -4667,7 +3923,7 @@ namespace std
     template<typename _Tp, typename _Up>
       static __success_type<__decay_t<__cond_t<_Tp, _Up>>>
       _S_test(int);
-# 2367 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 2283 "/usr/include/c++/13/type_traits" 3
     template<typename, typename>
       static __failure_type
       _S_test_2(...);
@@ -4741,7 +3997,7 @@ namespace std
     struct __common_type_fold<_CTp, _Rp, void>
     { };
 
-  template<typename _Tp, bool = __is_enum(_Tp)>
+  template<typename _Tp, bool = is_enum<_Tp>::value>
     struct __underlying_type_impl
     {
       using type = __underlying_type(_Tp);
@@ -4785,6 +4041,8 @@ namespace std
 
 
 
+
+
   struct __invoke_memfun_ref { };
   struct __invoke_memfun_deref { };
   struct __invoke_memobj_ref { };
@@ -4812,7 +4070,7 @@ namespace std
     struct __result_of_memfun_ref
     : private __result_of_memfun_ref_impl
     {
-      using type = decltype(_S_test<_MemPtr, _Arg, _Args...>(0));
+      typedef decltype(_S_test<_MemPtr, _Arg, _Args...>(0)) type;
     };
 
 
@@ -4831,7 +4089,7 @@ namespace std
     struct __result_of_memfun_deref
     : private __result_of_memfun_deref_impl
     {
-      using type = decltype(_S_test<_MemPtr, _Arg, _Args...>(0));
+      typedef decltype(_S_test<_MemPtr, _Arg, _Args...>(0)) type;
     };
 
 
@@ -4850,7 +4108,7 @@ namespace std
     struct __result_of_memobj_ref
     : private __result_of_memobj_ref_impl
     {
-      using type = decltype(_S_test<_MemPtr, _Arg>(0));
+      typedef decltype(_S_test<_MemPtr, _Arg>(0)) type;
     };
 
 
@@ -4869,7 +4127,7 @@ namespace std
     struct __result_of_memobj_deref
     : private __result_of_memobj_deref_impl
     {
-      using type = decltype(_S_test<_MemPtr, _Arg>(0));
+      typedef decltype(_S_test<_MemPtr, _Arg>(0)) type;
     };
 
   template<typename _MemPtr, typename _Arg>
@@ -4878,13 +4136,13 @@ namespace std
   template<typename _Res, typename _Class, typename _Arg>
     struct __result_of_memobj<_Res _Class::*, _Arg>
     {
-      using _Argval = __remove_cvref_t<_Arg>;
-      using _MemPtr = _Res _Class::*;
-      using type = typename __conditional_t<__or_<is_same<_Argval, _Class>,
+      typedef __remove_cvref_t<_Arg> _Argval;
+      typedef _Res _Class::* _MemPtr;
+      typedef typename __conditional_t<__or_<is_same<_Argval, _Class>,
         is_base_of<_Class, _Argval>>::value,
         __result_of_memobj_ref<_MemPtr, _Arg>,
         __result_of_memobj_deref<_MemPtr, _Arg>
-      >::type;
+      >::type type;
     };
 
   template<typename _MemPtr, typename _Arg, typename... _Args>
@@ -4893,12 +4151,12 @@ namespace std
   template<typename _Res, typename _Class, typename _Arg, typename... _Args>
     struct __result_of_memfun<_Res _Class::*, _Arg, _Args...>
     {
-      using _Argval = typename remove_reference<_Arg>::type;
-      using _MemPtr = _Res _Class::*;
-      using type = typename __conditional_t<is_base_of<_Class, _Argval>::value,
+      typedef typename remove_reference<_Arg>::type _Argval;
+      typedef _Res _Class::* _MemPtr;
+      typedef typename __conditional_t<is_base_of<_Class, _Argval>::value,
         __result_of_memfun_ref<_MemPtr, _Arg, _Args...>,
         __result_of_memfun_deref<_MemPtr, _Arg, _Args...>
-      >::type;
+      >::type type;
     };
 
 
@@ -4921,7 +4179,7 @@ namespace std
   template<bool, bool, typename _Functor, typename... _ArgTypes>
     struct __result_of_impl
     {
-      using type = __failure_type;
+      typedef __failure_type type;
     };
 
   template<typename _MemPtr, typename _Arg>
@@ -4952,7 +4210,7 @@ namespace std
     struct __result_of_impl<false, false, _Functor, _ArgTypes...>
     : private __result_of_other_impl
     {
-      using type = decltype(_S_test<_Functor, _ArgTypes...>(0));
+      typedef decltype(_S_test<_Functor, _ArgTypes...>(0)) type;
     };
 
 
@@ -4968,10 +4226,6 @@ namespace std
  _Functor, _ArgTypes...
       >::type
     { };
-
-
-  template<typename _Fn, typename... _Args>
-    using __invoke_result_t = typename __invoke_result<_Fn, _Args...>::type;
 
 
   template<typename _Functor, typename... _ArgTypes>
@@ -5018,8 +4272,9 @@ namespace std
 
 
 
+
   template<typename...> using void_t = void;
-# 2744 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 2659 "/usr/include/c++/13/type_traits" 3
   template<typename _Default, typename _AlwaysVoid,
     template<typename...> class _Op, typename... _Args>
     struct __detector
@@ -5047,7 +4302,7 @@ namespace std
     typename... _Args>
     using __detected_or_t
       = typename __detected_or<_Default, _Op, _Args...>::type;
-# 2786 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 2701 "/usr/include/c++/13/type_traits" 3
   template <typename _Tp>
     struct __is_swappable;
 
@@ -5113,14 +4368,14 @@ namespace std
     struct __is_swappable_impl
     : public __swappable_details::__do_is_swappable_impl
     {
-      using type = decltype(__test<_Tp>(0));
+      typedef decltype(__test<_Tp>(0)) type;
     };
 
   template<typename _Tp>
     struct __is_nothrow_swappable_impl
     : public __swappable_details::__do_is_nothrow_swappable_impl
     {
-      using type = decltype(__test<_Tp>(0));
+      typedef decltype(__test<_Tp>(0)) type;
     };
 
   template<typename _Tp>
@@ -5132,6 +4387,7 @@ namespace std
     struct __is_nothrow_swappable
     : public __is_nothrow_swappable_impl<_Tp>::type
     { };
+
 
 
 
@@ -5202,7 +4458,7 @@ namespace std
     struct __is_swappable_with_impl
     : public __swappable_with_details::__do_is_swappable_with_impl
     {
-      using type = decltype(__test<_Tp, _Up>(0));
+      typedef decltype(__test<_Tp, _Up>(0)) type;
     };
 
 
@@ -5210,14 +4466,14 @@ namespace std
     struct __is_swappable_with_impl<_Tp&, _Tp&>
     : public __swappable_details::__do_is_swappable_impl
     {
-      using type = decltype(__test<_Tp&>(0));
+      typedef decltype(__test<_Tp&>(0)) type;
     };
 
   template<typename _Tp, typename _Up>
     struct __is_nothrow_swappable_with_impl
     : public __swappable_with_details::__do_is_nothrow_swappable_with_impl
     {
-      using type = decltype(__test<_Tp, _Up>(0));
+      typedef decltype(__test<_Tp, _Up>(0)) type;
     };
 
 
@@ -5225,7 +4481,7 @@ namespace std
     struct __is_nothrow_swappable_with_impl<_Tp&, _Tp&>
     : public __swappable_details::__do_is_nothrow_swappable_impl
     {
-      using type = decltype(__test<_Tp&>(0));
+      typedef decltype(__test<_Tp&>(0)) type;
     };
 
 
@@ -5261,7 +4517,7 @@ namespace std
   template<typename _Tp, typename _Up>
     inline constexpr bool is_nothrow_swappable_with_v =
       is_nothrow_swappable_with<_Tp, _Up>::value;
-# 3008 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 2924 "/usr/include/c++/13/type_traits" 3
   template<typename _Result, typename _Ret,
     bool = is_void<_Ret>::value, typename = void>
     struct __is_invocable_impl
@@ -5396,6 +4652,8 @@ namespace std
 
 
 
+
+
   template<typename _Functor, typename... _ArgTypes>
     struct invoke_result
     : public __invoke_result<_Functor, _ArgTypes...>
@@ -5473,7 +4731,7 @@ namespace std
       static_assert(std::__is_complete_or_unbounded(__type_identity<_Ret>{}),
  "_Ret must be a complete class or an unbounded array");
     };
-# 3236 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 3155 "/usr/include/c++/13/type_traits" 3
 template <typename _Tp>
   inline constexpr bool is_void_v = is_void<_Tp>::value;
 template <typename _Tp>
@@ -5483,10 +4741,13 @@ template <typename _Tp>
 template <typename _Tp>
   inline constexpr bool is_floating_point_v = is_floating_point<_Tp>::value;
 
-
 template <typename _Tp>
-  inline constexpr bool is_array_v = __is_array(_Tp);
-# 3257 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+  inline constexpr bool is_array_v = false;
+template <typename _Tp>
+  inline constexpr bool is_array_v<_Tp[]> = true;
+template <typename _Tp, size_t _Num>
+  inline constexpr bool is_array_v<_Tp[_Num]> = true;
+
 template <typename _Tp>
   inline constexpr bool is_pointer_v = is_pointer<_Tp>::value;
 template <typename _Tp>
@@ -5497,74 +4758,42 @@ template <typename _Tp>
   inline constexpr bool is_rvalue_reference_v = false;
 template <typename _Tp>
   inline constexpr bool is_rvalue_reference_v<_Tp&&> = true;
-
-
 template <typename _Tp>
   inline constexpr bool is_member_object_pointer_v =
-    __is_member_object_pointer(_Tp);
-
-
-
-
-
-
-
+    is_member_object_pointer<_Tp>::value;
 template <typename _Tp>
   inline constexpr bool is_member_function_pointer_v =
-    __is_member_function_pointer(_Tp);
-
-
-
-
-
-
+    is_member_function_pointer<_Tp>::value;
 template <typename _Tp>
   inline constexpr bool is_enum_v = __is_enum(_Tp);
 template <typename _Tp>
   inline constexpr bool is_union_v = __is_union(_Tp);
 template <typename _Tp>
   inline constexpr bool is_class_v = __is_class(_Tp);
-
-
-
 template <typename _Tp>
-  inline constexpr bool is_reference_v = __is_reference(_Tp);
-# 3308 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+  inline constexpr bool is_function_v = is_function<_Tp>::value;
+template <typename _Tp>
+  inline constexpr bool is_reference_v = false;
+template <typename _Tp>
+  inline constexpr bool is_reference_v<_Tp&> = true;
+template <typename _Tp>
+  inline constexpr bool is_reference_v<_Tp&&> = true;
 template <typename _Tp>
   inline constexpr bool is_arithmetic_v = is_arithmetic<_Tp>::value;
 template <typename _Tp>
   inline constexpr bool is_fundamental_v = is_fundamental<_Tp>::value;
-
-
 template <typename _Tp>
-  inline constexpr bool is_object_v = __is_object(_Tp);
-
-
-
-
-
+  inline constexpr bool is_object_v = is_object<_Tp>::value;
 template <typename _Tp>
   inline constexpr bool is_scalar_v = is_scalar<_Tp>::value;
 template <typename _Tp>
-  inline constexpr bool is_compound_v = !is_fundamental_v<_Tp>;
-
-
+  inline constexpr bool is_compound_v = is_compound<_Tp>::value;
 template <typename _Tp>
-  inline constexpr bool is_member_pointer_v = __is_member_pointer(_Tp);
-
-
-
-
-
+  inline constexpr bool is_member_pointer_v = is_member_pointer<_Tp>::value;
 template <typename _Tp>
   inline constexpr bool is_const_v = false;
 template <typename _Tp>
   inline constexpr bool is_const_v<const _Tp> = true;
-
-
-template <typename _Tp>
-  inline constexpr bool is_function_v = __is_function(_Tp);
-# 3351 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
 template <typename _Tp>
   inline constexpr bool is_volatile_v = false;
 template <typename _Tp>
@@ -5643,12 +4872,9 @@ template <typename _Tp>
   inline constexpr bool is_trivially_move_assignable_v
     = __is_trivially_assignable(__add_lval_ref_t<_Tp>,
     __add_rval_ref_t<_Tp>);
-# 3446 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
 template <typename _Tp>
   inline constexpr bool is_trivially_destructible_v =
     is_trivially_destructible<_Tp>::value;
-
-
 template <typename _Tp, typename... _Args>
   inline constexpr bool is_nothrow_constructible_v
     = __is_nothrow_constructible(_Tp, _Args...);
@@ -5748,7 +4974,6 @@ template<typename _Ret, typename _Fn, typename... _Args>
     };
 
 
-
   template<typename _Tp>
     inline constexpr bool has_unique_object_representations_v
       = has_unique_object_representations<_Tp>::value;
@@ -5767,16 +4992,15 @@ template<typename _Ret, typename _Fn, typename... _Args>
 
 
 
-
   template<typename _Tp>
     inline constexpr bool is_aggregate_v = __is_aggregate(remove_cv_t<_Tp>);
-# 4002 "C:/msys64/ucrt64/include/c++/14.2.0/type_traits" 3
+# 3833 "/usr/include/c++/13/type_traits" 3
 
 }
-# 38 "C:/msys64/ucrt64/include/c++/14.2.0/bits/move.h" 2 3
+# 38 "/usr/include/c++/13/bits/move.h" 2 3
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -5789,7 +5013,7 @@ namespace std
     inline constexpr _Tp*
     __addressof(_Tp& __r) noexcept
     { return __builtin_addressof(__r); }
-# 67 "C:/msys64/ucrt64/include/c++/14.2.0/bits/move.h" 3
+# 67 "/usr/include/c++/13/bits/move.h" 3
   template<typename _Tp>
     [[__nodiscard__]]
     constexpr _Tp&&
@@ -5811,7 +5035,12 @@ namespace std
    "std::forward must not be used to convert an rvalue to an lvalue");
       return static_cast<_Tp&&>(__t);
     }
-# 123 "C:/msys64/ucrt64/include/c++/14.2.0/bits/move.h" 3
+
+
+
+
+
+
   template<typename _Tp>
     [[__nodiscard__]]
     constexpr typename std::remove_reference<_Tp>::type&&
@@ -5823,14 +5052,14 @@ namespace std
     struct __move_if_noexcept_cond
     : public __and_<__not_<is_nothrow_move_constructible<_Tp>>,
                     is_copy_constructible<_Tp>>::type { };
-# 143 "C:/msys64/ucrt64/include/c++/14.2.0/bits/move.h" 3
+# 114 "/usr/include/c++/13/bits/move.h" 3
   template<typename _Tp>
     [[__nodiscard__]]
     constexpr
     __conditional_t<__move_if_noexcept_cond<_Tp>::value, const _Tp&, _Tp&&>
     move_if_noexcept(_Tp& __x) noexcept
     { return std::move(__x); }
-# 159 "C:/msys64/ucrt64/include/c++/14.2.0/bits/move.h" 3
+# 135 "/usr/include/c++/13/bits/move.h" 3
   template<typename _Tp>
     [[__nodiscard__]]
     inline constexpr _Tp*
@@ -5852,7 +5081,7 @@ namespace std
       __obj = std::forward<_Up>(__new_val);
       return __old_val;
     }
-# 203 "C:/msys64/ucrt64/include/c++/14.2.0/bits/move.h" 3
+# 179 "/usr/include/c++/13/bits/move.h" 3
   template<typename _Tp>
    
     inline
@@ -5897,11 +5126,11 @@ namespace std
 
 
 }
-# 42 "C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_ptr.h" 2 3
-# 50 "C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_ptr.h" 3
+# 42 "/usr/include/c++/13/bits/exception_ptr.h" 2 3
+# 50 "/usr/include/c++/13/bits/exception_ptr.h" 3
 extern "C++" {
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
   class type_info;
 
@@ -5916,7 +5145,7 @@ namespace std
   }
 
   using __exception_ptr::exception_ptr;
-# 75 "C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_ptr.h" 3
+# 75 "/usr/include/c++/13/bits/exception_ptr.h" 3
   exception_ptr current_exception() noexcept;
 
   template<typename _Ex>
@@ -5928,7 +5157,7 @@ namespace std
   namespace __exception_ptr
   {
     using std::rethrow_exception;
-# 97 "C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_ptr.h" 3
+# 97 "/usr/include/c++/13/bits/exception_ptr.h" 3
     class exception_ptr
     {
       void* _M_exception_object;
@@ -5958,7 +5187,7 @@ namespace std
       exception_ptr(exception_ptr&& __o) noexcept
       : _M_exception_object(__o._M_exception_object)
       { __o._M_exception_object = nullptr; }
-# 135 "C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_ptr.h" 3
+# 135 "/usr/include/c++/13/bits/exception_ptr.h" 3
       exception_ptr&
       operator=(const exception_ptr&) noexcept;
 
@@ -5975,7 +5204,7 @@ namespace std
 
       void
       swap(exception_ptr&) noexcept;
-# 162 "C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_ptr.h" 3
+# 162 "/usr/include/c++/13/bits/exception_ptr.h" 3
       explicit operator bool() const noexcept
       { return _M_exception_object; }
 
@@ -6081,20 +5310,20 @@ namespace std
    __cxxabiv1::__cxa_free_exception(__e);
    return current_exception();
  }
-# 277 "C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_ptr.h" 3
+# 277 "/usr/include/c++/13/bits/exception_ptr.h" 3
     }
-# 291 "C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_ptr.h" 3
+# 291 "/usr/include/c++/13/bits/exception_ptr.h" 3
 }
 
 }
-# 167 "C:/msys64/ucrt64/include/c++/14.2.0/exception" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/nested_exception.h" 1 3
-# 40 "C:/msys64/ucrt64/include/c++/14.2.0/bits/nested_exception.h" 3
+# 165 "/usr/include/c++/13/exception" 2 3
+# 1 "/usr/include/c++/13/bits/nested_exception.h" 1 3
+# 40 "/usr/include/c++/13/bits/nested_exception.h" 3
 extern "C++" {
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
-# 59 "C:/msys64/ucrt64/include/c++/14.2.0/bits/nested_exception.h" 3
+# 59 "/usr/include/c++/13/bits/nested_exception.h" 3
   class nested_exception
   {
     exception_ptr _M_ptr;
@@ -6138,7 +5367,7 @@ namespace std
       : _Except(static_cast<_Except&&>(__ex))
       { }
     };
-# 145 "C:/msys64/ucrt64/include/c++/14.2.0/bits/nested_exception.h" 3
+# 145 "/usr/include/c++/13/bits/nested_exception.h" 3
   template<typename _Tp>
     [[noreturn]]
     inline void
@@ -6162,7 +5391,7 @@ namespace std
 
 
     }
-# 203 "C:/msys64/ucrt64/include/c++/14.2.0/bits/nested_exception.h" 3
+# 203 "/usr/include/c++/13/bits/nested_exception.h" 3
   template<typename _Ex>
 
 
@@ -6171,7 +5400,7 @@ namespace std
     rethrow_if_nested(const _Ex& __ex)
     {
       const _Ex* __ptr = __builtin_addressof(__ex);
-# 223 "C:/msys64/ucrt64/include/c++/14.2.0/bits/nested_exception.h" 3
+# 223 "/usr/include/c++/13/bits/nested_exception.h" 3
       if constexpr (!is_polymorphic_v<_Ex>)
  return;
       else if constexpr (is_base_of_v<nested_exception, _Ex>
@@ -6190,30 +5419,30 @@ namespace std
 }
 
 }
-# 168 "C:/msys64/ucrt64/include/c++/14.2.0/exception" 2 3
-# 42 "C:/msys64/ucrt64/include/c++/14.2.0/ios" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/char_traits.h" 1 3
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/bits/char_traits.h" 3
+# 166 "/usr/include/c++/13/exception" 2 3
+# 42 "/usr/include/c++/13/ios" 2 3
+# 1 "/usr/include/c++/13/bits/char_traits.h" 1 3
+# 37 "/usr/include/c++/13/bits/char_traits.h" 3
        
-# 38 "C:/msys64/ucrt64/include/c++/14.2.0/bits/char_traits.h" 3
-# 46 "C:/msys64/ucrt64/include/c++/14.2.0/bits/char_traits.h" 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/cwchar" 1 3
-# 39 "C:/msys64/ucrt64/include/c++/14.2.0/cwchar" 3
+# 38 "/usr/include/c++/13/bits/char_traits.h" 3
+# 46 "/usr/include/c++/13/bits/char_traits.h" 3
+# 1 "/usr/include/c++/13/cwchar" 1 3
+# 39 "/usr/include/c++/13/cwchar" 3
        
-# 40 "C:/msys64/ucrt64/include/c++/14.2.0/cwchar" 3
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/bits/char_traits.h" 2 3
-# 64 "C:/msys64/ucrt64/include/c++/14.2.0/bits/char_traits.h" 3
-namespace __gnu_cxx
+# 40 "/usr/include/c++/13/cwchar" 3
+# 47 "/usr/include/c++/13/bits/char_traits.h" 2 3
+# 64 "/usr/include/c++/13/bits/char_traits.h" 3
+namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 {
 
 
  
-# 68 "C:/msys64/ucrt64/include/c++/14.2.0/bits/char_traits.h" 3
+# 68 "/usr/include/c++/13/bits/char_traits.h" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wstringop-overflow"
 #pragma GCC diagnostic ignored "-Wstringop-overread"
 #pragma GCC diagnostic ignored "-Warray-bounds"
-# 83 "C:/msys64/ucrt64/include/c++/14.2.0/bits/char_traits.h" 3
+# 83 "/usr/include/c++/13/bits/char_traits.h" 3
   template<typename _CharT>
     struct _Char_types
     {
@@ -6224,7 +5453,7 @@ namespace __gnu_cxx
       typedef std::mbstate_t state_type;
 
     };
-# 110 "C:/msys64/ucrt64/include/c++/14.2.0/bits/char_traits.h" 3
+# 110 "/usr/include/c++/13/bits/char_traits.h" 3
   template<typename _CharT>
     struct char_traits
     {
@@ -6342,7 +5571,7 @@ namespace __gnu_cxx
     {
       if (__n == 0)
  return __s1;
-# 246 "C:/msys64/ucrt64/include/c++/14.2.0/bits/char_traits.h" 3
+# 246 "/usr/include/c++/13/bits/char_traits.h" 3
       __builtin_memmove(__s1, __s2, __n * sizeof(char_type));
       return __s1;
     }
@@ -6355,7 +5584,7 @@ namespace __gnu_cxx
     {
       if (__n == 0)
  return __s1;
-# 266 "C:/msys64/ucrt64/include/c++/14.2.0/bits/char_traits.h" 3
+# 266 "/usr/include/c++/13/bits/char_traits.h" 3
       __builtin_memcpy(__s1, __s2, __n * sizeof(char_type));
       return __s1;
     }
@@ -6366,7 +5595,7 @@ namespace __gnu_cxx
     char_traits<_CharT>::
     assign(char_type* __s, std::size_t __n, char_type __a)
     {
-# 285 "C:/msys64/ucrt64/include/c++/14.2.0/bits/char_traits.h" 3
+# 285 "/usr/include/c++/13/bits/char_traits.h" 3
       if constexpr (sizeof(_CharT) == 1 && __is_trivial(_CharT))
  {
    if (__n)
@@ -6387,10 +5616,10 @@ namespace __gnu_cxx
 
 }
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 322 "C:/msys64/ucrt64/include/c++/14.2.0/bits/char_traits.h" 3
+# 330 "/usr/include/c++/13/bits/char_traits.h" 3
   template<typename _CharT>
     struct char_traits : public __gnu_cxx::char_traits<_CharT>
     { };
@@ -6657,20 +5886,20 @@ namespace std
 
       static constexpr int_type
       eof() noexcept
-      { return static_cast<int_type>((wint_t)(0xFFFF)); }
+      { return static_cast<int_type>((0xffffffffu)); }
 
       static constexpr int_type
       not_eof(const int_type& __c) noexcept
       { return eq_int_type(__c, eof()) ? 0 : __c; }
 
   };
-# 732 "C:/msys64/ucrt64/include/c++/14.2.0/bits/char_traits.h" 3
+# 740 "/usr/include/c++/13/bits/char_traits.h" 3
 
 }
 
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -6680,6 +5909,8 @@ namespace std
       typedef char16_t char_type;
 
       typedef short unsigned int int_type;
+
+
 
 
 
@@ -6811,6 +6042,8 @@ namespace std
 
 
 
+
+
       typedef streamoff off_type;
       typedef u32streampos pos_type;
       typedef mbstate_t state_type;
@@ -6923,1104 +6156,451 @@ namespace std
       { return eq_int_type(__c, eof()) ? 0 : __c; }
 
     };
-# 1010 "C:/msys64/ucrt64/include/c++/14.2.0/bits/char_traits.h" 3
+# 1022 "/usr/include/c++/13/bits/char_traits.h" 3
 #pragma GCC diagnostic pop
 
 
 }
-# 43 "C:/msys64/ucrt64/include/c++/14.2.0/ios" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/localefwd.h" 1 3
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/bits/localefwd.h" 3
+# 43 "/usr/include/c++/13/ios" 2 3
+# 1 "/usr/include/c++/13/bits/localefwd.h" 1 3
+# 37 "/usr/include/c++/13/bits/localefwd.h" 3
        
-# 38 "C:/msys64/ucrt64/include/c++/14.2.0/bits/localefwd.h" 3
+# 38 "/usr/include/c++/13/bits/localefwd.h" 3
 
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++locale.h" 1 3
-# 39 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++locale.h" 3
+# 1 "/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h" 1 3
+# 39 "/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h" 3
        
-# 40 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++locale.h" 3
+# 40 "/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h" 3
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/clocale" 1 3
-# 39 "C:/msys64/ucrt64/include/c++/14.2.0/clocale" 3
+# 1 "/usr/include/c++/13/clocale" 1 3
+# 39 "/usr/include/c++/13/clocale" 3
        
-# 40 "C:/msys64/ucrt64/include/c++/14.2.0/clocale" 3
+# 40 "/usr/include/c++/13/clocale" 3
 
 
-# 1 "C:/msys64/ucrt64/include/locale.h" 1 3
-# 12 "C:/msys64/ucrt64/include/locale.h" 3
-# 1 "C:/msys64/ucrt64/include/stdio.h" 1 3
-# 11 "C:/msys64/ucrt64/include/stdio.h" 3
-#pragma pack(push,_CRT_PACKING)
-
-       
-
-       
-
-       
-
-       
-
-
+# 1 "/usr/include/locale.h" 1 3 4
+# 28 "/usr/include/locale.h" 3 4
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h" 1 3 4
+# 29 "/usr/include/locale.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/locale.h" 1 3 4
+# 30 "/usr/include/locale.h" 2 3 4
 
 extern "C" {
-# 101 "C:/msys64/ucrt64/include/stdio.h" 3
-__attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) __acrt_iob_func(unsigned index);
-
-  __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) __iob_func(void);
-# 112 "C:/msys64/ucrt64/include/stdio.h" 3
-  __extension__ typedef long long fpos_t;
-# 156 "C:/msys64/ucrt64/include/stdio.h" 3
-extern
-  __attribute__((__format__(__gnu_scanf__, 2,3))) __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __mingw_sscanf(const char * __restrict__ _Src,const char * __restrict__ _Format,...);
-extern
-  __attribute__((__format__(__gnu_scanf__, 2,0))) __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __mingw_vsscanf (const char * __restrict__ _Str,const char * __restrict__ Format,va_list argp);
-extern
-  __attribute__((__format__(__gnu_scanf__, 1,2))) __attribute__ ((__nonnull__ (1)))
-  int __attribute__((__cdecl__)) __mingw_scanf(const char * __restrict__ _Format,...);
-extern
-  __attribute__((__format__(__gnu_scanf__, 1,0))) __attribute__ ((__nonnull__ (1)))
-  int __attribute__((__cdecl__)) __mingw_vscanf(const char * __restrict__ Format, va_list argp);
-extern
-  __attribute__((__format__(__gnu_scanf__, 2,3))) __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __mingw_fscanf(FILE * __restrict__ _File,const char * __restrict__ _Format,...);
-extern
-  __attribute__((__format__(__gnu_scanf__, 2,0))) __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __mingw_vfscanf (FILE * __restrict__ fp, const char * __restrict__ Format,va_list argp);
-
-extern
-  __attribute__((__format__(__gnu_printf__,3,0))) __attribute__ ((__nonnull__ (3)))
-  int __attribute__((__cdecl__)) __mingw_vsnprintf(char * __restrict__ _DstBuf,size_t _MaxCount,const char * __restrict__ _Format,
-                               va_list _ArgList);
-extern
-  __attribute__((__format__(__gnu_printf__,3,4))) __attribute__ ((__nonnull__ (3)))
-  int __attribute__((__cdecl__)) __mingw_snprintf(char * __restrict__ s, size_t n, const char * __restrict__ format, ...);
-extern
-  __attribute__((__format__(__gnu_printf__,1,2))) __attribute__ ((__nonnull__ (1)))
-  int __attribute__((__cdecl__)) __mingw_printf(const char * __restrict__ , ... ) __attribute__ ((__nothrow__));
-extern
-  __attribute__((__format__(__gnu_printf__,1,0))) __attribute__ ((__nonnull__ (1)))
-  int __attribute__((__cdecl__)) __mingw_vprintf (const char * __restrict__ , va_list) __attribute__ ((__nothrow__));
-extern
-  __attribute__((__format__(__gnu_printf__,2,3))) __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __mingw_fprintf (FILE * __restrict__ , const char * __restrict__ , ...) __attribute__ ((__nothrow__));
-extern
-  __attribute__((__format__(__gnu_printf__,2,0))) __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __mingw_vfprintf (FILE * __restrict__ , const char * __restrict__ , va_list) __attribute__ ((__nothrow__));
-extern
-  __attribute__((__format__(__gnu_printf__,2,3))) __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __mingw_sprintf (char * __restrict__ , const char * __restrict__ , ...) __attribute__ ((__nothrow__));
-extern
-  __attribute__((__format__(__gnu_printf__,2,0))) __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __mingw_vsprintf (char * __restrict__ , const char * __restrict__ , va_list) __attribute__ ((__nothrow__));
-extern
-  __attribute__((__format__(__gnu_printf__,2,3))) __attribute__((nonnull (1,2)))
-  int __attribute__((__cdecl__)) __mingw_asprintf(char ** __restrict__ , const char * __restrict__ , ...) __attribute__ ((__nothrow__));
-extern
-  __attribute__((__format__(__gnu_printf__,2,0))) __attribute__((nonnull (1,2)))
-  int __attribute__((__cdecl__)) __mingw_vasprintf(char ** __restrict__ , const char * __restrict__ , va_list) __attribute__ ((__nothrow__));
-
-extern
-  __attribute__((__format__(__ms_scanf__, 2,3))) __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __ms_sscanf(const char * __restrict__ _Src,const char * __restrict__ _Format,...);
-extern
-  __attribute__((__format__(__ms_scanf__, 1,2))) __attribute__ ((__nonnull__ (1)))
-  int __attribute__((__cdecl__)) __ms_scanf(const char * __restrict__ _Format,...);
-extern
-  __attribute__((__format__(__ms_scanf__, 2,3))) __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __ms_fscanf(FILE * __restrict__ _File,const char * __restrict__ _Format,...);
-
-extern
-  __attribute__((__format__(__ms_printf__, 1,2))) __attribute__ ((__nonnull__ (1)))
-  int __attribute__((__cdecl__)) __ms_printf(const char * __restrict__ , ... ) __attribute__ ((__nothrow__));
-extern
-  __attribute__((__format__(__ms_printf__, 1,0))) __attribute__ ((__nonnull__ (1)))
-  int __attribute__((__cdecl__)) __ms_vprintf (const char * __restrict__ , va_list) __attribute__ ((__nothrow__));
-extern
-  __attribute__((__format__(__ms_printf__, 2,3))) __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __ms_fprintf (FILE * __restrict__ , const char * __restrict__ , ...) __attribute__ ((__nothrow__));
-extern
-  __attribute__((__format__(__ms_printf__, 2,0))) __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __ms_vfprintf (FILE * __restrict__ , const char * __restrict__ , va_list) __attribute__ ((__nothrow__));
-extern
-  __attribute__((__format__(__ms_printf__, 2,3))) __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __ms_sprintf (char * __restrict__ , const char * __restrict__ , ...) __attribute__ ((__nothrow__));
-extern
-  __attribute__((__format__(__ms_printf__, 2,0))) __attribute__ ((__nonnull__ (2)))
-  int __attribute__((__cdecl__)) __ms_vsprintf (char * __restrict__ , const char * __restrict__ , va_list) __attribute__ ((__nothrow__));
-
-
-  int __attribute__((__cdecl__)) __stdio_common_vsprintf(unsigned long long options, char *str, size_t len, const char *format, _locale_t locale, va_list valist);
-  int __attribute__((__cdecl__)) __stdio_common_vfprintf(unsigned long long options, FILE *file, const char *format, _locale_t locale, va_list valist);
-  int __attribute__((__cdecl__)) __stdio_common_vsscanf(unsigned long long options, const char *input, size_t length, const char *format, _locale_t locale, va_list valist);
-  int __attribute__((__cdecl__)) __stdio_common_vfscanf(unsigned long long options, FILE *file, const char *format, _locale_t locale, va_list valist);
-# 275 "C:/msys64/ucrt64/include/stdio.h" 3
-extern "C++" {
-
-
-__attribute__((__format__(__gnu_scanf__, 2,3))) __attribute__ ((__nonnull__ (2)))
-int sscanf(const char *__source, const char *__format, ...)
-__asm__("__mingw_sscanf");
-
-__attribute__((__format__(__gnu_scanf__, 1,2))) __attribute__ ((__nonnull__ (1)))
-int scanf(const char *__format, ...)
-__asm__("__mingw_scanf");
-
-__attribute__((__format__(__gnu_scanf__, 2,3))) __attribute__ ((__nonnull__ (2)))
-int fscanf(FILE *__stream, const char *__format, ...)
-__asm__("__mingw_fscanf");
-
-
-
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wshadow"
-
-
-__attribute__((__format__(__gnu_scanf__, 2,0))) __attribute__ ((__nonnull__ (2)))
-int vsscanf (const char *__source, const char *__format, __builtin_va_list __local_argv)
-__asm__("__mingw_vsscanf");
-
-__attribute__((__format__(__gnu_scanf__, 1,0))) __attribute__ ((__nonnull__ (1)))
-int vscanf(const char *__format, __builtin_va_list __local_argv)
-__asm__("__mingw_vscanf");
-
-__attribute__((__format__(__gnu_scanf__, 2,0))) __attribute__ ((__nonnull__ (2)))
-int vfscanf (FILE *__stream, const char *__format, __builtin_va_list __local_argv)
-__asm__("__mingw_vfscanf");
-
-
-#pragma GCC diagnostic pop
-
-
-
-
-
-__attribute__((__format__(__gnu_printf__,2,3))) __attribute__ ((__nonnull__ (2)))
-int fprintf (FILE *__stream, const char *__format, ...)
-__asm__("__mingw_fprintf");
-
-__attribute__((__format__(__gnu_printf__,1,2))) __attribute__ ((__nonnull__ (1)))
-int printf (const char *__format, ...)
-__asm__("__mingw_printf");
-
-__attribute__((__format__(__gnu_printf__,2,3))) __attribute__ ((__nonnull__ (2)))
-int sprintf (char *__stream, const char *__format, ...)
-__asm__("__mingw_sprintf");
-# 344 "C:/msys64/ucrt64/include/stdio.h" 3
-__attribute__((__format__(__gnu_printf__,2,0))) __attribute__ ((__nonnull__ (2)))
-int vfprintf (FILE *__stream, const char *__format, __builtin_va_list __local_argv)
-__asm__("__mingw_vfprintf");
-
-__attribute__((__format__(__gnu_printf__,1,0))) __attribute__ ((__nonnull__ (1)))
-int vprintf (const char *__format, __builtin_va_list __local_argv)
-__asm__("__mingw_vprintf");
-
-inline __attribute__((__cdecl__))
-__attribute__((__format__(__gnu_printf__,2,0))) __attribute__ ((__nonnull__ (2)))
-int vsprintf (char *__stream, const char *__format, __builtin_va_list __local_argv)
-{
-# 364 "C:/msys64/ucrt64/include/stdio.h" 3
-  return __mingw_vsprintf( __stream, __format, __local_argv );
-}
-
-
-__attribute__((__format__(__gnu_printf__,3,4))) __attribute__ ((__nonnull__ (3)))
-int snprintf (char *__stream, size_t __n, const char *__format, ...)
-__asm__("__mingw_snprintf");
-# 384 "C:/msys64/ucrt64/include/stdio.h" 3
-inline __attribute__((__cdecl__))
-__attribute__((__format__(__gnu_printf__,3,0))) __attribute__ ((__nonnull__ (3)))
-int vsnprintf (char *__stream, size_t __n, const char *__format, __builtin_va_list __local_argv)
+# 51 "/usr/include/locale.h" 3 4
+struct lconv
 {
 
 
-
-  return __mingw_vsnprintf( __stream, __n, __format, __local_argv );
-}
-# 401 "C:/msys64/ucrt64/include/stdio.h" 3
-}
-# 517 "C:/msys64/ucrt64/include/stdio.h" 3
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _filbuf(FILE *_File);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _flsbuf(int _Ch,FILE *_File);
-
-
-
-  __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) _fsopen(const char *_Filename,const char *_Mode,int _ShFlag);
-
-  void __attribute__((__cdecl__)) clearerr(FILE *_File);
-  int __attribute__((__cdecl__)) fclose(FILE *_File);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fcloseall(void);
-
-
-
-  __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) _fdopen(int _FileHandle,const char *_Mode);
-
-  int __attribute__((__cdecl__)) feof(FILE *_File);
-  int __attribute__((__cdecl__)) ferror(FILE *_File);
-  int __attribute__((__cdecl__)) fflush(FILE *_File);
-  int __attribute__((__cdecl__)) fgetc(FILE *_File);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fgetchar(void);
-  int __attribute__((__cdecl__)) fgetpos(FILE * __restrict__ _File ,fpos_t * __restrict__ _Pos);
-  int __attribute__((__cdecl__)) fgetpos64(FILE * __restrict__ _File ,fpos_t * __restrict__ _Pos);
-  char *__attribute__((__cdecl__)) fgets(char * __restrict__ _Buf,int _MaxCount,FILE * __restrict__ _File);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fileno(FILE *_File);
-
-
-
-  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _tempnam(const char *_DirName,const char *_FilePrefix);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _flushall(void);
-  FILE *__attribute__((__cdecl__)) fopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode) ;
-  FILE *fopen64(const char * __restrict__ filename,const char * __restrict__ mode);
-  int __attribute__((__cdecl__)) fputc(int _Ch,FILE *_File);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fputchar(int _Ch);
-  int __attribute__((__cdecl__)) fputs(const char * __restrict__ _Str,FILE * __restrict__ _File);
-  size_t __attribute__((__cdecl__)) fread(void * __restrict__ _DstBuf,size_t _ElementSize,size_t _Count,FILE * __restrict__ _File);
-  FILE *__attribute__((__cdecl__)) freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) ;
-  int __attribute__((__cdecl__)) fsetpos(FILE *_File,const fpos_t *_Pos);
-  int __attribute__((__cdecl__)) fsetpos64(FILE *_File,const fpos_t *_Pos);
-  int __attribute__((__cdecl__)) fseek(FILE *_File,long _Offset,int _Origin);
-  long __attribute__((__cdecl__)) ftell(FILE *_File);
-
-
-
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fseeki64(FILE *_File,long long _Offset,int _Origin);
-  __attribute__ ((__dllimport__)) long long __attribute__((__cdecl__)) _ftelli64(FILE *_File);
-
-  inline __attribute__((__cdecl__)) int fseeko(FILE *_File, _off_t _Offset, int _Origin) {
-    return fseek(_File, _Offset, _Origin);
-  }
-  inline __attribute__((__cdecl__)) int fseeko64(FILE *_File, _off64_t _Offset, int _Origin) {
-    return _fseeki64(_File, _Offset, _Origin);
-  }
-  inline __attribute__((__cdecl__)) _off_t ftello(FILE *_File) {
-    return ftell(_File);
-  }
-  inline __attribute__((__cdecl__)) _off64_t ftello64(FILE *_File) {
-    return _ftelli64(_File);
-  }
-# 597 "C:/msys64/ucrt64/include/stdio.h" 3
-  size_t __attribute__((__cdecl__)) fwrite(const void * __restrict__ _Str,size_t _Size,size_t _Count,FILE * __restrict__ _File);
-  int __attribute__((__cdecl__)) getc(FILE *_File);
-  int __attribute__((__cdecl__)) getchar(void);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _getmaxstdio(void);
-  char *__attribute__((__cdecl__)) gets(char *_Buffer)
-    __attribute__((__warning__("Using gets() is always unsafe - use fgets() instead")));
-  int __attribute__((__cdecl__)) _getw(FILE *_File);
-
-
-  void __attribute__((__cdecl__)) perror(const char *_ErrMsg);
-
-
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _pclose(FILE *_File);
-  __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) _popen(const char *_Command,const char *_Mode);
+  char *decimal_point;
+  char *thousands_sep;
 
 
 
 
 
-  int __attribute__((__cdecl__)) putc(int _Ch,FILE *_File);
-  int __attribute__((__cdecl__)) putchar(int _Ch);
-  int __attribute__((__cdecl__)) puts(const char *_Str);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _putw(int _Word,FILE *_File);
+  char *grouping;
 
 
-  int __attribute__((__cdecl__)) remove(const char *_Filename);
-  int __attribute__((__cdecl__)) rename(const char *_OldFilename,const char *_NewFilename);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _unlink(const char *_Filename);
-
-  int __attribute__((__cdecl__)) unlink(const char *_Filename) ;
 
 
-  void __attribute__((__cdecl__)) rewind(FILE *_File);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _rmtmp(void);
-  void __attribute__((__cdecl__)) setbuf(FILE * __restrict__ _File,char * __restrict__ _Buffer) ;
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _setmaxstdio(int _Max);
-  __attribute__ ((__dllimport__)) unsigned int __attribute__((__cdecl__)) _set_output_format(unsigned int _Format);
-  __attribute__ ((__dllimport__)) unsigned int __attribute__((__cdecl__)) _get_output_format(void);
-  int __attribute__((__cdecl__)) setvbuf(FILE * __restrict__ _File,char * __restrict__ _Buf,int _Mode,size_t _Size);
 
-  __attribute__ ((__pure__))
-  __attribute__((__format__ (__gnu_printf__, 1, 2))) __attribute__ ((__nonnull__ (1)))
-  int __attribute__((__cdecl__)) _scprintf(const char * __restrict__ _Format,...);
-  __attribute__((__format__ (__gnu_scanf__, 3, 4))) __attribute__ ((__nonnull__ (3)))
-  int __attribute__((__cdecl__)) _snscanf(const char * __restrict__ _Src,size_t _MaxCount,const char * __restrict__ _Format,...) ;
+  char *int_curr_symbol;
+  char *currency_symbol;
+  char *mon_decimal_point;
+  char *mon_thousands_sep;
+  char *mon_grouping;
+  char *positive_sign;
+  char *negative_sign;
+  char int_frac_digits;
+  char frac_digits;
+
+  char p_cs_precedes;
+
+  char p_sep_by_space;
+
+  char n_cs_precedes;
+
+  char n_sep_by_space;
 
 
 
 
 
 
-
-  __attribute__ ((__pure__))
-  __attribute__((__format__(__ms_printf__, 1,0))) __attribute__ ((__nonnull__ (1)))
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vscprintf(const char * __restrict__ _Format,va_list _ArgList);
-  FILE *__attribute__((__cdecl__)) tmpfile(void) ;
-  char *__attribute__((__cdecl__)) tmpnam(char *_Buffer);
-  int __attribute__((__cdecl__)) ungetc(int _Ch,FILE *_File);
+  char p_sign_posn;
+  char n_sign_posn;
 
 
-  __attribute__((__format__ (__gnu_printf__, 3, 0))) __attribute__ ((__nonnull__ (3)))
-  int __attribute__((__cdecl__)) _vsnprintf(char * __restrict__ _Dest,size_t _Count,const char * __restrict__ _Format,va_list _Args) ;
-  __attribute__((__format__ (__gnu_printf__, 3, 4))) __attribute__ ((__nonnull__ (3)))
-  int __attribute__((__cdecl__)) _snprintf(char * __restrict__ _Dest,size_t _Count,const char * __restrict__ _Format,...) ;
-# 887 "C:/msys64/ucrt64/include/stdio.h" 3
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _set_printf_count_output(int _Value);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _get_printf_count_output(void);
-# 1357 "C:/msys64/ucrt64/include/stdio.h" 3
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fgetc_nolock(FILE *_File);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fputc_nolock(int _Char, FILE *_File);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _getc_nolock(FILE *_File);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _putc_nolock(int _Char, FILE *_File);
-# 1372 "C:/msys64/ucrt64/include/stdio.h" 3
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _lock_file(FILE *_File);
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _unlock_file(FILE *_File);
+  char int_p_cs_precedes;
 
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fclose_nolock(FILE *_File);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fflush_nolock(FILE *_File);
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _fread_nolock(void * __restrict__ _DstBuf,size_t _ElementSize,size_t _Count,FILE * __restrict__ _File);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fseek_nolock(FILE *_File,long _Offset,int _Origin);
-  __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _ftell_nolock(FILE *_File);
-  __extension__ __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fseeki64_nolock(FILE *_File,long long _Offset,int _Origin);
-  __extension__ __attribute__ ((__dllimport__)) long long __attribute__((__cdecl__)) _ftelli64_nolock(FILE *_File);
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _fwrite_nolock(const void * __restrict__ _DstBuf,size_t _Size,size_t _Count,FILE * __restrict__ _File);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _ungetc_nolock(int _Ch,FILE *_File);
+  char int_p_sep_by_space;
+
+  char int_n_cs_precedes;
+
+  char int_n_sep_by_space;
 
 
 
 
 
 
-  char *__attribute__((__cdecl__)) tempnam(const char *_Directory,const char *_FilePrefix) ;
-  int __attribute__((__cdecl__)) fcloseall(void) ;
-  FILE *__attribute__((__cdecl__)) fdopen(int _FileHandle,const char *_Format) ;
-  int __attribute__((__cdecl__)) fgetchar(void) ;
-  int __attribute__((__cdecl__)) fileno(FILE *_File) ;
-  int __attribute__((__cdecl__)) flushall(void) ;
-  int __attribute__((__cdecl__)) fputchar(int _Ch) ;
-  int __attribute__((__cdecl__)) getw(FILE *_File) ;
-  int __attribute__((__cdecl__)) putw(int _Ch,FILE *_File) ;
-  int __attribute__((__cdecl__)) rmtmp(void) ;
-# 1470 "C:/msys64/ucrt64/include/stdio.h" 3
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _spawnv(int _Mode,const char *_Filename,const char *const *_ArgList);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _spawnve(int _Mode,const char *_Filename,const char *const *_ArgList,const char *const *_Env);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _spawnvp(int _Mode,const char *_Filename,const char *const *_ArgList);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _spawnvpe(int _Mode,const char *_Filename,const char *const *_ArgList,const char *const *_Env);
+  char int_p_sign_posn;
+  char int_n_sign_posn;
+# 118 "/usr/include/locale.h" 3 4
+};
+
+
+
+extern char *setlocale (int __category, const char *__locale) noexcept (true);
+
+
+extern struct lconv *localeconv (void) noexcept (true);
+# 141 "/usr/include/locale.h" 3 4
+extern locale_t newlocale (int __category_mask, const char *__locale,
+      locale_t __base) noexcept (true);
+# 176 "/usr/include/locale.h" 3 4
+extern locale_t duplocale (locale_t __dataset) noexcept (true);
+
+
+
+extern void freelocale (locale_t __dataset) noexcept (true);
+
+
+
+
+
+
+extern locale_t uselocale (locale_t __dataset) noexcept (true);
+
+
+
 
 
 
 
 }
-
-
-       
-       
-       
-       
-
-#pragma pack(pop)
-
-# 1 "C:/msys64/ucrt64/include/sec_api/stdio_s.h" 1 3
-# 9 "C:/msys64/ucrt64/include/sec_api/stdio_s.h" 3
-# 1 "C:/msys64/ucrt64/include/stdio.h" 1 3
-# 10 "C:/msys64/ucrt64/include/sec_api/stdio_s.h" 2 3
-# 21 "C:/msys64/ucrt64/include/sec_api/stdio_s.h" 3
-extern "C" {
-
-
-
-
-
-
-
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) clearerr_s(FILE *_File);
-
-  size_t __attribute__((__cdecl__)) fread_s(void *_DstBuf,size_t _DstSize,size_t _ElementSize,size_t _Count,FILE *_File);
-
-
-  int __attribute__((__cdecl__)) __stdio_common_vsprintf_s(unsigned long long _Options, char *_Str, size_t _Len, const char *_Format, _locale_t _Locale, va_list _ArgList);
-  int __attribute__((__cdecl__)) __stdio_common_vsprintf_p(unsigned long long _Options, char *_Str, size_t _Len, const char *_Format, _locale_t _Locale, va_list _ArgList);
-  int __attribute__((__cdecl__)) __stdio_common_vsnprintf_s(unsigned long long _Options, char *_Str, size_t _Len, size_t _MaxCount, const char *_Format, _locale_t _Locale, va_list _ArgList);
-  int __attribute__((__cdecl__)) __stdio_common_vfprintf_s(unsigned long long _Options, FILE *_File, const char *_Format, _locale_t _Locale, va_list _ArgList);
-  int __attribute__((__cdecl__)) __stdio_common_vfprintf_p(unsigned long long _Options, FILE *_File, const char *_Format, _locale_t _Locale, va_list _ArgList);
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vfscanf_s_l(FILE *_File, const char *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vfscanf(0x0001ULL, _File, _Format, _Locale, _ArgList);
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) vfscanf_s(FILE *_File, const char *_Format, va_list _ArgList)
-  {
-    return _vfscanf_s_l(_File, _Format, __null, _ArgList);
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vscanf_s_l(const char *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return _vfscanf_s_l((__acrt_iob_func(0)), _Format, _Locale, _ArgList);
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) vscanf_s(const char *_Format, va_list _ArgList)
-  {
-    return _vfscanf_s_l((__acrt_iob_func(0)), _Format, __null, _ArgList);
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _fscanf_s_l(FILE *_File, const char *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vfscanf_s_l(_File, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) fscanf_s(FILE *_File, const char *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vfscanf_s_l(_File, _Format, __null, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _scanf_s_l(const char *_Format, _locale_t _Locale ,...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vfscanf_s_l((__acrt_iob_func(0)), _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) scanf_s(const char *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vfscanf_s_l((__acrt_iob_func(0)), _Format, __null, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vfscanf_l(FILE *_File, const char *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vfscanf(0, _File, _Format, _Locale, _ArgList);
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vscanf_l(const char *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return _vfscanf_l((__acrt_iob_func(0)), _Format, _Locale, _ArgList);
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _fscanf_l(FILE *_File, const char *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vfscanf_l(_File, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _scanf_l(const char *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vfscanf_l((__acrt_iob_func(0)), _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vsscanf_s_l(const char *_Src, const char *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vsscanf(0x0001ULL, _Src, (size_t)-1, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) vsscanf_s(const char *_Src, const char *_Format, va_list _ArgList)
-  {
-    return _vsscanf_s_l(_Src, _Format, __null, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _sscanf_s_l(const char *_Src, const char *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vsscanf_s_l(_Src, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) sscanf_s(const char *_Src, const char *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vsscanf_s_l(_Src, _Format, __null, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vsscanf_l(const char *_Src, const char *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vsscanf(0, _Src, (size_t)-1, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _sscanf_l(const char *_Src, const char *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vsscanf_l(_Src, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _snscanf_s_l(const char *_Src, size_t _MaxCount, const char *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = __stdio_common_vsscanf(0x0001ULL, _Src, _MaxCount, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _snscanf_s(const char *_Src, size_t _MaxCount, const char *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = __stdio_common_vsscanf(0x0001ULL, _Src, _MaxCount, _Format, __null, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _snscanf_l(const char *_Src, size_t _MaxCount, const char *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = __stdio_common_vsscanf(0, _Src, _MaxCount, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vfprintf_s_l(FILE *_File, const char *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vfprintf_s((0x0004ULL | 0x0020ULL), _File, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) vfprintf_s(FILE *_File, const char *_Format, va_list _ArgList)
-  {
-    return _vfprintf_s_l(_File, _Format, __null, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vprintf_s_l(const char *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return _vfprintf_s_l((__acrt_iob_func(1)), _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) vprintf_s(const char *_Format, va_list _ArgList)
-  {
-    return _vfprintf_s_l((__acrt_iob_func(1)), _Format, __null, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _fprintf_s_l(FILE *_File, const char *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vfprintf_s_l(_File, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _printf_s_l(const char *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vfprintf_s_l((__acrt_iob_func(1)), _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) fprintf_s(FILE *_File, const char *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vfprintf_s_l(_File, _Format, __null, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) printf_s(const char *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vfprintf_s_l((__acrt_iob_func(1)), _Format, __null, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vsnprintf_c_l(char *_DstBuf, size_t _MaxCount, const char *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vsprintf((0x0004ULL | 0x0020ULL), _DstBuf, _MaxCount, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vsnprintf_c(char *_DstBuf, size_t _MaxCount, const char *_Format, va_list _ArgList)
-  {
-    return _vsnprintf_c_l(_DstBuf, _MaxCount, _Format, __null, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _snprintf_c_l(char *_DstBuf, size_t _MaxCount, const char *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vsnprintf_c_l(_DstBuf, _MaxCount, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _snprintf_c(char *_DstBuf, size_t _MaxCount, const char *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vsnprintf_c_l(_DstBuf, _MaxCount, _Format, __null, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vsnprintf_s_l(char *_DstBuf, size_t _DstSize, size_t _MaxCount, const char *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vsnprintf_s((0x0004ULL | 0x0020ULL), _DstBuf, _DstSize, _MaxCount, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) vsnprintf_s(char *_DstBuf, size_t _DstSize, size_t _MaxCount, const char *_Format, va_list _ArgList)
-  {
-    return _vsnprintf_s_l(_DstBuf, _DstSize, _MaxCount, _Format, __null, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vsnprintf_s(char *_DstBuf, size_t _DstSize, size_t _MaxCount, const char *_Format, va_list _ArgList)
-  {
-    return _vsnprintf_s_l(_DstBuf, _DstSize, _MaxCount, _Format, __null, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _snprintf_s_l(char *_DstBuf, size_t _DstSize, size_t _MaxCount, const char *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vsnprintf_s_l(_DstBuf, _DstSize, _MaxCount, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _snprintf_s(char *_DstBuf, size_t _DstSize, size_t _MaxCount, const char *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vsnprintf_s_l(_DstBuf, _DstSize, _MaxCount, _Format, __null, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vsprintf_s_l(char *_DstBuf, size_t _DstSize, const char *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vsprintf_s((0x0004ULL | 0x0020ULL), _DstBuf, _DstSize, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) vsprintf_s(char *_DstBuf, size_t _Size, const char *_Format, va_list _ArgList)
-  {
-    return _vsprintf_s_l(_DstBuf, _Size, _Format, __null, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _sprintf_s_l(char *_DstBuf, size_t _DstSize, const char *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vsprintf_s_l(_DstBuf, _DstSize, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) sprintf_s(char *_DstBuf, size_t _DstSize, const char *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vsprintf_s_l(_DstBuf, _DstSize, _Format, __null, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vfprintf_p_l(FILE *_File, const char *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vfprintf_p((0x0004ULL | 0x0020ULL), _File, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vfprintf_p(FILE *_File, const char *_Format, va_list _ArgList)
-  {
-    return _vfprintf_p_l(_File, _Format, __null, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vprintf_p_l(const char *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return _vfprintf_p_l((__acrt_iob_func(1)), _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vprintf_p(const char *_Format, va_list _ArgList)
-  {
-    return _vfprintf_p_l((__acrt_iob_func(1)), _Format, __null, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _fprintf_p_l(FILE *_File, const char *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = __stdio_common_vfprintf_p((0x0004ULL | 0x0020ULL), _File, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _fprintf_p(FILE *_File, const char *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vfprintf_p_l(_File, _Format, __null, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _printf_p_l(const char *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vfprintf_p_l((__acrt_iob_func(1)), _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _printf_p(const char *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vfprintf_p_l((__acrt_iob_func(1)), _Format, __null, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vsprintf_p_l(char *_DstBuf, size_t _MaxCount, const char *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vsprintf_p((0x0004ULL | 0x0020ULL), _DstBuf, _MaxCount, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vsprintf_p(char *_Dst, size_t _MaxCount, const char *_Format, va_list _ArgList)
-  {
-    return _vsprintf_p_l(_Dst, _MaxCount, _Format, __null, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _sprintf_p_l(char *_DstBuf, size_t _MaxCount, const char *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vsprintf_p_l(_DstBuf, _MaxCount, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _sprintf_p(char *_Dst, size_t _MaxCount, const char *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vsprintf_p_l(_Dst, _MaxCount, _Format, __null, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vscprintf_p_l(const char *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vsprintf_p(0x0002ULL, __null, 0, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vscprintf_p(const char *_Format, va_list _ArgList)
-  {
-    return _vscprintf_p_l(_Format, __null, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _scprintf_p_l(const char *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vscprintf_p_l(_Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _scprintf_p(const char *_Format, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Format);
-    _Ret = _vscprintf_p_l(_Format, __null, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vfprintf_l(FILE *_File, const char *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vfprintf((0x0004ULL | 0x0020ULL), _File, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vprintf_l(const char *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return _vfprintf_l((__acrt_iob_func(1)), _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _fprintf_l(FILE *_File, const char *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vfprintf_l(_File, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _printf_l(const char *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vfprintf_l((__acrt_iob_func(1)), _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vsnprintf_l(char *_DstBuf, size_t _MaxCount, const char *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vsprintf(0x0001ULL, _DstBuf, _MaxCount, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _snprintf_l(char *_DstBuf, size_t _MaxCount, const char *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vsnprintf_l(_DstBuf, _MaxCount, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vsprintf_l(char *_DstBuf, const char *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return _vsnprintf_l(_DstBuf, (size_t)-1, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _sprintf_l(char *_DstBuf, const char *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vsprintf_l(_DstBuf, _Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _vscprintf_l(const char *_Format, _locale_t _Locale, va_list _ArgList)
-  {
-    return __stdio_common_vsprintf(0x0002ULL, __null, 0, _Format, _Locale, _ArgList);
-  }
-  inline __attribute__((__cdecl__)) int __attribute__((__cdecl__)) _scprintf_l(const char *_Format, _locale_t _Locale, ...)
-  {
-    __builtin_va_list _ArgList;
-    int _Ret;
-    __builtin_va_start(_ArgList, _Locale);
-    _Ret = _vscprintf_l(_Format, _Locale, _ArgList);
-    __builtin_va_end(_ArgList);
-    return _Ret;
-  }
-# 583 "C:/msys64/ucrt64/include/sec_api/stdio_s.h" 3
-  extern "C++" { template <size_t __size> inline int __attribute__((__cdecl__)) vsnprintf_s(char (&_DstBuf)[__size], size_t _MaxCount, const char* _Format, va_list _ArgList) { return vsnprintf_s(_DstBuf,__size,_MaxCount,_Format,_ArgList); } }
-  extern "C++" { template <size_t __size> inline int __attribute__((__cdecl__)) _vsnprintf_s(char (&_DstBuf)[__size], size_t _MaxCount, const char* _Format, va_list _ArgList) { return _vsnprintf_s(_DstBuf,__size,_MaxCount,_Format,_ArgList); } }
-  extern "C++" { template <size_t __size> inline int __attribute__((__cdecl__)) vsprintf_s(char (&_DstBuf)[__size], const char* _Format, va_list _ArgList) { return vsprintf_s(_DstBuf,__size,_Format,_ArgList); } }
-  extern "C++" { template <size_t __size> inline int __attribute__((__cdecl__)) sprintf_s(char (&_DstBuf)[__size], const char* _Format, ...) { va_list __vaargs; __builtin_va_start(__vaargs,_Format); int __retval = vsprintf_s(_DstBuf,__size,_Format,__vaargs); __builtin_va_end(__vaargs); return __retval; } }
-  extern "C++" { template <size_t __size> inline int __attribute__((__cdecl__)) _snprintf_s(char (&_DstBuf)[__size], size_t _MaxCount, const char* _Format, ...) { va_list __vaargs; __builtin_va_start(__vaargs,_Format); int __retval = _vsnprintf_s(_DstBuf,__size,_MaxCount,_Format,__vaargs); __builtin_va_end(__vaargs); return __retval; } }
-
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) fopen_s(FILE **_File,const char *_Filename,const char *_Mode);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) freopen_s(FILE** _File, const char *_Filename, const char *_Mode, FILE *_Stream);
-
-  __attribute__ ((__dllimport__)) char* __attribute__((__cdecl__)) gets_s(char*,rsize_t);
-  extern "C++" { template <size_t __size> inline char* __attribute__((__cdecl__)) get_s(char (&_DstBuf)[__size]) { return get_s(_DstBuf,__size); } }
-
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) tmpfile_s(FILE **_File);
-
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) tmpnam_s(char*,rsize_t);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) tmpnam_s(char (&_DstBuf)[__size]) { return tmpnam_s(_DstBuf,__size); } }
-# 912 "C:/msys64/ucrt64/include/sec_api/stdio_s.h" 3
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _fread_nolock_s(void *_DstBuf,size_t _DstSize,size_t _ElementSize,size_t _Count,FILE *_File);
-
-
-
-}
-# 1489 "C:/msys64/ucrt64/include/stdio.h" 2 3
-# 13 "C:/msys64/ucrt64/include/locale.h" 2 3
-
-
-#pragma pack(push,_CRT_PACKING)
-
-
-extern "C" {
-# 45 "C:/msys64/ucrt64/include/locale.h" 3
-  struct lconv {
-    char *decimal_point;
-    char *thousands_sep;
-    char *grouping;
-    char *int_curr_symbol;
-    char *currency_symbol;
-    char *mon_decimal_point;
-    char *mon_thousands_sep;
-    char *mon_grouping;
-    char *positive_sign;
-    char *negative_sign;
-    char int_frac_digits;
-    char frac_digits;
-    char p_cs_precedes;
-    char p_sep_by_space;
-    char n_cs_precedes;
-    char n_sep_by_space;
-    char p_sign_posn;
-    char n_sign_posn;
-
-    wchar_t* _W_decimal_point;
-    wchar_t* _W_thousands_sep;
-    wchar_t* _W_int_curr_symbol;
-    wchar_t* _W_currency_symbol;
-    wchar_t* _W_mon_decimal_point;
-    wchar_t* _W_mon_thousands_sep;
-    wchar_t* _W_positive_sign;
-    wchar_t* _W_negative_sign;
-
-  };
-# 89 "C:/msys64/ucrt64/include/locale.h" 3
-  int __attribute__((__cdecl__)) _configthreadlocale(int _Flag);
-  char *__attribute__((__cdecl__)) setlocale(int _Category,const char *_Locale);
-  __attribute__ ((__dllimport__)) struct lconv *__attribute__((__cdecl__)) localeconv(void);
-  __attribute__ ((__dllimport__)) _locale_t __attribute__((__cdecl__)) _get_current_locale(void);
-  __attribute__ ((__dllimport__)) _locale_t __attribute__((__cdecl__)) _create_locale(int _Category,const char *_Locale);
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _free_locale(_locale_t _Locale);
-  _locale_t __attribute__((__cdecl__)) __get_current_locale(void);
-  _locale_t __attribute__((__cdecl__)) __create_locale(int _Category,const char *_Locale);
-  void __attribute__((__cdecl__)) __free_locale(_locale_t _Locale);
-
-  __attribute__ ((__dllimport__)) unsigned int __attribute__((__cdecl__)) ___lc_codepage_func(void);
-# 113 "C:/msys64/ucrt64/include/locale.h" 3
-}
-
-
-#pragma pack(pop)
-# 43 "C:/msys64/ucrt64/include/c++/14.2.0/clocale" 2 3
-# 51 "C:/msys64/ucrt64/include/c++/14.2.0/clocale" 3
+# 43 "/usr/include/c++/13/clocale" 2 3
+# 51 "/usr/include/c++/13/clocale" 3
 namespace std
 {
   using ::lconv;
   using ::setlocale;
   using ::localeconv;
 }
-# 42 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++locale.h" 2 3
+# 42 "/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h" 2 3
 
 
 
-namespace std
+
+
+
+namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 {
 
 
-  typedef int* __c_locale;
+  extern "C" __typeof(uselocale) __uselocale;
 
 
+}
 
 
+namespace std __attribute__ ((__visibility__ ("default")))
+{
 
+
+  typedef __locale_t __c_locale;
+# 73 "/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h" 3
   inline int
-  __convert_from_v(const __c_locale&, char* __out,
-     const int __size __attribute__((__unused__)),
+  __convert_from_v(const __c_locale& __cloc __attribute__ ((__unused__)),
+     char* __out,
+     const int __size __attribute__ ((__unused__)),
      const char* __fmt, ...)
   {
-    char* __old = std::setlocale(4, 0);
-    char* __sav = 0;
-    if (__builtin_strcmp(__old, "C"))
-      {
- const size_t __len = __builtin_strlen(__old) + 1;
- __sav = new char[__len];
- __builtin_memcpy(__sav, __old, __len);
- std::setlocale(4, "C");
-      }
 
+    __c_locale __old = __gnu_cxx::__uselocale(__cloc);
+# 93 "/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h" 3
     __builtin_va_list __args;
     __builtin_va_start(__args, __fmt);
 
 
-    const int __ret = __mingw_vsnprintf(__out, __size, __fmt, __args);
+    const int __ret = __builtin_vsnprintf(__out, __size, __fmt, __args);
 
 
 
 
     __builtin_va_end(__args);
 
-    if (__sav)
-      {
- std::setlocale(4, __sav);
- delete [] __sav;
-      }
+
+    __gnu_cxx::__uselocale(__old);
+
+
+
+
+
+
+
     return __ret;
   }
 
 
-}
-# 41 "C:/msys64/ucrt64/include/c++/14.2.0/bits/localefwd.h" 2 3
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/cctype" 1 3
-# 39 "C:/msys64/ucrt64/include/c++/14.2.0/cctype" 3
+
+
+
+
+}
+# 41 "/usr/include/c++/13/bits/localefwd.h" 2 3
+
+# 1 "/usr/include/c++/13/cctype" 1 3
+# 39 "/usr/include/c++/13/cctype" 3
        
-# 40 "C:/msys64/ucrt64/include/c++/14.2.0/cctype" 3
+# 40 "/usr/include/c++/13/cctype" 3
 
 
-# 1 "C:/msys64/ucrt64/include/ctype.h" 1 3
-# 12 "C:/msys64/ucrt64/include/ctype.h" 3
+# 1 "/usr/include/ctype.h" 1 3 4
+# 26 "/usr/include/ctype.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types.h" 1 3 4
+# 27 "/usr/include/x86_64-linux-gnu/bits/types.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
+# 28 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/timesize.h" 1 3 4
+# 19 "/usr/include/x86_64-linux-gnu/bits/timesize.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
+# 20 "/usr/include/x86_64-linux-gnu/bits/timesize.h" 2 3 4
+# 29 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
+
+
+typedef unsigned char __u_char;
+typedef unsigned short int __u_short;
+typedef unsigned int __u_int;
+typedef unsigned long int __u_long;
+
+
+typedef signed char __int8_t;
+typedef unsigned char __uint8_t;
+typedef signed short int __int16_t;
+typedef unsigned short int __uint16_t;
+typedef signed int __int32_t;
+typedef unsigned int __uint32_t;
+
+typedef signed long int __int64_t;
+typedef unsigned long int __uint64_t;
+
+
+
+
+
+
+typedef __int8_t __int_least8_t;
+typedef __uint8_t __uint_least8_t;
+typedef __int16_t __int_least16_t;
+typedef __uint16_t __uint_least16_t;
+typedef __int32_t __int_least32_t;
+typedef __uint32_t __uint_least32_t;
+typedef __int64_t __int_least64_t;
+typedef __uint64_t __uint_least64_t;
+
+
+
+typedef long int __quad_t;
+typedef unsigned long int __u_quad_t;
+
+
+
+
+
+
+
+typedef long int __intmax_t;
+typedef unsigned long int __uintmax_t;
+# 141 "/usr/include/x86_64-linux-gnu/bits/types.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/typesizes.h" 1 3 4
+# 142 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/time64.h" 1 3 4
+# 143 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
+
+
+typedef unsigned long int __dev_t;
+typedef unsigned int __uid_t;
+typedef unsigned int __gid_t;
+typedef unsigned long int __ino_t;
+typedef unsigned long int __ino64_t;
+typedef unsigned int __mode_t;
+typedef unsigned long int __nlink_t;
+typedef long int __off_t;
+typedef long int __off64_t;
+typedef int __pid_t;
+typedef struct { int __val[2]; } __fsid_t;
+typedef long int __clock_t;
+typedef unsigned long int __rlim_t;
+typedef unsigned long int __rlim64_t;
+typedef unsigned int __id_t;
+typedef long int __time_t;
+typedef unsigned int __useconds_t;
+typedef long int __suseconds_t;
+typedef long int __suseconds64_t;
+
+typedef int __daddr_t;
+typedef int __key_t;
+
+
+typedef int __clockid_t;
+
+
+typedef void * __timer_t;
+
+
+typedef long int __blksize_t;
+
+
+
+
+typedef long int __blkcnt_t;
+typedef long int __blkcnt64_t;
+
+
+typedef unsigned long int __fsblkcnt_t;
+typedef unsigned long int __fsblkcnt64_t;
+
+
+typedef unsigned long int __fsfilcnt_t;
+typedef unsigned long int __fsfilcnt64_t;
+
+
+typedef long int __fsword_t;
+
+typedef long int __ssize_t;
+
+
+typedef long int __syscall_slong_t;
+
+typedef unsigned long int __syscall_ulong_t;
+
+
+
+typedef __off64_t __loff_t;
+typedef char *__caddr_t;
+
+
+typedef long int __intptr_t;
+
+
+typedef unsigned int __socklen_t;
+
+
+
+
+typedef int __sig_atomic_t;
+# 27 "/usr/include/ctype.h" 2 3 4
+
 extern "C" {
-# 52 "C:/msys64/ucrt64/include/ctype.h" 3
-  extern const unsigned char __newclmap[];
-  extern const unsigned char __newcumap[];
-  extern pthreadlocinfo __ptlocinfo;
-  extern pthreadmbcinfo __ptmbcinfo;
-  extern int __globallocalestatus;
-  extern int __locale_changed;
-  extern struct threadlocaleinfostruct __initiallocinfo;
-  extern _locale_tstruct __initiallocalestructinfo;
-  pthreadlocinfo __attribute__((__cdecl__)) __updatetlocinfo(void);
-  pthreadmbcinfo __attribute__((__cdecl__)) __updatetmbcinfo(void);
-# 80 "C:/msys64/ucrt64/include/ctype.h" 3
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isctype(int _C,int _Type);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isctype_l(int _C,int _Type,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) isalpha(int _C);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isalpha_l(int _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) isupper(int _C);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isupper_l(int _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) islower(int _C);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _islower_l(int _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) isdigit(int _C);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isdigit_l(int _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) isxdigit(int _C);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isxdigit_l(int _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) isspace(int _C);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isspace_l(int _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) ispunct(int _C);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _ispunct_l(int _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) isalnum(int _C);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isalnum_l(int _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) isprint(int _C);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isprint_l(int _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) isgraph(int _C);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isgraph_l(int _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) iscntrl(int _C);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _iscntrl_l(int _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) toupper(int _C);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) tolower(int _C);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _tolower(int _C);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _tolower_l(int _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _toupper(int _C);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _toupper_l(int _C,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) __isascii(int _C);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) __toascii(int _C);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) __iscsymf(int _C);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) __iscsym(int _C);
+# 39 "/usr/include/ctype.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/endian.h" 1 3 4
+# 35 "/usr/include/x86_64-linux-gnu/bits/endian.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/endianness.h" 1 3 4
+# 36 "/usr/include/x86_64-linux-gnu/bits/endian.h" 2 3 4
+# 40 "/usr/include/ctype.h" 2 3 4
 
 
-int __attribute__((__cdecl__)) isblank(int _C);
-# 184 "C:/msys64/ucrt64/include/ctype.h" 3
-__attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) ___mb_cur_max_func(void);
-# 269 "C:/msys64/ucrt64/include/ctype.h" 3
+
+
+
+
+enum
+{
+  _ISupper = ((0) < 8 ? ((1 << (0)) << 8) : ((1 << (0)) >> 8)),
+  _ISlower = ((1) < 8 ? ((1 << (1)) << 8) : ((1 << (1)) >> 8)),
+  _ISalpha = ((2) < 8 ? ((1 << (2)) << 8) : ((1 << (2)) >> 8)),
+  _ISdigit = ((3) < 8 ? ((1 << (3)) << 8) : ((1 << (3)) >> 8)),
+  _ISxdigit = ((4) < 8 ? ((1 << (4)) << 8) : ((1 << (4)) >> 8)),
+  _ISspace = ((5) < 8 ? ((1 << (5)) << 8) : ((1 << (5)) >> 8)),
+  _ISprint = ((6) < 8 ? ((1 << (6)) << 8) : ((1 << (6)) >> 8)),
+  _ISgraph = ((7) < 8 ? ((1 << (7)) << 8) : ((1 << (7)) >> 8)),
+  _ISblank = ((8) < 8 ? ((1 << (8)) << 8) : ((1 << (8)) >> 8)),
+  _IScntrl = ((9) < 8 ? ((1 << (9)) << 8) : ((1 << (9)) >> 8)),
+  _ISpunct = ((10) < 8 ? ((1 << (10)) << 8) : ((1 << (10)) >> 8)),
+  _ISalnum = ((11) < 8 ? ((1 << (11)) << 8) : ((1 << (11)) >> 8))
+};
+# 79 "/usr/include/ctype.h" 3 4
+extern const unsigned short int **__ctype_b_loc (void)
+     noexcept (true) __attribute__ ((__const__));
+extern const __int32_t **__ctype_tolower_loc (void)
+     noexcept (true) __attribute__ ((__const__));
+extern const __int32_t **__ctype_toupper_loc (void)
+     noexcept (true) __attribute__ ((__const__));
+# 108 "/usr/include/ctype.h" 3 4
+extern int isalnum (int) noexcept (true);
+extern int isalpha (int) noexcept (true);
+extern int iscntrl (int) noexcept (true);
+extern int isdigit (int) noexcept (true);
+extern int islower (int) noexcept (true);
+extern int isgraph (int) noexcept (true);
+extern int isprint (int) noexcept (true);
+extern int ispunct (int) noexcept (true);
+extern int isspace (int) noexcept (true);
+extern int isupper (int) noexcept (true);
+extern int isxdigit (int) noexcept (true);
+
+
+
+extern int tolower (int __c) noexcept (true);
+
+
+extern int toupper (int __c) noexcept (true);
+
+
+
+
+extern int isblank (int) noexcept (true);
+
+
+
+
+extern int isctype (int __c, int __mask) noexcept (true);
+
+
+
+
+
+
+extern int isascii (int __c) noexcept (true);
+
+
+
+extern int toascii (int __c) noexcept (true);
+
+
+
+extern int _toupper (int) noexcept (true);
+extern int _tolower (int) noexcept (true);
+# 251 "/usr/include/ctype.h" 3 4
+extern int isalnum_l (int, locale_t) noexcept (true);
+extern int isalpha_l (int, locale_t) noexcept (true);
+extern int iscntrl_l (int, locale_t) noexcept (true);
+extern int isdigit_l (int, locale_t) noexcept (true);
+extern int islower_l (int, locale_t) noexcept (true);
+extern int isgraph_l (int, locale_t) noexcept (true);
+extern int isprint_l (int, locale_t) noexcept (true);
+extern int ispunct_l (int, locale_t) noexcept (true);
+extern int isspace_l (int, locale_t) noexcept (true);
+extern int isupper_l (int, locale_t) noexcept (true);
+extern int isxdigit_l (int, locale_t) noexcept (true);
+
+extern int isblank_l (int, locale_t) noexcept (true);
+
+
+
+extern int __tolower_l (int __c, locale_t __l) noexcept (true);
+extern int tolower_l (int __c, locale_t __l) noexcept (true);
+
+
+extern int __toupper_l (int __c, locale_t __l) noexcept (true);
+extern int toupper_l (int __c, locale_t __l) noexcept (true);
+# 327 "/usr/include/ctype.h" 3 4
 }
-# 43 "C:/msys64/ucrt64/include/c++/14.2.0/cctype" 2 3
-# 62 "C:/msys64/ucrt64/include/c++/14.2.0/cctype" 3
+# 43 "/usr/include/c++/13/cctype" 2 3
+# 62 "/usr/include/c++/13/cctype" 3
 namespace std
 {
   using ::isalnum;
@@ -8048,12 +6628,12 @@ namespace std
 {
   using ::isblank;
 }
-# 43 "C:/msys64/ucrt64/include/c++/14.2.0/bits/localefwd.h" 2 3
+# 43 "/usr/include/c++/13/bits/localefwd.h" 2 3
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 55 "C:/msys64/ucrt64/include/c++/14.2.0/bits/localefwd.h" 3
+# 55 "/usr/include/c++/13/bits/localefwd.h" 3
   class locale;
 
   template<typename _Facet>
@@ -8212,723 +6792,1567 @@ namespace __cxx11 {
 
 
 }
-# 44 "C:/msys64/ucrt64/include/c++/14.2.0/ios" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 1 3
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 44 "/usr/include/c++/13/ios" 2 3
+# 1 "/usr/include/c++/13/bits/ios_base.h" 1 3
+# 37 "/usr/include/c++/13/bits/ios_base.h" 3
        
-# 38 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 38 "/usr/include/c++/13/bits/ios_base.h" 3
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/ext/atomicity.h" 1 3
-# 32 "C:/msys64/ucrt64/include/c++/14.2.0/ext/atomicity.h" 3
+# 1 "/usr/include/c++/13/ext/atomicity.h" 1 3
+# 32 "/usr/include/c++/13/ext/atomicity.h" 3
        
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/ext/atomicity.h" 3
+# 33 "/usr/include/c++/13/ext/atomicity.h" 3
 
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr.h" 1 3
-# 30 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr.h" 3
+# 1 "/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h" 1 3
+# 30 "/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h" 3
 #pragma GCC visibility push(default)
-# 157 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr.h" 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr-default.h" 1 3
-# 35 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr-default.h" 3
-# 1 "C:/msys64/ucrt64/include/pthread.h" 1 3
-# 62 "C:/msys64/ucrt64/include/pthread.h" 3
-# 1 "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h" 1 3 4
-# 1 "C:/msys64/ucrt64/include/stddef.h" 1 3 4
-# 2 "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h" 2 3 4
-# 63 "C:/msys64/ucrt64/include/pthread.h" 2 3
-# 1 "C:/msys64/ucrt64/include/errno.h" 1 3
-# 12 "C:/msys64/ucrt64/include/errno.h" 3
-extern "C" {
-# 239 "C:/msys64/ucrt64/include/errno.h" 3
-}
-# 64 "C:/msys64/ucrt64/include/pthread.h" 2 3
-# 1 "C:/msys64/ucrt64/include/sys/types.h" 1 3
-# 62 "C:/msys64/ucrt64/include/sys/types.h" 3
-__extension__
-typedef long long _pid_t;
-
-
-
-
-typedef _pid_t pid_t;
-
-
-
-
-
-typedef unsigned short _mode_t;
-
-
-typedef _mode_t mode_t;
-
-
-
-
-
-
-typedef unsigned int useconds_t;
-
-
-
-
-struct timespec {
-  time_t tv_sec;
-  long tv_nsec;
-};
-
-struct itimerspec {
-  struct timespec it_interval;
-  struct timespec it_value;
-};
-
-
-
-
-
-__extension__
-typedef unsigned long long _sigset_t;
-# 65 "C:/msys64/ucrt64/include/pthread.h" 2 3
-
-# 1 "C:/msys64/ucrt64/include/process.h" 1 3
-# 10 "C:/msys64/ucrt64/include/process.h" 3
-# 1 "C:/msys64/ucrt64/include/corecrt_startup.h" 1 3
-# 13 "C:/msys64/ucrt64/include/corecrt_startup.h" 3
-extern "C" {
-
-
-typedef enum _crt_app_type {
-    _crt_unknown_app,
-    _crt_console_app,
-    _crt_gui_app
-} _crt_app_type;
-
-__attribute__ ((__dllimport__)) _crt_app_type __attribute__((__cdecl__)) _query_app_type(void);
-__attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _set_app_type(_crt_app_type _Type);
-
-typedef enum _crt_argv_mode {
-    _crt_argv_no_arguments,
-    _crt_argv_unexpanded_arguments,
-    _crt_argv_expanded_arguments,
-} _crt_argv_mode;
-
-__attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _configure_narrow_argv(_crt_argv_mode mode);
-__attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _configure_wide_argv(_crt_argv_mode mode);
-
-__attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _initialize_narrow_environment(void);
-__attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _initialize_wide_environment(void);
-
-__attribute__ ((__dllimport__)) char** __attribute__((__cdecl__)) _get_initial_narrow_environment(void);
-__attribute__ ((__dllimport__)) wchar_t** __attribute__((__cdecl__)) _get_initial_wide_environment(void);
-
-__attribute__ ((__dllimport__)) char* __attribute__((__cdecl__)) _get_narrow_winmain_command_line(void);
-__attribute__ ((__dllimport__)) wchar_t* __attribute__((__cdecl__)) _get_wide_winmain_command_line(void);
-
-__attribute__ ((__dllimport__)) char **__attribute__((__cdecl__)) __p__acmdln(void);
-
-
-__attribute__ ((__dllimport__)) wchar_t **__attribute__((__cdecl__)) __p__wcmdln(void);
-
-
-typedef void (__attribute__((__cdecl__)) *_PVFV)(void);
-typedef int (__attribute__((__cdecl__)) *_PIFV)(void);
-typedef void (__attribute__((__cdecl__)) *_PVFI)(int);
-
-__attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _initterm(_PVFV* _First, _PVFV* _Last);
-__attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _initterm_e(_PIFV* _First, _PIFV* _Last);
-
-typedef struct _onexit_table_t {
-    _PVFV* _first;
-    _PVFV* _last;
-    _PVFV* _end;
-} _onexit_table_t;
-
-typedef int (__attribute__((__cdecl__)) *_onexit_t)(void);
-
-__attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _initialize_onexit_table(_onexit_table_t*);
-__attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _register_onexit_function(_onexit_table_t*,_onexit_t);
-__attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _execute_onexit_table(_onexit_table_t*);
-__attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _crt_atexit(_PVFV func);
-__attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _crt_at_quick_exit(_PVFV func);
-
-
-}
-# 11 "C:/msys64/ucrt64/include/process.h" 2 3
-
-
-
-
-
-
-extern "C" {
-# 32 "C:/msys64/ucrt64/include/process.h" 3
-  typedef void (__attribute__((__cdecl__)) *_beginthread_proc_type)(void *);
-  typedef unsigned (__attribute__((__stdcall__)) *_beginthreadex_proc_type)(void *);
-
-  __attribute__ ((__dllimport__)) uintptr_t __attribute__((__cdecl__)) _beginthread(_beginthread_proc_type _StartAddress,unsigned _StackSize,void *_ArgList);
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _endthread(void) __attribute__ ((__noreturn__));
-  __attribute__ ((__dllimport__)) uintptr_t __attribute__((__cdecl__)) _beginthreadex(void *_Security,unsigned _StackSize,_beginthreadex_proc_type _StartAddress,void *_ArgList,unsigned _InitFlag,unsigned *_ThrdAddr);
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _endthreadex(unsigned _Retval) __attribute__ ((__noreturn__));
-
-
-
-  void __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) exit(int _Code) __attribute__ ((__noreturn__));
-  void __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) _exit(int _Code) __attribute__ ((__noreturn__));
-
-  void __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) quick_exit(int _Code) __attribute__ ((__noreturn__));
-
-
-
-
-  void __attribute__((__cdecl__)) _Exit(int) __attribute__ ((__noreturn__));
-
-
-
-
-
-
-       
-
-  void __attribute__((__cdecl__)) __attribute__ ((__noreturn__)) abort(void);
-       
-
-
-
-  typedef void (__attribute__((__stdcall__)) *_tls_callback_type)(void*,unsigned long,void*);
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _register_thread_local_exe_atexit_callback(_tls_callback_type callback);
-
-  void __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) _cexit(void);
-  void __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) _c_exit(void);
-
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _getpid(void);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _cwait(int *_TermStat,intptr_t _ProcHandle,int _Action);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _execl(const char *_Filename,const char *_ArgList,...);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _execle(const char *_Filename,const char *_ArgList,...);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _execlp(const char *_Filename,const char *_ArgList,...);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _execlpe(const char *_Filename,const char *_ArgList,...);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _execv(const char *_Filename,const char *const *_ArgList);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _execve(const char *_Filename,const char *const *_ArgList,const char *const *_Env);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _execvp(const char *_Filename,const char *const *_ArgList);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _execvpe(const char *_Filename,const char *const *_ArgList,const char *const *_Env);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _spawnl(int _Mode,const char *_Filename,const char *_ArgList,...);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _spawnle(int _Mode,const char *_Filename,const char *_ArgList,...);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _spawnlp(int _Mode,const char *_Filename,const char *_ArgList,...);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _spawnlpe(int _Mode,const char *_Filename,const char *_ArgList,...);
-# 95 "C:/msys64/ucrt64/include/process.h" 3
-  int __attribute__((__cdecl__)) system(const char *_Command);
-# 129 "C:/msys64/ucrt64/include/process.h" 3
-  intptr_t __attribute__((__cdecl__)) _loaddll(char *_Filename);
-  int __attribute__((__cdecl__)) _unloaddll(intptr_t _Handle);
-  int (__attribute__((__cdecl__)) *__attribute__((__cdecl__)) _getdllprocaddr(intptr_t _Handle,char *_ProcedureName,intptr_t _Ordinal))(void);
-# 161 "C:/msys64/ucrt64/include/process.h" 3
-  int __attribute__((__cdecl__)) getpid(void) ;
-
-
-
-  intptr_t __attribute__((__cdecl__)) cwait(int *_TermStat,intptr_t _ProcHandle,int _Action) ;
-
-  int __attribute__((__cdecl__)) execl(const char *_Filename,const char *_ArgList,...) ;
-  int __attribute__((__cdecl__)) execle(const char *_Filename,const char *_ArgList,...) ;
-  int __attribute__((__cdecl__)) execlp(const char *_Filename,const char *_ArgList,...) ;
-  int __attribute__((__cdecl__)) execlpe(const char *_Filename,const char *_ArgList,...) ;
-
-
-
-
-
-
-  intptr_t __attribute__((__cdecl__)) spawnl(int,const char *_Filename,const char *_ArgList,...) ;
-  intptr_t __attribute__((__cdecl__)) spawnle(int,const char *_Filename,const char *_ArgList,...) ;
-  intptr_t __attribute__((__cdecl__)) spawnlp(int,const char *_Filename,const char *_ArgList,...) ;
-  intptr_t __attribute__((__cdecl__)) spawnlpe(int,const char *_Filename,const char *_ArgList,...) ;
-
-
-
-
-
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) execv(const char *_Filename,char *const _ArgList[]) ;
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) execve(const char *_Filename,char *const _ArgList[],char *const _Env[]) ;
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) execvp(const char *_Filename,char *const _ArgList[]) ;
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) execvpe(const char *_Filename,char *const _ArgList[],char *const _Env[]) ;
-
-
-
-
-
-
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) spawnv(int,const char *_Filename,char *const _ArgList[]) ;
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) spawnve(int,const char *_Filename,char *const _ArgList[],char *const _Env[]) ;
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) spawnvp(int,const char *_Filename,char *const _ArgList[]) ;
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) spawnvpe(int,const char *_Filename,char *const _ArgList[],char *const _Env[]) ;
-
-
-
-
-}
-# 67 "C:/msys64/ucrt64/include/pthread.h" 2 3
-# 1 "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h" 1 3 4
-# 34 "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h" 3 4
-# 1 "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h" 1 3 4
-
-
-
-
-
-
-# 1 "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h" 1 3 4
-# 210 "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h" 3 4
-# 1 "C:/msys64/ucrt64/include/limits.h" 1 3 4
-# 211 "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h" 2 3 4
-# 8 "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h" 2 3 4
-# 35 "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h" 2 3 4
-# 68 "C:/msys64/ucrt64/include/pthread.h" 2 3
-# 1 "C:/msys64/ucrt64/include/signal.h" 1 3
-# 10 "C:/msys64/ucrt64/include/signal.h" 3
-# 1 "C:/msys64/ucrt64/include/pthread_signal.h" 1 3
-# 11 "C:/msys64/ucrt64/include/signal.h" 2 3
-
-
-extern "C" {
-
-
-
-
-  typedef int sig_atomic_t;
-# 48 "C:/msys64/ucrt64/include/signal.h" 3
-  typedef void (*__p_sig_fn_t)(int);
-# 57 "C:/msys64/ucrt64/include/signal.h" 3
-  extern void **__attribute__((__cdecl__)) __pxcptinfoptrs(void);
-
-
-  __p_sig_fn_t __attribute__((__cdecl__)) signal(int _SigNum,__p_sig_fn_t _Func);
-  int __attribute__((__cdecl__)) raise(int _SigNum);
-
-
-}
-# 69 "C:/msys64/ucrt64/include/pthread.h" 2 3
-# 1 "C:/msys64/ucrt64/include/time.h" 1 3
-# 25 "C:/msys64/ucrt64/include/time.h" 3
-# 1 "C:/msys64/ucrt64/include/sys/timeb.h" 1 3
-# 15 "C:/msys64/ucrt64/include/sys/timeb.h" 3
-#pragma pack(push,_CRT_PACKING)
-
-
-extern "C" {
-# 53 "C:/msys64/ucrt64/include/sys/timeb.h" 3
-  struct __timeb32 {
-    __time32_t time;
-    unsigned short millitm;
-    short timezone;
-    short dstflag;
-  };
-
-
-  struct timeb {
-    time_t time;
-    unsigned short millitm;
-    short timezone;
-    short dstflag;
-  };
-
-
-  struct __timeb64 {
-    __time64_t time;
-    unsigned short millitm;
-    short timezone;
-    short dstflag;
-  };
-
-
-
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _ftime64(struct __timeb64 *_Time);
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _ftime32(struct __timeb32 *_Time);
-# 89 "C:/msys64/ucrt64/include/sys/timeb.h" 3
-struct _timespec32 {
-  __time32_t tv_sec;
-  long tv_nsec;
-};
-
-struct _timespec64 {
-  __time64_t tv_sec;
-  long tv_nsec;
-};
-# 114 "C:/msys64/ucrt64/include/sys/timeb.h" 3
-  void __attribute__((__cdecl__)) ftime (struct timeb *) __asm__("_ftime64");
-
-
-
-
-
-
-}
-
-
-#pragma pack(pop)
-
-# 1 "C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h" 1 3
-# 10 "C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h" 3
-# 1 "C:/msys64/ucrt64/include/sys/timeb.h" 1 3
-# 11 "C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h" 2 3
-
-
-extern "C" {
-
-
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _ftime32_s(struct __timeb32 *_Time);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _ftime64_s(struct __timeb64 *_Time);
-# 26 "C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h" 3
-}
-# 127 "C:/msys64/ucrt64/include/sys/timeb.h" 2 3
-# 26 "C:/msys64/ucrt64/include/time.h" 2 3
-
-#pragma pack(push,_CRT_PACKING)
-
-
-extern "C" {
-# 63 "C:/msys64/ucrt64/include/time.h" 3
-  typedef long clock_t;
-# 119 "C:/msys64/ucrt64/include/time.h" 3
-  __attribute__ ((__dllimport__)) int *__attribute__((__cdecl__)) __daylight(void);
-  __attribute__ ((__dllimport__)) long *__attribute__((__cdecl__)) __dstbias(void);
-  __attribute__ ((__dllimport__)) long *__attribute__((__cdecl__)) __timezone(void);
-  __attribute__ ((__dllimport__)) char **__attribute__((__cdecl__)) __tzname(void);
-# 138 "C:/msys64/ucrt64/include/time.h" 3
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _get_daylight(int *_Daylight);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _get_dstbias(long *_Daylight_savings_bias);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _get_timezone(long *_Timezone);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _get_tzname(size_t *_ReturnValue,char *_Buffer,size_t _SizeInBytes,int _Index);
-  char *__attribute__((__cdecl__)) asctime(const struct tm *_Tm) ;
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) asctime_s (char *_Buf,size_t _SizeInWords,const struct tm *_Tm);
-  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _ctime32(const __time32_t *_Time) ;
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _ctime32_s (char *_Buf,size_t _SizeInBytes,const __time32_t *_Time);
-  clock_t __attribute__((__cdecl__)) clock(void);
-  __attribute__ ((__dllimport__)) double __attribute__((__cdecl__)) _difftime32(__time32_t _Time1,__time32_t _Time2);
-  __attribute__ ((__dllimport__)) struct tm *__attribute__((__cdecl__)) _gmtime32(const __time32_t *_Time) ;
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _gmtime32_s (struct tm *_Tm,const __time32_t *_Time);
-  __attribute__ ((__dllimport__)) struct tm *__attribute__((__cdecl__)) _localtime32(const __time32_t *_Time) ;
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _localtime32_s (struct tm *_Tm,const __time32_t *_Time);
-  size_t __attribute__((__cdecl__)) strftime(char * __restrict__ _Buf,size_t _SizeInBytes,const char * __restrict__ _Format,const struct tm * __restrict__ _Tm) __attribute__((__format__ (gnu_strftime, 3, 0)));
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _strftime_l(char * __restrict__ _Buf,size_t _Max_size,const char * __restrict__ _Format,const struct tm * __restrict__ _Tm,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _strdate(char *_Buffer) ;
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _strdate_s (char *_Buf,size_t _SizeInBytes);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _strdate_s(char (&_Str)[__size]) { return _strdate_s(_Str,__size); } }
-  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _strtime(char *_Buffer) ;
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _strtime_s (char *_Buf ,size_t _SizeInBytes);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _strtime_s(char (&_Str)[__size]) { return _strtime_s(_Str,__size); } }
-  __attribute__ ((__dllimport__)) __time32_t __attribute__((__cdecl__)) _time32(__time32_t *_Time);
-
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _timespec32_get(struct _timespec32 *_Ts, int _Base);
-
-  __attribute__ ((__dllimport__)) __time32_t __attribute__((__cdecl__)) _mktime32(struct tm *_Tm);
-  __attribute__ ((__dllimport__)) __time32_t __attribute__((__cdecl__)) _mkgmtime32(struct tm *_Tm);
-
-
-  void __attribute__((__cdecl__)) tzset(void) ;
-
-
-
-
-
-  void __attribute__((__cdecl__)) _tzset(void);
-
-
-  __attribute__ ((__dllimport__)) double __attribute__((__cdecl__)) _difftime64(__time64_t _Time1,__time64_t _Time2);
-  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _ctime64(const __time64_t *_Time) ;
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _ctime64_s (char *_Buf,size_t _SizeInBytes,const __time64_t *_Time);
-  __attribute__ ((__dllimport__)) struct tm *__attribute__((__cdecl__)) _gmtime64(const __time64_t *_Time) ;
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _gmtime64_s (struct tm *_Tm,const __time64_t *_Time);
-  __attribute__ ((__dllimport__)) struct tm *__attribute__((__cdecl__)) _localtime64(const __time64_t *_Time) ;
-  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _localtime64_s (struct tm *_Tm,const __time64_t *_Time);
-  __attribute__ ((__dllimport__)) __time64_t __attribute__((__cdecl__)) _mktime64(struct tm *_Tm);
-  __attribute__ ((__dllimport__)) __time64_t __attribute__((__cdecl__)) _mkgmtime64(struct tm *_Tm);
-  __attribute__ ((__dllimport__)) __time64_t __attribute__((__cdecl__)) _time64(__time64_t *_Time);
-
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _timespec64_get(struct _timespec64 *_Ts, int _Base);
-
-  unsigned __attribute__((__cdecl__)) _getsystime(struct tm *_Tm);
-  unsigned __attribute__((__cdecl__)) _setsystime(struct tm *_Tm,unsigned _MilliSec);
-# 245 "C:/msys64/ucrt64/include/time.h" 3
-time_t __attribute__((__cdecl__)) time(time_t *_Time) __asm__("_time64");
-
-int __attribute__((__cdecl__)) timespec_get(struct timespec* _Ts, int _Base) __asm__("_timespec64_get");
-
-double __attribute__((__cdecl__)) difftime(time_t _Time1,time_t _Time2) __asm__("_difftime64");
-struct tm *__attribute__((__cdecl__)) localtime(const time_t *_Time) __asm__("_localtime64");
-errno_t __attribute__((__cdecl__)) localtime_s(struct tm *_Tm,const time_t *_Time) __asm__("_localtime64_s");
-struct tm *__attribute__((__cdecl__)) gmtime(const time_t *_Time) __asm__("_gmtime64");
-errno_t __attribute__((__cdecl__)) gmtime_s(struct tm *_Tm, const time_t *_Time) __asm__("_gmtime64_s");
-char *__attribute__((__cdecl__)) ctime(const time_t *_Time) __asm__("_ctime64");
-errno_t __attribute__((__cdecl__)) ctime_s(char *_Buf,size_t _SizeInBytes,const time_t *_Time) __asm__("_ctime64_s");
-time_t __attribute__((__cdecl__)) mktime(struct tm *_Tm) __asm__("_mktime64");
-time_t __attribute__((__cdecl__)) _mkgmtime(struct tm *_Tm) __asm__("_mkgmtime64");
-# 274 "C:/msys64/ucrt64/include/time.h" 3
-  __attribute__ ((__dllimport__)) extern int daylight __attribute__ ((__deprecated__("Only provided for source compatibility; this variable might " "not always be accurate when linking to UCRT.")));
-  __attribute__ ((__dllimport__)) extern long timezone __attribute__ ((__deprecated__("Only provided for source compatibility; this variable might " "not always be accurate when linking to UCRT.")));
-  __attribute__ ((__dllimport__)) extern char *tzname[2] __attribute__ ((__deprecated__("Only provided for source compatibility; this variable might " "not always be accurate when linking to UCRT.")));
-  void __attribute__((__cdecl__)) tzset(void) ;
-
-
-# 1 "C:/msys64/ucrt64/include/_timeval.h" 1 3
-# 10 "C:/msys64/ucrt64/include/_timeval.h" 3
-struct timeval
+# 148 "/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h" 3
+# 1 "/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h" 1 3
+# 35 "/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h" 3
+# 1 "/usr/include/pthread.h" 1 3 4
+# 22 "/usr/include/pthread.h" 3 4
+# 1 "/usr/include/sched.h" 1 3 4
+# 29 "/usr/include/sched.h" 3 4
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h" 1 3 4
+# 30 "/usr/include/sched.h" 2 3 4
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/time_t.h" 1 3 4
+# 10 "/usr/include/x86_64-linux-gnu/bits/types/time_t.h" 3 4
+typedef __time_t time_t;
+# 32 "/usr/include/sched.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h" 1 3 4
+# 11 "/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h" 3 4
+struct timespec
 {
- long tv_sec;
- long tv_usec;
+
+
+
+  __time_t tv_sec;
+
+
+
+
+  __syscall_slong_t tv_nsec;
+# 31 "/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h" 3 4
 };
-# 281 "C:/msys64/ucrt64/include/time.h" 2 3
-
-
-
-struct timezone {
-  int tz_minuteswest;
-  int tz_dsttime;
-};
-
-  extern int __attribute__((__cdecl__)) mingw_gettimeofday (struct timeval *p, struct timezone *z);
-
-
-#pragma pack(pop)
-# 314 "C:/msys64/ucrt64/include/time.h" 3
-}
-# 323 "C:/msys64/ucrt64/include/time.h" 3
-# 1 "C:/msys64/ucrt64/include/pthread_time.h" 1 3
-# 49 "C:/msys64/ucrt64/include/pthread_time.h" 3
-typedef int clockid_t;
-# 78 "C:/msys64/ucrt64/include/pthread_time.h" 3
-extern "C" {
-
-
-
-       
+# 33 "/usr/include/sched.h" 2 3 4
 
 
 
 
 
- int __attribute__((__cdecl__)) nanosleep(const struct timespec *request, struct timespec *remain);
-
- int __attribute__((__cdecl__)) clock_nanosleep(clockid_t clock_id, int flags, const struct timespec *request, struct timespec *remain);
- int __attribute__((__cdecl__)) clock_getres(clockid_t clock_id, struct timespec *res);
- int __attribute__((__cdecl__)) clock_gettime(clockid_t clock_id, struct timespec *tp);
- int __attribute__((__cdecl__)) clock_settime(clockid_t clock_id, const struct timespec *tp);
-
-       
-
-
-}
-# 324 "C:/msys64/ucrt64/include/time.h" 2 3
-# 70 "C:/msys64/ucrt64/include/pthread.h" 2 3
+typedef __pid_t pid_t;
 
 
 
-# 1 "C:/msys64/ucrt64/include/pthread_compat.h" 1 3
-# 74 "C:/msys64/ucrt64/include/pthread.h" 2 3
 
-
-extern "C" {
-# 165 "C:/msys64/ucrt64/include/pthread.h" 3
- void * pthread_timechange_handler_np(void * dummy);
- int pthread_delay_np (const struct timespec *interval);
- int pthread_num_processors_np(void);
- int pthread_set_num_processors_np(int n);
-# 185 "C:/msys64/ucrt64/include/pthread.h" 3
-typedef long pthread_once_t;
-typedef unsigned pthread_mutexattr_t;
-typedef unsigned pthread_key_t;
-typedef void *pthread_barrierattr_t;
-typedef int pthread_condattr_t;
-typedef int pthread_rwlockattr_t;
-# 201 "C:/msys64/ucrt64/include/pthread.h" 3
-typedef uintptr_t pthread_t;
-
-typedef struct _pthread_cleanup _pthread_cleanup;
-struct _pthread_cleanup
+# 1 "/usr/include/x86_64-linux-gnu/bits/sched.h" 1 3 4
+# 80 "/usr/include/x86_64-linux-gnu/bits/sched.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h" 1 3 4
+# 23 "/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h" 3 4
+struct sched_param
 {
-    void (*func)(void *);
-    void *arg;
-    _pthread_cleanup *next;
-};
-# 245 "C:/msys64/ucrt64/include/pthread.h" 3
-struct sched_param {
   int sched_priority;
 };
+# 81 "/usr/include/x86_64-linux-gnu/bits/sched.h" 2 3 4
 
- int sched_yield(void);
- int sched_get_priority_min(int pol);
- int sched_get_priority_max(int pol);
- int sched_getscheduler(pid_t pid);
- int sched_setscheduler(pid_t pid, int pol, const struct sched_param *param);
+extern "C" {
 
 
 
-typedef struct pthread_attr_t pthread_attr_t;
-struct pthread_attr_t
+extern int clone (int (*__fn) (void *__arg), void *__child_stack,
+    int __flags, void *__arg, ...) noexcept (true);
+
+
+extern int unshare (int __flags) noexcept (true);
+
+
+extern int sched_getcpu (void) noexcept (true);
+
+
+extern int getcpu (unsigned int *, unsigned int *) noexcept (true);
+
+
+extern int setns (int __fd, int __nstype) noexcept (true);
+
+
+}
+# 44 "/usr/include/sched.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/cpu-set.h" 1 3 4
+# 32 "/usr/include/x86_64-linux-gnu/bits/cpu-set.h" 3 4
+typedef unsigned long int __cpu_mask;
+
+
+
+
+
+
+typedef struct
 {
-    unsigned p_state;
-    void *stack;
-    size_t s_size;
-    struct sched_param param;
+  __cpu_mask __bits[1024 / (8 * sizeof (__cpu_mask))];
+} cpu_set_t;
+# 115 "/usr/include/x86_64-linux-gnu/bits/cpu-set.h" 3 4
+extern "C" {
+
+extern int __sched_cpucount (size_t __setsize, const cpu_set_t *__setp)
+     noexcept (true);
+extern cpu_set_t *__sched_cpualloc (size_t __count) noexcept (true) ;
+extern void __sched_cpufree (cpu_set_t *__set) noexcept (true);
+
+}
+# 45 "/usr/include/sched.h" 2 3 4
+
+
+
+
+
+
+extern "C" {
+
+
+extern int sched_setparam (__pid_t __pid, const struct sched_param *__param)
+     noexcept (true);
+
+
+extern int sched_getparam (__pid_t __pid, struct sched_param *__param) noexcept (true);
+
+
+extern int sched_setscheduler (__pid_t __pid, int __policy,
+          const struct sched_param *__param) noexcept (true);
+
+
+extern int sched_getscheduler (__pid_t __pid) noexcept (true);
+
+
+extern int sched_yield (void) noexcept (true);
+
+
+extern int sched_get_priority_max (int __algorithm) noexcept (true);
+
+
+extern int sched_get_priority_min (int __algorithm) noexcept (true);
+
+
+
+extern int sched_rr_get_interval (__pid_t __pid, struct timespec *__t) noexcept (true);
+# 130 "/usr/include/sched.h" 3 4
+extern int sched_setaffinity (__pid_t __pid, size_t __cpusetsize,
+         const cpu_set_t *__cpuset) noexcept (true);
+
+
+extern int sched_getaffinity (__pid_t __pid, size_t __cpusetsize,
+         cpu_set_t *__cpuset) noexcept (true);
+
+
+}
+# 23 "/usr/include/pthread.h" 2 3 4
+# 1 "/usr/include/time.h" 1 3 4
+# 29 "/usr/include/time.h" 3 4
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h" 1 3 4
+# 30 "/usr/include/time.h" 2 3 4
+
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/time.h" 1 3 4
+# 73 "/usr/include/x86_64-linux-gnu/bits/time.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/timex.h" 1 3 4
+# 22 "/usr/include/x86_64-linux-gnu/bits/timex.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h" 1 3 4
+
+
+
+
+
+
+
+struct timeval
+{
+
+
+
+
+  __time_t tv_sec;
+  __suseconds_t tv_usec;
+
+};
+# 23 "/usr/include/x86_64-linux-gnu/bits/timex.h" 2 3 4
+
+
+
+struct timex
+{
+# 58 "/usr/include/x86_64-linux-gnu/bits/timex.h" 3 4
+  unsigned int modes;
+  __syscall_slong_t offset;
+  __syscall_slong_t freq;
+  __syscall_slong_t maxerror;
+  __syscall_slong_t esterror;
+  int status;
+  __syscall_slong_t constant;
+  __syscall_slong_t precision;
+  __syscall_slong_t tolerance;
+  struct timeval time;
+  __syscall_slong_t tick;
+  __syscall_slong_t ppsfreq;
+  __syscall_slong_t jitter;
+  int shift;
+  __syscall_slong_t stabil;
+  __syscall_slong_t jitcnt;
+  __syscall_slong_t calcnt;
+  __syscall_slong_t errcnt;
+  __syscall_slong_t stbcnt;
+
+  int tai;
+
+
+  int :32; int :32; int :32; int :32;
+  int :32; int :32; int :32; int :32;
+  int :32; int :32; int :32;
+
+};
+# 74 "/usr/include/x86_64-linux-gnu/bits/time.h" 2 3 4
+
+extern "C" {
+
+
+extern int clock_adjtime (__clockid_t __clock_id, struct timex *__utx) noexcept (true) __attribute__ ((__nonnull__ (2)));
+# 90 "/usr/include/x86_64-linux-gnu/bits/time.h" 3 4
+}
+# 34 "/usr/include/time.h" 2 3 4
+
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/clock_t.h" 1 3 4
+
+
+
+
+
+
+typedef __clock_t clock_t;
+# 38 "/usr/include/time.h" 2 3 4
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h" 1 3 4
+
+
+
+
+
+
+struct tm
+{
+  int tm_sec;
+  int tm_min;
+  int tm_hour;
+  int tm_mday;
+  int tm_mon;
+  int tm_year;
+  int tm_wday;
+  int tm_yday;
+  int tm_isdst;
+
+
+  long int tm_gmtoff;
+  const char *tm_zone;
+
+
+
+
+};
+# 40 "/usr/include/time.h" 2 3 4
+
+
+
+
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h" 1 3 4
+
+
+
+
+
+
+typedef __clockid_t clockid_t;
+# 47 "/usr/include/time.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/timer_t.h" 1 3 4
+
+
+
+
+
+
+typedef __timer_t timer_t;
+# 48 "/usr/include/time.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h" 1 3 4
+
+
+
+
+
+
+
+struct itimerspec
+  {
+    struct timespec it_interval;
+    struct timespec it_value;
+  };
+# 49 "/usr/include/time.h" 2 3 4
+struct sigevent;
+# 68 "/usr/include/time.h" 3 4
+extern "C" {
+
+
+
+extern clock_t clock (void) noexcept (true);
+
+
+
+extern time_t time (time_t *__timer) noexcept (true);
+
+
+extern double difftime (time_t __time1, time_t __time0)
+     noexcept (true) __attribute__ ((__const__));
+
+
+extern time_t mktime (struct tm *__tp) noexcept (true);
+# 100 "/usr/include/time.h" 3 4
+extern size_t strftime (char *__restrict __s, size_t __maxsize,
+   const char *__restrict __format,
+   const struct tm *__restrict __tp)
+   noexcept (true) __attribute__ ((__nonnull__ (1, 3, 4)));
+
+
+
+
+extern char *strptime (const char *__restrict __s,
+         const char *__restrict __fmt, struct tm *__tp)
+     noexcept (true);
+
+
+
+
+
+
+extern size_t strftime_l (char *__restrict __s, size_t __maxsize,
+     const char *__restrict __format,
+     const struct tm *__restrict __tp,
+     locale_t __loc) noexcept (true);
+
+
+
+extern char *strptime_l (const char *__restrict __s,
+    const char *__restrict __fmt, struct tm *__tp,
+    locale_t __loc) noexcept (true);
+
+
+
+
+
+
+extern struct tm *gmtime (const time_t *__timer) noexcept (true);
+
+
+
+extern struct tm *localtime (const time_t *__timer) noexcept (true);
+# 155 "/usr/include/time.h" 3 4
+extern struct tm *gmtime_r (const time_t *__restrict __timer,
+       struct tm *__restrict __tp) noexcept (true);
+
+
+
+extern struct tm *localtime_r (const time_t *__restrict __timer,
+          struct tm *__restrict __tp) noexcept (true);
+# 180 "/usr/include/time.h" 3 4
+extern char *asctime (const struct tm *__tp) noexcept (true);
+
+
+
+extern char *ctime (const time_t *__timer) noexcept (true);
+# 198 "/usr/include/time.h" 3 4
+extern char *asctime_r (const struct tm *__restrict __tp,
+   char *__restrict __buf) noexcept (true);
+
+
+
+extern char *ctime_r (const time_t *__restrict __timer,
+        char *__restrict __buf) noexcept (true);
+# 218 "/usr/include/time.h" 3 4
+extern char *__tzname[2];
+extern int __daylight;
+extern long int __timezone;
+
+
+
+
+extern char *tzname[2];
+
+
+
+extern void tzset (void) noexcept (true);
+
+
+
+extern int daylight;
+extern long int timezone;
+# 247 "/usr/include/time.h" 3 4
+extern time_t timegm (struct tm *__tp) noexcept (true);
+# 264 "/usr/include/time.h" 3 4
+extern time_t timelocal (struct tm *__tp) noexcept (true);
+
+
+
+
+
+
+
+extern int dysize (int __year) noexcept (true) __attribute__ ((__const__));
+# 282 "/usr/include/time.h" 3 4
+extern int nanosleep (const struct timespec *__requested_time,
+        struct timespec *__remaining);
+
+
+extern int clock_getres (clockid_t __clock_id, struct timespec *__res) noexcept (true);
+
+
+extern int clock_gettime (clockid_t __clock_id, struct timespec *__tp)
+     noexcept (true) __attribute__ ((__nonnull__ (2)));
+
+
+extern int clock_settime (clockid_t __clock_id, const struct timespec *__tp)
+     noexcept (true) __attribute__ ((__nonnull__ (2)));
+# 324 "/usr/include/time.h" 3 4
+extern int clock_nanosleep (clockid_t __clock_id, int __flags,
+       const struct timespec *__req,
+       struct timespec *__rem);
+# 339 "/usr/include/time.h" 3 4
+extern int clock_getcpuclockid (pid_t __pid, clockid_t *__clock_id) noexcept (true);
+
+
+
+
+extern int timer_create (clockid_t __clock_id,
+    struct sigevent *__restrict __evp,
+    timer_t *__restrict __timerid) noexcept (true);
+
+
+extern int timer_delete (timer_t __timerid) noexcept (true);
+
+
+
+extern int timer_settime (timer_t __timerid, int __flags,
+     const struct itimerspec *__restrict __value,
+     struct itimerspec *__restrict __ovalue) noexcept (true);
+
+
+extern int timer_gettime (timer_t __timerid, struct itimerspec *__value)
+     noexcept (true);
+# 377 "/usr/include/time.h" 3 4
+extern int timer_getoverrun (timer_t __timerid) noexcept (true);
+
+
+
+
+
+
+extern int timespec_get (struct timespec *__ts, int __base)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+# 400 "/usr/include/time.h" 3 4
+extern int timespec_getres (struct timespec *__ts, int __base)
+     noexcept (true);
+# 426 "/usr/include/time.h" 3 4
+extern int getdate_err;
+# 435 "/usr/include/time.h" 3 4
+extern struct tm *getdate (const char *__string);
+# 449 "/usr/include/time.h" 3 4
+extern int getdate_r (const char *__restrict __string,
+        struct tm *__restrict __resbufp);
+
+
+}
+# 24 "/usr/include/pthread.h" 2 3 4
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h" 1 3 4
+# 23 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 1 3 4
+# 44 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h" 1 3 4
+# 21 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
+# 22 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h" 2 3 4
+# 45 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 2 3 4
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h" 1 3 4
+# 25 "/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h" 3 4
+typedef union
+{
+  __extension__ unsigned long long int __value64;
+  struct
+  {
+    unsigned int __low;
+    unsigned int __high;
+  } __value32;
+} __atomic_wide_counter;
+# 47 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 2 3 4
+
+
+
+
+typedef struct __pthread_internal_list
+{
+  struct __pthread_internal_list *__prev;
+  struct __pthread_internal_list *__next;
+} __pthread_list_t;
+
+typedef struct __pthread_internal_slist
+{
+  struct __pthread_internal_slist *__next;
+} __pthread_slist_t;
+# 76 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/struct_mutex.h" 1 3 4
+# 22 "/usr/include/x86_64-linux-gnu/bits/struct_mutex.h" 3 4
+struct __pthread_mutex_s
+{
+  int __lock;
+  unsigned int __count;
+  int __owner;
+
+  unsigned int __nusers;
+
+
+
+  int __kind;
+
+  short __spins;
+  short __elision;
+  __pthread_list_t __list;
+# 53 "/usr/include/x86_64-linux-gnu/bits/struct_mutex.h" 3 4
+};
+# 77 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 2 3 4
+# 89 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h" 1 3 4
+# 23 "/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h" 3 4
+struct __pthread_rwlock_arch_t
+{
+  unsigned int __readers;
+  unsigned int __writers;
+  unsigned int __wrphase_futex;
+  unsigned int __writers_futex;
+  unsigned int __pad3;
+  unsigned int __pad4;
+
+  int __cur_writer;
+  int __shared;
+  signed char __rwelision;
+
+
+
+
+  unsigned char __pad1[7];
+
+
+  unsigned long int __pad2;
+
+
+  unsigned int __flags;
+# 55 "/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h" 3 4
+};
+# 90 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 2 3 4
+
+
+
+
+struct __pthread_cond_s
+{
+  __atomic_wide_counter __wseq;
+  __atomic_wide_counter __g1_start;
+  unsigned int __g_refs[2] ;
+  unsigned int __g_size[2];
+  unsigned int __g1_orig_size;
+  unsigned int __wrefs;
+  unsigned int __g_signals[2];
 };
 
- int pthread_attr_setschedparam(pthread_attr_t *attr, const struct sched_param *param);
- int pthread_attr_getschedparam(const pthread_attr_t *attr, struct sched_param *param);
- int pthread_getschedparam(pthread_t thread, int *pol, struct sched_param *param);
- int pthread_setschedparam(pthread_t thread, int pol, const struct sched_param *param);
- int pthread_attr_setschedpolicy (pthread_attr_t *attr, int pol);
- int pthread_attr_getschedpolicy (const pthread_attr_t *attr, int *pol);
+typedef unsigned int __tss_t;
+typedef unsigned long int __thrd_t;
+
+typedef struct
+{
+  int __data ;
+} __once_flag;
+# 24 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h" 2 3 4
 
 
-typedef intptr_t pthread_spinlock_t;
-typedef intptr_t pthread_mutex_t;
-typedef intptr_t pthread_cond_t;
-typedef intptr_t pthread_rwlock_t;
-typedef void *pthread_barrier_t;
-# 297 "C:/msys64/ucrt64/include/pthread.h" 3
- extern void (**_pthread_key_dest)(void *);
- int pthread_key_create(pthread_key_t *key, void (* dest)(void *));
- int pthread_key_delete(pthread_key_t key);
- void * pthread_getspecific(pthread_key_t key);
- int pthread_setspecific(pthread_key_t key, const void *value);
 
- pthread_t pthread_self(void);
- int pthread_once(pthread_once_t *o, void (*func)(void));
- void pthread_testcancel(void);
- int pthread_equal(pthread_t t1, pthread_t t2);
- void pthread_tls_init(void);
- void _pthread_cleanup_dest(pthread_t t);
- int pthread_get_concurrency(int *val);
- int pthread_set_concurrency(int val);
- void pthread_exit(void *res);
- void _pthread_invoke_cancel(void);
- int pthread_cancel(pthread_t t);
- int pthread_kill(pthread_t t, int sig);
- unsigned _pthread_get_state(const pthread_attr_t *attr, unsigned flag);
- int _pthread_set_state(pthread_attr_t *attr, unsigned flag, unsigned val);
- int pthread_setcancelstate(int state, int *oldstate);
- int pthread_setcanceltype(int type, int *oldtype);
- unsigned __attribute__((__stdcall__)) pthread_create_wrapper(void *args);
- int pthread_create(pthread_t *th, const pthread_attr_t *attr, void *(* func)(void *), void *arg);
- int pthread_join(pthread_t t, void **res);
- int pthread_detach(pthread_t t);
- int pthread_setname_np(pthread_t thread, const char *name);
- int pthread_getname_np(pthread_t thread, char *name, size_t len);
+typedef unsigned long int pthread_t;
 
 
- int pthread_rwlock_init(pthread_rwlock_t *rwlock_, const pthread_rwlockattr_t *attr);
- int pthread_rwlock_wrlock(pthread_rwlock_t *l);
- int pthread_rwlock_timedwrlock(pthread_rwlock_t *rwlock, const struct timespec *ts);
- int pthread_rwlock_rdlock(pthread_rwlock_t *l);
- int pthread_rwlock_timedrdlock(pthread_rwlock_t *l, const struct timespec *ts);
- int pthread_rwlock_unlock(pthread_rwlock_t *l);
- int pthread_rwlock_tryrdlock(pthread_rwlock_t *l);
- int pthread_rwlock_trywrlock(pthread_rwlock_t *l);
- int pthread_rwlock_destroy (pthread_rwlock_t *l);
 
- int pthread_cond_init(pthread_cond_t *cv, const pthread_condattr_t *a);
- int pthread_cond_destroy(pthread_cond_t *cv);
- int pthread_cond_signal (pthread_cond_t *cv);
- int pthread_cond_broadcast (pthread_cond_t *cv);
- int pthread_cond_wait (pthread_cond_t *cv, pthread_mutex_t *external_mutex);
- int pthread_cond_timedwait(pthread_cond_t *cv, pthread_mutex_t *external_mutex, const struct timespec *t);
- int pthread_cond_timedwait_relative_np(pthread_cond_t *cv, pthread_mutex_t *external_mutex, const struct timespec *t);
 
- int pthread_mutex_lock(pthread_mutex_t *m);
- int pthread_mutex_timedlock(pthread_mutex_t *m, const struct timespec *ts);
- int pthread_mutex_unlock(pthread_mutex_t *m);
- int pthread_mutex_trylock(pthread_mutex_t *m);
- int pthread_mutex_init(pthread_mutex_t *m, const pthread_mutexattr_t *a);
- int pthread_mutex_destroy(pthread_mutex_t *m);
+typedef union
+{
+  char __size[4];
+  int __align;
+} pthread_mutexattr_t;
 
- int pthread_barrier_destroy(pthread_barrier_t *b);
- int pthread_barrier_init(pthread_barrier_t *b, const void *attr, unsigned int count);
- int pthread_barrier_wait(pthread_barrier_t *b);
 
- int pthread_spin_init(pthread_spinlock_t *l, int pshared);
- int pthread_spin_destroy(pthread_spinlock_t *l);
 
- int pthread_spin_lock(pthread_spinlock_t *l);
- int pthread_spin_trylock(pthread_spinlock_t *l);
- int pthread_spin_unlock(pthread_spinlock_t *l);
 
- int pthread_attr_init(pthread_attr_t *attr);
- int pthread_attr_destroy(pthread_attr_t *attr);
- int pthread_attr_setdetachstate(pthread_attr_t *a, int flag);
- int pthread_attr_getdetachstate(const pthread_attr_t *a, int *flag);
- int pthread_attr_setinheritsched(pthread_attr_t *a, int flag);
- int pthread_attr_getinheritsched(const pthread_attr_t *a, int *flag);
- int pthread_attr_setscope(pthread_attr_t *a, int flag);
- int pthread_attr_getscope(const pthread_attr_t *a, int *flag);
- int pthread_attr_getstack(const pthread_attr_t *attr, void **stack, size_t *size);
- int pthread_attr_setstack(pthread_attr_t *attr, void *stack, size_t size);
- int pthread_attr_getstackaddr(const pthread_attr_t *attr, void **stack);
- int pthread_attr_setstackaddr(pthread_attr_t *attr, void *stack);
- int pthread_attr_getstacksize(const pthread_attr_t *attr, size_t *size);
- int pthread_attr_setstacksize(pthread_attr_t *attr, size_t size);
+typedef union
+{
+  char __size[4];
+  int __align;
+} pthread_condattr_t;
 
- int pthread_mutexattr_init(pthread_mutexattr_t *a);
- int pthread_mutexattr_destroy(pthread_mutexattr_t *a);
- int pthread_mutexattr_gettype(const pthread_mutexattr_t *a, int *type);
- int pthread_mutexattr_settype(pthread_mutexattr_t *a, int type);
- int pthread_mutexattr_getpshared(const pthread_mutexattr_t *a, int *type);
- int pthread_mutexattr_setpshared(pthread_mutexattr_t * a, int type);
- int pthread_mutexattr_getprotocol(const pthread_mutexattr_t *a, int *type);
- int pthread_mutexattr_setprotocol(pthread_mutexattr_t *a, int type);
- int pthread_mutexattr_getprioceiling(const pthread_mutexattr_t *a, int * prio);
- int pthread_mutexattr_setprioceiling(pthread_mutexattr_t *a, int prio);
- int pthread_getconcurrency(void);
- int pthread_setconcurrency(int new_level);
 
- int pthread_condattr_destroy(pthread_condattr_t *a);
- int pthread_condattr_init(pthread_condattr_t *a);
- int pthread_condattr_getpshared(const pthread_condattr_t *a, int *s);
- int pthread_condattr_setpshared(pthread_condattr_t *a, int s);
+
+typedef unsigned int pthread_key_t;
+
+
+
+typedef int pthread_once_t;
+
+
+union pthread_attr_t
+{
+  char __size[56];
+  long int __align;
+};
+
+typedef union pthread_attr_t pthread_attr_t;
+
+
+
+
+typedef union
+{
+  struct __pthread_mutex_s __data;
+  char __size[40];
+  long int __align;
+} pthread_mutex_t;
+
+
+typedef union
+{
+  struct __pthread_cond_s __data;
+  char __size[48];
+  __extension__ long long int __align;
+} pthread_cond_t;
 
 
 
 
 
+typedef union
+{
+  struct __pthread_rwlock_arch_t __data;
+  char __size[56];
+  long int __align;
+} pthread_rwlock_t;
 
- int pthread_condattr_getclock (const pthread_condattr_t *attr,
-       clockid_t *clock_id);
- int pthread_condattr_setclock(pthread_condattr_t *attr,
-       clockid_t clock_id);
- int __pthread_clock_nanosleep(clockid_t clock_id, int flags, const struct timespec *rqtp, struct timespec *rmtp);
-
- int pthread_barrierattr_init(void **attr);
- int pthread_barrierattr_destroy(void **attr);
- int pthread_barrierattr_setpshared(void **attr, int s);
- int pthread_barrierattr_getpshared(void **attr, int *s);
+typedef union
+{
+  char __size[8];
+  long int __align;
+} pthread_rwlockattr_t;
 
 
- struct _pthread_cleanup ** pthread_getclean (void);
- void * pthread_gethandle (pthread_t t);
- void * pthread_getevent (void);
 
- unsigned long long _pthread_rel_time_in_ms(const struct timespec *ts);
- unsigned long long _pthread_time_in_ms(void);
- unsigned long long _pthread_time_in_ms_from_timespec(const struct timespec *ts);
- int _pthread_tryjoin (pthread_t t, void **res);
- int pthread_rwlockattr_destroy(pthread_rwlockattr_t *a);
- int pthread_rwlockattr_getpshared(pthread_rwlockattr_t *a, int *s);
- int pthread_rwlockattr_init(pthread_rwlockattr_t *a);
- int pthread_rwlockattr_setpshared(pthread_rwlockattr_t *a, int s);
-# 436 "C:/msys64/ucrt64/include/pthread.h" 3
-# 1 "C:/msys64/ucrt64/include/pthread_unistd.h" 1 3
-# 437 "C:/msys64/ucrt64/include/pthread.h" 2 3
-# 698 "C:/msys64/ucrt64/include/pthread.h" 3
+
+
+typedef volatile int pthread_spinlock_t;
+
+
+
+
+typedef union
+{
+  char __size[32];
+  long int __align;
+} pthread_barrier_t;
+
+typedef union
+{
+  char __size[4];
+  int __align;
+} pthread_barrierattr_t;
+# 27 "/usr/include/pthread.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/setjmp.h" 1 3 4
+# 26 "/usr/include/x86_64-linux-gnu/bits/setjmp.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
+# 27 "/usr/include/x86_64-linux-gnu/bits/setjmp.h" 2 3 4
+
+
+
+
+typedef long int __jmp_buf[8];
+# 28 "/usr/include/pthread.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
+# 29 "/usr/include/pthread.h" 2 3 4
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h" 1 3 4
+
+
+
+
+typedef struct
+{
+  unsigned long int __val[(1024 / (8 * sizeof (unsigned long int)))];
+} __sigset_t;
+# 31 "/usr/include/pthread.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h" 1 3 4
+# 26 "/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h" 3 4
+struct __jmp_buf_tag
+  {
+
+
+
+
+    __jmp_buf __jmpbuf;
+    int __mask_was_saved;
+    __sigset_t __saved_mask;
+  };
+# 32 "/usr/include/pthread.h" 2 3 4
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h" 1 3 4
+# 23 "/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h" 3 4
+extern "C" {
+extern long int __sysconf (int __name) noexcept (true);
 }
-# 36 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr-default.h" 2 3
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr-default.h" 3
+# 34 "/usr/include/pthread.h" 2 3 4
+
+
+
+enum
+{
+  PTHREAD_CREATE_JOINABLE,
+
+  PTHREAD_CREATE_DETACHED
+
+};
+
+
+
+enum
+{
+  PTHREAD_MUTEX_TIMED_NP,
+  PTHREAD_MUTEX_RECURSIVE_NP,
+  PTHREAD_MUTEX_ERRORCHECK_NP,
+  PTHREAD_MUTEX_ADAPTIVE_NP
+
+  ,
+  PTHREAD_MUTEX_NORMAL = PTHREAD_MUTEX_TIMED_NP,
+  PTHREAD_MUTEX_RECURSIVE = PTHREAD_MUTEX_RECURSIVE_NP,
+  PTHREAD_MUTEX_ERRORCHECK = PTHREAD_MUTEX_ERRORCHECK_NP,
+  PTHREAD_MUTEX_DEFAULT = PTHREAD_MUTEX_NORMAL
+
+
+
+  , PTHREAD_MUTEX_FAST_NP = PTHREAD_MUTEX_TIMED_NP
+
+};
+
+
+
+
+enum
+{
+  PTHREAD_MUTEX_STALLED,
+  PTHREAD_MUTEX_STALLED_NP = PTHREAD_MUTEX_STALLED,
+  PTHREAD_MUTEX_ROBUST,
+  PTHREAD_MUTEX_ROBUST_NP = PTHREAD_MUTEX_ROBUST
+};
+
+
+
+
+
+enum
+{
+  PTHREAD_PRIO_NONE,
+  PTHREAD_PRIO_INHERIT,
+  PTHREAD_PRIO_PROTECT
+};
+# 104 "/usr/include/pthread.h" 3 4
+enum
+{
+  PTHREAD_RWLOCK_PREFER_READER_NP,
+  PTHREAD_RWLOCK_PREFER_WRITER_NP,
+  PTHREAD_RWLOCK_PREFER_WRITER_NONRECURSIVE_NP,
+  PTHREAD_RWLOCK_DEFAULT_NP = PTHREAD_RWLOCK_PREFER_READER_NP
+};
+# 124 "/usr/include/pthread.h" 3 4
+enum
+{
+  PTHREAD_INHERIT_SCHED,
+
+  PTHREAD_EXPLICIT_SCHED
+
+};
+
+
+
+enum
+{
+  PTHREAD_SCOPE_SYSTEM,
+
+  PTHREAD_SCOPE_PROCESS
+
+};
+
+
+
+enum
+{
+  PTHREAD_PROCESS_PRIVATE,
+
+  PTHREAD_PROCESS_SHARED
+
+};
+# 159 "/usr/include/pthread.h" 3 4
+struct _pthread_cleanup_buffer
+{
+  void (*__routine) (void *);
+  void *__arg;
+  int __canceltype;
+  struct _pthread_cleanup_buffer *__prev;
+};
+
+
+enum
+{
+  PTHREAD_CANCEL_ENABLE,
+
+  PTHREAD_CANCEL_DISABLE
+
+};
+enum
+{
+  PTHREAD_CANCEL_DEFERRED,
+
+  PTHREAD_CANCEL_ASYNCHRONOUS
+
+};
+# 197 "/usr/include/pthread.h" 3 4
+extern "C" {
+
+
+
+
+extern int pthread_create (pthread_t *__restrict __newthread,
+      const pthread_attr_t *__restrict __attr,
+      void *(*__start_routine) (void *),
+      void *__restrict __arg) noexcept (true) __attribute__ ((__nonnull__ (1, 3)));
+
+
+
+
+
+extern void pthread_exit (void *__retval) __attribute__ ((__noreturn__));
+
+
+
+
+
+
+
+extern int pthread_join (pthread_t __th, void **__thread_return);
+
+
+
+
+extern int pthread_tryjoin_np (pthread_t __th, void **__thread_return) noexcept (true);
+# 233 "/usr/include/pthread.h" 3 4
+extern int pthread_timedjoin_np (pthread_t __th, void **__thread_return,
+     const struct timespec *__abstime);
+# 243 "/usr/include/pthread.h" 3 4
+extern int pthread_clockjoin_np (pthread_t __th, void **__thread_return,
+                                 clockid_t __clockid,
+     const struct timespec *__abstime);
+# 269 "/usr/include/pthread.h" 3 4
+extern int pthread_detach (pthread_t __th) noexcept (true);
+
+
+
+extern pthread_t pthread_self (void) noexcept (true) __attribute__ ((__const__));
+
+
+extern int pthread_equal (pthread_t __thread1, pthread_t __thread2)
+  noexcept (true) __attribute__ ((__const__));
+
+
+
+
+
+
+
+extern int pthread_attr_init (pthread_attr_t *__attr) noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_attr_destroy (pthread_attr_t *__attr)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_attr_getdetachstate (const pthread_attr_t *__attr,
+     int *__detachstate)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int pthread_attr_setdetachstate (pthread_attr_t *__attr,
+     int __detachstate)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+extern int pthread_attr_getguardsize (const pthread_attr_t *__attr,
+          size_t *__guardsize)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int pthread_attr_setguardsize (pthread_attr_t *__attr,
+          size_t __guardsize)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+extern int pthread_attr_getschedparam (const pthread_attr_t *__restrict __attr,
+           struct sched_param *__restrict __param)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int pthread_attr_setschedparam (pthread_attr_t *__restrict __attr,
+           const struct sched_param *__restrict
+           __param) noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int pthread_attr_getschedpolicy (const pthread_attr_t *__restrict
+     __attr, int *__restrict __policy)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int pthread_attr_setschedpolicy (pthread_attr_t *__attr, int __policy)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_attr_getinheritsched (const pthread_attr_t *__restrict
+      __attr, int *__restrict __inherit)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int pthread_attr_setinheritsched (pthread_attr_t *__attr,
+      int __inherit)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+extern int pthread_attr_getscope (const pthread_attr_t *__restrict __attr,
+      int *__restrict __scope)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int pthread_attr_setscope (pthread_attr_t *__attr, int __scope)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_attr_getstackaddr (const pthread_attr_t *__restrict
+          __attr, void **__restrict __stackaddr)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2))) __attribute__ ((__deprecated__));
+
+
+
+
+
+extern int pthread_attr_setstackaddr (pthread_attr_t *__attr,
+          void *__stackaddr)
+     noexcept (true) __attribute__ ((__nonnull__ (1))) __attribute__ ((__deprecated__));
+
+
+extern int pthread_attr_getstacksize (const pthread_attr_t *__restrict
+          __attr, size_t *__restrict __stacksize)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+
+extern int pthread_attr_setstacksize (pthread_attr_t *__attr,
+          size_t __stacksize)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+extern int pthread_attr_getstack (const pthread_attr_t *__restrict __attr,
+      void **__restrict __stackaddr,
+      size_t *__restrict __stacksize)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2, 3)));
+
+
+
+
+extern int pthread_attr_setstack (pthread_attr_t *__attr, void *__stackaddr,
+      size_t __stacksize) noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+extern int pthread_attr_setaffinity_np (pthread_attr_t *__attr,
+     size_t __cpusetsize,
+     const cpu_set_t *__cpuset)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 3)));
+
+
+
+extern int pthread_attr_getaffinity_np (const pthread_attr_t *__attr,
+     size_t __cpusetsize,
+     cpu_set_t *__cpuset)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 3)));
+
+
+extern int pthread_getattr_default_np (pthread_attr_t *__attr)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_attr_setsigmask_np (pthread_attr_t *__attr,
+           const __sigset_t *sigmask);
+
+
+
+
+extern int pthread_attr_getsigmask_np (const pthread_attr_t *__attr,
+           __sigset_t *sigmask);
+
+
+
+
+
+
+
+extern int pthread_setattr_default_np (const pthread_attr_t *__attr)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+extern int pthread_getattr_np (pthread_t __th, pthread_attr_t *__attr)
+     noexcept (true) __attribute__ ((__nonnull__ (2)));
+
+
+
+
+
+
+
+extern int pthread_setschedparam (pthread_t __target_thread, int __policy,
+      const struct sched_param *__param)
+     noexcept (true) __attribute__ ((__nonnull__ (3)));
+
+
+extern int pthread_getschedparam (pthread_t __target_thread,
+      int *__restrict __policy,
+      struct sched_param *__restrict __param)
+     noexcept (true) __attribute__ ((__nonnull__ (2, 3)));
+
+
+extern int pthread_setschedprio (pthread_t __target_thread, int __prio)
+     noexcept (true);
+
+
+
+
+extern int pthread_getname_np (pthread_t __target_thread, char *__buf,
+          size_t __buflen)
+     noexcept (true) __attribute__ ((__nonnull__ (2)));
+
+
+extern int pthread_setname_np (pthread_t __target_thread, const char *__name)
+     noexcept (true) __attribute__ ((__nonnull__ (2)));
+
+
+
+
+
+extern int pthread_getconcurrency (void) noexcept (true);
+
+
+extern int pthread_setconcurrency (int __level) noexcept (true);
+
+
+
+extern int pthread_yield (void) noexcept (true);
+
+extern int pthread_yield (void) noexcept (true) __asm__ ("" "sched_yield")
+  __attribute__ ((__deprecated__ ("pthread_yield is deprecated, use sched_yield instead")))
+                                                      ;
+
+
+
+
+
+
+
+extern int pthread_setaffinity_np (pthread_t __th, size_t __cpusetsize,
+       const cpu_set_t *__cpuset)
+     noexcept (true) __attribute__ ((__nonnull__ (3)));
+
+
+extern int pthread_getaffinity_np (pthread_t __th, size_t __cpusetsize,
+       cpu_set_t *__cpuset)
+     noexcept (true) __attribute__ ((__nonnull__ (3)));
+# 509 "/usr/include/pthread.h" 3 4
+extern int pthread_once (pthread_once_t *__once_control,
+    void (*__init_routine) (void)) __attribute__ ((__nonnull__ (1, 2)));
+# 521 "/usr/include/pthread.h" 3 4
+extern int pthread_setcancelstate (int __state, int *__oldstate);
+
+
+
+extern int pthread_setcanceltype (int __type, int *__oldtype);
+
+
+extern int pthread_cancel (pthread_t __th);
+
+
+
+
+extern void pthread_testcancel (void);
+
+
+
+
+struct __cancel_jmp_buf_tag
+{
+  __jmp_buf __cancel_jmp_buf;
+  int __mask_was_saved;
+};
+
+typedef struct
+{
+  struct __cancel_jmp_buf_tag __cancel_jmp_buf[1];
+  void *__pad[4];
+} __pthread_unwind_buf_t __attribute__ ((__aligned__));
+# 557 "/usr/include/pthread.h" 3 4
+struct __pthread_cleanup_frame
+{
+  void (*__cancel_routine) (void *);
+  void *__cancel_arg;
+  int __do_it;
+  int __cancel_type;
+};
+
+
+
+
+class __pthread_cleanup_class
+{
+  void (*__cancel_routine) (void *);
+  void *__cancel_arg;
+  int __do_it;
+  int __cancel_type;
+
+ public:
+  __pthread_cleanup_class (void (*__fct) (void *), void *__arg)
+    : __cancel_routine (__fct), __cancel_arg (__arg), __do_it (1) { }
+  ~__pthread_cleanup_class () { if (__do_it) __cancel_routine (__cancel_arg); }
+  void __setdoit (int __newval) { __do_it = __newval; }
+  void __defer () { pthread_setcanceltype (PTHREAD_CANCEL_DEFERRED,
+        &__cancel_type); }
+  void __restore () const { pthread_setcanceltype (__cancel_type, 0); }
+};
+# 766 "/usr/include/pthread.h" 3 4
+extern int __sigsetjmp_cancel (struct __cancel_jmp_buf_tag __env[1], int __savemask) noexcept (true) __asm__ ("" "__sigsetjmp")
+
+
+                     __attribute__ ((__returns_twice__));
+# 781 "/usr/include/pthread.h" 3 4
+extern int pthread_mutex_init (pthread_mutex_t *__mutex,
+          const pthread_mutexattr_t *__mutexattr)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_mutex_destroy (pthread_mutex_t *__mutex)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_mutex_trylock (pthread_mutex_t *__mutex)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_mutex_lock (pthread_mutex_t *__mutex)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+extern int pthread_mutex_timedlock (pthread_mutex_t *__restrict __mutex,
+        const struct timespec *__restrict
+        __abstime) noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+# 817 "/usr/include/pthread.h" 3 4
+extern int pthread_mutex_clocklock (pthread_mutex_t *__restrict __mutex,
+        clockid_t __clockid,
+        const struct timespec *__restrict
+        __abstime) noexcept (true) __attribute__ ((__nonnull__ (1, 3)));
+# 835 "/usr/include/pthread.h" 3 4
+extern int pthread_mutex_unlock (pthread_mutex_t *__mutex)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+extern int pthread_mutex_getprioceiling (const pthread_mutex_t *
+      __restrict __mutex,
+      int *__restrict __prioceiling)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+extern int pthread_mutex_setprioceiling (pthread_mutex_t *__restrict __mutex,
+      int __prioceiling,
+      int *__restrict __old_ceiling)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 3)));
+
+
+
+
+extern int pthread_mutex_consistent (pthread_mutex_t *__mutex)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_mutex_consistent_np (pthread_mutex_t *) noexcept (true) __asm__ ("" "pthread_mutex_consistent")
+                                __attribute__ ((__nonnull__ (1)))
+  __attribute__ ((__deprecated__ ("pthread_mutex_consistent_np is deprecated, use pthread_mutex_consistent")))
+                                                                         ;
+# 874 "/usr/include/pthread.h" 3 4
+extern int pthread_mutexattr_init (pthread_mutexattr_t *__attr)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_mutexattr_destroy (pthread_mutexattr_t *__attr)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_mutexattr_getpshared (const pthread_mutexattr_t *
+      __restrict __attr,
+      int *__restrict __pshared)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int pthread_mutexattr_setpshared (pthread_mutexattr_t *__attr,
+      int __pshared)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+extern int pthread_mutexattr_gettype (const pthread_mutexattr_t *__restrict
+          __attr, int *__restrict __kind)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+
+extern int pthread_mutexattr_settype (pthread_mutexattr_t *__attr, int __kind)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+extern int pthread_mutexattr_getprotocol (const pthread_mutexattr_t *
+       __restrict __attr,
+       int *__restrict __protocol)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+extern int pthread_mutexattr_setprotocol (pthread_mutexattr_t *__attr,
+       int __protocol)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_mutexattr_getprioceiling (const pthread_mutexattr_t *
+          __restrict __attr,
+          int *__restrict __prioceiling)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int pthread_mutexattr_setprioceiling (pthread_mutexattr_t *__attr,
+          int __prioceiling)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+extern int pthread_mutexattr_getrobust (const pthread_mutexattr_t *__attr,
+     int *__robustness)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int pthread_mutexattr_getrobust_np (pthread_mutexattr_t *, int *) noexcept (true) __asm__ ("" "pthread_mutexattr_getrobust")
+
+                                   __attribute__ ((__nonnull__ (1)))
+  __attribute__ ((__deprecated__ ("pthread_mutexattr_getrobust_np is deprecated, use pthread_mutexattr_getrobust")))
+                                                                               ;
+
+
+
+
+
+
+extern int pthread_mutexattr_setrobust (pthread_mutexattr_t *__attr,
+     int __robustness)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_mutexattr_setrobust_np (pthread_mutexattr_t *, int) noexcept (true) __asm__ ("" "pthread_mutexattr_setrobust")
+
+                                   __attribute__ ((__nonnull__ (1)))
+  __attribute__ ((__deprecated__ ("pthread_mutexattr_setrobust_np is deprecated, use pthread_mutexattr_setrobust")))
+                                                                               ;
+# 967 "/usr/include/pthread.h" 3 4
+extern int pthread_rwlock_init (pthread_rwlock_t *__restrict __rwlock,
+    const pthread_rwlockattr_t *__restrict
+    __attr) noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_rwlock_destroy (pthread_rwlock_t *__rwlock)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_rwlock_rdlock (pthread_rwlock_t *__rwlock)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_rwlock_tryrdlock (pthread_rwlock_t *__rwlock)
+  noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+extern int pthread_rwlock_timedrdlock (pthread_rwlock_t *__restrict __rwlock,
+           const struct timespec *__restrict
+           __abstime) noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+# 1004 "/usr/include/pthread.h" 3 4
+extern int pthread_rwlock_clockrdlock (pthread_rwlock_t *__restrict __rwlock,
+           clockid_t __clockid,
+           const struct timespec *__restrict
+           __abstime) noexcept (true) __attribute__ ((__nonnull__ (1, 3)));
+# 1023 "/usr/include/pthread.h" 3 4
+extern int pthread_rwlock_wrlock (pthread_rwlock_t *__rwlock)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_rwlock_trywrlock (pthread_rwlock_t *__rwlock)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+extern int pthread_rwlock_timedwrlock (pthread_rwlock_t *__restrict __rwlock,
+           const struct timespec *__restrict
+           __abstime) noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+# 1051 "/usr/include/pthread.h" 3 4
+extern int pthread_rwlock_clockwrlock (pthread_rwlock_t *__restrict __rwlock,
+           clockid_t __clockid,
+           const struct timespec *__restrict
+           __abstime) noexcept (true) __attribute__ ((__nonnull__ (1, 3)));
+# 1071 "/usr/include/pthread.h" 3 4
+extern int pthread_rwlock_unlock (pthread_rwlock_t *__rwlock)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+extern int pthread_rwlockattr_init (pthread_rwlockattr_t *__attr)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_rwlockattr_destroy (pthread_rwlockattr_t *__attr)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_rwlockattr_getpshared (const pthread_rwlockattr_t *
+       __restrict __attr,
+       int *__restrict __pshared)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int pthread_rwlockattr_setpshared (pthread_rwlockattr_t *__attr,
+       int __pshared)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_rwlockattr_getkind_np (const pthread_rwlockattr_t *
+       __restrict __attr,
+       int *__restrict __pref)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int pthread_rwlockattr_setkind_np (pthread_rwlockattr_t *__attr,
+       int __pref) noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+
+
+extern int pthread_cond_init (pthread_cond_t *__restrict __cond,
+         const pthread_condattr_t *__restrict __cond_attr)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_cond_destroy (pthread_cond_t *__cond)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_cond_signal (pthread_cond_t *__cond)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_cond_broadcast (pthread_cond_t *__cond)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+
+extern int pthread_cond_wait (pthread_cond_t *__restrict __cond,
+         pthread_mutex_t *__restrict __mutex)
+     __attribute__ ((__nonnull__ (1, 2)));
+# 1145 "/usr/include/pthread.h" 3 4
+extern int pthread_cond_timedwait (pthread_cond_t *__restrict __cond,
+       pthread_mutex_t *__restrict __mutex,
+       const struct timespec *__restrict __abstime)
+     __attribute__ ((__nonnull__ (1, 2, 3)));
+# 1171 "/usr/include/pthread.h" 3 4
+extern int pthread_cond_clockwait (pthread_cond_t *__restrict __cond,
+       pthread_mutex_t *__restrict __mutex,
+       __clockid_t __clock_id,
+       const struct timespec *__restrict __abstime)
+     __attribute__ ((__nonnull__ (1, 2, 4)));
+# 1194 "/usr/include/pthread.h" 3 4
+extern int pthread_condattr_init (pthread_condattr_t *__attr)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_condattr_destroy (pthread_condattr_t *__attr)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_condattr_getpshared (const pthread_condattr_t *
+     __restrict __attr,
+     int *__restrict __pshared)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int pthread_condattr_setpshared (pthread_condattr_t *__attr,
+     int __pshared) noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+extern int pthread_condattr_getclock (const pthread_condattr_t *
+          __restrict __attr,
+          __clockid_t *__restrict __clock_id)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int pthread_condattr_setclock (pthread_condattr_t *__attr,
+          __clockid_t __clock_id)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+# 1230 "/usr/include/pthread.h" 3 4
+extern int pthread_spin_init (pthread_spinlock_t *__lock, int __pshared)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_spin_destroy (pthread_spinlock_t *__lock)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_spin_lock (pthread_spinlock_t *__lock)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_spin_trylock (pthread_spinlock_t *__lock)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_spin_unlock (pthread_spinlock_t *__lock)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+
+extern int pthread_barrier_init (pthread_barrier_t *__restrict __barrier,
+     const pthread_barrierattr_t *__restrict
+     __attr, unsigned int __count)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_barrier_destroy (pthread_barrier_t *__barrier)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_barrier_wait (pthread_barrier_t *__barrier)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+extern int pthread_barrierattr_init (pthread_barrierattr_t *__attr)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_barrierattr_destroy (pthread_barrierattr_t *__attr)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_barrierattr_getpshared (const pthread_barrierattr_t *
+        __restrict __attr,
+        int *__restrict __pshared)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int pthread_barrierattr_setpshared (pthread_barrierattr_t *__attr,
+        int __pshared)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+# 1297 "/usr/include/pthread.h" 3 4
+extern int pthread_key_create (pthread_key_t *__key,
+          void (*__destr_function) (void *))
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern int pthread_key_delete (pthread_key_t __key) noexcept (true);
+
+
+extern void *pthread_getspecific (pthread_key_t __key) noexcept (true);
+
+
+extern int pthread_setspecific (pthread_key_t __key,
+    const void *__pointer)
+  noexcept (true) __attribute__ ((__access__ (__none__, 2)));
+
+
+
+
+extern int pthread_getcpuclockid (pthread_t __thread_id,
+      __clockid_t *__clock_id)
+     noexcept (true) __attribute__ ((__nonnull__ (2)));
+# 1332 "/usr/include/pthread.h" 3 4
+extern int pthread_atfork (void (*__prepare) (void),
+      void (*__parent) (void),
+      void (*__child) (void)) noexcept (true);
+# 1346 "/usr/include/pthread.h" 3 4
+}
+# 36 "/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h" 2 3
+# 47 "/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h" 3
 typedef pthread_t __gthread_t;
 typedef pthread_key_t __gthread_key_t;
 typedef pthread_once_t __gthread_once_t;
 typedef pthread_mutex_t __gthread_mutex_t;
-
-
-
 typedef pthread_mutex_t __gthread_recursive_mutex_t;
 typedef pthread_cond_t __gthread_cond_t;
 typedef struct timespec __gthread_time_t;
-# 108 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr-default.h" 3
+# 102 "/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h" 3
 
 
 
@@ -8964,13 +8388,13 @@ typedef struct timespec __gthread_time_t;
 
 
 
-# 312 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr-default.h" 3
+# 299 "/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h" 3
 static inline int
 __gthread_active_p (void)
 {
   return 1;
 }
-# 672 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr-default.h" 3
+# 659 "/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h" 3
 static inline int
 __gthread_create (__gthread_t *__threadid, void *(*__func) (void*),
     void *__args)
@@ -9095,31 +8519,7 @@ __gthread_mutex_unlock (__gthread_mutex_t *__mutex)
   else
     return 0;
 }
-
-
-
-static inline int
-__gthread_recursive_mutex_init_function (__gthread_recursive_mutex_t *__mutex)
-{
-  if (__gthread_active_p ())
-    {
-      pthread_mutexattr_t __attr;
-      int __r;
-
-      __r = pthread_mutexattr_init (&__attr);
-      if (!__r)
- __r = pthread_mutexattr_settype (&__attr,
-         2);
-      if (!__r)
- __r = pthread_mutex_init (__mutex, &__attr);
-      if (!__r)
- __r = pthread_mutexattr_destroy (&__attr);
-      return __r;
-    }
-  return 0;
-}
-
-
+# 808 "/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h" 3
 static inline int
 __gthread_recursive_mutex_lock (__gthread_recursive_mutex_t *__mutex)
 {
@@ -9152,7 +8552,7 @@ __gthread_recursive_mutex_destroy (__gthread_recursive_mutex_t *__mutex)
 {
   return __gthread_mutex_destroy (__mutex);
 }
-# 863 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr-default.h" 3
+# 850 "/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h" 3
 static inline int
 __gthread_cond_broadcast (__gthread_cond_t *__cond)
 {
@@ -9190,20 +8590,30 @@ __gthread_cond_destroy (__gthread_cond_t* __cond)
 {
   return pthread_cond_destroy (__cond);
 }
-# 158 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr.h" 2 3
+# 149 "/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h" 2 3
 
 
 #pragma GCC visibility pop
-# 36 "C:/msys64/ucrt64/include/c++/14.2.0/ext/atomicity.h" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/atomic_word.h" 1 3
-# 32 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/atomic_word.h" 3
+# 36 "/usr/include/c++/13/ext/atomicity.h" 2 3
+# 1 "/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h" 1 3
+# 32 "/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h" 3
 typedef int _Atomic_word;
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/ext/atomicity.h" 2 3
+# 37 "/usr/include/c++/13/ext/atomicity.h" 2 3
+
+# 1 "/usr/include/x86_64-linux-gnu/sys/single_threaded.h" 1 3 4
+# 24 "/usr/include/x86_64-linux-gnu/sys/single_threaded.h" 3 4
+extern "C" {
 
 
 
 
-namespace __gnu_cxx
+extern char __libc_single_threaded;
+
+}
+# 39 "/usr/include/c++/13/ext/atomicity.h" 2 3
+
+
+namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -9214,9 +8624,9 @@ namespace __gnu_cxx
 
 
 
+    return ::__libc_single_threaded;
 
 
-    return !__gthread_active_p();
 
   }
 
@@ -9234,7 +8644,7 @@ namespace __gnu_cxx
   __attribute__((__always_inline__))
   __atomic_add(volatile _Atomic_word* __mem, int __val)
   { __atomic_fetch_add(__mem, __val, 4); }
-# 80 "C:/msys64/ucrt64/include/c++/14.2.0/ext/atomicity.h" 3
+# 80 "/usr/include/c++/13/ext/atomicity.h" 3
   inline _Atomic_word
   __attribute__((__always_inline__))
   __exchange_and_add_single(_Atomic_word* __mem, int __val)
@@ -9271,33 +8681,33 @@ namespace __gnu_cxx
 
 
 }
-# 40 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 2 3
+# 40 "/usr/include/c++/13/bits/ios_base.h" 2 3
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 1 3
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 1 "/usr/include/c++/13/bits/locale_classes.h" 1 3
+# 37 "/usr/include/c++/13/bits/locale_classes.h" 3
        
-# 38 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 38 "/usr/include/c++/13/bits/locale_classes.h" 3
 
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/string" 1 3
-# 36 "C:/msys64/ucrt64/include/c++/14.2.0/string" 3
+# 1 "/usr/include/c++/13/string" 1 3
+# 36 "/usr/include/c++/13/string" 3
        
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/string" 3
+# 37 "/usr/include/c++/13/string" 3
 
 
 
 
 
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/allocator.h" 1 3
-# 46 "C:/msys64/ucrt64/include/c++/14.2.0/bits/allocator.h" 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h" 1 3
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h" 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/new_allocator.h" 1 3
-# 35 "C:/msys64/ucrt64/include/c++/14.2.0/bits/new_allocator.h" 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/functexcept.h" 1 3
-# 42 "C:/msys64/ucrt64/include/c++/14.2.0/bits/functexcept.h" 3
-namespace std
+# 1 "/usr/include/c++/13/bits/allocator.h" 1 3
+# 46 "/usr/include/c++/13/bits/allocator.h" 3
+# 1 "/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h" 1 3
+# 33 "/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h" 3
+# 1 "/usr/include/c++/13/bits/new_allocator.h" 1 3
+# 35 "/usr/include/c++/13/bits/new_allocator.h" 3
+# 1 "/usr/include/c++/13/bits/functexcept.h" 1 3
+# 42 "/usr/include/c++/13/bits/functexcept.h" 3
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -9315,74 +8725,74 @@ namespace std
 
 
   void
-  __throw_bad_cast(void) __attribute__((__noreturn__,__cold__));
+  __throw_bad_cast(void) __attribute__((__noreturn__));
 
   void
-  __throw_bad_typeid(void) __attribute__((__noreturn__,__cold__));
+  __throw_bad_typeid(void) __attribute__((__noreturn__));
 
 
   void
-  __throw_logic_error(const char*) __attribute__((__noreturn__,__cold__));
+  __throw_logic_error(const char*) __attribute__((__noreturn__));
 
   void
-  __throw_domain_error(const char*) __attribute__((__noreturn__,__cold__));
+  __throw_domain_error(const char*) __attribute__((__noreturn__));
 
   void
-  __throw_invalid_argument(const char*) __attribute__((__noreturn__,__cold__));
+  __throw_invalid_argument(const char*) __attribute__((__noreturn__));
 
   void
-  __throw_length_error(const char*) __attribute__((__noreturn__,__cold__));
+  __throw_length_error(const char*) __attribute__((__noreturn__));
 
   void
-  __throw_out_of_range(const char*) __attribute__((__noreturn__,__cold__));
+  __throw_out_of_range(const char*) __attribute__((__noreturn__));
 
   void
-  __throw_out_of_range_fmt(const char*, ...) __attribute__((__noreturn__,__cold__))
+  __throw_out_of_range_fmt(const char*, ...) __attribute__((__noreturn__))
     __attribute__((__format__(__gnu_printf__, 1, 2)));
 
   void
-  __throw_runtime_error(const char*) __attribute__((__noreturn__,__cold__));
+  __throw_runtime_error(const char*) __attribute__((__noreturn__));
 
   void
-  __throw_range_error(const char*) __attribute__((__noreturn__,__cold__));
+  __throw_range_error(const char*) __attribute__((__noreturn__));
 
   void
-  __throw_overflow_error(const char*) __attribute__((__noreturn__,__cold__));
+  __throw_overflow_error(const char*) __attribute__((__noreturn__));
 
   void
-  __throw_underflow_error(const char*) __attribute__((__noreturn__,__cold__));
-
-
-  void
-  __throw_ios_failure(const char*) __attribute__((__noreturn__,__cold__));
-
-  void
-  __throw_ios_failure(const char*, int) __attribute__((__noreturn__,__cold__));
+  __throw_underflow_error(const char*) __attribute__((__noreturn__));
 
 
   void
-  __throw_system_error(int) __attribute__((__noreturn__,__cold__));
+  __throw_ios_failure(const char*) __attribute__((__noreturn__));
+
+  void
+  __throw_ios_failure(const char*, int) __attribute__((__noreturn__));
 
 
   void
-  __throw_future_error(int) __attribute__((__noreturn__,__cold__));
+  __throw_system_error(int) __attribute__((__noreturn__));
 
 
   void
-  __throw_bad_function_call() __attribute__((__noreturn__,__cold__));
-# 140 "C:/msys64/ucrt64/include/c++/14.2.0/bits/functexcept.h" 3
+  __throw_future_error(int) __attribute__((__noreturn__));
+
+
+  void
+  __throw_bad_function_call() __attribute__((__noreturn__));
+# 140 "/usr/include/c++/13/bits/functexcept.h" 3
 
 }
-# 36 "C:/msys64/ucrt64/include/c++/14.2.0/bits/new_allocator.h" 2 3
+# 36 "/usr/include/c++/13/bits/new_allocator.h" 2 3
 
 
 
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 62 "C:/msys64/ucrt64/include/c++/14.2.0/bits/new_allocator.h" 3
+# 62 "/usr/include/c++/13/bits/new_allocator.h" 3
   template<typename _Tp>
     class __new_allocator
     {
@@ -9434,7 +8844,7 @@ namespace std
       const_pointer
       address(const_reference __x) const noexcept
       { return std::__addressof(__x); }
-# 125 "C:/msys64/ucrt64/include/c++/14.2.0/bits/new_allocator.h" 3
+# 125 "/usr/include/c++/13/bits/new_allocator.h" 3
       [[__nodiscard__]] _Tp*
       allocate(size_type __n, const void* = static_cast<const void*>(0))
       {
@@ -9509,7 +8919,7 @@ namespace std
  destroy(_Up* __p)
  noexcept(std::is_nothrow_destructible<_Up>::value)
  { __p->~_Up(); }
-# 213 "C:/msys64/ucrt64/include/c++/14.2.0/bits/new_allocator.h" 3
+# 213 "/usr/include/c++/13/bits/new_allocator.h" 3
       template<typename _Up>
  friend __attribute__((__always_inline__)) bool
  operator==(const __new_allocator&, const __new_allocator<_Up>&)
@@ -9530,7 +8940,7 @@ namespace std
       _M_max_size() const noexcept
       {
 
- return std::size_t(0x7fffffffffffffffLL) / sizeof(_Tp);
+ return std::size_t(0x7fffffffffffffffL) / sizeof(_Tp);
 
 
 
@@ -9539,25 +8949,27 @@ namespace std
 
 
 }
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h" 2 3
+# 34 "/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h" 2 3
 
 
 namespace std
 {
-# 46 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h" 3
+# 46 "/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h" 3
   template<typename _Tp>
     using __allocator_base = __new_allocator<_Tp>;
 }
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/bits/allocator.h" 2 3
+# 47 "/usr/include/c++/13/bits/allocator.h" 2 3
 
 
 
 
 
-namespace std
+
+
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 72 "C:/msys64/ucrt64/include/c++/14.2.0/bits/allocator.h" 3
+# 74 "/usr/include/c++/13/bits/allocator.h" 3
   template<>
     class allocator<void>
     {
@@ -9584,9 +8996,9 @@ namespace std
       using is_always_equal
 
  = true_type;
-# 115 "C:/msys64/ucrt64/include/c++/14.2.0/bits/allocator.h" 3
+# 117 "/usr/include/c++/13/bits/allocator.h" 3
     };
-# 127 "C:/msys64/ucrt64/include/c++/14.2.0/bits/allocator.h" 3
+# 129 "/usr/include/c++/13/bits/allocator.h" 3
   template<typename _Tp>
     class allocator : public __allocator_base<_Tp>
     {
@@ -9643,7 +9055,7 @@ namespace std
 
 
       ~allocator() noexcept { }
-# 212 "C:/msys64/ucrt64/include/c++/14.2.0/bits/allocator.h" 3
+# 214 "/usr/include/c++/13/bits/allocator.h" 3
       friend __attribute__((__always_inline__))
       bool
       operator==(const allocator&, const allocator&) noexcept
@@ -9726,15 +9138,15 @@ namespace std
 
 
 }
-# 44 "C:/msys64/ucrt64/include/c++/14.2.0/string" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/cpp_type_traits.h" 1 3
-# 35 "C:/msys64/ucrt64/include/c++/14.2.0/bits/cpp_type_traits.h" 3
+# 44 "/usr/include/c++/13/string" 2 3
+# 1 "/usr/include/c++/13/bits/cpp_type_traits.h" 1 3
+# 35 "/usr/include/c++/13/bits/cpp_type_traits.h" 3
        
-# 36 "C:/msys64/ucrt64/include/c++/14.2.0/bits/cpp_type_traits.h" 3
-# 67 "C:/msys64/ucrt64/include/c++/14.2.0/bits/cpp_type_traits.h" 3
+# 36 "/usr/include/c++/13/bits/cpp_type_traits.h" 3
+# 67 "/usr/include/c++/13/bits/cpp_type_traits.h" 3
 extern "C++" {
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -9837,7 +9249,7 @@ namespace std
       enum { __value = 1 };
       typedef __true_type __type;
     };
-# 184 "C:/msys64/ucrt64/include/c++/14.2.0/bits/cpp_type_traits.h" 3
+# 184 "/usr/include/c++/13/bits/cpp_type_traits.h" 3
   template<>
     struct __is_integer<char16_t>
     {
@@ -9908,9 +9320,9 @@ namespace std
       enum { __value = 1 };
       typedef __true_type __type;
     };
-# 272 "C:/msys64/ucrt64/include/c++/14.2.0/bits/cpp_type_traits.h" 3
+# 272 "/usr/include/c++/13/bits/cpp_type_traits.h" 3
 __extension__ template<> struct __is_integer<__int128> { enum { __value = 1 }; typedef __true_type __type; }; __extension__ template<> struct __is_integer<unsigned __int128> { enum { __value = 1 }; typedef __true_type __type; };
-# 289 "C:/msys64/ucrt64/include/c++/14.2.0/bits/cpp_type_traits.h" 3
+# 289 "/usr/include/c++/13/bits/cpp_type_traits.h" 3
   template<typename _Tp>
     struct __is_floating
     {
@@ -9939,7 +9351,7 @@ __extension__ template<> struct __is_integer<__int128> { enum { __value = 1 }; t
       enum { __value = 1 };
       typedef __true_type __type;
     };
-# 366 "C:/msys64/ucrt64/include/c++/14.2.0/bits/cpp_type_traits.h" 3
+# 366 "/usr/include/c++/13/bits/cpp_type_traits.h" 3
   template<typename _Tp>
     struct __is_pointer
     {
@@ -10033,7 +9445,7 @@ __extension__ template<> struct __is_integer<__int128> { enum { __value = 1 }; t
       enum { __value = 1 };
       typedef __true_type __type;
     };
-# 470 "C:/msys64/ucrt64/include/c++/14.2.0/bits/cpp_type_traits.h" 3
+# 470 "/usr/include/c++/13/bits/cpp_type_traits.h" 3
   template<typename> struct iterator_traits;
 
 
@@ -10133,7 +9545,7 @@ __extension__ template<> struct __is_integer<__int128> { enum { __value = 1 }; t
     {
       static const bool __value = false;
     };
-# 579 "C:/msys64/ucrt64/include/c++/14.2.0/bits/cpp_type_traits.h" 3
+# 579 "/usr/include/c++/13/bits/cpp_type_traits.h" 3
   template<>
     struct __is_memcmp_ordered_with<std::byte, std::byte, true>
     { static constexpr bool __value = true; };
@@ -10168,18 +9580,18 @@ __extension__ template<> struct __is_integer<__int128> { enum { __value = 1 }; t
 
 }
 }
-# 45 "C:/msys64/ucrt64/include/c++/14.2.0/string" 2 3
+# 45 "/usr/include/c++/13/string" 2 3
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream_insert.h" 1 3
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream_insert.h" 3
+# 1 "/usr/include/c++/13/bits/ostream_insert.h" 1 3
+# 33 "/usr/include/c++/13/bits/ostream_insert.h" 3
        
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream_insert.h" 3
+# 34 "/usr/include/c++/13/bits/ostream_insert.h" 3
 
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_forced.h" 1 3
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_forced.h" 3
+# 1 "/usr/include/c++/13/bits/cxxabi_forced.h" 1 3
+# 34 "/usr/include/c++/13/bits/cxxabi_forced.h" 3
        
-# 35 "C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_forced.h" 3
+# 35 "/usr/include/c++/13/bits/cxxabi_forced.h" 3
 
 #pragma GCC visibility push(default)
 
@@ -10204,10 +9616,10 @@ namespace __cxxabiv1
 
 
 #pragma GCC visibility pop
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream_insert.h" 2 3
+# 37 "/usr/include/c++/13/bits/ostream_insert.h" 2 3
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -10301,28 +9713,28 @@ namespace std
 
 
 }
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/string" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h" 1 3
-# 62 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h" 3
+# 47 "/usr/include/c++/13/string" 2 3
+# 1 "/usr/include/c++/13/bits/stl_iterator_base_funcs.h" 1 3
+# 62 "/usr/include/c++/13/bits/stl_iterator_base_funcs.h" 3
        
-# 63 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h" 3
+# 63 "/usr/include/c++/13/bits/stl_iterator_base_funcs.h" 3
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/concept_check.h" 1 3
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/bits/concept_check.h" 3
+# 1 "/usr/include/c++/13/bits/concept_check.h" 1 3
+# 33 "/usr/include/c++/13/bits/concept_check.h" 3
        
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/bits/concept_check.h" 3
-# 65 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/debug/assertions.h" 1 3
-# 66 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_types.h" 1 3
-# 62 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_types.h" 3
+# 34 "/usr/include/c++/13/bits/concept_check.h" 3
+# 65 "/usr/include/c++/13/bits/stl_iterator_base_funcs.h" 2 3
+# 1 "/usr/include/c++/13/debug/assertions.h" 1 3
+# 66 "/usr/include/c++/13/bits/stl_iterator_base_funcs.h" 2 3
+# 1 "/usr/include/c++/13/bits/stl_iterator_base_types.h" 1 3
+# 62 "/usr/include/c++/13/bits/stl_iterator_base_types.h" 3
        
-# 63 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_types.h" 3
-# 74 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_types.h" 3
-namespace std
+# 63 "/usr/include/c++/13/bits/stl_iterator_base_types.h" 3
+# 74 "/usr/include/c++/13/bits/stl_iterator_base_types.h" 3
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 93 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_types.h" 3
+# 93 "/usr/include/c++/13/bits/stl_iterator_base_types.h" 3
   struct input_iterator_tag { };
 
 
@@ -10338,7 +9750,7 @@ namespace std
 
 
   struct random_access_iterator_tag : public bidirectional_iterator_tag { };
-# 125 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_types.h" 3
+# 125 "/usr/include/c++/13/bits/stl_iterator_base_types.h" 3
   template<typename _Category, typename _Tp, typename _Distance = ptrdiff_t,
            typename _Pointer = _Tp*, typename _Reference = _Tp&>
     struct [[__deprecated__]] iterator
@@ -10354,7 +9766,7 @@ namespace std
 
       typedef _Reference reference;
     };
-# 149 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_types.h" 3
+# 149 "/usr/include/c++/13/bits/stl_iterator_base_types.h" 3
   template<typename _Iterator>
     struct iterator_traits;
 
@@ -10385,7 +9797,7 @@ namespace std
   template<typename _Iterator>
     struct iterator_traits
     : public __iterator_traits<_Iterator> { };
-# 209 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_types.h" 3
+# 209 "/usr/include/c++/13/bits/stl_iterator_base_types.h" 3
   template<typename _Tp>
     struct iterator_traits<_Tp*>
     {
@@ -10448,9 +9860,9 @@ namespace std
 
 
 }
-# 67 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h" 2 3
+# 67 "/usr/include/c++/13/bits/stl_iterator_base_funcs.h" 2 3
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -10511,7 +9923,7 @@ namespace std
   template<typename _OutputIterator>
     void
     __distance(_OutputIterator, _OutputIterator, output_iterator_tag) = delete;
-# 144 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h" 3
+# 144 "/usr/include/c++/13/bits/stl_iterator_base_funcs.h" 3
   template<typename _InputIterator>
     [[__nodiscard__]] __attribute__((__always_inline__))
     inline constexpr
@@ -10529,7 +9941,7 @@ namespace std
     {
 
      
-      do { if (std::__is_constant_evaluated()) if (__builtin_expect(!bool(__n >= 0), false)) std::__glibcxx_assert_fail(); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__n >= 0)) __builtin_unreachable(); } while (false);
       while (__n--)
  ++__i;
     }
@@ -10571,7 +9983,7 @@ namespace std
   template<typename _OutputIterator, typename _Distance>
     void
     __advance(_OutputIterator&, _Distance, output_iterator_tag) = delete;
-# 217 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h" 3
+# 217 "/usr/include/c++/13/bits/stl_iterator_base_funcs.h" 3
   template<typename _InputIterator, typename _Distance>
     __attribute__((__always_inline__))
     inline constexpr void
@@ -10613,20 +10025,20 @@ namespace std
 
 
 }
-# 48 "C:/msys64/ucrt64/include/c++/14.2.0/string" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 1 3
-# 65 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/ext/type_traits.h" 1 3
-# 32 "C:/msys64/ucrt64/include/c++/14.2.0/ext/type_traits.h" 3
+# 48 "/usr/include/c++/13/string" 2 3
+# 1 "/usr/include/c++/13/bits/stl_iterator.h" 1 3
+# 65 "/usr/include/c++/13/bits/stl_iterator.h" 3
+# 1 "/usr/include/c++/13/ext/type_traits.h" 1 3
+# 32 "/usr/include/c++/13/ext/type_traits.h" 3
        
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/ext/type_traits.h" 3
+# 33 "/usr/include/c++/13/ext/type_traits.h" 3
 
 
 
 
 extern "C++" {
 
-namespace __gnu_cxx
+namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -10779,7 +10191,7 @@ namespace __gnu_cxx
   template<>
     struct __promote<float>
     { typedef float __type; };
-# 225 "C:/msys64/ucrt64/include/c++/14.2.0/ext/type_traits.h" 3
+# 225 "/usr/include/c++/13/ext/type_traits.h" 3
   template<typename... _Tp>
     using __promoted_t = decltype((typename __promote<_Tp>::__type(0) + ...));
 
@@ -10793,15 +10205,15 @@ namespace __gnu_cxx
 
   template<typename _Tp, typename _Up, typename _Vp, typename _Wp>
     using __promote_4 = __promote<__promoted_t<_Tp, _Up, _Vp, _Wp>>;
-# 269 "C:/msys64/ucrt64/include/c++/14.2.0/ext/type_traits.h" 3
+# 269 "/usr/include/c++/13/ext/type_traits.h" 3
 
 }
 }
-# 66 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 2 3
+# 66 "/usr/include/c++/13/bits/stl_iterator.h" 2 3
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ptr_traits.h" 1 3
-# 42 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ptr_traits.h" 3
-namespace std
+# 1 "/usr/include/c++/13/bits/ptr_traits.h" 1 3
+# 49 "/usr/include/c++/13/bits/ptr_traits.h" 3
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -10975,20 +10387,20 @@ namespace std
     constexpr typename std::pointer_traits<_Ptr>::element_type*
     __to_address(const _Ptr& __ptr)
     { return std::__to_address(__ptr.operator->()); }
-# 257 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ptr_traits.h" 3
+# 266 "/usr/include/c++/13/bits/ptr_traits.h" 3
 
 }
-# 68 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 2 3
-# 85 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
-namespace std
+# 68 "/usr/include/c++/13/bits/stl_iterator.h" 2 3
+# 88 "/usr/include/c++/13/bits/stl_iterator.h" 3
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 106 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 113 "/usr/include/c++/13/bits/stl_iterator.h" 3
  
-# 106 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 113 "/usr/include/c++/13/bits/stl_iterator.h" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
-# 128 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 135 "/usr/include/c++/13/bits/stl_iterator.h" 3
   template<typename _Iterator>
     class reverse_iterator
     : public iterator<typename iterator_traits<_Iterator>::iterator_category,
@@ -10999,7 +10411,7 @@ namespace std
     {
       template<typename _Iter>
  friend class reverse_iterator;
-# 147 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 154 "/usr/include/c++/13/bits/stl_iterator.h" 3
     protected:
       _Iterator current;
 
@@ -11011,7 +10423,7 @@ namespace std
 
       typedef typename __traits_type::difference_type difference_type;
       typedef typename __traits_type::reference reference;
-# 178 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 185 "/usr/include/c++/13/bits/stl_iterator.h" 3
       constexpr
       reverse_iterator()
       noexcept(noexcept(_Iterator()))
@@ -11078,7 +10490,7 @@ namespace std
       base() const
       noexcept(noexcept(_Iterator(current)))
       { return current; }
-# 255 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 262 "/usr/include/c++/13/bits/stl_iterator.h" 3
       [[__nodiscard__]]
       constexpr reference
       operator*() const
@@ -11212,7 +10624,7 @@ namespace std
       constexpr reference
       operator[](difference_type __n) const
       { return *(*this + __n); }
-# 415 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 422 "/usr/include/c++/13/bits/stl_iterator.h" 3
     private:
       template<typename _Tp>
  static constexpr _Tp*
@@ -11224,7 +10636,7 @@ namespace std
  _S_to_pointer(_Tp __t)
         { return __t.operator->(); }
     };
-# 438 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 445 "/usr/include/c++/13/bits/stl_iterator.h" 3
   template<typename _Iterator>
     [[__nodiscard__]]
     inline constexpr bool
@@ -11310,7 +10722,7 @@ namespace std
     operator>=(const reverse_iterator<_IteratorL>& __x,
         const reverse_iterator<_IteratorR>& __y)
     { return __x.base() <= __y.base(); }
-# 615 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 622 "/usr/include/c++/13/bits/stl_iterator.h" 3
   template<typename _IteratorL, typename _IteratorR>
     [[__nodiscard__]]
     inline constexpr auto
@@ -11338,12 +10750,14 @@ namespace std
 
 
 
+
+
   template<typename _Iterator>
     [[__nodiscard__]]
     inline constexpr reverse_iterator<_Iterator>
     make_reverse_iterator(_Iterator __i)
     { return reverse_iterator<_Iterator>(__i); }
-# 657 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 666 "/usr/include/c++/13/bits/stl_iterator.h" 3
   template<typename _Iterator>
    
     auto
@@ -11362,7 +10776,7 @@ namespace std
     __miter_base(reverse_iterator<_Iterator> __it)
     -> decltype(__make_reverse_iterator(__miter_base(__it.base())))
     { return __make_reverse_iterator(__miter_base(__it.base())); }
-# 688 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 697 "/usr/include/c++/13/bits/stl_iterator.h" 3
   template<typename _Container>
     class back_insert_iterator
     : public iterator<output_iterator_tag, void, void, void, void>
@@ -11381,7 +10795,7 @@ namespace std
       explicit
       back_insert_iterator(_Container& __x)
       : container(std::__addressof(__x)) { }
-# 726 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 735 "/usr/include/c++/13/bits/stl_iterator.h" 3
      
       back_insert_iterator&
       operator=(const typename _Container::value_type& __value)
@@ -11417,13 +10831,13 @@ namespace std
       operator++(int)
       { return *this; }
     };
-# 773 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 782 "/usr/include/c++/13/bits/stl_iterator.h" 3
   template<typename _Container>
     [[__nodiscard__]]
     inline back_insert_iterator<_Container>
     back_inserter(_Container& __x)
     { return back_insert_iterator<_Container>(__x); }
-# 789 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 798 "/usr/include/c++/13/bits/stl_iterator.h" 3
   template<typename _Container>
     class front_insert_iterator
     : public iterator<output_iterator_tag, void, void, void, void>
@@ -11442,7 +10856,7 @@ namespace std
       explicit
       front_insert_iterator(_Container& __x)
       : container(std::__addressof(__x)) { }
-# 827 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 836 "/usr/include/c++/13/bits/stl_iterator.h" 3
      
       front_insert_iterator&
       operator=(const typename _Container::value_type& __value)
@@ -11478,13 +10892,13 @@ namespace std
       operator++(int)
       { return *this; }
     };
-# 874 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 883 "/usr/include/c++/13/bits/stl_iterator.h" 3
   template<typename _Container>
     [[__nodiscard__]]
     inline front_insert_iterator<_Container>
     front_inserter(_Container& __x)
     { return front_insert_iterator<_Container>(__x); }
-# 894 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 903 "/usr/include/c++/13/bits/stl_iterator.h" 3
   template<typename _Container>
     class insert_iterator
     : public iterator<output_iterator_tag, void, void, void, void>
@@ -11501,11 +10915,11 @@ namespace std
     public:
 
       typedef _Container container_type;
-# 919 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 928 "/usr/include/c++/13/bits/stl_iterator.h" 3
      
       insert_iterator(_Container& __x, _Iter __i)
       : container(std::__addressof(__x)), iter(__i) {}
-# 955 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 964 "/usr/include/c++/13/bits/stl_iterator.h" 3
      
       insert_iterator&
       operator=(const typename _Container::value_type& __value)
@@ -11545,7 +10959,7 @@ namespace std
     };
 
 #pragma GCC diagnostic pop
-# 1014 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 1023 "/usr/include/c++/13/bits/stl_iterator.h" 3
   template<typename _Container>
     [[__nodiscard__]]
     inline insert_iterator<_Container>
@@ -11558,10 +10972,10 @@ namespace std
 
 }
 
-namespace __gnu_cxx
+namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 {
 
-# 1037 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 1046 "/usr/include/c++/13/bits/stl_iterator.h" 3
   template<typename _Iterator, typename _Container>
     class __normal_iterator
     {
@@ -11601,7 +11015,7 @@ namespace __gnu_cxx
 
  __normal_iterator(const __normal_iterator<_Iter, _Container>& __i)
  noexcept
-# 1085 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 1094 "/usr/include/c++/13/bits/stl_iterator.h" 3
         : _M_current(__i.base()) { }
 
 
@@ -11673,7 +11087,7 @@ namespace __gnu_cxx
       base() const noexcept
       { return _M_current; }
     };
-# 1205 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 1214 "/usr/include/c++/13/bits/stl_iterator.h" 3
   template<typename _IteratorL, typename _IteratorR, typename _Container>
     [[__nodiscard__]]
     inline bool
@@ -11810,7 +11224,7 @@ namespace __gnu_cxx
 
 }
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -11832,12 +11246,12 @@ namespace std
           _Container>& __it) noexcept
     -> decltype(std::__to_address(__it.base()))
     { return std::__to_address(__it.base()); }
-# 1412 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 1421 "/usr/include/c++/13/bits/stl_iterator.h" 3
   namespace __detail
   {
-# 1428 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 1437 "/usr/include/c++/13/bits/stl_iterator.h" 3
   }
-# 1439 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 1448 "/usr/include/c++/13/bits/stl_iterator.h" 3
   template<typename _Iterator>
     class move_iterator
 
@@ -11853,10 +11267,10 @@ namespace std
 
       template<typename _Iter2>
  friend class move_iterator;
-# 1478 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 1487 "/usr/include/c++/13/bits/stl_iterator.h" 3
     public:
       using iterator_type = _Iterator;
-# 1490 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 1501 "/usr/include/c++/13/bits/stl_iterator.h" 3
       typedef typename __traits_type::iterator_category iterator_category;
       typedef typename __traits_type::value_type value_type;
       typedef typename __traits_type::difference_type difference_type;
@@ -11903,7 +11317,7 @@ namespace std
       constexpr iterator_type
       base() const
       { return _M_current; }
-# 1548 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 1559 "/usr/include/c++/13/bits/stl_iterator.h" 3
       [[__nodiscard__]]
       constexpr reference
       operator*() const
@@ -11985,7 +11399,7 @@ namespace std
 
 
       { return std::move(_M_current[__n]); }
-# 1662 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 1673 "/usr/include/c++/13/bits/stl_iterator.h" 3
     };
 
   template<typename _IteratorL, typename _IteratorR>
@@ -11997,7 +11411,7 @@ namespace std
 
 
     { return __x.base() == __y.base(); }
-# 1683 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 1694 "/usr/include/c++/13/bits/stl_iterator.h" 3
   template<typename _IteratorL, typename _IteratorR>
     [[__nodiscard__]]
     inline constexpr bool
@@ -12055,7 +11469,7 @@ namespace std
     operator==(const move_iterator<_Iterator>& __x,
         const move_iterator<_Iterator>& __y)
     { return __x.base() == __y.base(); }
-# 1749 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 1760 "/usr/include/c++/13/bits/stl_iterator.h" 3
   template<typename _Iterator>
     [[__nodiscard__]]
     inline constexpr bool
@@ -12130,7 +11544,7 @@ namespace std
     inline constexpr _ReturnType
     __make_move_if_noexcept_iterator(_Tp* __i)
     { return _ReturnType(__i); }
-# 2952 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 2951 "/usr/include/c++/13/bits/stl_iterator.h" 3
   template<typename _Iterator>
    
     auto
@@ -12151,22 +11565,14 @@ namespace std
     __miter_base(move_iterator<_Iterator> __it)
     -> decltype(__miter_base(__it.base()))
     { return __miter_base(__it.base()); }
-# 2984 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h" 3
+# 2983 "/usr/include/c++/13/bits/stl_iterator.h" 3
   template<typename _InputIterator>
     using __iter_key_t = remove_const_t<
-
-
-
       typename iterator_traits<_InputIterator>::value_type::first_type>;
-
 
   template<typename _InputIterator>
     using __iter_val_t
-
-
-
       = typename iterator_traits<_InputIterator>::value_type::second_type;
-
 
   template<typename _T1, typename _T2>
     struct pair;
@@ -12178,13 +11584,13 @@ namespace std
 
 
 }
-# 49 "C:/msys64/ucrt64/include/c++/14.2.0/string" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_function.h" 1 3
-# 63 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_function.h" 3
-namespace std
+# 49 "/usr/include/c++/13/string" 2 3
+# 1 "/usr/include/c++/13/bits/stl_function.h" 1 3
+# 63 "/usr/include/c++/13/bits/stl_function.h" 3
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 116 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_function.h" 3
+# 116 "/usr/include/c++/13/bits/stl_function.h" 3
   template<typename _Arg, typename _Result>
     struct unary_function
     {
@@ -12211,7 +11617,7 @@ namespace std
 
       typedef _Result result_type;
     } __attribute__ ((__deprecated__));
-# 157 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_function.h" 3
+# 157 "/usr/include/c++/13/bits/stl_function.h" 3
   struct __is_transparent;
 
   template<typename _Tp = void>
@@ -12298,6 +11704,9 @@ namespace std
       { return -__x; }
     };
 #pragma GCC diagnostic pop
+
+
+
 
 
   template<>
@@ -12388,7 +11797,7 @@ namespace std
 
       typedef __is_transparent is_transparent;
     };
-# 346 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_function.h" 3
+# 349 "/usr/include/c++/13/bits/stl_function.h" 3
   template<typename _Tp = void>
     struct equal_to;
 
@@ -12482,7 +11891,7 @@ namespace std
  if (std::__is_constant_evaluated())
    return __x > __y;
 
- return (long long unsigned int)__x > (long long unsigned int)__y;
+ return (long unsigned int)__x > (long unsigned int)__y;
       }
     };
 
@@ -12497,7 +11906,7 @@ namespace std
  if (std::__is_constant_evaluated())
    return __x < __y;
 
- return (long long unsigned int)__x < (long long unsigned int)__y;
+ return (long unsigned int)__x < (long unsigned int)__y;
       }
     };
 
@@ -12512,7 +11921,7 @@ namespace std
  if (std::__is_constant_evaluated())
    return __x >= __y;
 
- return (long long unsigned int)__x >= (long long unsigned int)__y;
+ return (long unsigned int)__x >= (long unsigned int)__y;
       }
     };
 
@@ -12527,7 +11936,7 @@ namespace std
  if (std::__is_constant_evaluated())
    return __x <= __y;
 
- return (long long unsigned int)__x <= (long long unsigned int)__y;
+ return (long unsigned int)__x <= (long unsigned int)__y;
       }
     };
 #pragma GCC diagnostic pop
@@ -12808,7 +12217,7 @@ namespace std
        is_convertible<_Tp, const volatile void*>,
        is_convertible<_Up, const volatile void*>>;
     };
-# 778 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_function.h" 3
+# 781 "/usr/include/c++/13/bits/stl_function.h" 3
   template<typename _Tp = void>
     struct logical_and;
 
@@ -13017,7 +12426,7 @@ namespace std
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
-# 1020 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_function.h" 3
+# 1023 "/usr/include/c++/13/bits/stl_function.h" 3
   template<typename _Predicate>
     class [[__deprecated__]] unary_negate
     : public unary_function<typename _Predicate::argument_type, bool>
@@ -13072,7 +12481,7 @@ namespace std
     inline binary_negate<_Predicate>
     not2(const _Predicate& __pred)
     { return binary_negate<_Predicate>(__pred); }
-# 1101 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_function.h" 3
+# 1104 "/usr/include/c++/13/bits/stl_function.h" 3
   template<typename _Arg, typename _Result>
     class pointer_to_unary_function : public unary_function<_Arg, _Result>
     {
@@ -13179,7 +12588,7 @@ namespace std
       operator()(const _Pair& __x) const
       { return __x.second; }
     };
-# 1228 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_function.h" 3
+# 1231 "/usr/include/c++/13/bits/stl_function.h" 3
   template<typename _Ret, typename _Tp>
     class mem_fun_t : public unary_function<_Tp*, _Ret>
     {
@@ -13387,15 +12796,15 @@ namespace std
 }
 
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/backward/binders.h" 1 3
-# 60 "C:/msys64/ucrt64/include/c++/14.2.0/backward/binders.h" 3
+# 1 "/usr/include/c++/13/backward/binders.h" 1 3
+# 60 "/usr/include/c++/13/backward/binders.h" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 107 "C:/msys64/ucrt64/include/c++/14.2.0/backward/binders.h" 3
+# 107 "/usr/include/c++/13/backward/binders.h" 3
   template<typename _Operation>
     class binder1st
     : public unary_function<typename _Operation::second_argument_type,
@@ -13472,20 +12881,20 @@ namespace std
 }
 
 #pragma GCC diagnostic pop
-# 1436 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_function.h" 2 3
-# 50 "C:/msys64/ucrt64/include/c++/14.2.0/string" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/ext/numeric_traits.h" 1 3
-# 32 "C:/msys64/ucrt64/include/c++/14.2.0/ext/numeric_traits.h" 3
+# 1439 "/usr/include/c++/13/bits/stl_function.h" 2 3
+# 50 "/usr/include/c++/13/string" 2 3
+# 1 "/usr/include/c++/13/ext/numeric_traits.h" 1 3
+# 32 "/usr/include/c++/13/ext/numeric_traits.h" 3
        
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/ext/numeric_traits.h" 3
+# 33 "/usr/include/c++/13/ext/numeric_traits.h" 3
 
 
 
 
-namespace __gnu_cxx
+namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 {
 
-# 50 "C:/msys64/ucrt64/include/c++/14.2.0/ext/numeric_traits.h" 3
+# 50 "/usr/include/c++/13/ext/numeric_traits.h" 3
   template<typename _Tp>
     struct __is_integer_nonstrict
     : public std::__is_integer<_Tp>
@@ -13528,10 +12937,10 @@ namespace __gnu_cxx
 
   template<typename _Value>
     const int __numeric_traits_integer<_Value>::__digits;
-# 137 "C:/msys64/ucrt64/include/c++/14.2.0/ext/numeric_traits.h" 3
+# 137 "/usr/include/c++/13/ext/numeric_traits.h" 3
   template<typename _Tp>
     using __int_traits = __numeric_traits_integer<_Tp>;
-# 157 "C:/msys64/ucrt64/include/c++/14.2.0/ext/numeric_traits.h" 3
+# 157 "/usr/include/c++/13/ext/numeric_traits.h" 3
   template<typename _Value>
     struct __numeric_traits_floating
     {
@@ -13580,25 +12989,25 @@ namespace __gnu_cxx
     struct __numeric_traits<long double>
     : public __numeric_traits_floating<long double>
     { };
-# 238 "C:/msys64/ucrt64/include/c++/14.2.0/ext/numeric_traits.h" 3
+# 238 "/usr/include/c++/13/ext/numeric_traits.h" 3
 
 }
-# 51 "C:/msys64/ucrt64/include/c++/14.2.0/string" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 1 3
-# 64 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h" 1 3
-# 62 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h" 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/utility.h" 1 3
-# 36 "C:/msys64/ucrt64/include/c++/14.2.0/bits/utility.h" 3
+# 51 "/usr/include/c++/13/string" 2 3
+# 1 "/usr/include/c++/13/bits/stl_algobase.h" 1 3
+# 64 "/usr/include/c++/13/bits/stl_algobase.h" 3
+# 1 "/usr/include/c++/13/bits/stl_pair.h" 1 3
+# 62 "/usr/include/c++/13/bits/stl_pair.h" 3
+# 1 "/usr/include/c++/13/bits/utility.h" 1 3
+# 36 "/usr/include/c++/13/bits/utility.h" 3
        
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/bits/utility.h" 3
+# 37 "/usr/include/c++/13/bits/utility.h" 3
 
 
 
 
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -13681,7 +13090,7 @@ namespace std
  }
       return __n;
     }
-# 134 "C:/msys64/ucrt64/include/c++/14.2.0/bits/utility.h" 3
+# 134 "/usr/include/c++/13/bits/utility.h" 3
   template<size_t __i, typename _Tp>
     using tuple_element_t = typename tuple_element<__i, _Tp>::type;
 
@@ -13694,10 +13103,12 @@ namespace std
   template<size_t _Num>
     struct _Build_index_tuple
     {
-# 154 "C:/msys64/ucrt64/include/c++/14.2.0/bits/utility.h" 3
+# 154 "/usr/include/c++/13/bits/utility.h" 3
       using __type = _Index_tuple<__integer_pack(_Num)...>;
 
     };
+
+
 
 
 
@@ -13718,7 +13129,7 @@ namespace std
 
 
 
-      = integer_sequence<_Tp, __integer_pack(_Num)...>;
+      = integer_sequence<_Tp, __integer_pack(_Tp(_Num))...>;
 
 
 
@@ -13732,7 +13143,6 @@ namespace std
 
   template<typename... _Types>
     using index_sequence_for = make_index_sequence<sizeof...(_Types)>;
-
 
 
 
@@ -13767,31 +13177,61 @@ namespace std
   template<typename _Tp>
     using __is_in_place_type = bool_constant<__is_in_place_type_v<_Tp>>;
 
-  template<typename>
-    inline constexpr bool __is_in_place_index_v = false;
-
-  template<size_t _Nm>
-    inline constexpr bool __is_in_place_index_v<in_place_index_t<_Nm>> = true;
-
 
 
 
   template<size_t _Np, typename... _Types>
     struct _Nth_type
-    { using type = __type_pack_element<_Np, _Types...>; };
-# 283 "C:/msys64/ucrt64/include/c++/14.2.0/bits/utility.h" 3
+    { };
+
+  template<typename _Tp0, typename... _Rest>
+    struct _Nth_type<0, _Tp0, _Rest...>
+    { using type = _Tp0; };
+
+  template<typename _Tp0, typename _Tp1, typename... _Rest>
+    struct _Nth_type<1, _Tp0, _Tp1, _Rest...>
+    { using type = _Tp1; };
+
+  template<typename _Tp0, typename _Tp1, typename _Tp2, typename... _Rest>
+    struct _Nth_type<2, _Tp0, _Tp1, _Tp2, _Rest...>
+    { using type = _Tp2; };
+
+  template<size_t _Np, typename _Tp0, typename _Tp1, typename _Tp2,
+    typename... _Rest>
+
+
+
+    struct _Nth_type<_Np, _Tp0, _Tp1, _Tp2, _Rest...>
+    : _Nth_type<_Np - 3, _Rest...>
+    { };
+
+
+  template<typename _Tp0, typename _Tp1, typename _Tp2, typename... _Rest>
+    struct _Nth_type<0, _Tp0, _Tp1, _Tp2, _Rest...>
+    { using type = _Tp0; };
+
+  template<typename _Tp0, typename _Tp1, typename _Tp2, typename... _Rest>
+    struct _Nth_type<1, _Tp0, _Tp1, _Tp2, _Rest...>
+    { using type = _Tp1; };
+
+
+
+
+
+
 
 }
-# 63 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h" 2 3
+# 63 "/usr/include/c++/13/bits/stl_pair.h" 2 3
 
 
 
 
 
-namespace std
+
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 79 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h" 3
+# 80 "/usr/include/c++/13/bits/stl_pair.h" 3
   struct piecewise_construct_t { explicit piecewise_construct_t() = default; };
 
 
@@ -13801,69 +13241,11 @@ namespace std
 
 
 
-  template<typename _T1, typename _T2>
-    struct pair;
-
   template<typename...>
     class tuple;
 
-
-
-
-
-  template<typename _Tp, size_t _Nm>
-    struct array;
-
   template<size_t...>
     struct _Index_tuple;
-
-  template<size_t _Int, class _Tp1, class _Tp2>
-    constexpr typename tuple_element<_Int, pair<_Tp1, _Tp2>>::type&
-    get(pair<_Tp1, _Tp2>& __in) noexcept;
-
-  template<size_t _Int, class _Tp1, class _Tp2>
-    constexpr typename tuple_element<_Int, pair<_Tp1, _Tp2>>::type&&
-    get(pair<_Tp1, _Tp2>&& __in) noexcept;
-
-  template<size_t _Int, class _Tp1, class _Tp2>
-    constexpr const typename tuple_element<_Int, pair<_Tp1, _Tp2>>::type&
-    get(const pair<_Tp1, _Tp2>& __in) noexcept;
-
-  template<size_t _Int, class _Tp1, class _Tp2>
-    constexpr const typename tuple_element<_Int, pair<_Tp1, _Tp2>>::type&&
-    get(const pair<_Tp1, _Tp2>&& __in) noexcept;
-
-  template<size_t __i, typename... _Elements>
-    constexpr __tuple_element_t<__i, tuple<_Elements...>>&
-    get(tuple<_Elements...>& __t) noexcept;
-
-  template<size_t __i, typename... _Elements>
-    constexpr const __tuple_element_t<__i, tuple<_Elements...>>&
-    get(const tuple<_Elements...>& __t) noexcept;
-
-  template<size_t __i, typename... _Elements>
-    constexpr __tuple_element_t<__i, tuple<_Elements...>>&&
-    get(tuple<_Elements...>&& __t) noexcept;
-
-  template<size_t __i, typename... _Elements>
-    constexpr const __tuple_element_t<__i, tuple<_Elements...>>&&
-    get(const tuple<_Elements...>&& __t) noexcept;
-
-  template<size_t _Int, typename _Tp, size_t _Nm>
-    constexpr _Tp&
-    get(array<_Tp, _Nm>&) noexcept;
-
-  template<size_t _Int, typename _Tp, size_t _Nm>
-    constexpr _Tp&&
-    get(array<_Tp, _Nm>&&) noexcept;
-
-  template<size_t _Int, typename _Tp, size_t _Nm>
-    constexpr const _Tp&
-    get(const array<_Tp, _Nm>&) noexcept;
-
-  template<size_t _Int, typename _Tp, size_t _Nm>
-    constexpr const _Tp&&
-    get(const array<_Tp, _Nm>&&) noexcept;
 
 
 
@@ -13930,7 +13312,9 @@ namespace std
  return false;
       }
     };
-# 260 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h" 3
+
+
+
   template<typename _U1, typename _U2> class __pair_base
   {
 
@@ -13941,7 +13325,7 @@ namespace std
     __pair_base& operator=(const __pair_base&) = delete;
 
   };
-# 283 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h" 3
+# 186 "/usr/include/c++/13/bits/stl_pair.h" 3
   template<typename _T1, typename _T2>
     struct pair
     : public __pair_base<_T1, _T2>
@@ -13970,7 +13354,7 @@ namespace std
  swap(first, __p.first);
  swap(second, __p.second);
       }
-# 331 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h" 3
+# 234 "/usr/include/c++/13/bits/stl_pair.h" 3
     private:
       template<typename... _Args1, size_t... _Indexes1,
         typename... _Args2, size_t... _Indexes2>
@@ -13978,7 +13362,7 @@ namespace std
  pair(tuple<_Args1...>&, tuple<_Args2...>&,
       _Index_tuple<_Indexes1...>, _Index_tuple<_Indexes2...>);
     public:
-# 719 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h" 3
+# 525 "/usr/include/c++/13/bits/stl_pair.h" 3
       template <typename _U1 = _T1,
                 typename _U2 = _T2,
                 typename enable_if<__and_<
@@ -14052,7 +13436,7 @@ namespace std
  explicit constexpr pair(const pair<_U1, _U2>& __p)
  : first(__p.first), second(__p.second)
  { ; }
-# 803 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h" 3
+# 609 "/usr/include/c++/13/bits/stl_pair.h" 3
     private:
 
 
@@ -14213,19 +13597,21 @@ namespace std
    second = std::forward<_U2>(__p.second);
    return *this;
  }
-# 995 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h" 3
+# 801 "/usr/include/c++/13/bits/stl_pair.h" 3
     };
 
 
 
 
   template<typename _T1, typename _T2> pair(_T1, _T2) -> pair<_T1, _T2>;
-# 1031 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h" 3
+
+
+
   template<typename _T1, typename _T2>
     inline constexpr bool
     operator==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
     { return __x.first == __y.first && __x.second == __y.second; }
-# 1043 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h" 3
+# 833 "/usr/include/c++/13/bits/stl_pair.h" 3
   template<typename _T1, typename _T2>
     inline constexpr bool
     operator<(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
@@ -14255,7 +13641,7 @@ namespace std
     inline constexpr bool
     operator>=(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
     { return !(__x < __y); }
-# 1080 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h" 3
+# 870 "/usr/include/c++/13/bits/stl_pair.h" 3
   template<typename _T1, typename _T2>
     inline
 
@@ -14268,12 +13654,12 @@ namespace std
     swap(pair<_T1, _T2>& __x, pair<_T1, _T2>& __y)
     noexcept(noexcept(__x.swap(__y)))
     { __x.swap(__y); }
-# 1103 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h" 3
+# 893 "/usr/include/c++/13/bits/stl_pair.h" 3
   template<typename _T1, typename _T2>
     typename enable_if<!__and_<__is_swappable<_T1>,
           __is_swappable<_T2>>::value>::type
     swap(pair<_T1, _T2>&, pair<_T1, _T2>&) = delete;
-# 1129 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h" 3
+# 919 "/usr/include/c++/13/bits/stl_pair.h" 3
   template<typename _T1, typename _T2>
     constexpr pair<typename __decay_and_strip<_T1>::__type,
                    typename __decay_and_strip<_T2>::__type>
@@ -14284,7 +13670,7 @@ namespace std
       typedef pair<__ds_type1, __ds_type2> __pair_type;
       return __pair_type(std::forward<_T1>(__x), std::forward<_T2>(__y));
     }
-# 1152 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h" 3
+# 942 "/usr/include/c++/13/bits/stl_pair.h" 3
   template<typename _T1, typename _T2>
     struct __is_tuple_like_impl<pair<_T1, _T2>> : true_type
     { };
@@ -14304,11 +13690,6 @@ namespace std
   template<class _Tp1, class _Tp2>
     struct tuple_element<1, pair<_Tp1, _Tp2>>
     { typedef _Tp2 type; };
-
-
-
-  template<size_t __i, typename... _Types>
-    struct tuple_element<__i, tuple<_Types...>>;
 
 
   template<typename _Tp1, typename _Tp2>
@@ -14403,6 +13784,8 @@ namespace std
 
 
 
+
+
   template <typename _Tp, typename _Up>
     constexpr _Tp&
     get(pair<_Tp, _Up>& __p) noexcept
@@ -14442,16 +13825,16 @@ namespace std
     constexpr const _Tp&&
     get(const pair<_Up, _Tp>&& __p) noexcept
     { return std::move(__p.second); }
-# 1332 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h" 3
+# 1118 "/usr/include/c++/13/bits/stl_pair.h" 3
 
 }
-# 65 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 2 3
+# 65 "/usr/include/c++/13/bits/stl_algobase.h" 2 3
 
 
 
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/debug/debug.h" 1 3
-# 48 "C:/msys64/ucrt64/include/c++/14.2.0/debug/debug.h" 3
+# 1 "/usr/include/c++/13/debug/debug.h" 1 3
+# 48 "/usr/include/c++/13/debug/debug.h" 3
 namespace std
 {
   namespace __debug { }
@@ -14467,10 +13850,10 @@ namespace __gnu_debug
   template<typename _Ite, typename _Seq, typename _Cat>
     struct _Safe_iterator;
 }
-# 70 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 2 3
+# 70 "/usr/include/c++/13/bits/stl_algobase.h" 2 3
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/predefined_ops.h" 1 3
-# 35 "C:/msys64/ucrt64/include/c++/14.2.0/bits/predefined_ops.h" 3
+# 1 "/usr/include/c++/13/bits/predefined_ops.h" 1 3
+# 35 "/usr/include/c++/13/bits/predefined_ops.h" 3
 namespace __gnu_cxx
 {
 namespace __ops
@@ -14842,41 +14225,20 @@ namespace __ops
 
 }
 }
-# 72 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 2 3
+# 72 "/usr/include/c++/13/bits/stl_algobase.h" 2 3
 
 
 
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bit" 1 3
-# 32 "C:/msys64/ucrt64/include/c++/14.2.0/bit" 3
+# 1 "/usr/include/c++/13/bit" 1 3
+# 32 "/usr/include/c++/13/bit" 3
        
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/bit" 3
-
-
-
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/concepts" 1 3
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/concepts" 3
-       
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/concepts" 3
-
-
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 1 3
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-       
-# 48 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/concepts" 2 3
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/bit" 2 3
-# 61 "C:/msys64/ucrt64/include/c++/14.2.0/bit" 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 1 3
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-       
-# 48 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-# 62 "C:/msys64/ucrt64/include/c++/14.2.0/bit" 2 3
-
-namespace std
+# 33 "/usr/include/c++/13/bit" 3
+# 55 "/usr/include/c++/13/bit" 3
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 155 "C:/msys64/ucrt64/include/c++/14.2.0/bit" 3
+# 149 "/usr/include/c++/13/bit" 3
   template<typename _Tp>
     constexpr _Tp
     __rotl(_Tp __x, int __s) noexcept
@@ -15064,7 +14426,7 @@ namespace std
 
       if (!std::__is_constant_evaluated())
  {
-   do { if (std::__is_constant_evaluated()) if (__builtin_expect(!bool(__shift_exponent != __int_traits<_Tp>::__digits), false)) std::__glibcxx_assert_fail(); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(__shift_exponent != __int_traits<_Tp>::__digits)) __builtin_unreachable(); } while (false);
  }
 
       using __promoted_type = decltype(__x << 1);
@@ -15098,16 +14460,16 @@ namespace std
       constexpr auto _Nd = __gnu_cxx::__int_traits<_Tp>::__digits;
       return _Nd - std::__countl_zero(__x);
     }
-# 482 "C:/msys64/ucrt64/include/c++/14.2.0/bit" 3
+# 478 "/usr/include/c++/13/bit" 3
 
 }
-# 77 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 2 3
+# 77 "/usr/include/c++/13/bits/stl_algobase.h" 2 3
 
 
 
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -15122,10 +14484,10 @@ namespace std
     {
 
       static_assert(sizeof(_Tp) == sizeof(_Up), "can be compared with memcmp");
-# 108 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 108 "/usr/include/c++/13/bits/stl_algobase.h" 3
  return __builtin_memcmp(__first1, __first2, sizeof(_Tp) * __num);
     }
-# 152 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 152 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _ForwardIterator1, typename _ForwardIterator2>
    
     inline void
@@ -15135,11 +14497,11 @@ namespace std
      
 
      
-# 185 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 185 "/usr/include/c++/13/bits/stl_algobase.h" 3
       swap(*__a, *__b);
 
     }
-# 201 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 201 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _ForwardIterator1, typename _ForwardIterator2>
    
     _ForwardIterator2
@@ -15157,9 +14519,9 @@ namespace std
  std::iter_swap(__first1, __first2);
       return __first2;
     }
-# 230 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 230 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _Tp>
-    [[__nodiscard__]] constexpr
+    constexpr
     inline const _Tp&
     min(const _Tp& __a, const _Tp& __b)
     {
@@ -15170,9 +14532,9 @@ namespace std
  return __b;
       return __a;
     }
-# 254 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 254 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _Tp>
-    [[__nodiscard__]] constexpr
+    constexpr
     inline const _Tp&
     max(const _Tp& __a, const _Tp& __b)
     {
@@ -15183,9 +14545,9 @@ namespace std
  return __b;
       return __a;
     }
-# 278 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 278 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _Tp, typename _Compare>
-    [[__nodiscard__]] constexpr
+    constexpr
     inline const _Tp&
     min(const _Tp& __a, const _Tp& __b, _Compare __comp)
     {
@@ -15194,9 +14556,9 @@ namespace std
  return __b;
       return __a;
     }
-# 300 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 300 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _Tp, typename _Compare>
-    [[__nodiscard__]] constexpr
+    constexpr
     inline const _Tp&
     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
     {
@@ -15214,14 +14576,11 @@ namespace std
     __niter_base(_Iterator __it)
     noexcept(std::is_nothrow_copy_constructible<_Iterator>::value)
     { return __it; }
-# 332 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
-  template<typename _Ite, typename _Seq>
-   
-    decltype(std::__niter_base(std::declval<_Ite>()))
-    __niter_base(const ::__gnu_debug::_Safe_iterator<_Ite, _Seq,
-   std::random_access_iterator_tag>&)
-    noexcept(std::is_nothrow_copy_constructible<_Ite>::value);
 
+  template<typename _Ite, typename _Seq>
+    _Ite
+    __niter_base(const ::__gnu_debug::_Safe_iterator<_Ite, _Seq,
+   std::random_access_iterator_tag>&);
 
 
 
@@ -15230,7 +14589,7 @@ namespace std
    
     inline _From
     __niter_wrap(_From __from, _To __res)
-    { return __from + (std::__niter_base(__res) - std::__niter_base(__from)); }
+    { return __from + (__res - std::__niter_base(__from)); }
 
 
   template<typename _Iterator>
@@ -15446,7 +14805,6 @@ namespace std
 
   template<bool _IsMove,
     typename _Ite, typename _Seq, typename _Cat, typename _OI>
-   
     _OI
     __copy_move_a(const ::__gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>&,
     const ::__gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>&,
@@ -15454,7 +14812,6 @@ namespace std
 
   template<bool _IsMove,
     typename _II, typename _Ite, typename _Seq, typename _Cat>
-   
     __gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>
     __copy_move_a(_II, _II,
     const ::__gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>&);
@@ -15462,7 +14819,6 @@ namespace std
   template<bool _IsMove,
     typename _IIte, typename _ISeq, typename _ICat,
     typename _OIte, typename _OSeq, typename _OCat>
-   
     ::__gnu_debug::_Safe_iterator<_OIte, _OSeq, _OCat>
     __copy_move_a(const ::__gnu_debug::_Safe_iterator<_IIte, _ISeq, _ICat>&,
     const ::__gnu_debug::_Safe_iterator<_IIte, _ISeq, _ICat>&,
@@ -15503,7 +14859,7 @@ namespace std
     __copy_n_a(istreambuf_iterator<_CharT, char_traits<_CharT> >, _Size,
         std::_Deque_iterator<_CharT, _CharT&, _CharT*>,
         bool);
-# 639 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 621 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _II, typename _OI>
    
     inline _OI
@@ -15518,7 +14874,7 @@ namespace std
       return std::__copy_move_a<__is_move_iterator<_II>::__value>
       (std::__miter_base(__first), std::__miter_base(__last), __result);
     }
-# 672 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 654 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _II, typename _OI>
    
     inline _OI
@@ -15680,7 +15036,6 @@ namespace std
 
   template<bool _IsMove,
     typename _Ite, typename _Seq, typename _Cat, typename _OI>
-   
     _OI
     __copy_move_backward_a(
   const ::__gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>&,
@@ -15689,7 +15044,6 @@ namespace std
 
   template<bool _IsMove,
     typename _II, typename _Ite, typename _Seq, typename _Cat>
-   
     __gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>
     __copy_move_backward_a(_II, _II,
   const ::__gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>&);
@@ -15697,13 +15051,12 @@ namespace std
   template<bool _IsMove,
     typename _IIte, typename _ISeq, typename _ICat,
     typename _OIte, typename _OSeq, typename _OCat>
-   
     ::__gnu_debug::_Safe_iterator<_OIte, _OSeq, _OCat>
     __copy_move_backward_a(
   const ::__gnu_debug::_Safe_iterator<_IIte, _ISeq, _ICat>&,
   const ::__gnu_debug::_Safe_iterator<_IIte, _ISeq, _ICat>&,
   const ::__gnu_debug::_Safe_iterator<_OIte, _OSeq, _OCat>&);
-# 875 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 854 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _BI1, typename _BI2>
    
     inline _BI2
@@ -15719,7 +15072,7 @@ namespace std
       return std::__copy_move_backward_a<__is_move_iterator<_BI1>::__value>
       (std::__miter_base(__first), std::__miter_base(__last), __result);
     }
-# 910 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 889 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _BI1, typename _BI2>
    
     inline _BI2
@@ -15773,7 +15126,7 @@ namespace std
     __fill_a1(_Tp* __first, _Tp* __last, const _Tp& __c)
     {
       const _Tp __tmp = __c;
-# 971 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 950 "/usr/include/c++/13/bits/stl_algobase.h" 3
       if (const size_t __len = __last - __first)
  __builtin_memset(__first, static_cast<unsigned char>(__tmp), __len);
     }
@@ -15804,12 +15157,11 @@ namespace std
     { std::__fill_a1(__first, __last, __value); }
 
   template<typename _Ite, typename _Seq, typename _Cat, typename _Tp>
-   
     void
     __fill_a(const ::__gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>&,
       const ::__gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>&,
       const _Tp&);
-# 1019 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 997 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _ForwardIterator, typename _Tp>
    
     inline void
@@ -15842,7 +15194,7 @@ namespace std
   __size_to_integer(__int128 __n) { return __n; }
   __extension__ inline constexpr unsigned __int128
   __size_to_integer(unsigned __int128 __n) { return __n; }
-# 1071 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 1049 "/usr/include/c++/13/bits/stl_algobase.h" 3
   inline constexpr long long
   __size_to_integer(float __n) { return (long long)__n; }
   inline constexpr long long
@@ -15879,7 +15231,6 @@ namespace std
 
   template<typename _Ite, typename _Seq, typename _Cat, typename _Size,
     typename _Tp>
-   
     ::__gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>
     __fill_n_a(const ::__gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>& __first,
         _Size __n, const _Tp& __value,
@@ -15926,7 +15277,7 @@ namespace std
       std::__fill_a(__first, __first + __n, __value);
       return __first + __n;
     }
-# 1172 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 1149 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _OI, typename _Size, typename _Tp>
    
     inline _OI
@@ -16011,21 +15362,18 @@ namespace std
     }
 
   template<typename _II1, typename _Seq1, typename _Cat1, typename _II2>
-   
     bool
     __equal_aux(const ::__gnu_debug::_Safe_iterator<_II1, _Seq1, _Cat1>&,
   const ::__gnu_debug::_Safe_iterator<_II1, _Seq1, _Cat1>&,
   _II2);
 
   template<typename _II1, typename _II2, typename _Seq2, typename _Cat2>
-   
     bool
     __equal_aux(_II1, _II1,
   const ::__gnu_debug::_Safe_iterator<_II2, _Seq2, _Cat2>&);
 
   template<typename _II1, typename _Seq1, typename _Cat1,
     typename _II2, typename _Seq2, typename _Cat2>
-   
     bool
     __equal_aux(const ::__gnu_debug::_Safe_iterator<_II1, _Seq1, _Cat1>&,
   const ::__gnu_debug::_Safe_iterator<_II1, _Seq1, _Cat1>&,
@@ -16214,7 +15562,6 @@ namespace std
 
   template<typename _Iter1, typename _Seq1, typename _Cat1,
     typename _II2>
-   
     bool
     __lexicographical_compare_aux(
   const ::__gnu_debug::_Safe_iterator<_Iter1, _Seq1, _Cat1>&,
@@ -16223,7 +15570,6 @@ namespace std
 
   template<typename _II1,
     typename _Iter2, typename _Seq2, typename _Cat2>
-   
     bool
     __lexicographical_compare_aux(
   _II1, _II1,
@@ -16232,7 +15578,6 @@ namespace std
 
   template<typename _Iter1, typename _Seq1, typename _Cat1,
     typename _Iter2, typename _Seq2, typename _Cat2>
-   
     bool
     __lexicographical_compare_aux(
   const ::__gnu_debug::_Safe_iterator<_Iter1, _Seq1, _Cat1>&,
@@ -16267,9 +15612,9 @@ namespace std
  }
       return __first;
     }
-# 1524 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 1495 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _ForwardIterator, typename _Tp>
-    [[__nodiscard__]]
+   
     inline _ForwardIterator
     lower_bound(_ForwardIterator __first, _ForwardIterator __last,
   const _Tp& __val)
@@ -16292,13 +15637,13 @@ namespace std
     {
 
       return std::__bit_width(make_unsigned_t<_Tp>(__n)) - 1;
-# 1557 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 1528 "/usr/include/c++/13/bits/stl_algobase.h" 3
     }
 
 
-# 1573 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 1544 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _II1, typename _II2>
-    [[__nodiscard__]]
+   
     inline bool
     equal(_II1 __first1, _II1 __last1, _II2 __first2)
     {
@@ -16312,9 +15657,9 @@ namespace std
 
       return std::__equal_aux(__first1, __last1, __first2);
     }
-# 1604 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 1575 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _IIter1, typename _IIter2, typename _BinaryPredicate>
-    [[__nodiscard__]]
+   
     inline bool
     equal(_IIter1 __first1, _IIter1 __last1,
    _IIter2 __first2, _BinaryPredicate __binary_pred)
@@ -16384,9 +15729,9 @@ namespace std
    return false;
       return __first1 == __last1 && __first2 == __last2;
     }
-# 1691 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 1665 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _II1, typename _II2>
-    [[__nodiscard__]]
+   
     inline bool
     equal(_II1 __first1, _II1 __last1, _II2 __first2, _II2 __last2)
     {
@@ -16401,9 +15746,9 @@ namespace std
 
       return std::__equal4(__first1, __last1, __first2, __last2);
     }
-# 1724 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 1698 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _IIter1, typename _IIter2, typename _BinaryPredicate>
-    [[__nodiscard__]]
+   
     inline bool
     equal(_IIter1 __first1, _IIter1 __last1,
    _IIter2 __first2, _IIter2 __last2, _BinaryPredicate __binary_pred)
@@ -16417,9 +15762,9 @@ namespace std
       return std::__equal4(__first1, __last1, __first2, __last2,
           __binary_pred);
     }
-# 1756 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 1730 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _II1, typename _II2>
-    [[__nodiscard__]]
+   
     inline bool
     lexicographical_compare(_II1 __first1, _II1 __last1,
        _II2 __first2, _II2 __last2)
@@ -16439,9 +15784,9 @@ namespace std
       return std::__lexicographical_compare_aux(__first1, __last1,
       __first2, __last2);
     }
-# 1791 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 1765 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _II1, typename _II2, typename _Compare>
-    [[__nodiscard__]]
+   
     inline bool
     lexicographical_compare(_II1 __first1, _II1 __last1,
        _II2 __first2, _II2 __last2, _Compare __comp)
@@ -16456,7 +15801,7 @@ namespace std
  (__first1, __last1, __first2, __last2,
   __gnu_cxx::__ops::__iter_comp_iter(__comp));
     }
-# 1906 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 1880 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _InputIterator1, typename _InputIterator2,
     typename _BinaryPredicate>
    
@@ -16471,9 +15816,9 @@ namespace std
  }
       return pair<_InputIterator1, _InputIterator2>(__first1, __first2);
     }
-# 1934 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 1908 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _InputIterator1, typename _InputIterator2>
-    [[__nodiscard__]]
+   
     inline pair<_InputIterator1, _InputIterator2>
     mismatch(_InputIterator1 __first1, _InputIterator1 __last1,
       _InputIterator2 __first2)
@@ -16489,10 +15834,10 @@ namespace std
       return std::__mismatch(__first1, __last1, __first2,
         __gnu_cxx::__ops::__iter_equal_to_iter());
     }
-# 1968 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 1942 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _InputIterator1, typename _InputIterator2,
     typename _BinaryPredicate>
-    [[__nodiscard__]]
+   
     inline pair<_InputIterator1, _InputIterator2>
     mismatch(_InputIterator1 __first1, _InputIterator1 __last1,
       _InputIterator2 __first2, _BinaryPredicate __binary_pred)
@@ -16505,6 +15850,7 @@ namespace std
       return std::__mismatch(__first1, __last1, __first2,
  __gnu_cxx::__ops::__iter_comp_iter(__binary_pred));
     }
+
 
 
   template<typename _InputIterator1, typename _InputIterator2,
@@ -16523,9 +15869,9 @@ namespace std
  }
       return pair<_InputIterator1, _InputIterator2>(__first1, __first2);
     }
-# 2016 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 1991 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _InputIterator1, typename _InputIterator2>
-    [[__nodiscard__]]
+   
     inline pair<_InputIterator1, _InputIterator2>
     mismatch(_InputIterator1 __first1, _InputIterator1 __last1,
       _InputIterator2 __first2, _InputIterator2 __last2)
@@ -16542,10 +15888,10 @@ namespace std
       return std::__mismatch(__first1, __last1, __first2, __last2,
         __gnu_cxx::__ops::__iter_equal_to_iter());
     }
-# 2052 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 2027 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _InputIterator1, typename _InputIterator2,
     typename _BinaryPredicate>
-    [[__nodiscard__]]
+   
     inline pair<_InputIterator1, _InputIterator2>
     mismatch(_InputIterator1 __first1, _InputIterator1 __last1,
       _InputIterator2 __first2, _InputIterator2 __last2,
@@ -16669,53 +16015,6 @@ namespace std
       return __result;
     }
 
-  template<typename _ForwardIterator1, typename _ForwardIterator2,
-    typename _BinaryPredicate>
-   
-    _ForwardIterator1
-    __search(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
-      _ForwardIterator2 __first2, _ForwardIterator2 __last2,
-      _BinaryPredicate __predicate)
-    {
-
-      if (__first1 == __last1 || __first2 == __last2)
- return __first1;
-
-
-      _ForwardIterator2 __p1(__first2);
-      if (++__p1 == __last2)
- return std::__find_if(__first1, __last1,
-  __gnu_cxx::__ops::__iter_comp_iter(__predicate, __first2));
-
-
-      _ForwardIterator1 __current = __first1;
-
-      for (;;)
- {
-   __first1 =
-     std::__find_if(__first1, __last1,
-  __gnu_cxx::__ops::__iter_comp_iter(__predicate, __first2));
-
-   if (__first1 == __last1)
-     return __last1;
-
-   _ForwardIterator2 __p = __p1;
-   __current = __first1;
-   if (++__current == __last1)
-     return __last1;
-
-   while (__predicate(__current, __p))
-     {
-       if (++__p == __last2)
-  return __first1;
-       if (++__current == __last1)
-  return __last1;
-     }
-   ++__first1;
- }
-      return __first1;
-    }
-
 
   template<typename _ForwardIterator1, typename _ForwardIterator2,
     typename _BinaryPredicate>
@@ -16754,7 +16053,7 @@ namespace std
  }
       return true;
     }
-# 2276 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
+# 2204 "/usr/include/c++/13/bits/stl_algobase.h" 3
   template<typename _ForwardIterator1, typename _ForwardIterator2>
    
     inline bool
@@ -16775,49 +16074,25 @@ namespace std
 
 
 
-# 2318 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h" 3
-  template<typename _ForwardIterator1, typename _ForwardIterator2,
-    typename _BinaryPredicate>
-   
-    inline _ForwardIterator1
-    search(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
-    _ForwardIterator2 __first2, _ForwardIterator2 __last2,
-    _BinaryPredicate __predicate)
-    {
-
-     
-     
-     
-
-
-      ;
-      ;
-
-      return std::__search(__first1, __last1, __first2, __last2,
-      __gnu_cxx::__ops::__iter_comp_iter(__predicate));
-    }
-
-
-
 }
-# 52 "C:/msys64/ucrt64/include/c++/14.2.0/string" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/refwrap.h" 1 3
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/bits/refwrap.h" 3
+# 52 "/usr/include/c++/13/string" 2 3
+# 1 "/usr/include/c++/13/bits/refwrap.h" 1 3
+# 33 "/usr/include/c++/13/bits/refwrap.h" 3
        
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/bits/refwrap.h" 3
+# 34 "/usr/include/c++/13/bits/refwrap.h" 3
 
 
 
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/invoke.h" 1 3
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/bits/invoke.h" 3
+# 1 "/usr/include/c++/13/bits/invoke.h" 1 3
+# 33 "/usr/include/c++/13/bits/invoke.h" 3
        
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/bits/invoke.h" 3
-# 42 "C:/msys64/ucrt64/include/c++/14.2.0/bits/invoke.h" 3
-namespace std
+# 34 "/usr/include/c++/13/bits/invoke.h" 3
+# 42 "/usr/include/c++/13/bits/invoke.h" 3
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 53 "C:/msys64/ucrt64/include/c++/14.2.0/bits/invoke.h" 3
+# 53 "/usr/include/c++/13/bits/invoke.h" 3
   template<typename _Tp, typename _Up = typename __inv_unwrap<_Tp>::type>
     constexpr _Up&&
     __invfwd(typename remove_reference<_Tp>::type& __t) noexcept
@@ -16883,20 +16158,16 @@ namespace std
        std::forward<_Callable>(__fn),
        std::forward<_Args>(__args)...);
     }
-# 155 "C:/msys64/ucrt64/include/c++/14.2.0/bits/invoke.h" 3
+# 155 "/usr/include/c++/13/bits/invoke.h" 3
 
 }
-# 39 "C:/msys64/ucrt64/include/c++/14.2.0/bits/refwrap.h" 2 3
+# 39 "/usr/include/c++/13/bits/refwrap.h" 2 3
 
 
-
-
-
-
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 56 "C:/msys64/ucrt64/include/c++/14.2.0/bits/refwrap.h" 3
+# 52 "/usr/include/c++/13/bits/refwrap.h" 3
   template<typename _Res, typename... _ArgTypes>
     struct _Maybe_unary_or_binary_function { };
 
@@ -16927,7 +16198,7 @@ namespace std
  = _Maybe_unary_or_binary_function<_Res, _Class*, _ArgTypes...>;
       using __arity = integral_constant<size_t, sizeof...(_ArgTypes)>;
     };
-# 107 "C:/msys64/ucrt64/include/c++/14.2.0/bits/refwrap.h" 3
+# 103 "/usr/include/c++/13/bits/refwrap.h" 3
 template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) > : _Mem_fn_traits_base<_Res, _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes... ...) > : _Mem_fn_traits_base<_Res, _Class, _ArgTypes...> { using __vararg = true_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) const > : _Mem_fn_traits_base<_Res, const _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes... ...) const > : _Mem_fn_traits_base<_Res, const _Class, _ArgTypes...> { using __vararg = true_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) volatile > : _Mem_fn_traits_base<_Res, volatile _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes... ...) volatile > : _Mem_fn_traits_base<_Res, volatile _Class, _ArgTypes...> { using __vararg = true_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) const volatile > : _Mem_fn_traits_base<_Res, const volatile _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes... ...) const volatile > : _Mem_fn_traits_base<_Res, const volatile _Class, _ArgTypes...> { using __vararg = true_type; };
 template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) &> : _Mem_fn_traits_base<_Res, _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes... ...) &> : _Mem_fn_traits_base<_Res, _Class, _ArgTypes...> { using __vararg = true_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) const &> : _Mem_fn_traits_base<_Res, const _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes... ...) const &> : _Mem_fn_traits_base<_Res, const _Class, _ArgTypes...> { using __vararg = true_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) volatile &> : _Mem_fn_traits_base<_Res, volatile _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes... ...) volatile &> : _Mem_fn_traits_base<_Res, volatile _Class, _ArgTypes...> { using __vararg = true_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) const volatile &> : _Mem_fn_traits_base<_Res, const volatile _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes... ...) const volatile &> : _Mem_fn_traits_base<_Res, const volatile _Class, _ArgTypes...> { using __vararg = true_type; };
 template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) &&> : _Mem_fn_traits_base<_Res, _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes... ...) &&> : _Mem_fn_traits_base<_Res, _Class, _ArgTypes...> { using __vararg = true_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) const &&> : _Mem_fn_traits_base<_Res, const _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes... ...) const &&> : _Mem_fn_traits_base<_Res, const _Class, _ArgTypes...> { using __vararg = true_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) volatile &&> : _Mem_fn_traits_base<_Res, volatile _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes... ...) volatile &&> : _Mem_fn_traits_base<_Res, volatile _Class, _ArgTypes...> { using __vararg = true_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) const volatile &&> : _Mem_fn_traits_base<_Res, const volatile _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes... ...) const volatile &&> : _Mem_fn_traits_base<_Res, const volatile _Class, _ArgTypes...> { using __vararg = true_type; };
@@ -17119,7 +16390,7 @@ template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_t
       using result_type = typename _Mem_fn_traits<_MemFunPtr>::__result_type;
     };
 #pragma GCC diagnostic pop
-# 306 "C:/msys64/ucrt64/include/c++/14.2.0/bits/refwrap.h" 3
+# 302 "/usr/include/c++/13/bits/refwrap.h" 3
   template<typename _Tp>
     class reference_wrapper
 
@@ -17179,7 +16450,6 @@ template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_t
 
    return std::__invoke(get(), std::forward<_Args>(__args)...);
  }
-# 412 "C:/msys64/ucrt64/include/c++/14.2.0/bits/refwrap.h" 3
     };
 
 
@@ -17227,17 +16497,17 @@ template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_t
 
 
 }
-# 53 "C:/msys64/ucrt64/include/c++/14.2.0/string" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/range_access.h" 1 3
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/bits/range_access.h" 3
+# 53 "/usr/include/c++/13/string" 2 3
+# 1 "/usr/include/c++/13/bits/range_access.h" 1 3
+# 33 "/usr/include/c++/13/bits/range_access.h" 3
        
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/bits/range_access.h" 3
+# 34 "/usr/include/c++/13/bits/range_access.h" 3
 
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/initializer_list" 1 3
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/initializer_list" 3
+# 1 "/usr/include/c++/13/initializer_list" 1 3
+# 33 "/usr/include/c++/13/initializer_list" 3
        
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/initializer_list" 3
+# 34 "/usr/include/c++/13/initializer_list" 3
 
 
 
@@ -17245,7 +16515,7 @@ template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_t
 
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
   template<class _E>
@@ -17306,11 +16576,11 @@ namespace std
     end(initializer_list<_Tp> __ils) noexcept
     { return __ils.end(); }
 }
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/bits/range_access.h" 2 3
+# 37 "/usr/include/c++/13/bits/range_access.h" 2 3
 
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -17521,7 +16791,7 @@ namespace std
     inline constexpr auto
     crend(const _Container& __cont) -> decltype(std::rend(__cont))
     { return std::rend(__cont); }
-# 259 "C:/msys64/ucrt64/include/c++/14.2.0/bits/range_access.h" 3
+# 261 "/usr/include/c++/13/bits/range_access.h" 3
   template <typename _Container>
     [[nodiscard, __gnu__::__always_inline__]]
     constexpr auto
@@ -17609,25 +16879,25 @@ namespace std
     constexpr const _Tp*
     data(initializer_list<_Tp> __il) noexcept
     { return __il.begin(); }
-# 366 "C:/msys64/ucrt64/include/c++/14.2.0/bits/range_access.h" 3
+# 370 "/usr/include/c++/13/bits/range_access.h" 3
 
 }
-# 54 "C:/msys64/ucrt64/include/c++/14.2.0/string" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 1 3
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 54 "/usr/include/c++/13/string" 2 3
+# 1 "/usr/include/c++/13/bits/basic_string.h" 1 3
+# 37 "/usr/include/c++/13/bits/basic_string.h" 3
        
-# 38 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 38 "/usr/include/c++/13/bits/basic_string.h" 3
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/ext/alloc_traits.h" 1 3
-# 32 "C:/msys64/ucrt64/include/c++/14.2.0/ext/alloc_traits.h" 3
+# 1 "/usr/include/c++/13/ext/alloc_traits.h" 1 3
+# 32 "/usr/include/c++/13/ext/alloc_traits.h" 3
        
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/ext/alloc_traits.h" 3
+# 33 "/usr/include/c++/13/ext/alloc_traits.h" 3
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 1 3
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_construct.h" 1 3
-# 73 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_construct.h" 3
-namespace std
+# 1 "/usr/include/c++/13/bits/alloc_traits.h" 1 3
+# 33 "/usr/include/c++/13/bits/alloc_traits.h" 3
+# 1 "/usr/include/c++/13/bits/stl_construct.h" 1 3
+# 73 "/usr/include/c++/13/bits/stl_construct.h" 3
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -17644,16 +16914,16 @@ namespace std
       else
  __location->~_Tp();
     }
-# 106 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_construct.h" 3
+# 106 "/usr/include/c++/13/bits/stl_construct.h" 3
   template<typename _Tp, typename... _Args>
    
     inline void
     _Construct(_Tp* __p, _Args&&... __args)
     {
-# 119 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_construct.h" 3
+# 119 "/usr/include/c++/13/bits/stl_construct.h" 3
       ::new((void*)__p) _Tp(std::forward<_Args>(__args)...);
     }
-# 132 "C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_construct.h" 3
+# 132 "/usr/include/c++/13/bits/stl_construct.h" 3
   template<typename _T1>
     inline void
     _Construct_novalue(_T1* __p)
@@ -17788,10 +17058,12 @@ namespace std
 
 
 }
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 2 3
-# 46 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 3
-namespace std
+# 34 "/usr/include/c++/13/bits/alloc_traits.h" 2 3
+# 43 "/usr/include/c++/13/bits/alloc_traits.h" 3
+namespace std __attribute__ ((__visibility__ ("default")))
 {
+
+
 
 
 
@@ -17841,7 +17113,7 @@ namespace std
   template<typename _Alloc, typename _Up>
     using __alloc_rebind
       = typename __allocator_traits_base::template __rebind<_Alloc, _Up>::type;
-# 105 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 3
+# 104 "/usr/include/c++/13/bits/alloc_traits.h" 3
   template<typename _Alloc>
     struct allocator_traits : __allocator_traits_base
     {
@@ -18061,19 +17333,19 @@ namespace std
  { return __a; }
 
     public:
-# 332 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 3
+# 331 "/usr/include/c++/13/bits/alloc_traits.h" 3
       [[__nodiscard__]] static pointer
       allocate(_Alloc& __a, size_type __n)
       { return __a.allocate(__n); }
-# 347 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 3
+# 346 "/usr/include/c++/13/bits/alloc_traits.h" 3
       [[__nodiscard__]] static pointer
       allocate(_Alloc& __a, size_type __n, const_void_pointer __hint)
       { return _S_allocate(__a, __n, __hint, 0); }
-# 359 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 3
+# 358 "/usr/include/c++/13/bits/alloc_traits.h" 3
       static void
       deallocate(_Alloc& __a, pointer __p, size_type __n)
       { __a.deallocate(__p, __n); }
-# 374 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 3
+# 373 "/usr/include/c++/13/bits/alloc_traits.h" 3
       template<typename _Tp, typename... _Args>
  static auto
  construct(_Alloc& __a, _Tp* __p, _Args&&... __args)
@@ -18081,24 +17353,22 @@ namespace std
            std::forward<_Args>(__args)...)))
  -> decltype(_S_construct(__a, __p, std::forward<_Args>(__args)...))
  { _S_construct(__a, __p, std::forward<_Args>(__args)...); }
-# 390 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 3
+# 389 "/usr/include/c++/13/bits/alloc_traits.h" 3
       template<typename _Tp>
  static void
  destroy(_Alloc& __a, _Tp* __p)
  noexcept(noexcept(_S_destroy(__a, __p, 0)))
  { _S_destroy(__a, __p, 0); }
-# 404 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 3
+# 403 "/usr/include/c++/13/bits/alloc_traits.h" 3
       static size_type
       max_size(const _Alloc& __a) noexcept
       { return _S_max_size(__a, 0); }
-# 416 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 3
+# 415 "/usr/include/c++/13/bits/alloc_traits.h" 3
       static _Alloc
       select_on_container_copy_construction(const _Alloc& __rhs)
       { return _S_select(__rhs, 0); }
     };
-
-
-
+# 427 "/usr/include/c++/13/bits/alloc_traits.h" 3
   template<typename _Tp>
     struct allocator_traits<allocator<_Tp>>
     {
@@ -18143,12 +17413,12 @@ namespace std
 
       template<typename _Up>
  using rebind_traits = allocator_traits<allocator<_Up>>;
-# 475 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 3
+# 479 "/usr/include/c++/13/bits/alloc_traits.h" 3
       [[__nodiscard__,__gnu__::__always_inline__]]
       static pointer
       allocate(allocator_type& __a, size_type __n)
       { return __a.allocate(__n); }
-# 490 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 3
+# 494 "/usr/include/c++/13/bits/alloc_traits.h" 3
       [[__nodiscard__,__gnu__::__always_inline__]]
       static pointer
       allocate(allocator_type& __a, size_type __n,
@@ -18160,12 +17430,12 @@ namespace std
 
 
       }
-# 510 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 3
+# 514 "/usr/include/c++/13/bits/alloc_traits.h" 3
       [[__gnu__::__always_inline__]]
       static void
       deallocate(allocator_type& __a, pointer __p, size_type __n)
       { __a.deallocate(__p, __n); }
-# 526 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 3
+# 530 "/usr/include/c++/13/bits/alloc_traits.h" 3
       template<typename _Up, typename... _Args>
  [[__gnu__::__always_inline__]]
  static void
@@ -18179,7 +17449,7 @@ namespace std
 
 
  }
-# 547 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 3
+# 551 "/usr/include/c++/13/bits/alloc_traits.h" 3
       template<typename _Up>
  [[__gnu__::__always_inline__]]
  static void
@@ -18273,14 +17543,14 @@ namespace std
 
       static void
       deallocate(allocator_type&, void*, size_type) = delete;
-# 652 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 3
+# 656 "/usr/include/c++/13/bits/alloc_traits.h" 3
       template<typename _Up, typename... _Args>
  [[__gnu__::__always_inline__]]
  static void
  construct(allocator_type&, _Up* __p, _Args&&... __args)
  noexcept(std::is_nothrow_constructible<_Up, _Args...>::value)
  { std::_Construct(__p, std::forward<_Args>(__args)...); }
-# 666 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 3
+# 670 "/usr/include/c++/13/bits/alloc_traits.h" 3
       template<typename _Up>
  [[__gnu__::__always_inline__]]
  static void
@@ -18302,7 +17572,7 @@ namespace std
       select_on_container_copy_construction(const allocator_type& __rhs)
       { return __rhs; }
     };
-# 704 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 3
+# 708 "/usr/include/c++/13/bits/alloc_traits.h" 3
   template<typename _Alloc>
     [[__gnu__::__always_inline__]]
     constexpr inline void
@@ -18327,7 +17597,7 @@ namespace std
       typedef allocator_traits<_Alloc> __traits;
       return __traits::select_on_container_copy_construction(__a);
     }
-# 741 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 3
+# 745 "/usr/include/c++/13/bits/alloc_traits.h" 3
   template<typename _Alloc>
     [[__gnu__::__always_inline__]]
     constexpr inline void
@@ -18343,7 +17613,7 @@ namespace std
 
 
     }
-# 772 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 3
+# 776 "/usr/include/c++/13/bits/alloc_traits.h" 3
   template<typename _Alloc>
     [[__gnu__::__always_inline__]]
     constexpr inline void
@@ -18427,7 +17697,7 @@ namespace std
   template<typename _Alloc>
     using _RequireNotAllocator
       = typename enable_if<!__is_allocator<_Alloc>::value, _Alloc>::type;
-# 869 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 3
+# 873 "/usr/include/c++/13/bits/alloc_traits.h" 3
   template<typename _Alloc, bool = __is_empty(_Alloc)>
     struct __alloc_swap
     { static void _S_do_it(_Alloc&, _Alloc&) noexcept { } };
@@ -18473,7 +17743,7 @@ namespace std
 
       }
     };
-# 922 "C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h" 3
+# 926 "/usr/include/c++/13/bits/alloc_traits.h" 3
   template<typename _ForwardIterator, typename _Allocator>
    
     void
@@ -18503,9 +17773,9 @@ namespace std
 
 
 }
-# 35 "C:/msys64/ucrt64/include/c++/14.2.0/ext/alloc_traits.h" 2 3
+# 35 "/usr/include/c++/13/ext/alloc_traits.h" 2 3
 
-namespace __gnu_cxx
+namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -18596,12 +17866,12 @@ template<typename _Alloc, typename = typename _Alloc::value_type>
     template<typename _Tp>
       struct rebind
       { typedef typename _Base_type::template rebind_alloc<_Tp> other; };
-# 180 "C:/msys64/ucrt64/include/c++/14.2.0/ext/alloc_traits.h" 3
+# 180 "/usr/include/c++/13/ext/alloc_traits.h" 3
   };
 
 
 }
-# 40 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 2 3
+# 40 "/usr/include/c++/13/bits/basic_string.h" 2 3
 
 
 
@@ -18609,39 +17879,27 @@ template<typename _Alloc, typename = typename _Alloc::value_type>
 
 
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/string_view" 1 3
-# 36 "C:/msys64/ucrt64/include/c++/14.2.0/string_view" 3
+# 1 "/usr/include/c++/13/string_view" 1 3
+# 36 "/usr/include/c++/13/string_view" 3
        
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/string_view" 3
+# 37 "/usr/include/c++/13/string_view" 3
 
 
 
 
 
-
-
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 1 3
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
+# 1 "/usr/include/c++/13/bits/functional_hash.h" 1 3
+# 33 "/usr/include/c++/13/bits/functional_hash.h" 3
        
-# 48 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-# 45 "C:/msys64/ucrt64/include/c++/14.2.0/string_view" 2 3
+# 34 "/usr/include/c++/13/bits/functional_hash.h" 3
 
 
 
 
-
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/functional_hash.h" 1 3
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/bits/functional_hash.h" 3
-       
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/bits/functional_hash.h" 3
-
-
-
-
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 50 "C:/msys64/ucrt64/include/c++/14.2.0/bits/functional_hash.h" 3
+# 50 "/usr/include/c++/13/bits/functional_hash.h" 3
   template<typename _Result, typename _Arg>
     struct __hash_base
     {
@@ -18705,7 +17963,7 @@ namespace std
       operator()(_Tp* __p) const noexcept
       { return reinterpret_cast<size_t>(__p); }
     };
-# 125 "C:/msys64/ucrt64/include/c++/14.2.0/bits/functional_hash.h" 3
+# 125 "/usr/include/c++/13/bits/functional_hash.h" 3
   template<> struct hash<bool> : public __hash_base<size_t, bool> { size_t operator()(bool __val) const noexcept { return static_cast<size_t>(__val); } };
 
 
@@ -18760,7 +18018,7 @@ namespace std
   template<> struct hash<__int128> : public __hash_base<size_t, __int128> { size_t operator()(__int128 __val) const noexcept { return static_cast<size_t>(__val); } };
   __extension__
   template<> struct hash<__int128 unsigned> : public __hash_base<size_t, __int128 unsigned> { size_t operator()(__int128 unsigned __val) const noexcept { return static_cast<size_t>(__val); } };
-# 201 "C:/msys64/ucrt64/include/c++/14.2.0/bits/functional_hash.h" 3
+# 201 "/usr/include/c++/13/bits/functional_hash.h" 3
   struct _Hash_impl
   {
     static size_t
@@ -18839,7 +18097,7 @@ namespace std
       operator()(nullptr_t) const noexcept
       { return 0; }
     };
-# 294 "C:/msys64/ucrt64/include/c++/14.2.0/bits/functional_hash.h" 3
+# 294 "/usr/include/c++/13/bits/functional_hash.h" 3
   template<typename _Hash>
     struct __is_fast_hash : public std::true_type
     { };
@@ -18850,13 +18108,12 @@ namespace std
 
 
 }
-# 51 "C:/msys64/ucrt64/include/c++/14.2.0/string_view" 2 3
-# 64 "C:/msys64/ucrt64/include/c++/14.2.0/string_view" 3
-namespace std
+# 43 "/usr/include/c++/13/string_view" 2 3
+# 56 "/usr/include/c++/13/string_view" 3
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-
-
+# 69 "/usr/include/c++/13/string_view" 3
   constexpr size_t
   __sv_check(size_t __size, size_t __pos, const char* __s)
   {
@@ -18874,7 +18131,7 @@ namespace std
    const bool __testoff = __off < __size - __pos;
    return __testoff ? __off : __size - __pos;
   }
-# 105 "C:/msys64/ucrt64/include/c++/14.2.0/string_view" 3
+# 105 "/usr/include/c++/13/string_view" 3
   template<typename _CharT, typename _Traits = std::char_traits<_CharT>>
     class basic_string_view
     {
@@ -18919,7 +18176,7 @@ namespace std
       basic_string_view(const _CharT* __str, size_type __len) noexcept
       : _M_len{__len}, _M_str{__str}
       { }
-# 180 "C:/msys64/ucrt64/include/c++/14.2.0/string_view" 3
+# 180 "/usr/include/c++/13/string_view" 3
       constexpr basic_string_view&
       operator=(const basic_string_view&) noexcept = default;
 
@@ -18996,7 +18253,7 @@ namespace std
       constexpr const_reference
       operator[](size_type __pos) const noexcept
       {
- do { if (std::__is_constant_evaluated()) if (__builtin_expect(!bool(__pos < this->_M_len), false)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__pos < this->_M_len)) __builtin_unreachable(); } while (false);
  return *(this->_M_str + __pos);
       }
 
@@ -19015,7 +18272,7 @@ namespace std
       constexpr const_reference
       front() const noexcept
       {
- do { if (std::__is_constant_evaluated()) if (__builtin_expect(!bool(this->_M_len > 0), false)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(this->_M_len > 0)) __builtin_unreachable(); } while (false);
  return *this->_M_str;
       }
 
@@ -19023,7 +18280,7 @@ namespace std
       constexpr const_reference
       back() const noexcept
       {
- do { if (std::__is_constant_evaluated()) if (__builtin_expect(!bool(this->_M_len > 0), false)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(this->_M_len > 0)) __builtin_unreachable(); } while (false);
  return *(this->_M_str + this->_M_len - 1);
       }
 
@@ -19037,7 +18294,7 @@ namespace std
       constexpr void
       remove_prefix(size_type __n) noexcept
       {
- do { if (std::__is_constant_evaluated()) if (__builtin_expect(!bool(this->_M_len >= __n), false)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(this->_M_len >= __n)) __builtin_unreachable(); } while (false);
  this->_M_str += __n;
  this->_M_len -= __n;
       }
@@ -19045,7 +18302,7 @@ namespace std
       constexpr void
       remove_suffix(size_type __n) noexcept
       {
- do { if (std::__is_constant_evaluated()) if (__builtin_expect(!bool(this->_M_len >= __n), false)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(this->_M_len >= __n)) __builtin_unreachable(); } while (false);
  this->_M_len -= __n;
       }
 
@@ -19123,7 +18380,7 @@ namespace std
  return this->substr(__pos1, __n1)
      .compare(basic_string_view(__str, __n2));
       }
-# 445 "C:/msys64/ucrt64/include/c++/14.2.0/string_view" 3
+# 446 "/usr/include/c++/13/string_view" 3
       [[nodiscard]]
       constexpr size_type
       find(basic_string_view __str, size_type __pos = 0) const noexcept
@@ -19265,22 +18522,22 @@ namespace std
       size_t _M_len;
       const _CharT* _M_str;
     };
-# 623 "C:/msys64/ucrt64/include/c++/14.2.0/string_view" 3
+# 606 "/usr/include/c++/13/string_view" 3
   template<typename _CharT, typename _Traits>
     [[nodiscard]]
     constexpr bool
     operator==(basic_string_view<_CharT, _Traits> __x,
-        __type_identity_t<basic_string_view<_CharT, _Traits>> __y)
+               basic_string_view<_CharT, _Traits> __y) noexcept
+    { return __x.size() == __y.size() && __x.compare(__y) == 0; }
+
+  template<typename _CharT, typename _Traits>
+    [[nodiscard]]
+    constexpr bool
+    operator==(basic_string_view<_CharT, _Traits> __x,
+               __type_identity_t<basic_string_view<_CharT, _Traits>> __y)
     noexcept
     { return __x.size() == __y.size() && __x.compare(__y) == 0; }
-
-  template<typename _CharT, typename _Traits>
-    [[nodiscard]]
-    constexpr bool
-    operator==(basic_string_view<_CharT, _Traits> __x,
-        basic_string_view<_CharT, _Traits> __y) noexcept
-    { return __x.size() == __y.size() && __x.compare(__y) == 0; }
-
+# 639 "/usr/include/c++/13/string_view" 3
   template<typename _CharT, typename _Traits>
     [[nodiscard]]
     constexpr bool
@@ -19451,7 +18708,7 @@ namespace std
   template<>
     struct __is_fast_hash<hash<wstring_view>> : std::false_type
     { };
-# 825 "C:/msys64/ucrt64/include/c++/14.2.0/string_view" 3
+# 826 "/usr/include/c++/13/string_view" 3
   template<>
     struct hash<u16string_view>
     : public __hash_base<size_t, u16string_view>
@@ -19513,18 +18770,18 @@ namespace std
 #pragma GCC diagnostic pop
   }
   }
-# 901 "C:/msys64/ucrt64/include/c++/14.2.0/string_view" 3
+# 902 "/usr/include/c++/13/string_view" 3
 
 }
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/string_view.tcc" 1 3
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/bits/string_view.tcc" 3
+# 1 "/usr/include/c++/13/bits/string_view.tcc" 1 3
+# 37 "/usr/include/c++/13/bits/string_view.tcc" 3
        
-# 38 "C:/msys64/ucrt64/include/c++/14.2.0/bits/string_view.tcc" 3
+# 38 "/usr/include/c++/13/bits/string_view.tcc" 3
 
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -19721,40 +18978,23 @@ namespace std
 
 
 }
-# 905 "C:/msys64/ucrt64/include/c++/14.2.0/string_view" 2 3
-# 48 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 2 3
+# 906 "/usr/include/c++/13/string_view" 2 3
+# 48 "/usr/include/c++/13/bits/basic_string.h" 2 3
 
 
 
 
 
-
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 1 3
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-       
-# 48 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-# 55 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 2 3
-
-
-
-
-
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 namespace __cxx11 {
-# 85 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 86 "/usr/include/c++/13/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     class basic_string
     {
-
-
-
-
-
       typedef typename __gnu_cxx::__alloc_traits<_Alloc>::template
  rebind<_CharT>::other _Char_alloc_type;
-
 
       typedef __gnu_cxx::__alloc_traits<_Char_alloc_type> _Alloc_traits;
 
@@ -19791,7 +19031,7 @@ namespace __cxx11 {
       _S_allocate(_Char_alloc_type& __a, size_type __n)
       {
  pointer __p = _Alloc_traits::allocate(__a, __n);
-# 141 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 136 "/usr/include/c++/13/bits/basic_string.h" 3
  return __p;
       }
 
@@ -19946,7 +19186,7 @@ namespace __cxx11 {
       void
       _M_destroy(size_type __size) throw()
       { _Alloc_traits::deallocate(_M_get_allocator(), _M_data(), __size + 1); }
-# 321 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 316 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename _InIterator>
 
         void
@@ -20000,7 +19240,7 @@ namespace __cxx11 {
       }
 
     private:
-# 389 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 384 "/usr/include/c++/13/bits/basic_string.h" 3
      
       size_type
       _M_check(size_type __pos, const char* __s) const
@@ -20171,7 +19411,7 @@ namespace __cxx11 {
  _M_construct(__str._M_data(), __str._M_data() + __str.length(),
        std::forward_iterator_tag());
       }
-# 568 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 563 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string(const basic_string& __str, size_type __pos,
      const _Alloc& __a = _Alloc())
@@ -20199,7 +19439,7 @@ namespace __cxx11 {
  _M_construct(__start, __start + __str._M_limit(__pos, __n),
        std::forward_iterator_tag());
       }
-# 603 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 598 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string(const basic_string& __str, size_type __pos,
      size_type __n, const _Alloc& __a)
@@ -20210,7 +19450,7 @@ namespace __cxx11 {
  _M_construct(__start, __start + __str._M_limit(__pos, __n),
        std::forward_iterator_tag());
       }
-# 623 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 618 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string(const _CharT* __s, size_type __n,
      const _Alloc& __a = _Alloc())
@@ -20222,7 +19462,7 @@ namespace __cxx11 {
                                                  );
  _M_construct(__s, __s + __n, std::forward_iterator_tag());
       }
-# 643 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 638 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename = _RequireAllocator<_Alloc>>
 
      
@@ -20236,14 +19476,14 @@ namespace __cxx11 {
  const _CharT* __end = __s + traits_type::length(__s);
  _M_construct(__s, __end, forward_iterator_tag());
       }
-# 666 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 661 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename = _RequireAllocator<_Alloc>>
 
      
       basic_string(size_type __n, _CharT __c, const _Alloc& __a = _Alloc())
       : _M_dataplus(_M_local_data(), __a)
       { _M_construct(__n, __c); }
-# 681 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 676 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string(basic_string&& __str) noexcept
       : _M_dataplus(_M_local_data(), std::move(__str._M_get_allocator()))
@@ -20308,7 +19548,7 @@ namespace __cxx11 {
  else
    _M_construct(__str.begin(), __str.end(), std::forward_iterator_tag());
       }
-# 759 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 754 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename _InputIterator,
         typename = std::_RequireInputIter<_InputIterator>>
 
@@ -20326,7 +19566,7 @@ namespace __cxx11 {
 
 
  }
-# 785 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 780 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename _Tp,
         typename = enable_if_t<is_convertible_v<const _Tp&, __sv_type>>>
 
@@ -20372,7 +19612,7 @@ namespace __cxx11 {
       basic_string&
       operator=(const _CharT* __s)
       { return this->assign(__s); }
-# 838 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 833 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       operator=(_CharT __c)
@@ -20380,7 +19620,7 @@ namespace __cxx11 {
  this->assign(1, __c);
  return *this;
       }
-# 856 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 851 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       operator=(basic_string&& __str)
@@ -20616,11 +19856,11 @@ namespace __cxx11 {
       size_type
       max_size() const noexcept
       { return (_Alloc_traits::max_size(_M_get_allocator()) - 1) / 2; }
-# 1102 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1097 "/usr/include/c++/13/bits/basic_string.h" 3
      
       void
       resize(size_type __n, _CharT __c);
-# 1116 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1111 "/usr/include/c++/13/bits/basic_string.h" 3
      
       void
       resize(size_type __n)
@@ -20635,16 +19875,7 @@ namespace __cxx11 {
       shrink_to_fit() noexcept
       { reserve(); }
 #pragma GCC diagnostic pop
-# 1169 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
-      template<typename _Operation>
- void
- __resize_and_overwrite(size_type __n, _Operation __op);
-
-
-
-
-
-
+# 1167 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       capacity() const noexcept
@@ -20652,7 +19883,7 @@ namespace __cxx11 {
  return _M_is_local() ? size_type(_S_local_capacity)
                       : _M_allocated_capacity;
       }
-# 1203 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1192 "/usr/include/c++/13/bits/basic_string.h" 3
      
       void
       reserve(size_type __res_arg);
@@ -20683,27 +19914,27 @@ namespace __cxx11 {
       bool
       empty() const noexcept
       { return this->size() == 0; }
-# 1245 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1234 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       const_reference
       operator[] (size_type __pos) const noexcept
       {
- do { if (std::__is_constant_evaluated()) if (__builtin_expect(!bool(__pos <= size()), false)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__pos <= size())) __builtin_unreachable(); } while (false);
  return _M_data()[__pos];
       }
-# 1263 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1252 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       reference
       operator[](size_type __pos)
       {
 
 
- do { if (std::__is_constant_evaluated()) if (__builtin_expect(!bool(__pos <= size()), false)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__pos <= size())) __builtin_unreachable(); } while (false);
 
  ;
  return _M_data()[__pos];
       }
-# 1285 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1274 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       const_reference
       at(size_type __n) const
@@ -20715,7 +19946,7 @@ namespace __cxx11 {
        __n, this->size());
  return _M_data()[__n];
       }
-# 1307 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1296 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       reference
       at(size_type __n)
@@ -20737,7 +19968,7 @@ namespace __cxx11 {
       reference
       front() noexcept
       {
- do { if (std::__is_constant_evaluated()) if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!empty())) __builtin_unreachable(); } while (false);
  return operator[](0);
       }
 
@@ -20749,7 +19980,7 @@ namespace __cxx11 {
       const_reference
       front() const noexcept
       {
- do { if (std::__is_constant_evaluated()) if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!empty())) __builtin_unreachable(); } while (false);
  return operator[](0);
       }
 
@@ -20761,7 +19992,7 @@ namespace __cxx11 {
       reference
       back() noexcept
       {
- do { if (std::__is_constant_evaluated()) if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!empty())) __builtin_unreachable(); } while (false);
  return operator[](this->size() - 1);
       }
 
@@ -20773,10 +20004,10 @@ namespace __cxx11 {
       const_reference
       back() const noexcept
       {
- do { if (std::__is_constant_evaluated()) if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!empty())) __builtin_unreachable(); } while (false);
  return operator[](this->size() - 1);
       }
-# 1375 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1364 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       operator+=(const basic_string& __str)
@@ -20815,7 +20046,7 @@ namespace __cxx11 {
       basic_string&
       operator+=(initializer_list<_CharT> __l)
       { return this->append(__l.begin(), __l.size()); }
-# 1421 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1410 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename _Tp>
 
  _If_sv<_Tp, basic_string&>
@@ -20832,7 +20063,7 @@ namespace __cxx11 {
       basic_string&
       append(const basic_string& __str)
       { return this->append(__str._M_data(), __str.size()); }
-# 1451 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1440 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       append(const basic_string& __str, size_type __pos, size_type __n = npos)
@@ -20869,7 +20100,7 @@ namespace __cxx11 {
  _M_check_length(size_type(0), __n, "basic_string::append");
  return _M_append(__s, __n);
       }
-# 1496 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1485 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       append(size_type __n, _CharT __c)
@@ -20885,7 +20116,7 @@ namespace __cxx11 {
       basic_string&
       append(initializer_list<_CharT> __l)
       { return this->append(__l.begin(), __l.size()); }
-# 1522 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1511 "/usr/include/c++/13/bits/basic_string.h" 3
       template<class _InputIterator,
         typename = std::_RequireInputIter<_InputIterator>>
 
@@ -20910,7 +20141,7 @@ namespace __cxx11 {
           __sv_type __sv = __svt;
           return this->append(__sv.data(), __sv.size());
         }
-# 1554 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1543 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename _Tp>
 
         _If_sv<_Tp, basic_string&>
@@ -20979,7 +20210,7 @@ namespace __cxx11 {
  this->_M_assign(__str);
  return *this;
       }
-# 1632 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1621 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       assign(basic_string&& __str)
@@ -20989,14 +20220,14 @@ namespace __cxx11 {
 
  return *this = std::move(__str);
       }
-# 1656 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1645 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       assign(const basic_string& __str, size_type __pos, size_type __n = npos)
       { return _M_replace(size_type(0), this->size(), __str._M_data()
      + __str._M_check(__pos, "basic_string::assign"),
      __str._M_limit(__pos, __n)); }
-# 1673 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1662 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       assign(const _CharT* __s, size_type __n)
@@ -21004,7 +20235,7 @@ namespace __cxx11 {
  ;
  return _M_replace(size_type(0), this->size(), __s, __n);
       }
-# 1690 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1679 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       assign(const _CharT* __s)
@@ -21013,55 +20244,33 @@ namespace __cxx11 {
  return _M_replace(size_type(0), this->size(), __s,
      traits_type::length(__s));
       }
-# 1708 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1697 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       assign(size_type __n, _CharT __c)
       { return _M_replace_aux(size_type(0), this->size(), __n, __c); }
-# 1722 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wc++17-extensions"
+# 1711 "/usr/include/c++/13/bits/basic_string.h" 3
       template<class _InputIterator,
         typename = std::_RequireInputIter<_InputIterator>>
 
- basic_string&
- assign(_InputIterator __first, _InputIterator __last)
- {
+
+
+
+        basic_string&
+        assign(_InputIterator __first, _InputIterator __last)
+        { return this->replace(begin(), end(), __first, __last); }
 
 
 
 
-   if constexpr (__is_one_of<_InputIterator, const_iterator, iterator,
-        const _CharT*, _CharT*>::value)
 
-     {
-       ;
-       return _M_replace(size_type(0), size(),
-    std::__to_address(__first), __last - __first);
-     }
-   else
-     return *this = basic_string(__first, __last, get_allocator());
- }
-#pragma GCC diagnostic pop
-# 1759 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+
+
      
       basic_string&
       assign(initializer_list<_CharT> __l)
-      {
-
-
- const size_type __n = __l.size();
- if (__n > capacity())
-   *this = basic_string(__l.begin(), __l.end(), get_allocator());
- else
-   {
-     if (__n)
-       _S_copy(_M_data(), __l.begin(), __n);
-     _M_set_length(__n);
-   }
- return *this;
-      }
-# 1784 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+      { return this->assign(__l.begin(), __l.size()); }
+# 1739 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename _Tp>
 
  _If_sv<_Tp, basic_string&>
@@ -21070,7 +20279,7 @@ namespace __cxx11 {
    __sv_type __sv = __svt;
    return this->assign(__sv.data(), __sv.size());
  }
-# 1800 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1755 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename _Tp>
 
  _If_sv<_Tp, basic_string&>
@@ -21082,7 +20291,7 @@ namespace __cxx11 {
        + std::__sv_check(__sv.size(), __pos, "basic_string::assign"),
        std::__sv_limit(__sv.size(), __pos, __n));
  }
-# 1829 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1784 "/usr/include/c++/13/bits/basic_string.h" 3
      
       iterator
       insert(const_iterator __p, size_type __n, _CharT __c)
@@ -21092,7 +20301,7 @@ namespace __cxx11 {
  this->replace(__p, __p, __n, __c);
  return iterator(this->_M_data() + __pos);
       }
-# 1872 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1827 "/usr/include/c++/13/bits/basic_string.h" 3
       template<class _InputIterator,
         typename = std::_RequireInputIter<_InputIterator>>
 
@@ -21104,18 +20313,18 @@ namespace __cxx11 {
    this->replace(__p, __p, __beg, __end);
    return iterator(this->_M_data() + __pos);
  }
-# 1909 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1864 "/usr/include/c++/13/bits/basic_string.h" 3
      
       iterator
       insert(const_iterator __p, initializer_list<_CharT> __l)
       { return this->insert(__p, __l.begin(), __l.end()); }
-# 1937 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1892 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       insert(size_type __pos1, const basic_string& __str)
       { return this->replace(__pos1, size_type(0),
         __str._M_data(), __str.size()); }
-# 1961 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1916 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       insert(size_type __pos1, const basic_string& __str,
@@ -21123,12 +20332,12 @@ namespace __cxx11 {
       { return this->replace(__pos1, size_type(0), __str._M_data()
         + __str._M_check(__pos2, "basic_string::insert"),
         __str._M_limit(__pos2, __n)); }
-# 1985 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1940 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       insert(size_type __pos, const _CharT* __s, size_type __n)
       { return this->replace(__pos, size_type(0), __s, __n); }
-# 2005 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1960 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       insert(size_type __pos, const _CharT* __s)
@@ -21137,13 +20346,13 @@ namespace __cxx11 {
  return this->replace(__pos, size_type(0), __s,
         traits_type::length(__s));
       }
-# 2030 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 1985 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       insert(size_type __pos, size_type __n, _CharT __c)
       { return _M_replace_aux(_M_check(__pos, "basic_string::insert"),
          size_type(0), __n, __c); }
-# 2049 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2004 "/usr/include/c++/13/bits/basic_string.h" 3
      
       iterator
       insert(__const_iterator __p, _CharT __c)
@@ -21153,7 +20362,7 @@ namespace __cxx11 {
  _M_replace_aux(__pos, size_type(0), size_type(1), __c);
  return iterator(_M_data() + __pos);
       }
-# 2066 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2021 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename _Tp>
 
  _If_sv<_Tp, basic_string&>
@@ -21162,7 +20371,7 @@ namespace __cxx11 {
    __sv_type __sv = __svt;
    return this->insert(__pos, __sv.data(), __sv.size());
  }
-# 2083 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2038 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename _Tp>
 
  _If_sv<_Tp, basic_string&>
@@ -21175,7 +20384,7 @@ namespace __cxx11 {
        + std::__sv_check(__sv.size(), __pos2, "basic_string::insert"),
        std::__sv_limit(__sv.size(), __pos2, __n));
  }
-# 2112 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2067 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       erase(size_type __pos = 0, size_type __n = npos)
@@ -21187,7 +20396,7 @@ namespace __cxx11 {
    this->_M_erase(__pos, _M_limit(__pos, __n));
  return *this;
       }
-# 2132 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2087 "/usr/include/c++/13/bits/basic_string.h" 3
      
       iterator
       erase(__const_iterator __position)
@@ -21198,7 +20407,7 @@ namespace __cxx11 {
  this->_M_erase(__pos, size_type(1));
  return iterator(_M_data() + __pos);
       }
-# 2152 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2107 "/usr/include/c++/13/bits/basic_string.h" 3
      
       iterator
       erase(__const_iterator __first, __const_iterator __last)
@@ -21223,15 +20432,15 @@ namespace __cxx11 {
       void
       pop_back() noexcept
       {
- do { if (std::__is_constant_evaluated()) if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!empty())) __builtin_unreachable(); } while (false);
  _M_erase(size() - 1, 1);
       }
-# 2198 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2153 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       replace(size_type __pos, size_type __n, const basic_string& __str)
       { return this->replace(__pos, __n, __str._M_data(), __str.size()); }
-# 2221 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2176 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       replace(size_type __pos1, size_type __n1, const basic_string& __str,
@@ -21239,7 +20448,7 @@ namespace __cxx11 {
       { return this->replace(__pos1, __n1, __str._M_data()
         + __str._M_check(__pos2, "basic_string::replace"),
         __str._M_limit(__pos2, __n2)); }
-# 2247 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2202 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       replace(size_type __pos, size_type __n1, const _CharT* __s,
@@ -21249,7 +20458,7 @@ namespace __cxx11 {
  return _M_replace(_M_check(__pos, "basic_string::replace"),
      _M_limit(__pos, __n1), __s, __n2);
       }
-# 2273 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2228 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       replace(size_type __pos, size_type __n1, const _CharT* __s)
@@ -21257,19 +20466,19 @@ namespace __cxx11 {
  ;
  return this->replace(__pos, __n1, __s, traits_type::length(__s));
       }
-# 2298 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2253 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       replace(size_type __pos, size_type __n1, size_type __n2, _CharT __c)
       { return _M_replace_aux(_M_check(__pos, "basic_string::replace"),
          _M_limit(__pos, __n1), __n2, __c); }
-# 2317 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2272 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       replace(__const_iterator __i1, __const_iterator __i2,
        const basic_string& __str)
       { return this->replace(__i1, __i2, __str._M_data(), __str.size()); }
-# 2338 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2293 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       replace(__const_iterator __i1, __const_iterator __i2,
@@ -21279,7 +20488,7 @@ namespace __cxx11 {
                       ;
  return this->replace(__i1 - begin(), __i2 - __i1, __s, __n);
       }
-# 2361 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2316 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       replace(__const_iterator __i1, __const_iterator __i2, const _CharT* __s)
@@ -21287,7 +20496,7 @@ namespace __cxx11 {
  ;
  return this->replace(__i1, __i2, __s, traits_type::length(__s));
       }
-# 2383 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2338 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       replace(__const_iterator __i1, __const_iterator __i2, size_type __n,
@@ -21297,7 +20506,7 @@ namespace __cxx11 {
                       ;
  return _M_replace_aux(__i1 - begin(), __i2 - __i1, __n, __c);
       }
-# 2409 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2364 "/usr/include/c++/13/bits/basic_string.h" 3
       template<class _InputIterator,
         typename = std::_RequireInputIter<_InputIterator>>
 
@@ -21311,7 +20520,7 @@ namespace __cxx11 {
    return this->_M_replace_dispatch(__i1, __i2, __k1, __k2,
         std::__false_type());
  }
-# 2442 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2397 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string&
       replace(__const_iterator __i1, __const_iterator __i2,
@@ -21359,12 +20568,12 @@ namespace __cxx11 {
  return this->replace(__i1 - begin(), __i2 - __i1,
         __k1.base(), __k2 - __k1);
       }
-# 2505 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2460 "/usr/include/c++/13/bits/basic_string.h" 3
      
       basic_string& replace(const_iterator __i1, const_iterator __i2,
        initializer_list<_CharT> __l)
       { return this->replace(__i1, __i2, __l.begin(), __l.size()); }
-# 2519 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2474 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename _Tp>
 
  _If_sv<_Tp, basic_string&>
@@ -21373,7 +20582,7 @@ namespace __cxx11 {
    __sv_type __sv = __svt;
    return this->replace(__pos, __n, __sv.data(), __sv.size());
  }
-# 2537 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2492 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename _Tp>
 
  _If_sv<_Tp, basic_string&>
@@ -21386,7 +20595,7 @@ namespace __cxx11 {
        + std::__sv_check(__sv.size(), __pos2, "basic_string::replace"),
        std::__sv_limit(__sv.size(), __pos2, __n2));
  }
-# 2559 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2514 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename _Tp>
 
  _If_sv<_Tp, basic_string&>
@@ -21431,25 +20640,25 @@ namespace __cxx11 {
       _M_append(const _CharT* __s, size_type __n);
 
     public:
-# 2616 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2571 "/usr/include/c++/13/bits/basic_string.h" 3
      
       size_type
       copy(_CharT* __s, size_type __n, size_type __pos = 0) const;
-# 2627 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2582 "/usr/include/c++/13/bits/basic_string.h" 3
      
       void
       swap(basic_string& __s) noexcept;
-# 2638 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2593 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       const _CharT*
       c_str() const noexcept
       { return _M_data(); }
-# 2651 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2606 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       const _CharT*
       data() const noexcept
       { return _M_data(); }
-# 2663 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2618 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       _CharT*
       data() noexcept
@@ -21463,18 +20672,18 @@ namespace __cxx11 {
       allocator_type
       get_allocator() const noexcept
       { return _M_get_allocator(); }
-# 2689 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2644 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       find(const _CharT* __s, size_type __pos, size_type __n) const
       noexcept;
-# 2704 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2659 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       find(const basic_string& __str, size_type __pos = 0) const
       noexcept
       { return this->find(__str.data(), __pos, __str.size()); }
-# 2717 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2672 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename _Tp>
  [[__nodiscard__]]
  _If_sv<_Tp, size_type>
@@ -21484,7 +20693,7 @@ namespace __cxx11 {
    __sv_type __sv = __svt;
    return this->find(__sv.data(), __pos, __sv.size());
  }
-# 2738 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2693 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       find(const _CharT* __s, size_type __pos = 0) const noexcept
@@ -21492,17 +20701,17 @@ namespace __cxx11 {
  ;
  return this->find(__s, __pos, traits_type::length(__s));
       }
-# 2756 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2711 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       find(_CharT __c, size_type __pos = 0) const noexcept;
-# 2770 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2725 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       rfind(const basic_string& __str, size_type __pos = npos) const
       noexcept
       { return this->rfind(__str.data(), __pos, __str.size()); }
-# 2783 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2738 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename _Tp>
  [[__nodiscard__]]
  _If_sv<_Tp, size_type>
@@ -21512,12 +20721,12 @@ namespace __cxx11 {
    __sv_type __sv = __svt;
    return this->rfind(__sv.data(), __pos, __sv.size());
  }
-# 2806 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2761 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       rfind(const _CharT* __s, size_type __pos, size_type __n) const
       noexcept;
-# 2821 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2776 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       rfind(const _CharT* __s, size_type __pos = npos) const
@@ -21525,17 +20734,17 @@ namespace __cxx11 {
  ;
  return this->rfind(__s, __pos, traits_type::length(__s));
       }
-# 2839 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2794 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       rfind(_CharT __c, size_type __pos = npos) const noexcept;
-# 2854 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2809 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       find_first_of(const basic_string& __str, size_type __pos = 0) const
       noexcept
       { return this->find_first_of(__str.data(), __pos, __str.size()); }
-# 2868 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2823 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename _Tp>
  [[__nodiscard__]]
  _If_sv<_Tp, size_type>
@@ -21545,12 +20754,12 @@ namespace __cxx11 {
    __sv_type __sv = __svt;
    return this->find_first_of(__sv.data(), __pos, __sv.size());
  }
-# 2891 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2846 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       find_first_of(const _CharT* __s, size_type __pos, size_type __n) const
       noexcept;
-# 2906 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2861 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       find_first_of(const _CharT* __s, size_type __pos = 0) const
@@ -21559,18 +20768,18 @@ namespace __cxx11 {
  ;
  return this->find_first_of(__s, __pos, traits_type::length(__s));
       }
-# 2927 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2882 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       find_first_of(_CharT __c, size_type __pos = 0) const noexcept
       { return this->find(__c, __pos); }
-# 2943 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2898 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       find_last_of(const basic_string& __str, size_type __pos = npos) const
       noexcept
       { return this->find_last_of(__str.data(), __pos, __str.size()); }
-# 2957 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2912 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename _Tp>
  [[__nodiscard__]]
  _If_sv<_Tp, size_type>
@@ -21580,12 +20789,12 @@ namespace __cxx11 {
    __sv_type __sv = __svt;
    return this->find_last_of(__sv.data(), __pos, __sv.size());
  }
-# 2980 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2935 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       find_last_of(const _CharT* __s, size_type __pos, size_type __n) const
       noexcept;
-# 2995 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2950 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       find_last_of(const _CharT* __s, size_type __pos = npos) const
@@ -21594,18 +20803,18 @@ namespace __cxx11 {
  ;
  return this->find_last_of(__s, __pos, traits_type::length(__s));
       }
-# 3016 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2971 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       find_last_of(_CharT __c, size_type __pos = npos) const noexcept
       { return this->rfind(__c, __pos); }
-# 3031 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 2986 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       find_first_not_of(const basic_string& __str, size_type __pos = 0) const
       noexcept
       { return this->find_first_not_of(__str.data(), __pos, __str.size()); }
-# 3045 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3000 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename _Tp>
  [[__nodiscard__]]
  _If_sv<_Tp, size_type>
@@ -21615,12 +20824,12 @@ namespace __cxx11 {
    __sv_type __sv = __svt;
    return this->find_first_not_of(__sv.data(), __pos, __sv.size());
  }
-# 3068 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3023 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       find_first_not_of(const _CharT* __s, size_type __pos,
    size_type __n) const noexcept;
-# 3083 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3038 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       find_first_not_of(const _CharT* __s, size_type __pos = 0) const
@@ -21629,18 +20838,18 @@ namespace __cxx11 {
  ;
  return this->find_first_not_of(__s, __pos, traits_type::length(__s));
       }
-# 3102 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3057 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       find_first_not_of(_CharT __c, size_type __pos = 0) const
       noexcept;
-# 3118 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3073 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       find_last_not_of(const basic_string& __str, size_type __pos = npos) const
       noexcept
       { return this->find_last_not_of(__str.data(), __pos, __str.size()); }
-# 3132 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3087 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename _Tp>
  [[__nodiscard__]]
  _If_sv<_Tp, size_type>
@@ -21650,12 +20859,12 @@ namespace __cxx11 {
    __sv_type __sv = __svt;
    return this->find_last_not_of(__sv.data(), __pos, __sv.size());
  }
-# 3155 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3110 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       find_last_not_of(const _CharT* __s, size_type __pos,
          size_type __n) const noexcept;
-# 3170 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3125 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       find_last_not_of(const _CharT* __s, size_type __pos = npos) const
@@ -21664,18 +20873,18 @@ namespace __cxx11 {
  ;
  return this->find_last_not_of(__s, __pos, traits_type::length(__s));
       }
-# 3189 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3144 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       size_type
       find_last_not_of(_CharT __c, size_type __pos = npos) const
       noexcept;
-# 3206 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3161 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       basic_string
       substr(size_type __pos = 0, size_type __n = npos) const
       { return basic_string(*this,
        _M_check(__pos, "basic_string::substr"), __n); }
-# 3226 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3181 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       int
       compare(const basic_string& __str) const
@@ -21712,7 +20921,7 @@ namespace __cxx11 {
      __r = _S_compare(__size, __osize);
    return __r;
  }
-# 3271 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3226 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename _Tp>
  [[__nodiscard__]]
  _If_sv<_Tp, int>
@@ -21722,7 +20931,7 @@ namespace __cxx11 {
    __sv_type __sv = __svt;
    return __sv_type(*this).substr(__pos, __n).compare(__sv);
  }
-# 3291 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3246 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename _Tp>
  [[__nodiscard__]]
  _If_sv<_Tp, int>
@@ -21734,7 +20943,7 @@ namespace __cxx11 {
    return __sv_type(*this)
      .substr(__pos1, __n1).compare(__sv.substr(__pos2, __n2));
  }
-# 3323 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3278 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       int
       compare(size_type __pos, size_type __n, const basic_string& __str) const
@@ -21748,7 +20957,7 @@ namespace __cxx11 {
    __r = _S_compare(__n, __osize);
  return __r;
       }
-# 3360 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3315 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       int
       compare(size_type __pos1, size_type __n1, const basic_string& __str,
@@ -21765,7 +20974,7 @@ namespace __cxx11 {
    __r = _S_compare(__n1, __n2);
  return __r;
       }
-# 3391 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3346 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       int
       compare(const _CharT* __s) const noexcept
@@ -21779,7 +20988,7 @@ namespace __cxx11 {
    __r = _S_compare(__size, __osize);
  return __r;
       }
-# 3426 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3381 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       int
       compare(size_type __pos, size_type __n1, const _CharT* __s) const
@@ -21794,7 +21003,7 @@ namespace __cxx11 {
    __r = _S_compare(__n1, __osize);
  return __r;
       }
-# 3465 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3420 "/usr/include/c++/13/bits/basic_string.h" 3
       [[__nodiscard__]]
       int
       compare(size_type __pos, size_type __n1, const _CharT* __s,
@@ -21809,7 +21018,7 @@ namespace __cxx11 {
    __r = _S_compare(__n1, __n2);
  return __r;
       }
-# 3530 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3485 "/usr/include/c++/13/bits/basic_string.h" 3
       template<typename, typename, typename> friend class basic_stringbuf;
     };
 }
@@ -21817,7 +21026,7 @@ namespace __cxx11 {
 }
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -21867,7 +21076,7 @@ namespace __cxx11 {
       __str.append(__rhs, __rhs_len);
       return __str;
     }
-# 3595 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3550 "/usr/include/c++/13/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     [[__nodiscard__]]
     inline basic_string<_CharT, _Traits, _Alloc>
@@ -22016,7 +21225,7 @@ namespace __cxx11 {
     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
        _CharT __rhs)
     { return std::move(__lhs.append(1, __rhs)); }
-# 3752 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3707 "/usr/include/c++/13/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     [[__nodiscard__]]
     inline bool
@@ -22043,14 +21252,14 @@ namespace __cxx11 {
       return __lhs.size() == _Traits::length(__rhs)
         && !_Traits::compare(__lhs.data(), __rhs, __lhs.size());
     }
-# 3816 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3771 "/usr/include/c++/13/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     [[__nodiscard__]]
     inline bool
     operator==(const _CharT* __lhs,
         const basic_string<_CharT, _Traits, _Alloc>& __rhs)
     { return __rhs == __lhs; }
-# 3830 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3785 "/usr/include/c++/13/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     [[__nodiscard__]]
     inline bool
@@ -22084,7 +21293,7 @@ namespace __cxx11 {
     operator!=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
         const _CharT* __rhs)
     { return !(__lhs == __rhs); }
-# 3871 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3826 "/usr/include/c++/13/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     [[__nodiscard__]]
     inline bool
@@ -22118,7 +21327,7 @@ namespace __cxx11 {
     operator<(const _CharT* __lhs,
        const basic_string<_CharT, _Traits, _Alloc>& __rhs)
     { return __rhs.compare(__lhs) > 0; }
-# 3912 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3867 "/usr/include/c++/13/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     [[__nodiscard__]]
     inline bool
@@ -22152,7 +21361,7 @@ namespace __cxx11 {
     operator>(const _CharT* __lhs,
        const basic_string<_CharT, _Traits, _Alloc>& __rhs)
     { return __rhs.compare(__lhs) < 0; }
-# 3953 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3908 "/usr/include/c++/13/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     [[__nodiscard__]]
     inline bool
@@ -22186,7 +21395,7 @@ namespace __cxx11 {
     operator<=(const _CharT* __lhs,
         const basic_string<_CharT, _Traits, _Alloc>& __rhs)
     { return __rhs.compare(__lhs) >= 0; }
-# 3994 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3949 "/usr/include/c++/13/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     [[__nodiscard__]]
     inline bool
@@ -22220,7 +21429,7 @@ namespace __cxx11 {
     operator>=(const _CharT* __lhs,
       const basic_string<_CharT, _Traits, _Alloc>& __rhs)
     { return __rhs.compare(__lhs) <= 0; }
-# 4036 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 3991 "/usr/include/c++/13/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
    
     inline void
@@ -22228,7 +21437,7 @@ namespace __cxx11 {
   basic_string<_CharT, _Traits, _Alloc>& __rhs)
     noexcept(noexcept(__lhs.swap(__rhs)))
     { __lhs.swap(__rhs); }
-# 4057 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 4012 "/usr/include/c++/13/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     basic_istream<_CharT, _Traits>&
     operator>>(basic_istream<_CharT, _Traits>& __is,
@@ -22237,7 +21446,7 @@ namespace __cxx11 {
   template<>
     basic_istream<char>&
     operator>>(basic_istream<char>& __is, basic_string<char>& __str);
-# 4075 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 4030 "/usr/include/c++/13/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline basic_ostream<_CharT, _Traits>&
     operator<<(basic_ostream<_CharT, _Traits>& __os,
@@ -22247,12 +21456,12 @@ namespace __cxx11 {
 
       return __ostream_insert(__os, __str.data(), __str.size());
     }
-# 4098 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 4053 "/usr/include/c++/13/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     basic_istream<_CharT, _Traits>&
     getline(basic_istream<_CharT, _Traits>& __is,
      basic_string<_CharT, _Traits, _Alloc>& __str, _CharT __delim);
-# 4115 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 4070 "/usr/include/c++/13/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline basic_istream<_CharT, _Traits>&
     getline(basic_istream<_CharT, _Traits>& __is,
@@ -22292,563 +21501,1150 @@ namespace __cxx11 {
 
 
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/ext/string_conversions.h" 1 3
-# 32 "C:/msys64/ucrt64/include/c++/14.2.0/ext/string_conversions.h" 3
+# 1 "/usr/include/c++/13/ext/string_conversions.h" 1 3
+# 32 "/usr/include/c++/13/ext/string_conversions.h" 3
        
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/ext/string_conversions.h" 3
-# 43 "C:/msys64/ucrt64/include/c++/14.2.0/ext/string_conversions.h" 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/cstdlib" 1 3
-# 39 "C:/msys64/ucrt64/include/c++/14.2.0/cstdlib" 3
+# 33 "/usr/include/c++/13/ext/string_conversions.h" 3
+# 43 "/usr/include/c++/13/ext/string_conversions.h" 3
+# 1 "/usr/include/c++/13/cstdlib" 1 3
+# 39 "/usr/include/c++/13/cstdlib" 3
        
-# 40 "C:/msys64/ucrt64/include/c++/14.2.0/cstdlib" 3
-# 79 "C:/msys64/ucrt64/include/c++/14.2.0/cstdlib" 3
-# 1 "C:/msys64/ucrt64/include/stdlib.h" 1 3
-# 11 "C:/msys64/ucrt64/include/stdlib.h" 3
-# 1 "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h" 1 3 4
-# 12 "C:/msys64/ucrt64/include/stdlib.h" 2 3
-# 26 "C:/msys64/ucrt64/include/stdlib.h" 3
-#pragma pack(push,_CRT_PACKING)
+# 40 "/usr/include/c++/13/cstdlib" 3
+# 79 "/usr/include/c++/13/cstdlib" 3
+# 1 "/usr/include/stdlib.h" 1 3 4
+# 26 "/usr/include/stdlib.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
+# 27 "/usr/include/stdlib.h" 2 3 4
 
+
+
+
+
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h" 1 3 4
+# 33 "/usr/include/stdlib.h" 2 3 4
 
 extern "C" {
-# 50 "C:/msys64/ucrt64/include/stdlib.h" 3
-  typedef int (__attribute__((__cdecl__)) *_onexit_t)(void);
-# 60 "C:/msys64/ucrt64/include/stdlib.h" 3
-  typedef struct _div_t {
+
+
+
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/waitflags.h" 1 3 4
+# 41 "/usr/include/stdlib.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/waitstatus.h" 1 3 4
+# 42 "/usr/include/stdlib.h" 2 3 4
+# 59 "/usr/include/stdlib.h" 3 4
+typedef struct
+  {
     int quot;
     int rem;
   } div_t;
 
-  typedef struct _ldiv_t {
-    long quot;
-    long rem;
+
+
+typedef struct
+  {
+    long int quot;
+    long int rem;
   } ldiv_t;
 
 
 
 
 
-#pragma pack(4)
-  typedef struct {
-    unsigned char ld[10];
-  } _LDOUBLE;
-#pragma pack()
+__extension__ typedef struct
+  {
+    long long int quot;
+    long long int rem;
+  } lldiv_t;
+# 98 "/usr/include/stdlib.h" 3 4
+extern size_t __ctype_get_mb_cur_max (void) noexcept (true) ;
 
 
 
-  typedef struct {
-    double x;
-  } _CRT_DOUBLE;
+extern double atof (const char *__nptr)
+     noexcept (true) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
 
-  typedef struct {
-    float f;
-  } _CRT_FLOAT;
+extern int atoi (const char *__nptr)
+     noexcept (true) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
 
-       
-
-
-  typedef struct {
-    long double x;
-  } _LONGDOUBLE;
-
-       
-
-#pragma pack(4)
-  typedef struct {
-    unsigned char ld12[12];
-  } _LDBL12;
-#pragma pack()
-# 135 "C:/msys64/ucrt64/include/stdlib.h" 3
-  typedef void (__attribute__((__cdecl__)) *_purecall_handler)(void);
-
-  __attribute__ ((__dllimport__)) _purecall_handler __attribute__((__cdecl__)) _set_purecall_handler(_purecall_handler _Handler);
-  __attribute__ ((__dllimport__)) _purecall_handler __attribute__((__cdecl__)) _get_purecall_handler(void);
-
-  typedef void (__attribute__((__cdecl__)) *_invalid_parameter_handler)(const wchar_t *,const wchar_t *,const wchar_t *,unsigned int,uintptr_t);
-  __attribute__ ((__dllimport__)) _invalid_parameter_handler __attribute__((__cdecl__)) _set_invalid_parameter_handler(_invalid_parameter_handler _Handler);
-  __attribute__ ((__dllimport__)) _invalid_parameter_handler __attribute__((__cdecl__)) _get_invalid_parameter_handler(void);
-# 151 "C:/msys64/ucrt64/include/stdlib.h" 3
-  __attribute__ ((__dllimport__)) unsigned long *__attribute__((__cdecl__)) __doserrno(void);
-
-  errno_t __attribute__((__cdecl__)) _set_doserrno(unsigned long _Value);
-  errno_t __attribute__((__cdecl__)) _get_doserrno(unsigned long *_Value);
-  __attribute__ ((__dllimport__)) char **__attribute__((__cdecl__)) __sys_errlist(void);
-  __attribute__ ((__dllimport__)) int *__attribute__((__cdecl__)) __sys_nerr(void);
+extern long int atol (const char *__nptr)
+     noexcept (true) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
 
 
 
-  __attribute__ ((__dllimport__)) char ***__attribute__((__cdecl__)) __p___argv(void);
-  __attribute__ ((__dllimport__)) int *__attribute__((__cdecl__)) __p__fmode(void);
-  __attribute__ ((__dllimport__)) int *__attribute__((__cdecl__)) __p___argc(void);
-  __attribute__ ((__dllimport__)) wchar_t ***__attribute__((__cdecl__)) __p___wargv(void);
-  __attribute__ ((__dllimport__)) char **__attribute__((__cdecl__)) __p__pgmptr(void);
-  __attribute__ ((__dllimport__)) wchar_t **__attribute__((__cdecl__)) __p__wpgmptr(void);
-
-  errno_t __attribute__((__cdecl__)) _get_pgmptr(char **_Value);
-  errno_t __attribute__((__cdecl__)) _get_wpgmptr(wchar_t **_Value);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _set_fmode(int _Mode);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _get_fmode(int *_PMode);
-# 221 "C:/msys64/ucrt64/include/stdlib.h" 3
-  __attribute__ ((__dllimport__)) char ***__attribute__((__cdecl__)) __p__environ(void);
-  __attribute__ ((__dllimport__)) wchar_t ***__attribute__((__cdecl__)) __p__wenviron(void);
-# 234 "C:/msys64/ucrt64/include/stdlib.h" 3
-  __attribute__ ((__dllimport__)) unsigned int *__attribute__((__cdecl__)) __p__osplatform(void);
-  __attribute__ ((__dllimport__)) unsigned int *__attribute__((__cdecl__)) __p__osver(void);
-  __attribute__ ((__dllimport__)) unsigned int *__attribute__((__cdecl__)) __p__winver(void);
-  __attribute__ ((__dllimport__)) unsigned int *__attribute__((__cdecl__)) __p__winmajor(void);
-  __attribute__ ((__dllimport__)) unsigned int *__attribute__((__cdecl__)) __p__winminor(void);
-# 256 "C:/msys64/ucrt64/include/stdlib.h" 3
-  errno_t __attribute__((__cdecl__)) _get_osplatform(unsigned int *_Value);
-  errno_t __attribute__((__cdecl__)) _get_osver(unsigned int *_Value);
-  errno_t __attribute__((__cdecl__)) _get_winver(unsigned int *_Value);
-  errno_t __attribute__((__cdecl__)) _get_winmajor(unsigned int *_Value);
-  errno_t __attribute__((__cdecl__)) _get_winminor(unsigned int *_Value);
+__extension__ extern long long int atoll (const char *__nptr)
+     noexcept (true) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
 
 
 
-
-  extern "C++" {
-    template <typename _CountofType,size_t _SizeOfArray> char (*__countof_helper( _CountofType (&_Array)[_SizeOfArray]))[_SizeOfArray];
-
-  }
-# 296 "C:/msys64/ucrt64/include/stdlib.h" 3
-  __attribute__ ((__dllimport__)) unsigned int __attribute__((__cdecl__)) _set_abort_behavior(unsigned int _Flags,unsigned int _Mask);
+extern double strtod (const char *__restrict __nptr,
+        char **__restrict __endptr)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
 
 
 
-  int __attribute__((__cdecl__)) abs(int _X);
-  long __attribute__((__cdecl__)) labs(long _X);
+extern float strtof (const char *__restrict __nptr,
+       char **__restrict __endptr) noexcept (true) __attribute__ ((__nonnull__ (1)));
 
-
-  __extension__ long long __attribute__((__cdecl__)) _abs64(long long);
-
-  extern __inline__ __attribute__((__always_inline__,__gnu_inline__)) long long __attribute__((__cdecl__)) _abs64(long long x) {
-    return __builtin_llabs(x);
-  }
-
-
-  int __attribute__((__cdecl__)) atexit(void (__attribute__((__cdecl__)) *)(void));
-
-  int __attribute__((__cdecl__)) at_quick_exit(void (__attribute__((__cdecl__)) *)(void));
+extern long double strtold (const char *__restrict __nptr,
+       char **__restrict __endptr)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+# 141 "/usr/include/stdlib.h" 3 4
+extern _Float32 strtof32 (const char *__restrict __nptr,
+     char **__restrict __endptr)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
 
 
 
-  double __attribute__((__cdecl__)) atof(const char *_String);
-  double __attribute__((__cdecl__)) _atof_l(const char *_String,_locale_t _Locale);
-
-  int __attribute__((__cdecl__)) atoi(const char *_Str);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoi_l(const char *_Str,_locale_t _Locale);
-  long __attribute__((__cdecl__)) atol(const char *_Str);
-  __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _atol_l(const char *_Str,_locale_t _Locale);
+extern _Float64 strtof64 (const char *__restrict __nptr,
+     char **__restrict __endptr)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
 
 
-  void *__attribute__((__cdecl__)) bsearch(const void *_Key,const void *_Base,size_t _NumOfElements,size_t _SizeOfElements,int (__attribute__((__cdecl__)) *_PtFuncCompare)(const void *,const void *));
-  void __attribute__((__cdecl__)) qsort(void *_Base,size_t _NumOfElements,size_t _SizeOfElements,int (__attribute__((__cdecl__)) *_PtFuncCompare)(const void *,const void *));
 
-  unsigned short __attribute__((__cdecl__)) _byteswap_ushort(unsigned short _Short);
-  unsigned long __attribute__((__cdecl__)) _byteswap_ulong (unsigned long _Long);
-  __extension__ unsigned long long __attribute__((__cdecl__)) _byteswap_uint64(unsigned long long _Int64);
-  div_t __attribute__((__cdecl__)) div(int _Numerator,int _Denominator);
-  char *__attribute__((__cdecl__)) getenv(const char *_VarName) ;
-  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _itoa(int _Value,char *_Dest,int _Radix);
-  __extension__ __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _i64toa(long long _Val,char *_DstBuf,int _Radix) ;
-  __extension__ __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _ui64toa(unsigned long long _Val,char *_DstBuf,int _Radix) ;
-  __extension__ __attribute__ ((__dllimport__)) long long __attribute__((__cdecl__)) _atoi64(const char *_String);
-  __extension__ __attribute__ ((__dllimport__)) long long __attribute__((__cdecl__)) _atoi64_l(const char *_String,_locale_t _Locale);
-  __extension__ __attribute__ ((__dllimport__)) long long __attribute__((__cdecl__)) _strtoi64(const char *_String,char **_EndPtr,int _Radix);
-  __extension__ __attribute__ ((__dllimport__)) long long __attribute__((__cdecl__)) _strtoi64_l(const char *_String,char **_EndPtr,int _Radix,_locale_t _Locale);
-  __extension__ __attribute__ ((__dllimport__)) unsigned long long __attribute__((__cdecl__)) _strtoui64(const char *_String,char **_EndPtr,int _Radix);
-  __extension__ __attribute__ ((__dllimport__)) unsigned long long __attribute__((__cdecl__)) _strtoui64_l(const char *_String,char **_EndPtr,int _Radix,_locale_t _Locale);
-  ldiv_t __attribute__((__cdecl__)) ldiv(long _Numerator,long _Denominator);
-  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _ltoa(long _Value,char *_Dest,int _Radix) ;
-  int __attribute__((__cdecl__)) mblen(const char *_Ch,size_t _MaxCount);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _mblen_l(const char *_Ch,size_t _MaxCount,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _mbstrlen(const char *_Str);
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _mbstrlen_l(const char *_Str,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _mbstrnlen(const char *_Str,size_t _MaxCount);
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _mbstrnlen_l(const char *_Str,size_t _MaxCount,_locale_t _Locale);
-  int __attribute__((__cdecl__)) mbtowc(wchar_t * __restrict__ _DstCh,const char * __restrict__ _SrcCh,size_t _SrcSizeInBytes);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _mbtowc_l(wchar_t * __restrict__ _DstCh,const char * __restrict__ _SrcCh,size_t _SrcSizeInBytes,_locale_t _Locale);
-  size_t __attribute__((__cdecl__)) mbstowcs(wchar_t * __restrict__ _Dest,const char * __restrict__ _Source,size_t _MaxCount);
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _mbstowcs_l(wchar_t * __restrict__ _Dest,const char * __restrict__ _Source,size_t _MaxCount,_locale_t _Locale);
-  int __attribute__((__cdecl__)) mkstemp(char *template_name);
-  int __attribute__((__cdecl__)) rand(void);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _set_error_mode(int _Mode);
-  void __attribute__((__cdecl__)) srand(unsigned int _Seed);
-# 369 "C:/msys64/ucrt64/include/stdlib.h" 3
-inline __attribute__((__cdecl__))
-double __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) strtod(const char * __restrict__ _Str,char ** __restrict__ _EndPtr)
+extern _Float128 strtof128 (const char *__restrict __nptr,
+       char **__restrict __endptr)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+extern _Float32x strtof32x (const char *__restrict __nptr,
+       char **__restrict __endptr)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+extern _Float64x strtof64x (const char *__restrict __nptr,
+       char **__restrict __endptr)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+# 177 "/usr/include/stdlib.h" 3 4
+extern long int strtol (const char *__restrict __nptr,
+   char **__restrict __endptr, int __base)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+extern unsigned long int strtoul (const char *__restrict __nptr,
+      char **__restrict __endptr, int __base)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+__extension__
+extern long long int strtoq (const char *__restrict __nptr,
+        char **__restrict __endptr, int __base)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+__extension__
+extern unsigned long long int strtouq (const char *__restrict __nptr,
+           char **__restrict __endptr, int __base)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+__extension__
+extern long long int strtoll (const char *__restrict __nptr,
+         char **__restrict __endptr, int __base)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+__extension__
+extern unsigned long long int strtoull (const char *__restrict __nptr,
+     char **__restrict __endptr, int __base)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+
+extern long int strtol (const char *__restrict __nptr, char **__restrict __endptr, int __base) noexcept (true) __asm__ ("" "__isoc23_strtol")
+
+
+     __attribute__ ((__nonnull__ (1)));
+extern unsigned long int strtoul (const char *__restrict __nptr, char **__restrict __endptr, int __base) noexcept (true) __asm__ ("" "__isoc23_strtoul")
+
+
+
+     __attribute__ ((__nonnull__ (1)));
+
+__extension__
+extern long long int strtoq (const char *__restrict __nptr, char **__restrict __endptr, int __base) noexcept (true) __asm__ ("" "__isoc23_strtoll")
+
+
+     __attribute__ ((__nonnull__ (1)));
+__extension__
+extern unsigned long long int strtouq (const char *__restrict __nptr, char **__restrict __endptr, int __base) noexcept (true) __asm__ ("" "__isoc23_strtoull")
+
+
+
+     __attribute__ ((__nonnull__ (1)));
+
+__extension__
+extern long long int strtoll (const char *__restrict __nptr, char **__restrict __endptr, int __base) noexcept (true) __asm__ ("" "__isoc23_strtoll")
+
+
+     __attribute__ ((__nonnull__ (1)));
+__extension__
+extern unsigned long long int strtoull (const char *__restrict __nptr, char **__restrict __endptr, int __base) noexcept (true) __asm__ ("" "__isoc23_strtoull")
+
+
+
+     __attribute__ ((__nonnull__ (1)));
+# 278 "/usr/include/stdlib.h" 3 4
+extern int strfromd (char *__dest, size_t __size, const char *__format,
+       double __f)
+     noexcept (true) __attribute__ ((__nonnull__ (3)));
+
+extern int strfromf (char *__dest, size_t __size, const char *__format,
+       float __f)
+     noexcept (true) __attribute__ ((__nonnull__ (3)));
+
+extern int strfroml (char *__dest, size_t __size, const char *__format,
+       long double __f)
+     noexcept (true) __attribute__ ((__nonnull__ (3)));
+# 298 "/usr/include/stdlib.h" 3 4
+extern int strfromf32 (char *__dest, size_t __size, const char * __format,
+         _Float32 __f)
+     noexcept (true) __attribute__ ((__nonnull__ (3)));
+
+
+
+extern int strfromf64 (char *__dest, size_t __size, const char * __format,
+         _Float64 __f)
+     noexcept (true) __attribute__ ((__nonnull__ (3)));
+
+
+
+extern int strfromf128 (char *__dest, size_t __size, const char * __format,
+   _Float128 __f)
+     noexcept (true) __attribute__ ((__nonnull__ (3)));
+
+
+
+extern int strfromf32x (char *__dest, size_t __size, const char * __format,
+   _Float32x __f)
+     noexcept (true) __attribute__ ((__nonnull__ (3)));
+
+
+
+extern int strfromf64x (char *__dest, size_t __size, const char * __format,
+   _Float64x __f)
+     noexcept (true) __attribute__ ((__nonnull__ (3)));
+# 340 "/usr/include/stdlib.h" 3 4
+extern long int strtol_l (const char *__restrict __nptr,
+     char **__restrict __endptr, int __base,
+     locale_t __loc) noexcept (true) __attribute__ ((__nonnull__ (1, 4)));
+
+extern unsigned long int strtoul_l (const char *__restrict __nptr,
+        char **__restrict __endptr,
+        int __base, locale_t __loc)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 4)));
+
+__extension__
+extern long long int strtoll_l (const char *__restrict __nptr,
+    char **__restrict __endptr, int __base,
+    locale_t __loc)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 4)));
+
+__extension__
+extern unsigned long long int strtoull_l (const char *__restrict __nptr,
+       char **__restrict __endptr,
+       int __base, locale_t __loc)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 4)));
+
+
+
+
+
+extern long int strtol_l (const char *__restrict __nptr, char **__restrict __endptr, int __base, locale_t __loc) noexcept (true) __asm__ ("" "__isoc23_strtol_l")
+
+
+
+     __attribute__ ((__nonnull__ (1, 4)));
+extern unsigned long int strtoul_l (const char *__restrict __nptr, char **__restrict __endptr, int __base, locale_t __loc) noexcept (true) __asm__ ("" "__isoc23_strtoul_l")
+
+
+
+
+     __attribute__ ((__nonnull__ (1, 4)));
+__extension__
+extern long long int strtoll_l (const char *__restrict __nptr, char **__restrict __endptr, int __base, locale_t __loc) noexcept (true) __asm__ ("" "__isoc23_strtoll_l")
+
+
+
+
+     __attribute__ ((__nonnull__ (1, 4)));
+__extension__
+extern unsigned long long int strtoull_l (const char *__restrict __nptr, char **__restrict __endptr, int __base, locale_t __loc) noexcept (true) __asm__ ("" "__isoc23_strtoull_l")
+
+
+
+
+     __attribute__ ((__nonnull__ (1, 4)));
+# 415 "/usr/include/stdlib.h" 3 4
+extern double strtod_l (const char *__restrict __nptr,
+   char **__restrict __endptr, locale_t __loc)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 3)));
+
+extern float strtof_l (const char *__restrict __nptr,
+         char **__restrict __endptr, locale_t __loc)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 3)));
+
+extern long double strtold_l (const char *__restrict __nptr,
+         char **__restrict __endptr,
+         locale_t __loc)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 3)));
+# 436 "/usr/include/stdlib.h" 3 4
+extern _Float32 strtof32_l (const char *__restrict __nptr,
+       char **__restrict __endptr,
+       locale_t __loc)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 3)));
+
+
+
+extern _Float64 strtof64_l (const char *__restrict __nptr,
+       char **__restrict __endptr,
+       locale_t __loc)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 3)));
+
+
+
+extern _Float128 strtof128_l (const char *__restrict __nptr,
+         char **__restrict __endptr,
+         locale_t __loc)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 3)));
+
+
+
+extern _Float32x strtof32x_l (const char *__restrict __nptr,
+         char **__restrict __endptr,
+         locale_t __loc)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 3)));
+
+
+
+extern _Float64x strtof64x_l (const char *__restrict __nptr,
+         char **__restrict __endptr,
+         locale_t __loc)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 3)));
+# 505 "/usr/include/stdlib.h" 3 4
+extern char *l64a (long int __n) noexcept (true) ;
+
+
+extern long int a64l (const char *__s)
+     noexcept (true) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+
+# 1 "/usr/include/x86_64-linux-gnu/sys/types.h" 1 3 4
+# 27 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
+extern "C" {
+
+
+
+
+
+typedef __u_char u_char;
+typedef __u_short u_short;
+typedef __u_int u_int;
+typedef __u_long u_long;
+typedef __quad_t quad_t;
+typedef __u_quad_t u_quad_t;
+typedef __fsid_t fsid_t;
+
+
+typedef __loff_t loff_t;
+
+
+
+
+typedef __ino_t ino_t;
+
+
+
+
+
+
+typedef __ino64_t ino64_t;
+
+
+
+
+typedef __dev_t dev_t;
+
+
+
+
+typedef __gid_t gid_t;
+
+
+
+
+typedef __mode_t mode_t;
+
+
+
+
+typedef __nlink_t nlink_t;
+
+
+
+
+typedef __uid_t uid_t;
+
+
+
+
+
+typedef __off_t off_t;
+
+
+
+
+
+
+typedef __off64_t off64_t;
+# 103 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
+typedef __id_t id_t;
+
+
+
+
+typedef __ssize_t ssize_t;
+
+
+
+
+
+typedef __daddr_t daddr_t;
+typedef __caddr_t caddr_t;
+
+
+
+
+
+typedef __key_t key_t;
+# 134 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
+typedef __useconds_t useconds_t;
+
+
+
+typedef __suseconds_t suseconds_t;
+
+
+
+
+
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h" 1 3 4
+# 145 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
+
+
+
+typedef unsigned long int ulong;
+typedef unsigned short int ushort;
+typedef unsigned int uint;
+
+
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/stdint-intn.h" 1 3 4
+# 24 "/usr/include/x86_64-linux-gnu/bits/stdint-intn.h" 3 4
+typedef __int8_t int8_t;
+typedef __int16_t int16_t;
+typedef __int32_t int32_t;
+typedef __int64_t int64_t;
+# 156 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
+
+
+typedef __uint8_t u_int8_t;
+typedef __uint16_t u_int16_t;
+typedef __uint32_t u_int32_t;
+typedef __uint64_t u_int64_t;
+
+
+typedef int register_t __attribute__ ((__mode__ (__word__)));
+# 176 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
+# 1 "/usr/include/endian.h" 1 3 4
+# 35 "/usr/include/endian.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 1 3 4
+# 33 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 3 4
+static __inline __uint16_t
+__bswap_16 (__uint16_t __bsx)
 {
-  double __attribute__((__cdecl__)) __mingw_strtod (const char * __restrict__, char ** __restrict__);
-  return __mingw_strtod( _Str, _EndPtr);
+
+  return __builtin_bswap16 (__bsx);
+
+
+
 }
 
-inline __attribute__((__cdecl__))
-float __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) strtof(const char * __restrict__ _Str,char ** __restrict__ _EndPtr)
+
+
+
+
+
+static __inline __uint32_t
+__bswap_32 (__uint32_t __bsx)
 {
-  float __attribute__((__cdecl__)) __mingw_strtof (const char * __restrict__, char ** __restrict__);
-  return __mingw_strtof( _Str, _EndPtr);
+
+  return __builtin_bswap32 (__bsx);
+
+
+
+}
+# 69 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 3 4
+__extension__ static __inline __uint64_t
+__bswap_64 (__uint64_t __bsx)
+{
+
+  return __builtin_bswap64 (__bsx);
+
+
+
+}
+# 36 "/usr/include/endian.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/uintn-identity.h" 1 3 4
+# 32 "/usr/include/x86_64-linux-gnu/bits/uintn-identity.h" 3 4
+static __inline __uint16_t
+__uint16_identity (__uint16_t __x)
+{
+  return __x;
 }
 
-
-
-
-
-
-  long double __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) strtold(const char * __restrict__ , char ** __restrict__ );
-
-
-  extern double __attribute__((__cdecl__)) __attribute__ ((__nothrow__))
-  __strtod (const char * __restrict__ , char ** __restrict__);
-
-
-
-
-
-
-
-  float __attribute__((__cdecl__)) __mingw_strtof (const char * __restrict__, char ** __restrict__);
-  double __attribute__((__cdecl__)) __mingw_strtod (const char * __restrict__, char ** __restrict__);
-  long double __attribute__((__cdecl__)) __mingw_strtold(const char * __restrict__, char ** __restrict__);
-
-  __attribute__ ((__dllimport__)) float __attribute__((__cdecl__)) _strtof_l(const char * __restrict__ _Str,char ** __restrict__ _EndPtr,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) double __attribute__((__cdecl__)) _strtod_l(const char * __restrict__ _Str,char ** __restrict__ _EndPtr,_locale_t _Locale);
-  long __attribute__((__cdecl__)) strtol(const char * __restrict__ _Str,char ** __restrict__ _EndPtr,int _Radix);
-  __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _strtol_l(const char * __restrict__ _Str,char ** __restrict__ _EndPtr,int _Radix,_locale_t _Locale);
-  unsigned long __attribute__((__cdecl__)) strtoul(const char * __restrict__ _Str,char ** __restrict__ _EndPtr,int _Radix);
-  __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _strtoul_l(const char * __restrict__ _Str,char ** __restrict__ _EndPtr,int _Radix,_locale_t _Locale);
-
-
-
-
-  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _ultoa(unsigned long _Value,char *_Dest,int _Radix) ;
-  int __attribute__((__cdecl__)) wctomb(char *_MbCh,wchar_t _WCh) ;
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wctomb_l(char *_MbCh,wchar_t _WCh,_locale_t _Locale) ;
-  size_t __attribute__((__cdecl__)) wcstombs(char * __restrict__ _Dest,const wchar_t * __restrict__ _Source,size_t _MaxCount) ;
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _wcstombs_l(char * __restrict__ _Dest,const wchar_t * __restrict__ _Source,size_t _MaxCount,_locale_t _Locale) ;
-
-
-
-  void *__attribute__((__cdecl__)) calloc(size_t _NumOfElements,size_t _SizeOfElements);
-  void __attribute__((__cdecl__)) free(void *_Memory);
-  void *__attribute__((__cdecl__)) malloc(size_t _Size);
-  void *__attribute__((__cdecl__)) realloc(void *_Memory,size_t _NewSize);
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _aligned_free(void *_Memory);
-  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_malloc(size_t _Size,size_t _Alignment);
-  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_offset_malloc(size_t _Size,size_t _Alignment,size_t _Offset);
-  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_realloc(void *_Memory,size_t _Size,size_t _Alignment);
-  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_offset_realloc(void *_Memory,size_t _Size,size_t _Alignment,size_t _Offset);
-
-  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _recalloc(void *_Memory,size_t _Count,size_t _Size);
-  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_recalloc(void *_Memory,size_t _Count,size_t _Size,size_t _Alignment);
-  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_offset_recalloc(void *_Memory,size_t _Count,size_t _Size,size_t _Alignment,size_t _Offset);
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _aligned_msize(void *_Memory,size_t _Alignment,size_t _Offset);
-# 495 "C:/msys64/ucrt64/include/stdlib.h" 3
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _putenv(const char *_EnvString);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wputenv(const wchar_t *_EnvString);
-
-
-
-  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _fullpath(char *_FullPath,const char *_Path,size_t _SizeInBytes);
-  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _ecvt(double _Val,int _NumOfDigits,int *_PtDec,int *_PtSign) ;
-  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _fcvt(double _Val,int _NumOfDec,int *_PtDec,int *_PtSign) ;
-  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _gcvt(double _Val,int _NumOfDigits,char *_DstBuf) ;
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atodbl(_CRT_DOUBLE *_Result,char *_Str);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoldbl(_LDOUBLE *_Result,char *_Str);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoflt(_CRT_FLOAT *_Result,char *_Str);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atodbl_l(_CRT_DOUBLE *_Result,char *_Str,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoldbl_l(_LDOUBLE *_Result,char *_Str,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoflt_l(_CRT_FLOAT *_Result,char *_Str,_locale_t _Locale);
-# 525 "C:/msys64/ucrt64/include/stdlib.h" 3
-unsigned long __attribute__((__cdecl__)) _lrotl(unsigned long,int);
-unsigned long __attribute__((__cdecl__)) _lrotr(unsigned long,int);
-
-
-
-
-
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _makepath(char *_Path,const char *_Drive,const char *_Dir,const char *_Filename,const char *_Ext);
-  _onexit_t __attribute__((__cdecl__)) _onexit(_onexit_t _Func);
-
-
-
-
-
-       
-       
-
-
-  __extension__ unsigned long long __attribute__((__cdecl__)) _rotl64(unsigned long long _Val,int _Shift);
-  __extension__ unsigned long long __attribute__((__cdecl__)) _rotr64(unsigned long long Value,int Shift);
-       
-       
-       
-       
-
-
-  unsigned int __attribute__((__cdecl__)) _rotr(unsigned int _Val,int _Shift);
-  unsigned int __attribute__((__cdecl__)) _rotl(unsigned int _Val,int _Shift);
-       
-       
-  __extension__ unsigned long long __attribute__((__cdecl__)) _rotr64(unsigned long long _Val,int _Shift);
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _searchenv(const char *_Filename,const char *_EnvVar,char *_ResultPath) ;
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _splitpath(const char *_FullPath,char *_Drive,char *_Dir,char *_Filename,char *_Ext) ;
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _swab(char *_Buf1,char *_Buf2,int _SizeInBytes);
-# 572 "C:/msys64/ucrt64/include/stdlib.h" 3
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _beep(unsigned _Frequency,unsigned _Duration) __attribute__ ((__deprecated__));
-
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _seterrormode(int _Mode) __attribute__ ((__deprecated__));
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _sleep(unsigned long _Duration) __attribute__ ((__deprecated__));
-# 596 "C:/msys64/ucrt64/include/stdlib.h" 3
-  char *__attribute__((__cdecl__)) ecvt(double _Val,int _NumOfDigits,int *_PtDec,int *_PtSign) ;
-  char *__attribute__((__cdecl__)) fcvt(double _Val,int _NumOfDec,int *_PtDec,int *_PtSign) ;
-  char *__attribute__((__cdecl__)) gcvt(double _Val,int _NumOfDigits,char *_DstBuf) ;
-  char *__attribute__((__cdecl__)) itoa(int _Val,char *_DstBuf,int _Radix) ;
-  char *__attribute__((__cdecl__)) ltoa(long _Val,char *_DstBuf,int _Radix) ;
-  int __attribute__((__cdecl__)) putenv(const char *_EnvString) ;
-
-
-
-  void __attribute__((__cdecl__)) swab(char *_Buf1,char *_Buf2,int _SizeInBytes) ;
-
-
-  char *__attribute__((__cdecl__)) ultoa(unsigned long _Val,char *_Dstbuf,int _Radix) ;
-  _onexit_t __attribute__((__cdecl__)) onexit(_onexit_t _Func);
-
-
-
-
-
-  typedef struct { __extension__ long long quot, rem; } lldiv_t;
-
-  __extension__ lldiv_t __attribute__((__cdecl__)) lldiv(long long, long long);
-
-  __extension__ long long __attribute__((__cdecl__)) llabs(long long);
-
-
-
-
-  __extension__ long long __attribute__((__cdecl__)) strtoll(const char * __restrict__, char ** __restrict, int);
-  __extension__ unsigned long long __attribute__((__cdecl__)) strtoull(const char * __restrict__, char ** __restrict__, int);
-
-
-  __extension__ long long __attribute__((__cdecl__)) atoll (const char *);
-
-
-  __extension__ long long __attribute__((__cdecl__)) wtoll (const wchar_t *);
-  __extension__ char *__attribute__((__cdecl__)) lltoa (long long, char *, int);
-  __extension__ char *__attribute__((__cdecl__)) ulltoa (unsigned long long , char *, int);
-  __extension__ wchar_t *__attribute__((__cdecl__)) lltow (long long, wchar_t *, int);
-  __extension__ wchar_t *__attribute__((__cdecl__)) ulltow (unsigned long long, wchar_t *, int);
-# 650 "C:/msys64/ucrt64/include/stdlib.h" 3
+static __inline __uint32_t
+__uint32_identity (__uint32_t __x)
+{
+  return __x;
 }
 
+static __inline __uint64_t
+__uint64_identity (__uint64_t __x)
+{
+  return __x;
+}
+# 37 "/usr/include/endian.h" 2 3 4
+# 177 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
 
-#pragma pack(pop)
 
-# 1 "C:/msys64/ucrt64/include/sec_api/stdlib_s.h" 1 3
-# 9 "C:/msys64/ucrt64/include/sec_api/stdlib_s.h" 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/stdlib.h" 1 3
-# 30 "C:/msys64/ucrt64/include/c++/14.2.0/stdlib.h" 3
-# 1 "C:/msys64/ucrt64/include/stdlib.h" 1 3
-# 31 "C:/msys64/ucrt64/include/c++/14.2.0/stdlib.h" 2 3
-# 10 "C:/msys64/ucrt64/include/sec_api/stdlib_s.h" 2 3
+# 1 "/usr/include/x86_64-linux-gnu/sys/select.h" 1 3 4
+# 30 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/select.h" 1 3 4
+# 31 "/usr/include/x86_64-linux-gnu/sys/select.h" 2 3 4
 
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h" 1 3 4
+
+
+
+
+
+
+typedef __sigset_t sigset_t;
+# 34 "/usr/include/x86_64-linux-gnu/sys/select.h" 2 3 4
+# 49 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
+typedef long int __fd_mask;
+# 59 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
+typedef struct
+  {
+
+
+
+    __fd_mask fds_bits[1024 / (8 * (int) sizeof (__fd_mask))];
+
+
+
+
+
+  } fd_set;
+
+
+
+
+
+
+typedef __fd_mask fd_mask;
+# 91 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
+extern "C" {
+# 102 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
+extern int select (int __nfds, fd_set *__restrict __readfds,
+     fd_set *__restrict __writefds,
+     fd_set *__restrict __exceptfds,
+     struct timeval *__restrict __timeout);
+# 127 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
+extern int pselect (int __nfds, fd_set *__restrict __readfds,
+      fd_set *__restrict __writefds,
+      fd_set *__restrict __exceptfds,
+      const struct timespec *__restrict __timeout,
+      const __sigset_t *__restrict __sigmask);
+# 153 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
+}
+# 180 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
+
+
+
+
+
+typedef __blksize_t blksize_t;
+
+
+
+
+
+
+typedef __blkcnt_t blkcnt_t;
+
+
+
+typedef __fsblkcnt_t fsblkcnt_t;
+
+
+
+typedef __fsfilcnt_t fsfilcnt_t;
+# 219 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
+typedef __blkcnt64_t blkcnt64_t;
+typedef __fsblkcnt64_t fsblkcnt64_t;
+typedef __fsfilcnt64_t fsfilcnt64_t;
+# 230 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
+}
+# 515 "/usr/include/stdlib.h" 2 3 4
+
+
+
+
+
+
+extern long int random (void) noexcept (true);
+
+
+extern void srandom (unsigned int __seed) noexcept (true);
+
+
+
+
+
+extern char *initstate (unsigned int __seed, char *__statebuf,
+   size_t __statelen) noexcept (true) __attribute__ ((__nonnull__ (2)));
+
+
+
+extern char *setstate (char *__statebuf) noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+
+
+struct random_data
+  {
+    int32_t *fptr;
+    int32_t *rptr;
+    int32_t *state;
+    int rand_type;
+    int rand_deg;
+    int rand_sep;
+    int32_t *end_ptr;
+  };
+
+extern int random_r (struct random_data *__restrict __buf,
+       int32_t *__restrict __result) noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+extern int srandom_r (unsigned int __seed, struct random_data *__buf)
+     noexcept (true) __attribute__ ((__nonnull__ (2)));
+
+extern int initstate_r (unsigned int __seed, char *__restrict __statebuf,
+   size_t __statelen,
+   struct random_data *__restrict __buf)
+     noexcept (true) __attribute__ ((__nonnull__ (2, 4)));
+
+extern int setstate_r (char *__restrict __statebuf,
+         struct random_data *__restrict __buf)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+
+
+extern int rand (void) noexcept (true);
+
+extern void srand (unsigned int __seed) noexcept (true);
+
+
+
+extern int rand_r (unsigned int *__seed) noexcept (true);
+
+
+
+
+
+
+
+extern double drand48 (void) noexcept (true);
+extern double erand48 (unsigned short int __xsubi[3]) noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern long int lrand48 (void) noexcept (true);
+extern long int nrand48 (unsigned short int __xsubi[3])
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern long int mrand48 (void) noexcept (true);
+extern long int jrand48 (unsigned short int __xsubi[3])
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern void srand48 (long int __seedval) noexcept (true);
+extern unsigned short int *seed48 (unsigned short int __seed16v[3])
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+extern void lcong48 (unsigned short int __param[7]) noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+struct drand48_data
+  {
+    unsigned short int __x[3];
+    unsigned short int __old_x[3];
+    unsigned short int __c;
+    unsigned short int __init;
+    __extension__ unsigned long long int __a;
+
+  };
+
+
+extern int drand48_r (struct drand48_data *__restrict __buffer,
+        double *__restrict __result) noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+extern int erand48_r (unsigned short int __xsubi[3],
+        struct drand48_data *__restrict __buffer,
+        double *__restrict __result) noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int lrand48_r (struct drand48_data *__restrict __buffer,
+        long int *__restrict __result)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+extern int nrand48_r (unsigned short int __xsubi[3],
+        struct drand48_data *__restrict __buffer,
+        long int *__restrict __result)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int mrand48_r (struct drand48_data *__restrict __buffer,
+        long int *__restrict __result)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+extern int jrand48_r (unsigned short int __xsubi[3],
+        struct drand48_data *__restrict __buffer,
+        long int *__restrict __result)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern int srand48_r (long int __seedval, struct drand48_data *__buffer)
+     noexcept (true) __attribute__ ((__nonnull__ (2)));
+
+extern int seed48_r (unsigned short int __seed16v[3],
+       struct drand48_data *__buffer) noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+extern int lcong48_r (unsigned short int __param[7],
+        struct drand48_data *__buffer)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
+
+
+extern __uint32_t arc4random (void)
+     noexcept (true) ;
+
+
+extern void arc4random_buf (void *__buf, size_t __size)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+extern __uint32_t arc4random_uniform (__uint32_t __upper_bound)
+     noexcept (true) ;
+
+
+
+
+extern void *malloc (size_t __size) noexcept (true) __attribute__ ((__malloc__))
+     __attribute__ ((__alloc_size__ (1))) ;
+
+extern void *calloc (size_t __nmemb, size_t __size)
+     noexcept (true) __attribute__ ((__malloc__)) __attribute__ ((__alloc_size__ (1, 2))) ;
+
+
+
+
+
+
+extern void *realloc (void *__ptr, size_t __size)
+     noexcept (true) __attribute__ ((__warn_unused_result__)) __attribute__ ((__alloc_size__ (2)));
+
+
+extern void free (void *__ptr) noexcept (true);
+
+
+
+
+
+
+
+extern void *reallocarray (void *__ptr, size_t __nmemb, size_t __size)
+     noexcept (true) __attribute__ ((__warn_unused_result__))
+     __attribute__ ((__alloc_size__ (2, 3)))
+    __attribute__ ((__malloc__ (__builtin_free, 1)));
+
+
+extern void *reallocarray (void *__ptr, size_t __nmemb, size_t __size)
+     noexcept (true) __attribute__ ((__malloc__ (reallocarray, 1)));
+
+
+
+# 1 "/usr/include/alloca.h" 1 3 4
+# 24 "/usr/include/alloca.h" 3 4
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h" 1 3 4
+# 25 "/usr/include/alloca.h" 2 3 4
 
 extern "C" {
 
 
-  __attribute__ ((__dllimport__)) void * __attribute__((__cdecl__)) bsearch_s(const void *_Key,const void *_Base,rsize_t _NumOfElements,rsize_t _SizeOfElements,int (__attribute__((__cdecl__)) * _PtFuncCompare)(void *, const void *, const void *), void *_Context);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _dupenv_s(char **_PBuffer,size_t *_PBufferSizeInBytes,const char *_VarName);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) getenv_s(size_t *_ReturnSize,char *_DstBuf,rsize_t _DstSize,const char *_VarName);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) getenv_s(size_t * _ReturnSize, char (&_Dest)[__size], const char * _VarName) { return getenv_s(_ReturnSize, _Dest, __size, _VarName); } }
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _itoa_s(int _Value,char *_DstBuf,size_t _Size,int _Radix);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _itoa_s(int _Value, char (&_Dest)[__size], int _Radix) { return _itoa_s(_Value, _Dest, __size, _Radix); } }
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _i64toa_s(long long _Val,char *_DstBuf,size_t _Size,int _Radix);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _ui64toa_s(unsigned long long _Val,char *_DstBuf,size_t _Size,int _Radix);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _ltoa_s(long _Val,char *_DstBuf,size_t _Size,int _Radix);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _ltoa_s(long _Value, char (&_Dest)[__size], int _Radix) { return _ltoa_s(_Value, _Dest, __size, _Radix); } }
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) mbstowcs_s(size_t *_PtNumOfCharConverted,wchar_t *_DstBuf,size_t _SizeInWords,const char *_SrcBuf,size_t _MaxCount);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) mbstowcs_s(size_t * _PtNumOfCharConverted, wchar_t (&_Dest)[__size], const char * _Source, size_t _MaxCount) { return mbstowcs_s(_PtNumOfCharConverted, _Dest, __size, _Source, _MaxCount); } }
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _mbstowcs_s_l(size_t *_PtNumOfCharConverted,wchar_t *_DstBuf,size_t _SizeInWords,const char *_SrcBuf,size_t _MaxCount,_locale_t _Locale);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _mbstowcs_s_l(size_t * _PtNumOfCharConverted, wchar_t (&_Dest)[__size], const char * _Source, size_t _MaxCount, _locale_t _Locale) { return _mbstowcs_s_l(_PtNumOfCharConverted, _Dest, __size, _Source, _MaxCount, _Locale); } }
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _ultoa_s(unsigned long _Val,char *_DstBuf,size_t _Size,int _Radix);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _ultoa_s(unsigned long _Value, char (&_Dest)[__size], int _Radix) { return _ultoa_s(_Value, _Dest, __size, _Radix); } }
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) wctomb_s(int *_SizeConverted,char *_MbCh,rsize_t _SizeInBytes,wchar_t _WCh);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wctomb_s_l(int *_SizeConverted,char *_MbCh,size_t _SizeInBytes,wchar_t _WCh,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) wcstombs_s(size_t *_PtNumOfCharConverted,char *_Dst,size_t _DstSizeInBytes,const wchar_t *_Src,size_t _MaxCountInBytes);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) wcstombs_s(size_t* _PtNumOfCharConverted, char (&_Dst)[__size], const wchar_t* _Src, size_t _MaxCountInBytes) { return wcstombs_s(_PtNumOfCharConverted, _Dst, __size, _Src, _MaxCountInBytes); } }
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcstombs_s_l(size_t *_PtNumOfCharConverted,char *_Dst,size_t _DstSizeInBytes,const wchar_t *_Src,size_t _MaxCountInBytes,_locale_t _Locale);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _wcstombs_s_l(size_t* _PtNumOfCharConverted, char (&_Dst)[__size], const wchar_t* _Src, size_t _MaxCountInBytes, _locale_t _Locale) { return _wcstombs_s_l(_PtNumOfCharConverted, _Dst, __size, _Src, _MaxCountInBytes, _Locale); } }
-
-
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _ecvt_s(char *_DstBuf,size_t _Size,double _Val,int _NumOfDights,int *_PtDec,int *_PtSign);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _fcvt_s(char *_DstBuf,size_t _Size,double _Val,int _NumOfDec,int *_PtDec,int *_PtSign);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _gcvt_s(char *_DstBuf,size_t _Size,double _Val,int _NumOfDigits);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _makepath_s(char *_PathResult,size_t _Size,const char *_Drive,const char *_Dir,const char *_Filename,const char *_Ext);
-  extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) _makepath_s(char (&_PathResult)[__size], const char* _Drive, const char* _Dir, const char* _Filename, const char* _Ext) { return _makepath_s(_PathResult,__size,_Drive,_Dir,_Filename,_Ext); } }
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _putenv_s(const char *_Name,const char *_Value);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _searchenv_s(const char *_Filename,const char *_EnvVar,char *_ResultPath,size_t _SizeInBytes);
-
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _splitpath_s(const char *_FullPath,char *_Drive,size_t _DriveSize,char *_Dir,size_t _DirSize,char *_Filename,size_t _FilenameSize,char *_Ext,size_t _ExtSize);
-  extern "C++" { template <size_t __drive_size, size_t __dir_size, size_t __name_size, size_t __ext_size> inline errno_t __attribute__((__cdecl__)) _splitpath_s(const char *_Dest, char (&__drive)[__drive_size], char (&__dir)[__dir_size], char (&__name)[__name_size], char (&__ext)[__ext_size]) { return _splitpath_s(_Dest, __drive, __drive_size, __dir, __dir_size, __name, __name_size, __ext, __ext_size); } }
 
 
 
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) qsort_s(void *_Base,size_t _NumOfElements,size_t _SizeOfElements,int (__attribute__((__cdecl__)) *_PtFuncCompare)(void *,const void *,const void *),void *_Context);
+extern void *alloca (size_t __size) noexcept (true);
 
 
 
 
 
 }
-# 656 "C:/msys64/ucrt64/include/stdlib.h" 2 3
-# 1 "C:/msys64/ucrt64/include/malloc.h" 1 3
-# 11 "C:/msys64/ucrt64/include/malloc.h" 3
-#pragma pack(push,_CRT_PACKING)
-
-
-extern "C" {
-# 52 "C:/msys64/ucrt64/include/malloc.h" 3
-  typedef struct _heapinfo {
-    int *_pentry;
-    size_t _size;
-    int _useflag;
-  } _HEAPINFO;
-
-
-
-  __attribute__ ((__dllimport__)) unsigned int *__attribute__((__cdecl__)) __p__amblksiz(void);
-# 84 "C:/msys64/ucrt64/include/malloc.h" 3
-void * __mingw_aligned_malloc (size_t _Size, size_t _Alignment);
-void __mingw_aligned_free (void *_Memory);
-void * __mingw_aligned_offset_realloc (void *_Memory, size_t _Size, size_t _Alignment, size_t _Offset);
-void * __mingw_aligned_realloc (void *_Memory, size_t _Size, size_t _Offset);
-
-
-
-# 1 "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h" 1 3 4
-# 27 "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h" 3 4
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/stdlib.h" 1 3 4
-# 28 "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h" 2 3 4
-
-
-
-
-static __inline__ void *
-_mm_malloc (size_t __size, size_t __align)
-{
-  void * __malloc_ptr;
-  void * __aligned_ptr;
-
-
-  if (__align & (__align - 1))
-    {
-
-      (*_errno()) = 22;
-
-      return ((void *) 0);
-    }
-
-  if (__size == 0)
-    return ((void *) 0);
+# 707 "/usr/include/stdlib.h" 2 3 4
 
 
 
 
 
-    if (__align < 2 * sizeof (void *))
-      __align = 2 * sizeof (void *);
-
-  __malloc_ptr = malloc (__size + __align);
-  if (!__malloc_ptr)
-    return ((void *) 0);
+extern void *valloc (size_t __size) noexcept (true) __attribute__ ((__malloc__))
+     __attribute__ ((__alloc_size__ (1))) ;
 
 
-  __aligned_ptr = (void *) (((size_t) __malloc_ptr + __align)
-       & ~((size_t) (__align) - 1));
 
 
-  ((void **) __aligned_ptr)[-1] = __malloc_ptr;
+extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
+     noexcept (true) __attribute__ ((__nonnull__ (1))) ;
 
-  return __aligned_ptr;
+
+
+
+extern void *aligned_alloc (size_t __alignment, size_t __size)
+     noexcept (true) __attribute__ ((__malloc__)) __attribute__ ((__alloc_align__ (1)))
+     __attribute__ ((__alloc_size__ (2))) ;
+
+
+
+extern void abort (void) noexcept (true) __attribute__ ((__noreturn__));
+
+
+
+extern int atexit (void (*__func) (void)) noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+extern "C++" int at_quick_exit (void (*__func) (void))
+     noexcept (true) __asm ("at_quick_exit") __attribute__ ((__nonnull__ (1)));
+# 749 "/usr/include/stdlib.h" 3 4
+extern int on_exit (void (*__func) (int __status, void *__arg), void *__arg)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+extern void exit (int __status) noexcept (true) __attribute__ ((__noreturn__));
+
+
+
+
+
+extern void quick_exit (int __status) noexcept (true) __attribute__ ((__noreturn__));
+
+
+
+
+
+extern void _Exit (int __status) noexcept (true) __attribute__ ((__noreturn__));
+
+
+
+
+extern char *getenv (const char *__name) noexcept (true) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+
+extern char *secure_getenv (const char *__name)
+     noexcept (true) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+
+
+
+extern int putenv (char *__string) noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+extern int setenv (const char *__name, const char *__value, int __replace)
+     noexcept (true) __attribute__ ((__nonnull__ (2)));
+
+
+extern int unsetenv (const char *__name) noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+
+extern int clearenv (void) noexcept (true);
+# 814 "/usr/include/stdlib.h" 3 4
+extern char *mktemp (char *__template) noexcept (true) __attribute__ ((__nonnull__ (1)));
+# 827 "/usr/include/stdlib.h" 3 4
+extern int mkstemp (char *__template) __attribute__ ((__nonnull__ (1))) ;
+# 837 "/usr/include/stdlib.h" 3 4
+extern int mkstemp64 (char *__template) __attribute__ ((__nonnull__ (1))) ;
+# 849 "/usr/include/stdlib.h" 3 4
+extern int mkstemps (char *__template, int __suffixlen) __attribute__ ((__nonnull__ (1))) ;
+# 859 "/usr/include/stdlib.h" 3 4
+extern int mkstemps64 (char *__template, int __suffixlen)
+     __attribute__ ((__nonnull__ (1))) ;
+# 870 "/usr/include/stdlib.h" 3 4
+extern char *mkdtemp (char *__template) noexcept (true) __attribute__ ((__nonnull__ (1))) ;
+# 881 "/usr/include/stdlib.h" 3 4
+extern int mkostemp (char *__template, int __flags) __attribute__ ((__nonnull__ (1))) ;
+# 891 "/usr/include/stdlib.h" 3 4
+extern int mkostemp64 (char *__template, int __flags) __attribute__ ((__nonnull__ (1))) ;
+# 901 "/usr/include/stdlib.h" 3 4
+extern int mkostemps (char *__template, int __suffixlen, int __flags)
+     __attribute__ ((__nonnull__ (1))) ;
+# 913 "/usr/include/stdlib.h" 3 4
+extern int mkostemps64 (char *__template, int __suffixlen, int __flags)
+     __attribute__ ((__nonnull__ (1))) ;
+# 923 "/usr/include/stdlib.h" 3 4
+extern int system (const char *__command) ;
+
+
+
+
+
+extern char *canonicalize_file_name (const char *__name)
+     noexcept (true) __attribute__ ((__nonnull__ (1))) __attribute__ ((__malloc__))
+     __attribute__ ((__malloc__ (__builtin_free, 1))) ;
+# 940 "/usr/include/stdlib.h" 3 4
+extern char *realpath (const char *__restrict __name,
+         char *__restrict __resolved) noexcept (true) ;
+
+
+
+
+
+
+typedef int (*__compar_fn_t) (const void *, const void *);
+
+
+typedef __compar_fn_t comparison_fn_t;
+
+
+
+typedef int (*__compar_d_fn_t) (const void *, const void *, void *);
+
+
+
+
+extern void *bsearch (const void *__key, const void *__base,
+        size_t __nmemb, size_t __size, __compar_fn_t __compar)
+     __attribute__ ((__nonnull__ (1, 2, 5))) ;
+
+
+
+
+
+
+
+extern void qsort (void *__base, size_t __nmemb, size_t __size,
+     __compar_fn_t __compar) __attribute__ ((__nonnull__ (1, 4)));
+
+extern void qsort_r (void *__base, size_t __nmemb, size_t __size,
+       __compar_d_fn_t __compar, void *__arg)
+  __attribute__ ((__nonnull__ (1, 4)));
+
+
+
+
+extern int abs (int __x) noexcept (true) __attribute__ ((__const__)) ;
+extern long int labs (long int __x) noexcept (true) __attribute__ ((__const__)) ;
+
+
+__extension__ extern long long int llabs (long long int __x)
+     noexcept (true) __attribute__ ((__const__)) ;
+
+
+
+
+
+
+extern div_t div (int __numer, int __denom)
+     noexcept (true) __attribute__ ((__const__)) ;
+extern ldiv_t ldiv (long int __numer, long int __denom)
+     noexcept (true) __attribute__ ((__const__)) ;
+
+
+__extension__ extern lldiv_t lldiv (long long int __numer,
+        long long int __denom)
+     noexcept (true) __attribute__ ((__const__)) ;
+# 1012 "/usr/include/stdlib.h" 3 4
+extern char *ecvt (double __value, int __ndigit, int *__restrict __decpt,
+     int *__restrict __sign) noexcept (true) __attribute__ ((__nonnull__ (3, 4))) ;
+
+
+
+
+extern char *fcvt (double __value, int __ndigit, int *__restrict __decpt,
+     int *__restrict __sign) noexcept (true) __attribute__ ((__nonnull__ (3, 4))) ;
+
+
+
+
+extern char *gcvt (double __value, int __ndigit, char *__buf)
+     noexcept (true) __attribute__ ((__nonnull__ (3))) ;
+
+
+
+
+extern char *qecvt (long double __value, int __ndigit,
+      int *__restrict __decpt, int *__restrict __sign)
+     noexcept (true) __attribute__ ((__nonnull__ (3, 4))) ;
+extern char *qfcvt (long double __value, int __ndigit,
+      int *__restrict __decpt, int *__restrict __sign)
+     noexcept (true) __attribute__ ((__nonnull__ (3, 4))) ;
+extern char *qgcvt (long double __value, int __ndigit, char *__buf)
+     noexcept (true) __attribute__ ((__nonnull__ (3))) ;
+
+
+
+
+extern int ecvt_r (double __value, int __ndigit, int *__restrict __decpt,
+     int *__restrict __sign, char *__restrict __buf,
+     size_t __len) noexcept (true) __attribute__ ((__nonnull__ (3, 4, 5)));
+extern int fcvt_r (double __value, int __ndigit, int *__restrict __decpt,
+     int *__restrict __sign, char *__restrict __buf,
+     size_t __len) noexcept (true) __attribute__ ((__nonnull__ (3, 4, 5)));
+
+extern int qecvt_r (long double __value, int __ndigit,
+      int *__restrict __decpt, int *__restrict __sign,
+      char *__restrict __buf, size_t __len)
+     noexcept (true) __attribute__ ((__nonnull__ (3, 4, 5)));
+extern int qfcvt_r (long double __value, int __ndigit,
+      int *__restrict __decpt, int *__restrict __sign,
+      char *__restrict __buf, size_t __len)
+     noexcept (true) __attribute__ ((__nonnull__ (3, 4, 5)));
+
+
+
+
+
+extern int mblen (const char *__s, size_t __n) noexcept (true);
+
+
+extern int mbtowc (wchar_t *__restrict __pwc,
+     const char *__restrict __s, size_t __n) noexcept (true);
+
+
+extern int wctomb (char *__s, wchar_t __wchar) noexcept (true);
+
+
+
+extern size_t mbstowcs (wchar_t *__restrict __pwcs,
+   const char *__restrict __s, size_t __n) noexcept (true)
+    __attribute__ ((__access__ (__read_only__, 2)));
+
+extern size_t wcstombs (char *__restrict __s,
+   const wchar_t *__restrict __pwcs, size_t __n)
+     noexcept (true)
+  __attribute__ ((__access__ (__write_only__, 1, 3)))
+  __attribute__ ((__access__ (__read_only__, 2)));
+
+
+
+
+
+
+extern int rpmatch (const char *__response) noexcept (true) __attribute__ ((__nonnull__ (1))) ;
+# 1099 "/usr/include/stdlib.h" 3 4
+extern int getsubopt (char **__restrict __optionp,
+        char *const *__restrict __tokens,
+        char **__restrict __valuep)
+     noexcept (true) __attribute__ ((__nonnull__ (1, 2, 3))) ;
+
+
+
+
+
+
+
+extern int posix_openpt (int __oflag) ;
+
+
+
+
+
+
+
+extern int grantpt (int __fd) noexcept (true);
+
+
+
+extern int unlockpt (int __fd) noexcept (true);
+
+
+
+
+extern char *ptsname (int __fd) noexcept (true) ;
+
+
+
+
+
+
+extern int ptsname_r (int __fd, char *__buf, size_t __buflen)
+     noexcept (true) __attribute__ ((__nonnull__ (2))) __attribute__ ((__access__ (__write_only__, 2, 3)));
+
+
+extern int getpt (void);
+
+
+
+
+
+
+extern int getloadavg (double __loadavg[], int __nelem)
+     noexcept (true) __attribute__ ((__nonnull__ (1)));
+# 1155 "/usr/include/stdlib.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/stdlib-float.h" 1 3 4
+# 1156 "/usr/include/stdlib.h" 2 3 4
+# 1167 "/usr/include/stdlib.h" 3 4
 }
+# 80 "/usr/include/c++/13/cstdlib" 2 3
 
-static __inline__ void
-_mm_free (void *__aligned_ptr)
-{
-  if (__aligned_ptr)
-    free (((void **) __aligned_ptr)[-1]);
-}
-# 92 "C:/msys64/ucrt64/include/malloc.h" 2 3
-
-
-
-
-
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _resetstkoflw (void);
-
-  __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _set_malloc_crt_max_wait(unsigned long _NewValue);
-
-  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _expand(void *_Memory,size_t _NewSize);
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _msize(void *_Memory);
-
-
-
-
-
-
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _get_sbh_threshold(void);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _set_sbh_threshold(size_t _NewValue);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _set_amblksiz(size_t _Value);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _get_amblksiz(size_t *_Value);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _heapadd(void *_Memory,size_t _Size);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _heapchk(void);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _heapmin(void);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _heapset(unsigned int _Fill);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _heapwalk(_HEAPINFO *_EntryInfo);
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _heapused(size_t *_Used,size_t *_Commit);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _get_heap_handle(void);
-# 132 "C:/msys64/ucrt64/include/malloc.h" 3
-  static __inline void *_MarkAllocaS(void *_Ptr,unsigned int _Marker) {
-    if(_Ptr) {
-      *((unsigned int*)_Ptr) = _Marker;
-      _Ptr = (char*)_Ptr + 16;
-    }
-    return _Ptr;
-  }
-# 151 "C:/msys64/ucrt64/include/malloc.h" 3
-  static __inline void __attribute__((__cdecl__)) _freea(void *_Memory) {
-    unsigned int _Marker;
-    if(_Memory) {
-      _Memory = (char*)_Memory - 16;
-      _Marker = *(unsigned int *)_Memory;
-      if(_Marker==0xDDDD) {
- free(_Memory);
-      }
-
-
-
-
-
-    }
-  }
-# 194 "C:/msys64/ucrt64/include/malloc.h" 3
-}
-
-
-#pragma pack(pop)
-# 657 "C:/msys64/ucrt64/include/stdlib.h" 2 3
-# 80 "C:/msys64/ucrt64/include/c++/14.2.0/cstdlib" 2 3
-
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/std_abs.h" 1 3
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/bits/std_abs.h" 3
+# 1 "/usr/include/c++/13/bits/std_abs.h" 1 3
+# 33 "/usr/include/c++/13/bits/std_abs.h" 3
        
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/bits/std_abs.h" 3
-# 46 "C:/msys64/ucrt64/include/c++/14.2.0/bits/std_abs.h" 3
+# 34 "/usr/include/c++/13/bits/std_abs.h" 3
+# 46 "/usr/include/c++/13/bits/std_abs.h" 3
 extern "C++"
 {
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -22862,7 +22658,7 @@ namespace std
 
   inline long long
   abs(long long __x) { return __builtin_llabs (__x); }
-# 70 "C:/msys64/ucrt64/include/c++/14.2.0/bits/std_abs.h" 3
+# 70 "/usr/include/c++/13/bits/std_abs.h" 3
   inline constexpr double
   abs(double __x)
   { return __builtin_fabs(__x); }
@@ -22879,7 +22675,7 @@ namespace std
 
   __extension__ inline constexpr __int128
   abs(__int128 __x) { return __x >= 0 ? __x : -__x; }
-# 135 "C:/msys64/ucrt64/include/c++/14.2.0/bits/std_abs.h" 3
+# 135 "/usr/include/c++/13/bits/std_abs.h" 3
   __extension__ inline constexpr
   __float128
   abs(__float128 __x)
@@ -22887,10 +22683,10 @@ namespace std
 
 
 
+    return __builtin_fabsf128(__x);
 
 
 
-    return __builtin_signbit(__x) ? -__x : __x;
 
   }
 
@@ -22898,11 +22694,11 @@ namespace std
 
 }
 }
-# 82 "C:/msys64/ucrt64/include/c++/14.2.0/cstdlib" 2 3
-# 125 "C:/msys64/ucrt64/include/c++/14.2.0/cstdlib" 3
+# 82 "/usr/include/c++/13/cstdlib" 2 3
+# 125 "/usr/include/c++/13/cstdlib" 3
 extern "C++"
 {
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -22911,7 +22707,7 @@ namespace std
 
   using ::abort;
 
-
+  using ::aligned_alloc;
 
   using ::atexit;
 
@@ -22962,8 +22758,8 @@ namespace std
 
 
 }
-# 199 "C:/msys64/ucrt64/include/c++/14.2.0/cstdlib" 3
-namespace __gnu_cxx
+# 199 "/usr/include/c++/13/cstdlib" 3
+namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -22985,7 +22781,7 @@ namespace __gnu_cxx
   { lldiv_t __q; __q.quot = __n / __d; __q.rem = __n % __d; return __q; }
 
   using ::lldiv;
-# 231 "C:/msys64/ucrt64/include/c++/14.2.0/cstdlib" 3
+# 231 "/usr/include/c++/13/cstdlib" 3
   using ::atoll;
   using ::strtoll;
   using ::strtoull;
@@ -23013,19 +22809,691 @@ namespace std
   using ::__gnu_cxx::strtoull;
   using ::__gnu_cxx::strtold;
 }
-# 275 "C:/msys64/ucrt64/include/c++/14.2.0/cstdlib" 3
+
+
+
 }
-# 44 "C:/msys64/ucrt64/include/c++/14.2.0/ext/string_conversions.h" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/cwchar" 1 3
-# 39 "C:/msys64/ucrt64/include/c++/14.2.0/cwchar" 3
+# 44 "/usr/include/c++/13/ext/string_conversions.h" 2 3
+# 1 "/usr/include/c++/13/cwchar" 1 3
+# 39 "/usr/include/c++/13/cwchar" 3
        
-# 40 "C:/msys64/ucrt64/include/c++/14.2.0/cwchar" 3
-# 45 "C:/msys64/ucrt64/include/c++/14.2.0/ext/string_conversions.h" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/cstdio" 1 3
-# 39 "C:/msys64/ucrt64/include/c++/14.2.0/cstdio" 3
+# 40 "/usr/include/c++/13/cwchar" 3
+# 45 "/usr/include/c++/13/ext/string_conversions.h" 2 3
+# 1 "/usr/include/c++/13/cstdio" 1 3
+# 39 "/usr/include/c++/13/cstdio" 3
        
-# 40 "C:/msys64/ucrt64/include/c++/14.2.0/cstdio" 3
-# 96 "C:/msys64/ucrt64/include/c++/14.2.0/cstdio" 3
+# 40 "/usr/include/c++/13/cstdio" 3
+
+
+# 1 "/usr/include/stdio.h" 1 3 4
+# 28 "/usr/include/stdio.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
+# 29 "/usr/include/stdio.h" 2 3 4
+
+extern "C" {
+
+
+
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h" 1 3 4
+# 35 "/usr/include/stdio.h" 2 3 4
+
+
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h" 1 3 4
+# 38 "/usr/include/stdio.h" 2 3 4
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h" 1 3 4
+# 10 "/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h" 3 4
+typedef struct _G_fpos_t
+{
+  __off_t __pos;
+  __mbstate_t __state;
+} __fpos_t;
+# 41 "/usr/include/stdio.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h" 1 3 4
+# 10 "/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h" 3 4
+typedef struct _G_fpos64_t
+{
+  __off64_t __pos;
+  __mbstate_t __state;
+} __fpos64_t;
+# 42 "/usr/include/stdio.h" 2 3 4
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" 1 3 4
+# 35 "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" 3 4
+struct _IO_FILE;
+struct _IO_marker;
+struct _IO_codecvt;
+struct _IO_wide_data;
+
+
+
+
+typedef void _IO_lock_t;
+
+
+
+
+
+struct _IO_FILE
+{
+  int _flags;
+
+
+  char *_IO_read_ptr;
+  char *_IO_read_end;
+  char *_IO_read_base;
+  char *_IO_write_base;
+  char *_IO_write_ptr;
+  char *_IO_write_end;
+  char *_IO_buf_base;
+  char *_IO_buf_end;
+
+
+  char *_IO_save_base;
+  char *_IO_backup_base;
+  char *_IO_save_end;
+
+  struct _IO_marker *_markers;
+
+  struct _IO_FILE *_chain;
+
+  int _fileno;
+  int _flags2;
+  __off_t _old_offset;
+
+
+  unsigned short _cur_column;
+  signed char _vtable_offset;
+  char _shortbuf[1];
+
+  _IO_lock_t *_lock;
+
+
+
+
+
+
+
+  __off64_t _offset;
+
+  struct _IO_codecvt *_codecvt;
+  struct _IO_wide_data *_wide_data;
+  struct _IO_FILE *_freeres_list;
+  void *_freeres_buf;
+  size_t __pad5;
+  int _mode;
+
+  char _unused2[15 * sizeof (int) - 4 * sizeof (void *) - sizeof (size_t)];
+};
+# 45 "/usr/include/stdio.h" 2 3 4
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h" 1 3 4
+# 27 "/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h" 3 4
+typedef __ssize_t cookie_read_function_t (void *__cookie, char *__buf,
+                                          size_t __nbytes);
+
+
+
+
+
+
+
+typedef __ssize_t cookie_write_function_t (void *__cookie, const char *__buf,
+                                           size_t __nbytes);
+
+
+
+
+
+
+
+typedef int cookie_seek_function_t (void *__cookie, __off64_t *__pos, int __w);
+
+
+typedef int cookie_close_function_t (void *__cookie);
+
+
+
+
+
+
+typedef struct _IO_cookie_io_functions_t
+{
+  cookie_read_function_t *read;
+  cookie_write_function_t *write;
+  cookie_seek_function_t *seek;
+  cookie_close_function_t *close;
+} cookie_io_functions_t;
+# 48 "/usr/include/stdio.h" 2 3 4
+# 85 "/usr/include/stdio.h" 3 4
+typedef __fpos_t fpos_t;
+
+
+
+
+typedef __fpos64_t fpos64_t;
+# 129 "/usr/include/stdio.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/stdio_lim.h" 1 3 4
+# 130 "/usr/include/stdio.h" 2 3 4
+# 149 "/usr/include/stdio.h" 3 4
+extern FILE *stdin;
+extern FILE *stdout;
+extern FILE *stderr;
+
+
+
+
+
+
+extern int remove (const char *__filename) noexcept (true);
+
+extern int rename (const char *__old, const char *__new) noexcept (true);
+
+
+
+extern int renameat (int __oldfd, const char *__old, int __newfd,
+       const char *__new) noexcept (true);
+# 176 "/usr/include/stdio.h" 3 4
+extern int renameat2 (int __oldfd, const char *__old, int __newfd,
+        const char *__new, unsigned int __flags) noexcept (true);
+
+
+
+
+
+
+extern int fclose (FILE *__stream) __attribute__ ((__nonnull__ (1)));
+# 194 "/usr/include/stdio.h" 3 4
+extern FILE *tmpfile (void)
+  __attribute__ ((__malloc__)) __attribute__ ((__malloc__ (fclose, 1))) ;
+# 206 "/usr/include/stdio.h" 3 4
+extern FILE *tmpfile64 (void)
+   __attribute__ ((__malloc__)) __attribute__ ((__malloc__ (fclose, 1))) ;
+
+
+
+extern char *tmpnam (char[20]) noexcept (true) ;
+
+
+
+
+extern char *tmpnam_r (char __s[20]) noexcept (true) ;
+# 228 "/usr/include/stdio.h" 3 4
+extern char *tempnam (const char *__dir, const char *__pfx)
+   noexcept (true) __attribute__ ((__malloc__)) __attribute__ ((__malloc__ (__builtin_free, 1)));
+
+
+
+
+
+
+extern int fflush (FILE *__stream);
+# 245 "/usr/include/stdio.h" 3 4
+extern int fflush_unlocked (FILE *__stream);
+# 255 "/usr/include/stdio.h" 3 4
+extern int fcloseall (void);
+# 264 "/usr/include/stdio.h" 3 4
+extern FILE *fopen (const char *__restrict __filename,
+      const char *__restrict __modes)
+  __attribute__ ((__malloc__)) __attribute__ ((__malloc__ (fclose, 1))) ;
+
+
+
+
+extern FILE *freopen (const char *__restrict __filename,
+        const char *__restrict __modes,
+        FILE *__restrict __stream) __attribute__ ((__nonnull__ (3)));
+# 289 "/usr/include/stdio.h" 3 4
+extern FILE *fopen64 (const char *__restrict __filename,
+        const char *__restrict __modes)
+  __attribute__ ((__malloc__)) __attribute__ ((__malloc__ (fclose, 1))) ;
+extern FILE *freopen64 (const char *__restrict __filename,
+   const char *__restrict __modes,
+   FILE *__restrict __stream) __attribute__ ((__nonnull__ (3)));
+
+
+
+
+extern FILE *fdopen (int __fd, const char *__modes) noexcept (true)
+  __attribute__ ((__malloc__)) __attribute__ ((__malloc__ (fclose, 1))) ;
+
+
+
+
+
+extern FILE *fopencookie (void *__restrict __magic_cookie,
+     const char *__restrict __modes,
+     cookie_io_functions_t __io_funcs) noexcept (true)
+  __attribute__ ((__malloc__)) __attribute__ ((__malloc__ (fclose, 1))) ;
+
+
+
+
+extern FILE *fmemopen (void *__s, size_t __len, const char *__modes)
+  noexcept (true) __attribute__ ((__malloc__)) __attribute__ ((__malloc__ (fclose, 1))) ;
+
+
+
+
+extern FILE *open_memstream (char **__bufloc, size_t *__sizeloc) noexcept (true)
+  __attribute__ ((__malloc__)) __attribute__ ((__malloc__ (fclose, 1))) ;
+
+
+
+
+
+extern __FILE *open_wmemstream (wchar_t **__bufloc, size_t *__sizeloc) noexcept (true)
+  __attribute__ ((__malloc__)) __attribute__ ((__malloc__ (fclose, 1)));
+
+
+
+
+
+extern void setbuf (FILE *__restrict __stream, char *__restrict __buf) noexcept (true)
+  __attribute__ ((__nonnull__ (1)));
+
+
+
+extern int setvbuf (FILE *__restrict __stream, char *__restrict __buf,
+      int __modes, size_t __n) noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+extern void setbuffer (FILE *__restrict __stream, char *__restrict __buf,
+         size_t __size) noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern void setlinebuf (FILE *__stream) noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+
+
+extern int fprintf (FILE *__restrict __stream,
+      const char *__restrict __format, ...) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+extern int printf (const char *__restrict __format, ...);
+
+extern int sprintf (char *__restrict __s,
+      const char *__restrict __format, ...) noexcept (true);
+
+
+
+
+
+extern int vfprintf (FILE *__restrict __s, const char *__restrict __format,
+       __gnuc_va_list __arg) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+extern int vprintf (const char *__restrict __format, __gnuc_va_list __arg);
+
+extern int vsprintf (char *__restrict __s, const char *__restrict __format,
+       __gnuc_va_list __arg) noexcept (true);
+
+
+
+extern int snprintf (char *__restrict __s, size_t __maxlen,
+       const char *__restrict __format, ...)
+     noexcept (true) __attribute__ ((__format__ (__printf__, 3, 4)));
+
+extern int vsnprintf (char *__restrict __s, size_t __maxlen,
+        const char *__restrict __format, __gnuc_va_list __arg)
+     noexcept (true) __attribute__ ((__format__ (__printf__, 3, 0)));
+
+
+
+
+
+extern int vasprintf (char **__restrict __ptr, const char *__restrict __f,
+        __gnuc_va_list __arg)
+     noexcept (true) __attribute__ ((__format__ (__printf__, 2, 0))) ;
+extern int __asprintf (char **__restrict __ptr,
+         const char *__restrict __fmt, ...)
+     noexcept (true) __attribute__ ((__format__ (__printf__, 2, 3))) ;
+extern int asprintf (char **__restrict __ptr,
+       const char *__restrict __fmt, ...)
+     noexcept (true) __attribute__ ((__format__ (__printf__, 2, 3))) ;
+
+
+
+
+extern int vdprintf (int __fd, const char *__restrict __fmt,
+       __gnuc_va_list __arg)
+     __attribute__ ((__format__ (__printf__, 2, 0)));
+extern int dprintf (int __fd, const char *__restrict __fmt, ...)
+     __attribute__ ((__format__ (__printf__, 2, 3)));
+
+
+
+
+
+
+
+extern int fscanf (FILE *__restrict __stream,
+     const char *__restrict __format, ...) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+extern int scanf (const char *__restrict __format, ...) ;
+
+extern int sscanf (const char *__restrict __s,
+     const char *__restrict __format, ...) noexcept (true);
+# 442 "/usr/include/stdio.h" 3 4
+extern int fscanf (FILE *__restrict __stream, const char *__restrict __format, ...) __asm__ ("" "__isoc23_fscanf")
+
+                                __attribute__ ((__nonnull__ (1)));
+extern int scanf (const char *__restrict __format, ...) __asm__ ("" "__isoc23_scanf")
+                              ;
+extern int sscanf (const char *__restrict __s, const char *__restrict __format, ...) noexcept (true) __asm__ ("" "__isoc23_sscanf")
+
+                      ;
+# 490 "/usr/include/stdio.h" 3 4
+extern int vfscanf (FILE *__restrict __s, const char *__restrict __format,
+      __gnuc_va_list __arg)
+     __attribute__ ((__format__ (__scanf__, 2, 0))) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+extern int vscanf (const char *__restrict __format, __gnuc_va_list __arg)
+     __attribute__ ((__format__ (__scanf__, 1, 0))) ;
+
+
+extern int vsscanf (const char *__restrict __s,
+      const char *__restrict __format, __gnuc_va_list __arg)
+     noexcept (true) __attribute__ ((__format__ (__scanf__, 2, 0)));
+
+
+
+
+
+
+extern int vfscanf (FILE *__restrict __s, const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc23_vfscanf")
+
+
+
+     __attribute__ ((__format__ (__scanf__, 2, 0))) __attribute__ ((__nonnull__ (1)));
+extern int vscanf (const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc23_vscanf")
+
+     __attribute__ ((__format__ (__scanf__, 1, 0))) ;
+extern int vsscanf (const char *__restrict __s, const char *__restrict __format, __gnuc_va_list __arg) noexcept (true) __asm__ ("" "__isoc23_vsscanf")
+
+
+
+     __attribute__ ((__format__ (__scanf__, 2, 0)));
+# 575 "/usr/include/stdio.h" 3 4
+extern int fgetc (FILE *__stream) __attribute__ ((__nonnull__ (1)));
+extern int getc (FILE *__stream) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+extern int getchar (void);
+
+
+
+
+
+
+extern int getc_unlocked (FILE *__stream) __attribute__ ((__nonnull__ (1)));
+extern int getchar_unlocked (void);
+# 600 "/usr/include/stdio.h" 3 4
+extern int fgetc_unlocked (FILE *__stream) __attribute__ ((__nonnull__ (1)));
+# 611 "/usr/include/stdio.h" 3 4
+extern int fputc (int __c, FILE *__stream) __attribute__ ((__nonnull__ (2)));
+extern int putc (int __c, FILE *__stream) __attribute__ ((__nonnull__ (2)));
+
+
+
+
+
+extern int putchar (int __c);
+# 627 "/usr/include/stdio.h" 3 4
+extern int fputc_unlocked (int __c, FILE *__stream) __attribute__ ((__nonnull__ (2)));
+
+
+
+
+
+
+
+extern int putc_unlocked (int __c, FILE *__stream) __attribute__ ((__nonnull__ (2)));
+extern int putchar_unlocked (int __c);
+
+
+
+
+
+
+extern int getw (FILE *__stream) __attribute__ ((__nonnull__ (1)));
+
+
+extern int putw (int __w, FILE *__stream) __attribute__ ((__nonnull__ (2)));
+
+
+
+
+
+
+
+extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+     __attribute__ ((__access__ (__write_only__, 1, 2))) __attribute__ ((__nonnull__ (3)));
+# 677 "/usr/include/stdio.h" 3 4
+extern char *fgets_unlocked (char *__restrict __s, int __n,
+        FILE *__restrict __stream)
+    __attribute__ ((__access__ (__write_only__, 1, 2))) __attribute__ ((__nonnull__ (3)));
+# 694 "/usr/include/stdio.h" 3 4
+extern __ssize_t __getdelim (char **__restrict __lineptr,
+                             size_t *__restrict __n, int __delimiter,
+                             FILE *__restrict __stream) __attribute__ ((__nonnull__ (4)));
+extern __ssize_t getdelim (char **__restrict __lineptr,
+                           size_t *__restrict __n, int __delimiter,
+                           FILE *__restrict __stream) __attribute__ ((__nonnull__ (4)));
+
+
+
+
+
+
+
+extern __ssize_t getline (char **__restrict __lineptr,
+                          size_t *__restrict __n,
+                          FILE *__restrict __stream) __attribute__ ((__nonnull__ (3)));
+
+
+
+
+
+
+
+extern int fputs (const char *__restrict __s, FILE *__restrict __stream)
+  __attribute__ ((__nonnull__ (2)));
+
+
+
+
+
+extern int puts (const char *__s);
+
+
+
+
+
+
+extern int ungetc (int __c, FILE *__stream) __attribute__ ((__nonnull__ (2)));
+
+
+
+
+
+
+extern size_t fread (void *__restrict __ptr, size_t __size,
+       size_t __n, FILE *__restrict __stream)
+  __attribute__ ((__nonnull__ (4)));
+
+
+
+
+extern size_t fwrite (const void *__restrict __ptr, size_t __size,
+        size_t __n, FILE *__restrict __s) __attribute__ ((__nonnull__ (4)));
+# 755 "/usr/include/stdio.h" 3 4
+extern int fputs_unlocked (const char *__restrict __s,
+      FILE *__restrict __stream) __attribute__ ((__nonnull__ (2)));
+# 766 "/usr/include/stdio.h" 3 4
+extern size_t fread_unlocked (void *__restrict __ptr, size_t __size,
+         size_t __n, FILE *__restrict __stream)
+  __attribute__ ((__nonnull__ (4)));
+extern size_t fwrite_unlocked (const void *__restrict __ptr, size_t __size,
+          size_t __n, FILE *__restrict __stream)
+  __attribute__ ((__nonnull__ (4)));
+
+
+
+
+
+
+
+extern int fseek (FILE *__stream, long int __off, int __whence)
+  __attribute__ ((__nonnull__ (1)));
+
+
+
+
+extern long int ftell (FILE *__stream) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+extern void rewind (FILE *__stream) __attribute__ ((__nonnull__ (1)));
+# 803 "/usr/include/stdio.h" 3 4
+extern int fseeko (FILE *__stream, __off_t __off, int __whence)
+  __attribute__ ((__nonnull__ (1)));
+
+
+
+
+extern __off_t ftello (FILE *__stream) __attribute__ ((__nonnull__ (1)));
+# 829 "/usr/include/stdio.h" 3 4
+extern int fgetpos (FILE *__restrict __stream, fpos_t *__restrict __pos)
+  __attribute__ ((__nonnull__ (1)));
+
+
+
+
+extern int fsetpos (FILE *__stream, const fpos_t *__pos) __attribute__ ((__nonnull__ (1)));
+# 851 "/usr/include/stdio.h" 3 4
+extern int fseeko64 (FILE *__stream, __off64_t __off, int __whence)
+  __attribute__ ((__nonnull__ (1)));
+extern __off64_t ftello64 (FILE *__stream) __attribute__ ((__nonnull__ (1)));
+extern int fgetpos64 (FILE *__restrict __stream, fpos64_t *__restrict __pos)
+  __attribute__ ((__nonnull__ (1)));
+extern int fsetpos64 (FILE *__stream, const fpos64_t *__pos) __attribute__ ((__nonnull__ (1)));
+
+
+
+extern void clearerr (FILE *__stream) noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+extern int feof (FILE *__stream) noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+extern int ferror (FILE *__stream) noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+extern void clearerr_unlocked (FILE *__stream) noexcept (true) __attribute__ ((__nonnull__ (1)));
+extern int feof_unlocked (FILE *__stream) noexcept (true) __attribute__ ((__nonnull__ (1)));
+extern int ferror_unlocked (FILE *__stream) noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+
+
+extern void perror (const char *__s) __attribute__ ((__cold__));
+
+
+
+
+extern int fileno (FILE *__stream) noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+extern int fileno_unlocked (FILE *__stream) noexcept (true) __attribute__ ((__nonnull__ (1)));
+# 897 "/usr/include/stdio.h" 3 4
+extern int pclose (FILE *__stream) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+extern FILE *popen (const char *__command, const char *__modes)
+  __attribute__ ((__malloc__)) __attribute__ ((__malloc__ (pclose, 1))) ;
+
+
+
+
+
+
+extern char *ctermid (char *__s) noexcept (true)
+  __attribute__ ((__access__ (__write_only__, 1)));
+
+
+
+
+
+extern char *cuserid (char *__s)
+  __attribute__ ((__access__ (__write_only__, 1)));
+
+
+
+
+struct obstack;
+
+
+extern int obstack_printf (struct obstack *__restrict __obstack,
+      const char *__restrict __format, ...)
+     noexcept (true) __attribute__ ((__format__ (__printf__, 2, 3)));
+extern int obstack_vprintf (struct obstack *__restrict __obstack,
+       const char *__restrict __format,
+       __gnuc_va_list __args)
+     noexcept (true) __attribute__ ((__format__ (__printf__, 2, 0)));
+
+
+
+
+
+
+
+extern void flockfile (FILE *__stream) noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+
+extern int ftrylockfile (FILE *__stream) noexcept (true) __attribute__ ((__nonnull__ (1)));
+
+
+extern void funlockfile (FILE *__stream) noexcept (true) __attribute__ ((__nonnull__ (1)));
+# 959 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 983 "/usr/include/stdio.h" 3 4
+}
+# 43 "/usr/include/c++/13/cstdio" 2 3
+# 96 "/usr/include/c++/13/cstdio" 3
 namespace std
 {
   using ::FILE;
@@ -23078,10 +23546,10 @@ namespace std
   using ::vprintf;
   using ::vsprintf;
 }
-# 157 "C:/msys64/ucrt64/include/c++/14.2.0/cstdio" 3
+# 157 "/usr/include/c++/13/cstdio" 3
 namespace __gnu_cxx
 {
-# 175 "C:/msys64/ucrt64/include/c++/14.2.0/cstdio" 3
+# 175 "/usr/include/c++/13/cstdio" 3
   using ::snprintf;
   using ::vfscanf;
   using ::vscanf;
@@ -23098,14 +23566,61 @@ namespace std
   using ::__gnu_cxx::vsnprintf;
   using ::__gnu_cxx::vsscanf;
 }
-# 46 "C:/msys64/ucrt64/include/c++/14.2.0/ext/string_conversions.h" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/cerrno" 1 3
-# 39 "C:/msys64/ucrt64/include/c++/14.2.0/cerrno" 3
+# 46 "/usr/include/c++/13/ext/string_conversions.h" 2 3
+# 1 "/usr/include/c++/13/cerrno" 1 3
+# 39 "/usr/include/c++/13/cerrno" 3
        
-# 40 "C:/msys64/ucrt64/include/c++/14.2.0/cerrno" 3
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/ext/string_conversions.h" 2 3
+# 40 "/usr/include/c++/13/cerrno" 3
 
-namespace __gnu_cxx
+
+# 1 "/usr/include/errno.h" 1 3 4
+# 28 "/usr/include/errno.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/errno.h" 1 3 4
+# 26 "/usr/include/x86_64-linux-gnu/bits/errno.h" 3 4
+# 1 "/usr/include/linux/errno.h" 1 3 4
+# 1 "/usr/include/x86_64-linux-gnu/asm/errno.h" 1 3 4
+# 1 "/usr/include/asm-generic/errno.h" 1 3 4
+
+
+
+
+# 1 "/usr/include/asm-generic/errno-base.h" 1 3 4
+# 6 "/usr/include/asm-generic/errno.h" 2 3 4
+# 2 "/usr/include/x86_64-linux-gnu/asm/errno.h" 2 3 4
+# 2 "/usr/include/linux/errno.h" 2 3 4
+# 27 "/usr/include/x86_64-linux-gnu/bits/errno.h" 2 3 4
+# 29 "/usr/include/errno.h" 2 3 4
+
+
+
+
+
+extern "C" {
+
+
+extern int *__errno_location (void) noexcept (true) __attribute__ ((__const__));
+
+
+
+
+
+
+
+extern char *program_invocation_name;
+extern char *program_invocation_short_name;
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/error_t.h" 1 3 4
+# 22 "/usr/include/x86_64-linux-gnu/bits/types/error_t.h" 3 4
+typedef int error_t;
+# 49 "/usr/include/errno.h" 2 3 4
+
+
+
+}
+# 43 "/usr/include/c++/13/cerrno" 2 3
+# 47 "/usr/include/c++/13/ext/string_conversions.h" 2 3
+
+namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -23122,8 +23637,8 @@ namespace __gnu_cxx
       _CharT* __endptr;
 
       struct _Save_errno {
- _Save_errno() : _M_errno((*_errno())) { (*_errno()) = 0; }
- ~_Save_errno() { if ((*_errno()) == 0) (*_errno()) = _M_errno; }
+ _Save_errno() : _M_errno((*__errno_location ())) { (*__errno_location ()) = 0; }
+ ~_Save_errno() { if ((*__errno_location ()) == 0) (*__errno_location ()) = _M_errno; }
  int _M_errno;
       } const __save_errno;
 
@@ -23143,7 +23658,7 @@ namespace __gnu_cxx
 
       if (__endptr == __str)
  std::__throw_invalid_argument(__name);
-      else if ((*_errno()) == 34
+      else if ((*__errno_location ()) == 34
    || _Range_chk::_S_chk(__tmp, std::is_same<_Ret, int>{}))
  std::__throw_out_of_range(__name);
       else
@@ -23179,18 +23694,18 @@ namespace __gnu_cxx
 
 
 }
-# 4155 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/charconv.h" 1 3
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/bits/charconv.h" 3
+# 4110 "/usr/include/c++/13/bits/basic_string.h" 2 3
+# 1 "/usr/include/c++/13/bits/charconv.h" 1 3
+# 33 "/usr/include/c++/13/bits/charconv.h" 3
        
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/bits/charconv.h" 3
+# 34 "/usr/include/c++/13/bits/charconv.h" 3
 
 
 
 
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 namespace __detail
@@ -23265,12 +23780,13 @@ namespace __detail
 }
 
 }
-# 4156 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 2 3
+# 4111 "/usr/include/c++/13/bits/basic_string.h" 2 3
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 namespace __cxx11 {
+
 
 
   inline int
@@ -23288,7 +23804,6 @@ namespace __cxx11 {
   { return __gnu_cxx::__stoa(&std::strtoul, "stoul", __str.c_str(),
         __idx, __base); }
 
-
   inline long long
   stoll(const string& __str, size_t* __idx = 0, int __base = 10)
   { return __gnu_cxx::__stoa(&std::strtoll, "stoll", __str.c_str(),
@@ -23298,21 +23813,23 @@ namespace __cxx11 {
   stoull(const string& __str, size_t* __idx = 0, int __base = 10)
   { return __gnu_cxx::__stoa(&std::strtoull, "stoull", __str.c_str(),
         __idx, __base); }
-# 4198 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
-  inline double
-  stod(const string& __str, size_t* __idx = 0)
-  { return __gnu_cxx::__stoa(&std::strtod, "stod", __str.c_str(), __idx); }
-
 
 
   inline float
   stof(const string& __str, size_t* __idx = 0)
   { return __gnu_cxx::__stoa(&std::strtof, "stof", __str.c_str(), __idx); }
-# 4226 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+
+  inline double
+  stod(const string& __str, size_t* __idx = 0)
+  { return __gnu_cxx::__stoa(&std::strtod, "stod", __str.c_str(), __idx); }
+
   inline long double
   stold(const string& __str, size_t* __idx = 0)
   { return __gnu_cxx::__stoa(&std::strtold, "stold", __str.c_str(), __idx); }
-# 4238 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+
+
+
+
   [[__nodiscard__]]
   inline string
   to_string(int __val)
@@ -23323,12 +23840,8 @@ namespace __cxx11 {
     const bool __neg = __val < 0;
     const unsigned __uval = __neg ? (unsigned)~__val + 1u : __val;
     const auto __len = __detail::__to_chars_len(__uval);
-    string __str;
-    __str.__resize_and_overwrite(__neg + __len, [=](char* __p, size_t __n) {
-      __p[0] = '-';
-      __detail::__to_chars_10_impl(__p + (int)__neg, __len, __uval);
-      return __n;
-    });
+    string __str(__neg + __len, '-');
+    __detail::__to_chars_10_impl(&__str[__neg], __len, __uval);
     return __str;
   }
 
@@ -23339,12 +23852,8 @@ namespace __cxx11 {
   noexcept
 
   {
-    const auto __len = __detail::__to_chars_len(__val);
-    string __str;
-    __str.__resize_and_overwrite(__len, [__val](char* __p, size_t __n) {
-      __detail::__to_chars_10_impl(__p, __n, __val);
-      return __n;
-    });
+    string __str(__detail::__to_chars_len(__val), '\0');
+    __detail::__to_chars_10_impl(&__str[0], __str.size(), __val);
     return __str;
   }
 
@@ -23352,18 +23861,14 @@ namespace __cxx11 {
   inline string
   to_string(long __val)
 
-  noexcept
+
 
   {
     const bool __neg = __val < 0;
     const unsigned long __uval = __neg ? (unsigned long)~__val + 1ul : __val;
     const auto __len = __detail::__to_chars_len(__uval);
-    string __str;
-    __str.__resize_and_overwrite(__neg + __len, [=](char* __p, size_t __n) {
-      __p[0] = '-';
-      __detail::__to_chars_10_impl(__p + (int)__neg, __len, __uval);
-      return __n;
-    });
+    string __str(__neg + __len, '-');
+    __detail::__to_chars_10_impl(&__str[__neg], __len, __uval);
     return __str;
   }
 
@@ -23371,15 +23876,11 @@ namespace __cxx11 {
   inline string
   to_string(unsigned long __val)
 
-  noexcept
+
 
   {
-    const auto __len = __detail::__to_chars_len(__val);
-    string __str;
-    __str.__resize_and_overwrite(__len, [__val](char* __p, size_t __n) {
-      __detail::__to_chars_10_impl(__p, __n, __val);
-      return __n;
-    });
+    string __str(__detail::__to_chars_len(__val), '\0');
+    __detail::__to_chars_10_impl(&__str[0], __str.size(), __val);
     return __str;
   }
 
@@ -23391,12 +23892,8 @@ namespace __cxx11 {
     const unsigned long long __uval
       = __neg ? (unsigned long long)~__val + 1ull : __val;
     const auto __len = __detail::__to_chars_len(__uval);
-    string __str;
-    __str.__resize_and_overwrite(__neg + __len, [=](char* __p, size_t __n) {
-      __p[0] = '-';
-      __detail::__to_chars_10_impl(__p + (int)__neg, __len, __uval);
-      return __n;
-    });
+    string __str(__neg + __len, '-');
+    __detail::__to_chars_10_impl(&__str[__neg], __len, __uval);
     return __str;
   }
 
@@ -23404,15 +23901,14 @@ namespace __cxx11 {
   inline string
   to_string(unsigned long long __val)
   {
-    const auto __len = __detail::__to_chars_len(__val);
-    string __str;
-    __str.__resize_and_overwrite(__len, [__val](char* __p, size_t __n) {
-      __detail::__to_chars_10_impl(__p, __n, __val);
-      return __n;
-    });
+    string __str(__detail::__to_chars_len(__val), '\0');
+    __detail::__to_chars_10_impl(&__str[0], __str.size(), __val);
     return __str;
   }
-# 4399 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+
+
+
+
   [[__nodiscard__]]
   inline string
   to_string(float __val)
@@ -23485,124 +23981,75 @@ namespace __cxx11 {
 
 
 
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wc++17-extensions"
- 
-  inline void
-  __to_wstring_numeric(const char* __s, int __len, wchar_t* __wout)
-  {
-
-
-    if constexpr (wchar_t('0') == L'0' && wchar_t('-') == L'-'
-      && wchar_t('.') == L'.' && wchar_t('e') == L'e')
-      {
- for (int __i = 0; __i < __len; ++__i)
-   __wout[__i] = (wchar_t) __s[__i];
-      }
-    else
-      {
- wchar_t __wc[256];
- for (int __i = '0'; __i <= '9'; ++__i)
-   __wc[__i] = L'0' + __i;
- __wc['.'] = L'.';
- __wc['+'] = L'+';
- __wc['-'] = L'-';
- __wc['a'] = L'a';
- __wc['b'] = L'b';
- __wc['c'] = L'c';
- __wc['d'] = L'd';
- __wc['e'] = L'e';
- __wc['f'] = L'f';
- __wc['n'] = L'n';
- __wc['p'] = L'p';
- __wc['x'] = L'x';
- __wc['A'] = L'A';
- __wc['B'] = L'B';
- __wc['C'] = L'C';
- __wc['D'] = L'D';
- __wc['E'] = L'E';
- __wc['F'] = L'F';
- __wc['N'] = L'N';
- __wc['P'] = L'P';
- __wc['X'] = L'X';
-
- for (int __i = 0; __i < __len; ++__i)
-   __wout[__i] = __wc[(int)__s[__i]];
-      }
-  }
-
-
-
-
-  inline wstring
-
-  __to_wstring_numeric(string_view __s)
-
-
-
-  {
-    if constexpr (wchar_t('0') == L'0' && wchar_t('-') == L'-'
-      && wchar_t('.') == L'.' && wchar_t('e') == L'e')
-      return wstring(__s.data(), __s.data() + __s.size());
-    else
-      {
- wstring __ws;
- auto __f = __s.data();
- __ws.__resize_and_overwrite(__s.size(),
-        [__f] (wchar_t* __to, int __n) {
-          std::__to_wstring_numeric(__f, __n, __to);
-          return __n;
-        });
- return __ws;
-      }
-  }
-#pragma GCC diagnostic pop
-
   [[__nodiscard__]]
   inline wstring
   to_wstring(int __val)
-  { return std::__to_wstring_numeric(std::to_string(__val)); }
+  { return __gnu_cxx::__to_xstring<wstring>(&std::vswprintf, 4 * sizeof(int),
+         L"%d", __val); }
 
   [[__nodiscard__]]
   inline wstring
   to_wstring(unsigned __val)
-  { return std::__to_wstring_numeric(std::to_string(__val)); }
+  { return __gnu_cxx::__to_xstring<wstring>(&std::vswprintf,
+         4 * sizeof(unsigned),
+         L"%u", __val); }
 
   [[__nodiscard__]]
   inline wstring
   to_wstring(long __val)
-  { return std::__to_wstring_numeric(std::to_string(__val)); }
+  { return __gnu_cxx::__to_xstring<wstring>(&std::vswprintf, 4 * sizeof(long),
+         L"%ld", __val); }
 
   [[__nodiscard__]]
   inline wstring
   to_wstring(unsigned long __val)
-  { return std::__to_wstring_numeric(std::to_string(__val)); }
+  { return __gnu_cxx::__to_xstring<wstring>(&std::vswprintf,
+         4 * sizeof(unsigned long),
+         L"%lu", __val); }
 
   [[__nodiscard__]]
   inline wstring
   to_wstring(long long __val)
-  { return std::__to_wstring_numeric(std::to_string(__val)); }
+  { return __gnu_cxx::__to_xstring<wstring>(&std::vswprintf,
+         4 * sizeof(long long),
+         L"%lld", __val); }
 
   [[__nodiscard__]]
   inline wstring
   to_wstring(unsigned long long __val)
-  { return std::__to_wstring_numeric(std::to_string(__val)); }
-
+  { return __gnu_cxx::__to_xstring<wstring>(&std::vswprintf,
+         4 * sizeof(unsigned long long),
+         L"%llu", __val); }
 
   [[__nodiscard__]]
   inline wstring
   to_wstring(float __val)
-  { return std::__to_wstring_numeric(std::to_string(__val)); }
+  {
+    const int __n =
+      __gnu_cxx::__numeric_traits<float>::__max_exponent10 + 20;
+    return __gnu_cxx::__to_xstring<wstring>(&std::vswprintf, __n,
+         L"%f", __val);
+  }
 
   [[__nodiscard__]]
   inline wstring
   to_wstring(double __val)
-  { return std::__to_wstring_numeric(std::to_string(__val)); }
+  {
+    const int __n =
+      __gnu_cxx::__numeric_traits<double>::__max_exponent10 + 20;
+    return __gnu_cxx::__to_xstring<wstring>(&std::vswprintf, __n,
+         L"%f", __val);
+  }
 
   [[__nodiscard__]]
   inline wstring
   to_wstring(long double __val)
-  { return std::__to_wstring_numeric(std::to_string(__val)); }
+  {
+    const int __n =
+      __gnu_cxx::__numeric_traits<long double>::__max_exponent10 + 20;
+    return __gnu_cxx::__to_xstring<wstring>(&std::vswprintf, __n,
+         L"%Lf", __val);
+  }
 
 
 
@@ -23616,7 +24063,7 @@ namespace __cxx11 {
 
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -23652,7 +24099,7 @@ namespace std
          _Alloc>>>
     : std::false_type
     { };
-# 4649 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 4440 "/usr/include/c++/13/bits/basic_string.h" 3
   template<typename _Alloc>
     struct hash<basic_string<char16_t, char_traits<char16_t>, _Alloc>>
     : public __str_hash_base<char16_t, _Alloc>
@@ -23670,7 +24117,7 @@ namespace std
   template<> struct __is_fast_hash<hash<wstring>> : std::false_type { };
   template<> struct __is_fast_hash<hash<u16string>> : std::false_type { };
   template<> struct __is_fast_hash<hash<u32string>> : std::false_type { };
-# 4678 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 4472 "/usr/include/c++/13/bits/basic_string.h" 3
   inline namespace literals
   {
   inline namespace string_literals
@@ -23693,7 +24140,7 @@ namespace std
     inline basic_string<wchar_t>
     operator""s(const wchar_t* __str, size_t __len)
     { return basic_string<wchar_t>{__str, __len}; }
-# 4708 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h" 3
+# 4502 "/usr/include/c++/13/bits/basic_string.h" 3
     __attribute ((__abi_tag__ ("cxx11")))
     inline basic_string<char16_t>
     operator""s(const char16_t* __str, size_t __len)
@@ -23708,7 +24155,6 @@ namespace std
 #pragma GCC diagnostic pop
   }
   }
-
 
 
   namespace __detail::__variant
@@ -23728,16 +24174,17 @@ namespace std
 
 
 
+
 }
-# 55 "C:/msys64/ucrt64/include/c++/14.2.0/string" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.tcc" 1 3
-# 42 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.tcc" 3
+# 55 "/usr/include/c++/13/string" 2 3
+# 1 "/usr/include/c++/13/bits/basic_string.tcc" 1 3
+# 42 "/usr/include/c++/13/bits/basic_string.tcc" 3
        
-# 43 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.tcc" 3
+# 43 "/usr/include/c++/13/bits/basic_string.tcc" 3
 
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -24216,7 +24663,7 @@ namespace std
    pointer __p = this->_M_data() + __pos;
 
    const size_type __how_much = __old_size - __pos - __len1;
-# 537 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.tcc" 3
+# 537 "/usr/include/c++/13/bits/basic_string.tcc" 3
    if (__builtin_expect(_M_disjunct(__s), true))
      {
        if (__how_much && __len1 != __len2)
@@ -24248,42 +24695,7 @@ namespace std
 
       return __n;
     }
-# 580 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.tcc" 3
-  template<typename _CharT, typename _Traits, typename _Alloc>
-  template<typename _Operation>
-    void
-    basic_string<_CharT, _Traits, _Alloc>::
-
-
-
-    __resize_and_overwrite(const size_type __n, _Operation __op)
-
-    {
-      reserve(__n);
-      _CharT* const __p = _M_data();
-
-
-
-
-      struct _Terminator {
- ~_Terminator() { _M_this->_M_set_length(_M_r); }
- basic_string* _M_this;
- size_type _M_r;
-      };
-      _Terminator __term{this, 0};
-      auto __r = std::move(__op)(__p + 0, __n + 0);
-
-
-
-      static_assert(__gnu_cxx::__is_integer_nonstrict<decltype(__r)>::__value,
-      "resize_and_overwrite operation must return an integer");
-
-      ;
-      __term._M_r = size_type(__r);
-      if (__term._M_r > __n)
- __builtin_unreachable();
-    }
-# 623 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.tcc" 3
+# 615 "/usr/include/c++/13/bits/basic_string.tcc" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
    
     typename basic_string<_CharT, _Traits, _Alloc>::size_type
@@ -24628,9 +25040,9 @@ namespace std
  __in.setstate(__err);
       return __in;
     }
-# 977 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.tcc" 3
+# 969 "/usr/include/c++/13/bits/basic_string.tcc" 3
   extern template class basic_string<char>;
-# 990 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.tcc" 3
+# 982 "/usr/include/c++/13/bits/basic_string.tcc" 3
   extern template
     basic_istream<char>&
     operator>>(basic_istream<char>&, string&);
@@ -24647,7 +25059,7 @@ namespace std
 
 
   extern template class basic_string<wchar_t>;
-# 1016 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.tcc" 3
+# 1008 "/usr/include/c++/13/bits/basic_string.tcc" 3
   extern template
     basic_istream<wchar_t>&
     operator>>(basic_istream<wchar_t>&, wstring&);
@@ -24665,27 +25077,21 @@ namespace std
 
 
 }
-# 56 "C:/msys64/ucrt64/include/c++/14.2.0/string" 2 3
-# 64 "C:/msys64/ucrt64/include/c++/14.2.0/string" 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 1 3
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
+# 56 "/usr/include/c++/13/string" 2 3
+
+
+# 1 "/usr/include/c++/13/bits/memory_resource.h" 1 3
+# 33 "/usr/include/c++/13/bits/memory_resource.h" 3
        
-# 48 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-# 65 "C:/msys64/ucrt64/include/c++/14.2.0/string" 2 3
+# 34 "/usr/include/c++/13/bits/memory_resource.h" 3
 
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/memory_resource.h" 1 3
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/bits/memory_resource.h" 3
+
+
+# 1 "/usr/include/c++/13/cstddef" 1 3
+# 42 "/usr/include/c++/13/cstddef" 3
        
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/bits/memory_resource.h" 3
-
-
-
-
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/cstddef" 1 3
-# 42 "C:/msys64/ucrt64/include/c++/14.2.0/cstddef" 3
-       
-# 43 "C:/msys64/ucrt64/include/c++/14.2.0/cstddef" 3
+# 43 "/usr/include/c++/13/cstddef" 3
 
 
 
@@ -24693,17 +25099,8 @@ namespace std
 
 
 
-# 1 "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h" 1 3 4
-# 1 "C:/msys64/ucrt64/include/stddef.h" 1 3 4
-# 2 "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h" 2 3 4
-# 51 "C:/msys64/ucrt64/include/c++/14.2.0/cstddef" 2 3
-
-
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 1 3
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-       
-# 48 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-# 54 "C:/msys64/ucrt64/include/c++/14.2.0/cstddef" 2 3
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h" 1 3 4
+# 51 "/usr/include/c++/13/cstddef" 2 3
 
 extern "C++"
 {
@@ -24718,6 +25115,8 @@ namespace std
 
 namespace std
 {
+
+
 
 
   enum class byte : unsigned char {};
@@ -24746,7 +25145,7 @@ namespace std
   { using __type = byte; };
   template<> struct __byte_operand<unsigned __int128>
   { using __type = byte; };
-# 109 "C:/msys64/ucrt64/include/c++/14.2.0/cstddef" 3
+# 108 "/usr/include/c++/13/cstddef" 3
   template<typename _IntegerType>
     struct __byte_operand<const _IntegerType>
     : __byte_operand<_IntegerType> { };
@@ -24829,11 +25228,11 @@ namespace std
 }
 
 }
-# 39 "C:/msys64/ucrt64/include/c++/14.2.0/bits/memory_resource.h" 2 3
+# 39 "/usr/include/c++/13/bits/memory_resource.h" 2 3
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator.h" 1 3
-# 40 "C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator.h" 3
-namespace std
+# 1 "/usr/include/c++/13/bits/uses_allocator.h" 1 3
+# 40 "/usr/include/c++/13/bits/uses_allocator.h" 3
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -24993,35 +25392,23 @@ namespace std
 
 
 }
-# 41 "C:/msys64/ucrt64/include/c++/14.2.0/bits/memory_resource.h" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator_args.h" 1 3
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator_args.h" 3
+# 41 "/usr/include/c++/13/bits/memory_resource.h" 2 3
+# 1 "/usr/include/c++/13/bits/uses_allocator_args.h" 1 3
+# 33 "/usr/include/c++/13/bits/uses_allocator_args.h" 3
        
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator_args.h" 3
+# 34 "/usr/include/c++/13/bits/uses_allocator_args.h" 3
+# 42 "/usr/include/c++/13/bits/memory_resource.h" 2 3
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 1 3
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
+
+
+
+
+# 1 "/usr/include/c++/13/tuple" 1 3
+# 32 "/usr/include/c++/13/tuple" 3
        
-# 48 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-# 36 "C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator_args.h" 2 3
-# 42 "C:/msys64/ucrt64/include/c++/14.2.0/bits/memory_resource.h" 2 3
-
-
-
-
-
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 1 3
-# 32 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
-       
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
-# 54 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 1 3
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-       
-# 48 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-# 55 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 2 3
-
-namespace std
+# 33 "/usr/include/c++/13/tuple" 3
+# 48 "/usr/include/c++/13/tuple" 3
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -25105,7 +25492,7 @@ namespace std
 
       [[__no_unique_address__]] _Head _M_head_impl;
     };
-# 195 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
+# 187 "/usr/include/c++/13/tuple" 3
   template<size_t _Idx, typename _Head>
     struct _Head_base<_Idx, _Head, false>
     {
@@ -25160,7 +25547,7 @@ namespace std
 
       _Head _M_head_impl;
     };
-# 274 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
+# 250 "/usr/include/c++/13/tuple" 3
   template<size_t _Idx, typename... _Elements>
     struct _Tuple_impl;
 
@@ -25230,7 +25617,7 @@ namespace std
    _Base(std::forward<_UHead>
   (_Tuple_impl<_Idx, _UHead, _UTails...>::_M_head(__in)))
  { }
-# 370 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
+# 338 "/usr/include/c++/13/tuple" 3
       template<typename _Alloc>
 
  _Tuple_impl(allocator_arg_t __tag, const _Alloc& __a)
@@ -25293,7 +25680,7 @@ namespace std
   std::forward<_UHead>
   (_Tuple_impl<_Idx, _UHead, _UTails...>::_M_head(__in)))
  { }
-# 465 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
+# 424 "/usr/include/c++/13/tuple" 3
       template<typename... _UElements>
 
  void
@@ -25314,7 +25701,7 @@ namespace std
    _M_tail(*this)._M_assign(
        std::move(_Tuple_impl<_Idx, _UHead, _UTails...>::_M_tail(__in)));
  }
-# 525 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
+# 466 "/usr/include/c++/13/tuple" 3
     protected:
      
       void
@@ -25324,7 +25711,7 @@ namespace std
  swap(_M_head(*this), _M_head(__in));
  _Inherited::_M_swap(_M_tail(__in));
       }
-# 544 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
+# 485 "/usr/include/c++/13/tuple" 3
     };
 
 
@@ -25384,7 +25771,7 @@ namespace std
  _Tuple_impl(_Tuple_impl<_Idx, _UHead>&& __in)
  : _Base(std::forward<_UHead>(_Tuple_impl<_Idx, _UHead>::_M_head(__in)))
  { }
-# 626 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
+# 559 "/usr/include/c++/13/tuple" 3
       template<typename _Alloc>
 
  _Tuple_impl(allocator_arg_t __tag, const _Alloc& __a)
@@ -25436,7 +25823,7 @@ namespace std
  : _Base(__use_alloc<_Head, _Alloc, _UHead>(__a),
   std::forward<_UHead>(_Tuple_impl<_Idx, _UHead>::_M_head(__in)))
  { }
-# 705 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
+# 629 "/usr/include/c++/13/tuple" 3
       template<typename _UHead>
 
  void
@@ -25453,7 +25840,7 @@ namespace std
    _M_head(*this)
      = std::forward<_UHead>(_Tuple_impl<_Idx, _UHead>::_M_head(__in));
  }
-# 751 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
+# 663 "/usr/include/c++/13/tuple" 3
     protected:
      
       void
@@ -25462,7 +25849,7 @@ namespace std
  using std::swap;
  swap(_M_head(*this), _M_head(__in));
       }
-# 768 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
+# 680 "/usr/include/c++/13/tuple" 3
     };
 
 
@@ -25531,8 +25918,8 @@ namespace std
   template<typename... _Elements>
     class tuple : public _Tuple_impl<0, _Elements...>
     {
-      using _Inherited = _Tuple_impl<0, _Elements...>;
-# 1351 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
+      typedef _Tuple_impl<0, _Elements...> _Inherited;
+
       template<bool _Cond>
  using _TCC = _TupleConstraints<_Cond, _Elements...>;
 
@@ -25560,6 +25947,20 @@ namespace std
    _TCC<_Cond>::template __is_explicitly_constructible<_Args...>(),
    bool>;
 
+      template<typename... _UElements>
+ static constexpr
+ __enable_if_t<sizeof...(_UElements) == sizeof...(_Elements), bool>
+ __assignable()
+ { return __and_<is_assignable<_Elements&, _UElements>...>::value; }
+
+
+      template<typename... _UElements>
+ static constexpr bool __nothrow_assignable()
+ {
+   return
+     __and_<is_nothrow_assignable<_Elements&, _UElements>...>::value;
+ }
+
 
       template<typename... _UElements>
  static constexpr bool __nothrow_constructible()
@@ -25580,7 +25981,7 @@ namespace std
       template<typename, typename, typename... _Tail>
  static constexpr bool __valid_args()
  { return (sizeof...(_Tail) + 2) == sizeof...(_Elements); }
-# 1408 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
+# 821 "/usr/include/c++/13/tuple" 3
       template<typename _Tuple, typename = tuple,
         typename = __remove_cvref_t<_Tuple>>
  struct _UseOtherCtor
@@ -25605,7 +26006,7 @@ namespace std
       template<typename _Tuple>
  static constexpr bool __use_other_ctor()
  { return _UseOtherCtor<_Tuple>::value; }
-# 1454 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
+# 856 "/usr/include/c++/13/tuple" 3
     public:
       template<typename _Dummy = void,
         _ImplicitDefaultCtor<is_void<_Dummy>::value> = true>
@@ -25641,8 +26042,7 @@ namespace std
  constexpr
  tuple(_UElements&&... __elements)
  noexcept(__nothrow_constructible<_UElements...>())
- : _Inherited(std::forward<_UElements>(__elements)...)
- { ; }
+ : _Inherited(std::forward<_UElements>(__elements)...) { }
 
       template<typename... _UElements,
         bool _Valid = __valid_args<_UElements...>(),
@@ -25650,8 +26050,7 @@ namespace std
  explicit constexpr
  tuple(_UElements&&... __elements)
  noexcept(__nothrow_constructible<_UElements...>())
- : _Inherited(std::forward<_UElements>(__elements)...)
- { ; }
+ : _Inherited(std::forward<_UElements>(__elements)...) { }
 
       constexpr tuple(const tuple&) = default;
 
@@ -25665,7 +26064,7 @@ namespace std
  tuple(const tuple<_UElements...>& __in)
  noexcept(__nothrow_constructible<const _UElements&...>())
  : _Inherited(static_cast<const _Tuple_impl<0, _UElements...>&>(__in))
- { ; }
+ { }
 
       template<typename... _UElements,
         bool _Valid = (sizeof...(_Elements) == sizeof...(_UElements))
@@ -25675,7 +26074,7 @@ namespace std
  tuple(const tuple<_UElements...>& __in)
  noexcept(__nothrow_constructible<const _UElements&...>())
  : _Inherited(static_cast<const _Tuple_impl<0, _UElements...>&>(__in))
- { ; }
+ { }
 
       template<typename... _UElements,
         bool _Valid = (sizeof...(_Elements) == sizeof...(_UElements))
@@ -25684,8 +26083,7 @@ namespace std
  constexpr
  tuple(tuple<_UElements...>&& __in)
  noexcept(__nothrow_constructible<_UElements...>())
- : _Inherited(static_cast<_Tuple_impl<0, _UElements...>&&>(__in))
- { ; }
+ : _Inherited(static_cast<_Tuple_impl<0, _UElements...>&&>(__in)) { }
 
       template<typename... _UElements,
         bool _Valid = (sizeof...(_Elements) == sizeof...(_UElements))
@@ -25694,11 +26092,8 @@ namespace std
  explicit constexpr
  tuple(tuple<_UElements...>&& __in)
  noexcept(__nothrow_constructible<_UElements...>())
- : _Inherited(static_cast<_Tuple_impl<0, _UElements...>&&>(__in))
- { ; }
-
-
-
+ : _Inherited(static_cast<_Tuple_impl<0, _UElements...>&&>(__in)) { }
+# 968 "/usr/include/c++/13/tuple" 3
       template<typename _Alloc,
         _ImplicitDefaultCtor<is_object<_Alloc>::value> = true>
 
@@ -25734,7 +26129,7 @@ namespace std
  tuple(allocator_arg_t __tag, const _Alloc& __a,
        _UElements&&... __elements)
  : _Inherited(__tag, __a, std::forward<_UElements>(__elements)...)
- { ; }
+ { }
 
       template<typename _Alloc, typename... _UElements,
    bool _Valid = __valid_args<_UElements...>(),
@@ -25744,7 +26139,7 @@ namespace std
  tuple(allocator_arg_t __tag, const _Alloc& __a,
        _UElements&&... __elements)
  : _Inherited(__tag, __a, std::forward<_UElements>(__elements)...)
- { ; }
+ { }
 
       template<typename _Alloc>
 
@@ -25764,8 +26159,8 @@ namespace std
  tuple(allocator_arg_t __tag, const _Alloc& __a,
        const tuple<_UElements...>& __in)
  : _Inherited(__tag, __a,
-       static_cast<const _Tuple_impl<0, _UElements...>&>(__in))
- { ; }
+              static_cast<const _Tuple_impl<0, _UElements...>&>(__in))
+ { }
 
       template<typename _Alloc, typename... _UElements,
         bool _Valid = (sizeof...(_Elements) == sizeof...(_UElements))
@@ -25776,8 +26171,8 @@ namespace std
  tuple(allocator_arg_t __tag, const _Alloc& __a,
        const tuple<_UElements...>& __in)
  : _Inherited(__tag, __a,
-       static_cast<const _Tuple_impl<0, _UElements...>&>(__in))
- { ; }
+              static_cast<const _Tuple_impl<0, _UElements...>&>(__in))
+ { }
 
       template<typename _Alloc, typename... _UElements,
         bool _Valid = (sizeof...(_Elements) == sizeof...(_UElements))
@@ -25787,8 +26182,8 @@ namespace std
  tuple(allocator_arg_t __tag, const _Alloc& __a,
        tuple<_UElements...>&& __in)
  : _Inherited(__tag, __a,
-       static_cast<_Tuple_impl<0, _UElements...>&&>(__in))
- { ; }
+              static_cast<_Tuple_impl<0, _UElements...>&&>(__in))
+ { }
 
       template<typename _Alloc, typename... _UElements,
         bool _Valid = (sizeof...(_Elements) == sizeof...(_UElements))
@@ -25799,26 +26194,9 @@ namespace std
  tuple(allocator_arg_t __tag, const _Alloc& __a,
        tuple<_UElements...>&& __in)
  : _Inherited(__tag, __a,
-       static_cast<_Tuple_impl<0, _UElements...>&&>(__in))
- { ; }
-# 1886 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
-    private:
-      template<typename... _UElements>
- static constexpr
- __enable_if_t<sizeof...(_UElements) == sizeof...(_Elements), bool>
- __assignable()
- { return __and_<is_assignable<_Elements&, _UElements>...>::value; }
-
-
-      template<typename... _UElements>
- static constexpr bool __nothrow_assignable()
- {
-   return
-     __and_<is_nothrow_assignable<_Elements&, _UElements>...>::value;
- }
-
-    public:
-
+              static_cast<_Tuple_impl<0, _UElements...>&&>(__in))
+ { }
+# 1099 "/usr/include/c++/13/tuple" 3
      
       tuple&
       operator=(__conditional_t<__assignable<const _Elements&...>(),
@@ -25860,15 +26238,13 @@ namespace std
    this->_M_assign(std::move(__in));
    return *this;
  }
-
-
-
+# 1180 "/usr/include/c++/13/tuple" 3
      
       void
       swap(tuple& __in)
       noexcept(__and_<__is_nothrow_swappable<_Elements>...>::value)
       { _Inherited::_M_swap(__in); }
-# 1966 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
+# 1199 "/usr/include/c++/13/tuple" 3
     };
 
 
@@ -25905,7 +26281,6 @@ namespace std
 
  tuple(allocator_arg_t, const _Alloc&, const tuple&) noexcept { }
     };
-
 
 
 
@@ -25973,7 +26348,7 @@ namespace std
       template<typename _U1>
  static constexpr bool __is_alloc_arg()
  { return is_same<__remove_cvref_t<_U1>, allocator_arg_t>::value; }
-# 2085 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
+# 1313 "/usr/include/c++/13/tuple" 3
     public:
       template<bool _Dummy = true,
         _ImplicitDefaultCtor<_Dummy, _T1, _T2> = true>
@@ -26008,16 +26383,14 @@ namespace std
  constexpr
  tuple(_U1&& __a1, _U2&& __a2)
  noexcept(__nothrow_constructible<_U1, _U2>())
- : _Inherited(std::forward<_U1>(__a1), std::forward<_U2>(__a2))
- { ; }
+ : _Inherited(std::forward<_U1>(__a1), std::forward<_U2>(__a2)) { }
 
       template<typename _U1, typename _U2,
         _ExplicitCtor<!__is_alloc_arg<_U1>(), _U1, _U2> = false>
  explicit constexpr
  tuple(_U1&& __a1, _U2&& __a2)
  noexcept(__nothrow_constructible<_U1, _U2>())
- : _Inherited(std::forward<_U1>(__a1), std::forward<_U2>(__a2))
- { ; }
+ : _Inherited(std::forward<_U1>(__a1), std::forward<_U2>(__a2)) { }
 
       constexpr tuple(const tuple&) = default;
 
@@ -26028,48 +26401,42 @@ namespace std
  constexpr
  tuple(const tuple<_U1, _U2>& __in)
  noexcept(__nothrow_constructible<const _U1&, const _U2&>())
- : _Inherited(static_cast<const _Tuple_impl<0, _U1, _U2>&>(__in))
- { ; }
+ : _Inherited(static_cast<const _Tuple_impl<0, _U1, _U2>&>(__in)) { }
 
       template<typename _U1, typename _U2,
         _ExplicitCtor<true, const _U1&, const _U2&> = false>
  explicit constexpr
  tuple(const tuple<_U1, _U2>& __in)
  noexcept(__nothrow_constructible<const _U1&, const _U2&>())
- : _Inherited(static_cast<const _Tuple_impl<0, _U1, _U2>&>(__in))
- { ; }
+ : _Inherited(static_cast<const _Tuple_impl<0, _U1, _U2>&>(__in)) { }
 
       template<typename _U1, typename _U2,
         _ImplicitCtor<true, _U1, _U2> = true>
  constexpr
  tuple(tuple<_U1, _U2>&& __in)
  noexcept(__nothrow_constructible<_U1, _U2>())
- : _Inherited(static_cast<_Tuple_impl<0, _U1, _U2>&&>(__in))
- { ; }
+ : _Inherited(static_cast<_Tuple_impl<0, _U1, _U2>&&>(__in)) { }
 
       template<typename _U1, typename _U2,
         _ExplicitCtor<true, _U1, _U2> = false>
  explicit constexpr
  tuple(tuple<_U1, _U2>&& __in)
  noexcept(__nothrow_constructible<_U1, _U2>())
- : _Inherited(static_cast<_Tuple_impl<0, _U1, _U2>&&>(__in))
- { ; }
-
+ : _Inherited(static_cast<_Tuple_impl<0, _U1, _U2>&&>(__in)) { }
+# 1406 "/usr/include/c++/13/tuple" 3
       template<typename _U1, typename _U2,
         _ImplicitCtor<true, const _U1&, const _U2&> = true>
  constexpr
  tuple(const pair<_U1, _U2>& __in)
  noexcept(__nothrow_constructible<const _U1&, const _U2&>())
- : _Inherited(__in.first, __in.second)
- { ; }
+ : _Inherited(__in.first, __in.second) { }
 
       template<typename _U1, typename _U2,
         _ExplicitCtor<true, const _U1&, const _U2&> = false>
  explicit constexpr
  tuple(const pair<_U1, _U2>& __in)
  noexcept(__nothrow_constructible<const _U1&, const _U2&>())
- : _Inherited(__in.first, __in.second)
- { ; }
+ : _Inherited(__in.first, __in.second) { }
 
       template<typename _U1, typename _U2,
         _ImplicitCtor<true, _U1, _U2> = true>
@@ -26077,8 +26444,7 @@ namespace std
  tuple(pair<_U1, _U2>&& __in)
  noexcept(__nothrow_constructible<_U1, _U2>())
  : _Inherited(std::forward<_U1>(__in.first),
-       std::forward<_U2>(__in.second))
- { ; }
+       std::forward<_U2>(__in.second)) { }
 
       template<typename _U1, typename _U2,
         _ExplicitCtor<true, _U1, _U2> = false>
@@ -26086,11 +26452,8 @@ namespace std
  tuple(pair<_U1, _U2>&& __in)
  noexcept(__nothrow_constructible<_U1, _U2>())
  : _Inherited(std::forward<_U1>(__in.first),
-       std::forward<_U2>(__in.second))
- { ; }
-
-
-
+       std::forward<_U2>(__in.second)) { }
+# 1457 "/usr/include/c++/13/tuple" 3
       template<typename _Alloc,
         _ImplicitDefaultCtor<is_object<_Alloc>::value, _T1, _T2> = true>
 
@@ -26124,8 +26487,7 @@ namespace std
 
  tuple(allocator_arg_t __tag, const _Alloc& __a, _U1&& __a1, _U2&& __a2)
  : _Inherited(__tag, __a, std::forward<_U1>(__a1),
-       std::forward<_U2>(__a2))
- { ; }
+              std::forward<_U2>(__a2)) { }
 
       template<typename _Alloc, typename _U1, typename _U2,
         _ExplicitCtor<true, _U1, _U2> = false>
@@ -26134,8 +26496,7 @@ namespace std
  tuple(allocator_arg_t __tag, const _Alloc& __a,
        _U1&& __a1, _U2&& __a2)
  : _Inherited(__tag, __a, std::forward<_U1>(__a1),
-       std::forward<_U2>(__a2))
- { ; }
+              std::forward<_U2>(__a2)) { }
 
       template<typename _Alloc>
 
@@ -26153,8 +26514,8 @@ namespace std
  tuple(allocator_arg_t __tag, const _Alloc& __a,
        const tuple<_U1, _U2>& __in)
  : _Inherited(__tag, __a,
-       static_cast<const _Tuple_impl<0, _U1, _U2>&>(__in))
- { ; }
+              static_cast<const _Tuple_impl<0, _U1, _U2>&>(__in))
+ { }
 
       template<typename _Alloc, typename _U1, typename _U2,
         _ExplicitCtor<true, const _U1&, const _U2&> = false>
@@ -26163,15 +26524,15 @@ namespace std
  tuple(allocator_arg_t __tag, const _Alloc& __a,
        const tuple<_U1, _U2>& __in)
  : _Inherited(__tag, __a,
-       static_cast<const _Tuple_impl<0, _U1, _U2>&>(__in))
- { ; }
+              static_cast<const _Tuple_impl<0, _U1, _U2>&>(__in))
+ { }
 
       template<typename _Alloc, typename _U1, typename _U2,
         _ImplicitCtor<true, _U1, _U2> = true>
 
  tuple(allocator_arg_t __tag, const _Alloc& __a, tuple<_U1, _U2>&& __in)
  : _Inherited(__tag, __a, static_cast<_Tuple_impl<0, _U1, _U2>&&>(__in))
- { ; }
+ { }
 
       template<typename _Alloc, typename _U1, typename _U2,
         _ExplicitCtor<true, _U1, _U2> = false>
@@ -26179,15 +26540,14 @@ namespace std
 
  tuple(allocator_arg_t __tag, const _Alloc& __a, tuple<_U1, _U2>&& __in)
  : _Inherited(__tag, __a, static_cast<_Tuple_impl<0, _U1, _U2>&&>(__in))
- { ; }
-
+ { }
+# 1567 "/usr/include/c++/13/tuple" 3
       template<typename _Alloc, typename _U1, typename _U2,
         _ImplicitCtor<true, const _U1&, const _U2&> = true>
 
  tuple(allocator_arg_t __tag, const _Alloc& __a,
        const pair<_U1, _U2>& __in)
- : _Inherited(__tag, __a, __in.first, __in.second)
- { ; }
+ : _Inherited(__tag, __a, __in.first, __in.second) { }
 
       template<typename _Alloc, typename _U1, typename _U2,
         _ExplicitCtor<true, const _U1&, const _U2&> = false>
@@ -26195,16 +26555,14 @@ namespace std
 
  tuple(allocator_arg_t __tag, const _Alloc& __a,
        const pair<_U1, _U2>& __in)
- : _Inherited(__tag, __a, __in.first, __in.second)
- { ; }
+ : _Inherited(__tag, __a, __in.first, __in.second) { }
 
       template<typename _Alloc, typename _U1, typename _U2,
         _ImplicitCtor<true, _U1, _U2> = true>
 
  tuple(allocator_arg_t __tag, const _Alloc& __a, pair<_U1, _U2>&& __in)
  : _Inherited(__tag, __a, std::forward<_U1>(__in.first),
-       std::forward<_U2>(__in.second))
- { ; }
+       std::forward<_U2>(__in.second)) { }
 
       template<typename _Alloc, typename _U1, typename _U2,
         _ExplicitCtor<true, _U1, _U2> = false>
@@ -26212,11 +26570,8 @@ namespace std
 
  tuple(allocator_arg_t __tag, const _Alloc& __a, pair<_U1, _U2>&& __in)
  : _Inherited(__tag, __a, std::forward<_U1>(__in.first),
-       std::forward<_U2>(__in.second))
- { ; }
-
-
-
+       std::forward<_U2>(__in.second)) { }
+# 1617 "/usr/include/c++/13/tuple" 3
      
       tuple&
       operator=(__conditional_t<__assignable<const _T1&, const _T2&>(),
@@ -26258,7 +26613,7 @@ namespace std
    this->_M_assign(std::move(__in));
    return *this;
  }
-
+# 1697 "/usr/include/c++/13/tuple" 3
       template<typename _U1, typename _U2>
 
  __enable_if_t<__assignable<const _U1&, const _U2&>(), tuple&>
@@ -26280,13 +26635,14 @@ namespace std
    this->_M_tail(*this)._M_head(*this) = std::forward<_U2>(__in.second);
    return *this;
  }
-
+# 1743 "/usr/include/c++/13/tuple" 3
      
       void
       swap(tuple& __in)
       noexcept(__and_<__is_nothrow_swappable<_T1>,
         __is_nothrow_swappable<_T2>>::value)
       { _Inherited::_M_swap(__in); }
+# 1758 "/usr/include/c++/13/tuple" 3
     };
 
 
@@ -26364,6 +26720,9 @@ namespace std
   template<size_t __i, typename... _Elements>
     constexpr __enable_if_t<(__i >= sizeof...(_Elements))>
     get(const tuple<_Elements...>&) = delete;
+
+
+
 
 
 
@@ -26455,7 +26814,7 @@ namespace std
      0, sizeof...(_TElements)>;
       return __compare::__eq(__t, __u);
     }
-# 2596 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
+# 1959 "/usr/include/c++/13/tuple" 3
   template<typename... _TElements, typename... _UElements>
     constexpr bool
     operator<(const tuple<_TElements...>& __t,
@@ -26512,6 +26871,27 @@ namespace std
     constexpr tuple<_Elements&&...>
     forward_as_tuple(_Elements&&... __args) noexcept
     { return tuple<_Elements&&...>(std::forward<_Elements>(__args)...); }
+
+
+
+
+  template<typename _Tp, size_t _Nm> struct array;
+
+  template<size_t _Int, typename _Tp, size_t _Nm>
+    constexpr _Tp&
+    get(array<_Tp, _Nm>&) noexcept;
+
+  template<size_t _Int, typename _Tp, size_t _Nm>
+    constexpr _Tp&&
+    get(array<_Tp, _Nm>&&) noexcept;
+
+  template<size_t _Int, typename _Tp, size_t _Nm>
+    constexpr const _Tp&
+    get(const array<_Tp, _Nm>&) noexcept;
+
+  template<size_t _Int, typename _Tp, size_t _Nm>
+    constexpr const _Tp&&
+    get(const array<_Tp, _Nm>&&) noexcept;
 
 
   template<size_t, typename, typename, size_t>
@@ -26628,12 +27008,8 @@ namespace std
 
 
 
-
-
-
   template<typename... _Tpls, typename = typename
            enable_if<__and_<__is_tuple_like<_Tpls>...>::value>::type>
-
     constexpr auto
     tuple_cat(_Tpls&&... __tpls)
     -> typename __tuple_cat_result<_Tpls...>::__type
@@ -26666,7 +27042,7 @@ namespace std
     swap(tuple<_Elements...>& __x, tuple<_Elements...>& __y)
     noexcept(noexcept(__x.swap(__y)))
     { __x.swap(__y); }
-# 2818 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
+# 2198 "/usr/include/c++/13/tuple" 3
   template<typename... _Elements>
    
     typename enable_if<!__and_<__is_swappable<_Elements>...>::value>::type
@@ -26684,13 +27060,13 @@ namespace std
       operator=(const _Tp&) const
       { return *this; }
   };
-# 2853 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
+# 2233 "/usr/include/c++/13/tuple" 3
   inline constexpr _Swallow_assign ignore{};
 
 
   template<typename... _Types, typename _Alloc>
     struct uses_allocator<tuple<_Types...>, _Alloc> : true_type { };
-# 2868 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
+# 2248 "/usr/include/c++/13/tuple" 3
   template<class _T1, class _T2>
     template<typename... _Args1, typename... _Args2>
      
@@ -26713,6 +27089,7 @@ namespace std
       : first(std::forward<_Args1>(std::get<_Indexes1>(__tuple1))...),
  second(std::forward<_Args2>(std::get<_Indexes2>(__tuple2))...)
       { }
+
 
 
 
@@ -26748,11 +27125,7 @@ namespace std
       std::get<_Idx>(std::forward<_Tuple>(__t))...);
     }
 
-
-
-
   template <typename _Fn, typename _Tuple>
-
     constexpr decltype(auto)
     apply(_Fn&& __f, _Tuple&& __t)
     noexcept(__unpack_std_tuple<is_nothrow_invocable, _Fn, _Tuple>)
@@ -26771,11 +27144,7 @@ namespace std
     __make_from_tuple_impl(_Tuple&& __t, index_sequence<_Idx...>)
     { return _Tp(std::get<_Idx>(std::forward<_Tuple>(__t))...); }
 
-
-
-
   template <typename _Tp, typename _Tuple>
-
     constexpr _Tp
     make_from_tuple(_Tuple&& __t)
     noexcept(__unpack_std_tuple<is_nothrow_constructible, _Tp, _Tuple>)
@@ -26791,13 +27160,13 @@ namespace std
       return __make_from_tuple_impl<_Tp>(std::forward<_Tuple>(__t),
       make_index_sequence<__n>{});
     }
-# 3030 "C:/msys64/ucrt64/include/c++/14.2.0/tuple" 3
+# 2358 "/usr/include/c++/13/tuple" 3
 
 }
-# 48 "C:/msys64/ucrt64/include/c++/14.2.0/bits/memory_resource.h" 2 3
+# 48 "/usr/include/c++/13/bits/memory_resource.h" 2 3
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 namespace pmr
@@ -26856,7 +27225,7 @@ namespace pmr
   inline bool
   operator!=(const memory_resource& __a, const memory_resource& __b) noexcept
   { return !(__a == __b); }
-# 119 "C:/msys64/ucrt64/include/c++/14.2.0/bits/memory_resource.h" 3
+# 119 "/usr/include/c++/13/bits/memory_resource.h" 3
   template<typename _Tp>
     class polymorphic_allocator
     {
@@ -26908,7 +27277,7 @@ namespace pmr
       deallocate(_Tp* __p, size_t __n) noexcept
       __attribute__((__nonnull__))
       { _M_resource->deallocate(__p, __n * sizeof(_Tp), alignof(_Tp)); }
-# 224 "C:/msys64/ucrt64/include/c++/14.2.0/bits/memory_resource.h" 3
+# 224 "/usr/include/c++/13/bits/memory_resource.h" 3
       template<typename _Tp1, typename... _Args>
  __attribute__((__nonnull__))
  typename __not_pair<_Tp1>::type
@@ -26981,7 +27350,7 @@ namespace pmr
        std::forward_as_tuple(std::forward<_Up>(__pr.first)),
        std::forward_as_tuple(std::forward<_Vp>(__pr.second)));
  }
-# 307 "C:/msys64/ucrt64/include/c++/14.2.0/bits/memory_resource.h" 3
+# 307 "/usr/include/c++/13/bits/memory_resource.h" 3
       template<typename _Up>
 
  __attribute__((__nonnull__))
@@ -27113,24 +27482,24 @@ namespace pmr
 
       template<typename _Up>
  using rebind_traits = allocator_traits<pmr::polymorphic_allocator<_Up>>;
-# 446 "C:/msys64/ucrt64/include/c++/14.2.0/bits/memory_resource.h" 3
+# 446 "/usr/include/c++/13/bits/memory_resource.h" 3
       [[nodiscard]] static pointer
       allocate(allocator_type& __a, size_type __n)
       { return __a.allocate(__n); }
-# 461 "C:/msys64/ucrt64/include/c++/14.2.0/bits/memory_resource.h" 3
+# 461 "/usr/include/c++/13/bits/memory_resource.h" 3
       [[nodiscard]] static pointer
       allocate(allocator_type& __a, size_type __n, const_void_pointer)
       { return __a.allocate(__n); }
-# 473 "C:/msys64/ucrt64/include/c++/14.2.0/bits/memory_resource.h" 3
+# 473 "/usr/include/c++/13/bits/memory_resource.h" 3
       static void
       deallocate(allocator_type& __a, pointer __p, size_type __n)
       { __a.deallocate(__p, __n); }
-# 488 "C:/msys64/ucrt64/include/c++/14.2.0/bits/memory_resource.h" 3
+# 488 "/usr/include/c++/13/bits/memory_resource.h" 3
       template<typename _Up, typename... _Args>
  static void
  construct(allocator_type& __a, _Up* __p, _Args&&... __args)
  { __a.construct(__p, std::forward<_Args>(__args)...); }
-# 500 "C:/msys64/ucrt64/include/c++/14.2.0/bits/memory_resource.h" 3
+# 500 "/usr/include/c++/13/bits/memory_resource.h" 3
       template<typename _Up>
  static void
  destroy(allocator_type&, _Up* __p)
@@ -27148,8 +27517,8 @@ namespace pmr
 
 
 }
-# 68 "C:/msys64/ucrt64/include/c++/14.2.0/string" 2 3
-namespace std
+# 59 "/usr/include/c++/13/string" 2 3
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
   namespace pmr {
@@ -27166,17 +27535,13 @@ namespace std
   }
 
 }
-# 41 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 2 3
+# 41 "/usr/include/c++/13/bits/locale_classes.h" 2 3
 
 
-
-
-
-
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 66 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 62 "/usr/include/c++/13/bits/locale_classes.h" 3
   class locale
   {
   public:
@@ -27206,7 +27571,7 @@ namespace std
 
     template<typename _Cache>
       friend struct __use_cache;
-# 106 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 102 "/usr/include/c++/13/bits/locale_classes.h" 3
     static const category none = 0;
     static const category ctype = 1L << 0;
     static const category numeric = 1L << 1;
@@ -27216,33 +27581,33 @@ namespace std
     static const category messages = 1L << 5;
     static const category all = (ctype | numeric | collate |
         time | monetary | messages);
-# 125 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 121 "/usr/include/c++/13/bits/locale_classes.h" 3
     locale() throw();
-# 134 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 130 "/usr/include/c++/13/bits/locale_classes.h" 3
     locale(const locale& __other) throw();
-# 144 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 140 "/usr/include/c++/13/bits/locale_classes.h" 3
     explicit
     locale(const char* __s);
-# 159 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 155 "/usr/include/c++/13/bits/locale_classes.h" 3
     locale(const locale& __base, const char* __s, category __cat);
-# 170 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 166 "/usr/include/c++/13/bits/locale_classes.h" 3
     explicit
     locale(const std::string& __s) : locale(__s.c_str()) { }
-# 185 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 181 "/usr/include/c++/13/bits/locale_classes.h" 3
     locale(const locale& __base, const std::string& __s, category __cat)
     : locale(__base, __s.c_str(), __cat) { }
-# 200 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 196 "/usr/include/c++/13/bits/locale_classes.h" 3
     locale(const locale& __base, const locale& __add, category __cat);
-# 213 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 209 "/usr/include/c++/13/bits/locale_classes.h" 3
     template<typename _Facet>
       locale(const locale& __other, _Facet* __f);
 
 
     ~locale() throw();
-# 227 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 223 "/usr/include/c++/13/bits/locale_classes.h" 3
     const locale&
     operator=(const locale& __other) throw();
-# 242 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 238 "/usr/include/c++/13/bits/locale_classes.h" 3
     template<typename _Facet>
       locale
       combine(const locale& __other) const;
@@ -27255,19 +27620,19 @@ namespace std
     __attribute ((__abi_tag__ ("cxx11")))
     string
     name() const;
-# 272 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 258 "/usr/include/c++/13/bits/locale_classes.h" 3
     bool
     operator==(const locale& __other) const throw();
-# 282 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 268 "/usr/include/c++/13/bits/locale_classes.h" 3
     bool
     operator!=(const locale& __other) const throw()
     { return !(this->operator==(__other)); }
-# 302 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 288 "/usr/include/c++/13/bits/locale_classes.h" 3
     template<typename _Char, typename _Traits, typename _Alloc>
       bool
       operator()(const basic_string<_Char, _Traits, _Alloc>& __s1,
    const basic_string<_Char, _Traits, _Alloc>& __s2) const;
-# 318 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 304 "/usr/include/c++/13/bits/locale_classes.h" 3
     static locale
     global(const locale& __loc);
 
@@ -27292,8 +27657,8 @@ namespace std
 
 
     static const char* const* const _S_categories;
-# 353 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
-    enum { _S_categories_size = 6 + 0 };
+# 339 "/usr/include/c++/13/bits/locale_classes.h" 3
+    enum { _S_categories_size = 6 + 6 };
 
 
     static __gthread_once_t _S_once;
@@ -27318,7 +27683,7 @@ namespace std
     static const id* const _S_twinned_facets[];
 
   };
-# 391 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 377 "/usr/include/c++/13/bits/locale_classes.h" 3
   class locale::facet
   {
   private:
@@ -27341,7 +27706,7 @@ namespace std
     _S_initialize_once();
 
   protected:
-# 422 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 408 "/usr/include/c++/13/bits/locale_classes.h" 3
     explicit
     facet(size_t __refs = 0) throw() : _M_refcount(__refs ? 1 : 0)
     { }
@@ -27370,7 +27735,7 @@ namespace std
 
     __attribute__ ((__const__)) static const char*
     _S_get_c_name() throw();
-# 458 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 444 "/usr/include/c++/13/bits/locale_classes.h" 3
     facet(const facet&) = delete;
 
     facet&
@@ -27403,7 +27768,7 @@ namespace std
   protected:
     class __shim;
   };
-# 503 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 489 "/usr/include/c++/13/bits/locale_classes.h" 3
   class locale::id
   {
   private:
@@ -27560,7 +27925,7 @@ namespace std
 
 
   };
-# 673 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 659 "/usr/include/c++/13/bits/locale_classes.h" 3
   template<typename _CharT>
     class __cxx11:: collate : public locale::facet
     {
@@ -27580,26 +27945,26 @@ namespace std
     public:
 
       static locale::id id;
-# 700 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 686 "/usr/include/c++/13/bits/locale_classes.h" 3
       explicit
       collate(size_t __refs = 0)
       : facet(__refs), _M_c_locale_collate(_S_get_c_locale())
       { }
-# 714 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 700 "/usr/include/c++/13/bits/locale_classes.h" 3
       explicit
       collate(__c_locale __cloc, size_t __refs = 0)
       : facet(__refs), _M_c_locale_collate(_S_clone_c_locale(__cloc))
       { }
-# 731 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 717 "/usr/include/c++/13/bits/locale_classes.h" 3
       int
       compare(const _CharT* __lo1, const _CharT* __hi1,
        const _CharT* __lo2, const _CharT* __hi2) const
       { return this->do_compare(__lo1, __hi1, __lo2, __hi2); }
-# 750 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 736 "/usr/include/c++/13/bits/locale_classes.h" 3
       string_type
       transform(const _CharT* __lo, const _CharT* __hi) const
       { return this->do_transform(__lo, __hi); }
-# 764 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 750 "/usr/include/c++/13/bits/locale_classes.h" 3
       long
       hash(const _CharT* __lo, const _CharT* __hi) const
       { return this->do_hash(__lo, __hi); }
@@ -27616,14 +27981,14 @@ namespace std
       virtual
       ~collate()
       { _S_destroy_c_locale(_M_c_locale_collate); }
-# 793 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 779 "/usr/include/c++/13/bits/locale_classes.h" 3
       virtual int
       do_compare(const _CharT* __lo1, const _CharT* __hi1,
    const _CharT* __lo2, const _CharT* __hi2) const;
-# 807 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 793 "/usr/include/c++/13/bits/locale_classes.h" 3
       virtual string_type
       do_transform(const _CharT* __lo, const _CharT* __hi) const;
-# 820 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 3
+# 806 "/usr/include/c++/13/bits/locale_classes.h" 3
       virtual long
       do_hash(const _CharT* __lo, const _CharT* __hi) const;
     };
@@ -27687,12 +28052,12 @@ namespace std
 
 }
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.tcc" 1 3
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.tcc" 3
+# 1 "/usr/include/c++/13/bits/locale_classes.tcc" 1 3
+# 37 "/usr/include/c++/13/bits/locale_classes.tcc" 3
        
-# 38 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.tcc" 3
+# 38 "/usr/include/c++/13/bits/locale_classes.tcc" 3
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -27743,8 +28108,6 @@ namespace std
     __s2.data(), __s2.data() + __s2.length()) < 0);
     }
 
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wc++17-extensions"
   template<typename _Facet>
     inline const _Facet*
     __try_use_facet(const locale& __loc) noexcept
@@ -27803,8 +28166,7 @@ namespace std
 
 
     }
-#pragma GCC diagnostic pop
-# 164 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.tcc" 3
+# 161 "/usr/include/c++/13/bits/locale_classes.tcc" 3
   template<typename _Facet>
     inline bool
     has_facet(const locale& __loc) throw()
@@ -27817,7 +28179,7 @@ namespace std
 
       return std::__try_use_facet<_Facet>(__loc) != 0;
     }
-# 191 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.tcc" 3
+# 188 "/usr/include/c++/13/bits/locale_classes.tcc" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wdangling-reference"
   template<typename _Facet>
@@ -27996,162 +28358,179 @@ namespace std
 
 
 }
-# 884 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h" 2 3
-# 42 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 2 3
+# 870 "/usr/include/c++/13/bits/locale_classes.h" 2 3
+# 42 "/usr/include/c++/13/bits/ios_base.h" 2 3
 
 
 
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/system_error" 1 3
-# 32 "C:/msys64/ucrt64/include/c++/14.2.0/system_error" 3
+# 1 "/usr/include/c++/13/system_error" 1 3
+# 32 "/usr/include/c++/13/system_error" 3
        
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/system_error" 3
-# 41 "C:/msys64/ucrt64/include/c++/14.2.0/system_error" 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/error_constants.h" 1 3
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/error_constants.h" 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/cerrno" 1 3
-# 39 "C:/msys64/ucrt64/include/c++/14.2.0/cerrno" 3
+# 33 "/usr/include/c++/13/system_error" 3
+# 41 "/usr/include/c++/13/system_error" 3
+# 1 "/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h" 1 3
+# 34 "/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h" 3
+# 1 "/usr/include/c++/13/cerrno" 1 3
+# 39 "/usr/include/c++/13/cerrno" 3
        
-# 40 "C:/msys64/ucrt64/include/c++/14.2.0/cerrno" 3
-# 35 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/error_constants.h" 2 3
+# 40 "/usr/include/c++/13/cerrno" 3
+# 35 "/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h" 2 3
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
-
-
 
 
   enum class errc
     {
-      address_family_not_supported = 102,
-      address_in_use = 100,
-      address_not_available = 101,
-      already_connected = 113,
+      address_family_not_supported = 97,
+      address_in_use = 98,
+      address_not_available = 99,
+      already_connected = 106,
       argument_list_too_long = 7,
       argument_out_of_domain = 33,
       bad_address = 14,
       bad_file_descriptor = 9,
 
-      bad_message = 104,
+
+      bad_message = 74,
+
 
       broken_pipe = 32,
-      connection_aborted = 106,
-      connection_already_in_progress = 103,
-      connection_refused = 107,
-      connection_reset = 108,
+      connection_aborted = 103,
+      connection_already_in_progress = 114,
+      connection_refused = 111,
+      connection_reset = 104,
       cross_device_link = 18,
-      destination_address_required = 109,
+      destination_address_required = 89,
       device_or_resource_busy = 16,
-      directory_not_empty = 41,
+      directory_not_empty = 39,
       executable_format_error = 8,
       file_exists = 17,
       file_too_large = 27,
-      filename_too_long = 38,
-      function_not_supported = 40,
-      host_unreachable = 110,
+      filename_too_long = 36,
+      function_not_supported = 38,
+      host_unreachable = 113,
 
-      identifier_removed = 111,
 
-      illegal_byte_sequence = 42,
+      identifier_removed = 43,
+
+
+      illegal_byte_sequence = 84,
       inappropriate_io_control_operation = 25,
       interrupted = 4,
       invalid_argument = 22,
       invalid_seek = 29,
       io_error = 5,
       is_a_directory = 21,
-      message_size = 115,
-      network_down = 116,
-      network_reset = 117,
-      network_unreachable = 118,
-      no_buffer_space = 119,
-
+      message_size = 90,
+      network_down = 100,
+      network_reset = 102,
+      network_unreachable = 101,
+      no_buffer_space = 105,
       no_child_process = 10,
 
 
-      no_link = 121,
-
-      no_lock_available = 39,
-
-      no_message_available = 120,
+      no_link = 67,
 
 
-      no_message = 122,
+      no_lock_available = 37,
 
-      no_protocol_option = 123,
 
+      no_message_available = 61,
+
+
+      no_message = 42,
+      no_protocol_option = 92,
       no_space_on_device = 28,
 
 
-      no_stream_resources = 124,
+      no_stream_resources = 63,
+
 
       no_such_device_or_address = 6,
       no_such_device = 19,
       no_such_file_or_directory = 2,
       no_such_process = 3,
       not_a_directory = 20,
-      not_a_socket = 128,
+      not_a_socket = 88,
 
-      not_a_stream = 125,
 
-      not_connected = 126,
+      not_a_stream = 60,
+
+
+      not_connected = 107,
       not_enough_memory = 12,
 
-      not_supported = 129,
 
-      operation_canceled = 105,
-      operation_in_progress = 112,
+      not_supported = 95,
 
+
+
+      operation_canceled = 125,
+
+
+      operation_in_progress = 115,
       operation_not_permitted = 1,
-
-      operation_not_supported = 130,
-
-      operation_would_block = 140,
+      operation_not_supported = 95,
+      operation_would_block = 11,
 
 
-      owner_dead = 133,
+      owner_dead = 130,
+
 
       permission_denied = 13,
-      protocol_error = 134,
-      protocol_not_supported = 135,
+
+
+      protocol_error = 71,
+
+
+      protocol_not_supported = 93,
       read_only_file_system = 30,
-      resource_deadlock_would_occur = 36,
+      resource_deadlock_would_occur = 35,
       resource_unavailable_try_again = 11,
       result_out_of_range = 34,
 
-      state_not_recoverable = 127,
+
+      state_not_recoverable = 131,
 
 
-      stream_timeout = 137,
+
+      stream_timeout = 62,
 
 
-      text_file_busy = 139,
+
+      text_file_busy = 26,
 
 
-      timed_out = 138,
-
+      timed_out = 110,
       too_many_files_open_in_system = 23,
       too_many_files_open = 24,
       too_many_links = 31,
-      too_many_symbolic_link_levels = 114,
+      too_many_symbolic_link_levels = 40,
 
-      value_too_large = 132,
 
-      wrong_protocol_type = 136
-   };
+      value_too_large = 75,
+
+
+
+
+      wrong_protocol_type = 91
+    };
 
 
 }
-# 42 "C:/msys64/ucrt64/include/c++/14.2.0/system_error" 2 3
+# 42 "/usr/include/c++/13/system_error" 2 3
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/stdexcept" 1 3
-# 36 "C:/msys64/ucrt64/include/c++/14.2.0/stdexcept" 3
+# 1 "/usr/include/c++/13/stdexcept" 1 3
+# 36 "/usr/include/c++/13/stdexcept" 3
        
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/stdexcept" 3
+# 37 "/usr/include/c++/13/stdexcept" 3
 
 
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -28178,7 +28557,7 @@ namespace std
   };
 
   typedef basic_string<char> __sso_string;
-# 113 "C:/msys64/ucrt64/include/c++/14.2.0/stdexcept" 3
+# 113 "/usr/include/c++/13/stdexcept" 3
   class logic_error : public exception
   {
     __cow_string _M_msg;
@@ -28372,12 +28751,12 @@ namespace std
 
 
 }
-# 44 "C:/msys64/ucrt64/include/c++/14.2.0/system_error" 2 3
+# 44 "/usr/include/c++/13/system_error" 2 3
 
 
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -28412,7 +28791,7 @@ namespace std
 
 
 inline namespace _V2 {
-# 106 "C:/msys64/ucrt64/include/c++/14.2.0/system_error" 3
+# 106 "/usr/include/c++/13/system_error" 3
   class error_category
   {
   public:
@@ -28442,7 +28821,7 @@ inline namespace _V2 {
     __attribute ((__abi_tag__ ("cxx11")))
     virtual string
     message(int) const = 0;
-# 144 "C:/msys64/ucrt64/include/c++/14.2.0/system_error" 3
+# 144 "/usr/include/c++/13/system_error" 3
   public:
 
     virtual error_condition
@@ -28461,7 +28840,7 @@ inline namespace _V2 {
     bool
     operator==(const error_category& __other) const noexcept
     { return this == &__other; }
-# 170 "C:/msys64/ucrt64/include/c++/14.2.0/system_error" 3
+# 170 "/usr/include/c++/13/system_error" 3
     bool
     operator<(const error_category& __other) const noexcept
     { return less<const error_category*>()(this, &__other); }
@@ -28497,7 +28876,7 @@ namespace __adl_only
   void make_error_code() = delete;
   void make_error_condition() = delete;
 }
-# 223 "C:/msys64/ucrt64/include/c++/14.2.0/system_error" 3
+# 223 "/usr/include/c++/13/system_error" 3
   class error_code
   {
     template<typename _ErrorCodeEnum>
@@ -28564,12 +28943,12 @@ namespace __adl_only
     int _M_value;
     const error_category* _M_cat;
   };
-# 300 "C:/msys64/ucrt64/include/c++/14.2.0/system_error" 3
+# 300 "/usr/include/c++/13/system_error" 3
   [[__nodiscard__]]
   inline error_code
   make_error_code(errc __e) noexcept
   { return error_code(static_cast<int>(__e), generic_category()); }
-# 323 "C:/msys64/ucrt64/include/c++/14.2.0/system_error" 3
+# 323 "/usr/include/c++/13/system_error" 3
   inline bool
   operator<(const error_code& __lhs, const error_code& __rhs) noexcept
   {
@@ -28588,7 +28967,7 @@ namespace __adl_only
     basic_ostream<_CharT, _Traits>&
     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
     { return (__os << __e.category().name() << ':' << __e.value()); }
-# 354 "C:/msys64/ucrt64/include/c++/14.2.0/system_error" 3
+# 354 "/usr/include/c++/13/system_error" 3
   class error_condition
   {
     template<typename _ErrorConditionEnum>
@@ -28657,12 +29036,12 @@ namespace __adl_only
     int _M_value;
     const error_category* _M_cat;
   };
-# 433 "C:/msys64/ucrt64/include/c++/14.2.0/system_error" 3
+# 433 "/usr/include/c++/13/system_error" 3
   [[__nodiscard__]]
   inline error_condition
   make_error_condition(errc __e) noexcept
   { return error_condition(static_cast<int>(__e), generic_category()); }
-# 447 "C:/msys64/ucrt64/include/c++/14.2.0/system_error" 3
+# 447 "/usr/include/c++/13/system_error" 3
   [[__nodiscard__]]
   inline bool
   operator==(const error_code& __lhs, const error_code& __rhs) noexcept
@@ -28670,7 +29049,7 @@ namespace __adl_only
     return __lhs.category() == __rhs.category()
       && __lhs.value() == __rhs.value();
   }
-# 463 "C:/msys64/ucrt64/include/c++/14.2.0/system_error" 3
+# 463 "/usr/include/c++/13/system_error" 3
   [[__nodiscard__]]
   inline bool
   operator==(const error_code& __lhs, const error_condition& __rhs) noexcept
@@ -28678,7 +29057,7 @@ namespace __adl_only
     return __lhs.category().equivalent(__lhs.value(), __rhs)
       || __rhs.category().equivalent(__lhs, __rhs.value());
   }
-# 478 "C:/msys64/ucrt64/include/c++/14.2.0/system_error" 3
+# 478 "/usr/include/c++/13/system_error" 3
   [[__nodiscard__]]
   inline bool
   operator==(const error_condition& __lhs,
@@ -28687,7 +29066,7 @@ namespace __adl_only
     return __lhs.category() == __rhs.category()
       && __lhs.value() == __rhs.value();
   }
-# 506 "C:/msys64/ucrt64/include/c++/14.2.0/system_error" 3
+# 506 "/usr/include/c++/13/system_error" 3
   inline bool
   operator<(const error_condition& __lhs,
      const error_condition& __rhs) noexcept
@@ -28725,7 +29104,7 @@ namespace __adl_only
   operator!=(const error_condition& __lhs,
       const error_condition& __rhs) noexcept
   { return !(__lhs == __rhs); }
-# 556 "C:/msys64/ucrt64/include/c++/14.2.0/system_error" 3
+# 556 "/usr/include/c++/13/system_error" 3
   class system_error : public std::runtime_error
   {
   private:
@@ -28768,7 +29147,7 @@ namespace __adl_only
 
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -28808,10 +29187,10 @@ namespace std
 
 
 }
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 2 3
+# 47 "/usr/include/c++/13/bits/ios_base.h" 2 3
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -28844,39 +29223,32 @@ namespace std
       _S_ios_fmtflags_min = ~0x7fffffff
     };
 
-  [[__nodiscard__]] constexpr
-  inline _Ios_Fmtflags
-  operator&(_Ios_Fmtflags __a, _Ios_Fmtflags __b) noexcept
+  inline constexpr _Ios_Fmtflags
+  operator&(_Ios_Fmtflags __a, _Ios_Fmtflags __b)
   { return _Ios_Fmtflags(static_cast<int>(__a) & static_cast<int>(__b)); }
 
-  [[__nodiscard__]] constexpr
-  inline _Ios_Fmtflags
-  operator|(_Ios_Fmtflags __a, _Ios_Fmtflags __b) noexcept
+  inline constexpr _Ios_Fmtflags
+  operator|(_Ios_Fmtflags __a, _Ios_Fmtflags __b)
   { return _Ios_Fmtflags(static_cast<int>(__a) | static_cast<int>(__b)); }
 
-  [[__nodiscard__]] constexpr
-  inline _Ios_Fmtflags
-  operator^(_Ios_Fmtflags __a, _Ios_Fmtflags __b) noexcept
+  inline constexpr _Ios_Fmtflags
+  operator^(_Ios_Fmtflags __a, _Ios_Fmtflags __b)
   { return _Ios_Fmtflags(static_cast<int>(__a) ^ static_cast<int>(__b)); }
 
-  [[__nodiscard__]] constexpr
-  inline _Ios_Fmtflags
-  operator~(_Ios_Fmtflags __a) noexcept
+  inline constexpr _Ios_Fmtflags
+  operator~(_Ios_Fmtflags __a)
   { return _Ios_Fmtflags(~static_cast<int>(__a)); }
 
-  constexpr
   inline const _Ios_Fmtflags&
-  operator|=(_Ios_Fmtflags& __a, _Ios_Fmtflags __b) noexcept
+  operator|=(_Ios_Fmtflags& __a, _Ios_Fmtflags __b)
   { return __a = __a | __b; }
 
-  constexpr
   inline const _Ios_Fmtflags&
-  operator&=(_Ios_Fmtflags& __a, _Ios_Fmtflags __b) noexcept
+  operator&=(_Ios_Fmtflags& __a, _Ios_Fmtflags __b)
   { return __a = __a & __b; }
 
-  constexpr
   inline const _Ios_Fmtflags&
-  operator^=(_Ios_Fmtflags& __a, _Ios_Fmtflags __b) noexcept
+  operator^=(_Ios_Fmtflags& __a, _Ios_Fmtflags __b)
   { return __a = __a ^ __b; }
 
 
@@ -28894,39 +29266,32 @@ namespace std
       _S_ios_openmode_min = ~0x7fffffff
     };
 
-  [[__nodiscard__]] constexpr
-  inline _Ios_Openmode
-  operator&(_Ios_Openmode __a, _Ios_Openmode __b) noexcept
+  inline constexpr _Ios_Openmode
+  operator&(_Ios_Openmode __a, _Ios_Openmode __b)
   { return _Ios_Openmode(static_cast<int>(__a) & static_cast<int>(__b)); }
 
-  [[__nodiscard__]] constexpr
-  inline _Ios_Openmode
-  operator|(_Ios_Openmode __a, _Ios_Openmode __b) noexcept
+  inline constexpr _Ios_Openmode
+  operator|(_Ios_Openmode __a, _Ios_Openmode __b)
   { return _Ios_Openmode(static_cast<int>(__a) | static_cast<int>(__b)); }
 
-  [[__nodiscard__]] constexpr
-  inline _Ios_Openmode
-  operator^(_Ios_Openmode __a, _Ios_Openmode __b) noexcept
+  inline constexpr _Ios_Openmode
+  operator^(_Ios_Openmode __a, _Ios_Openmode __b)
   { return _Ios_Openmode(static_cast<int>(__a) ^ static_cast<int>(__b)); }
 
-  [[__nodiscard__]] constexpr
-  inline _Ios_Openmode
-  operator~(_Ios_Openmode __a) noexcept
+  inline constexpr _Ios_Openmode
+  operator~(_Ios_Openmode __a)
   { return _Ios_Openmode(~static_cast<int>(__a)); }
 
-  constexpr
   inline const _Ios_Openmode&
-  operator|=(_Ios_Openmode& __a, _Ios_Openmode __b) noexcept
+  operator|=(_Ios_Openmode& __a, _Ios_Openmode __b)
   { return __a = __a | __b; }
 
-  constexpr
   inline const _Ios_Openmode&
-  operator&=(_Ios_Openmode& __a, _Ios_Openmode __b) noexcept
+  operator&=(_Ios_Openmode& __a, _Ios_Openmode __b)
   { return __a = __a & __b; }
 
-  constexpr
   inline const _Ios_Openmode&
-  operator^=(_Ios_Openmode& __a, _Ios_Openmode __b) noexcept
+  operator^=(_Ios_Openmode& __a, _Ios_Openmode __b)
   { return __a = __a ^ __b; }
 
 
@@ -28941,39 +29306,32 @@ namespace std
       _S_ios_iostate_min = ~0x7fffffff
     };
 
-  [[__nodiscard__]] constexpr
-  inline _Ios_Iostate
-  operator&(_Ios_Iostate __a, _Ios_Iostate __b) noexcept
+  inline constexpr _Ios_Iostate
+  operator&(_Ios_Iostate __a, _Ios_Iostate __b)
   { return _Ios_Iostate(static_cast<int>(__a) & static_cast<int>(__b)); }
 
-  [[__nodiscard__]] constexpr
-  inline _Ios_Iostate
-  operator|(_Ios_Iostate __a, _Ios_Iostate __b) noexcept
+  inline constexpr _Ios_Iostate
+  operator|(_Ios_Iostate __a, _Ios_Iostate __b)
   { return _Ios_Iostate(static_cast<int>(__a) | static_cast<int>(__b)); }
 
-  [[__nodiscard__]] constexpr
-  inline _Ios_Iostate
-  operator^(_Ios_Iostate __a, _Ios_Iostate __b) noexcept
+  inline constexpr _Ios_Iostate
+  operator^(_Ios_Iostate __a, _Ios_Iostate __b)
   { return _Ios_Iostate(static_cast<int>(__a) ^ static_cast<int>(__b)); }
 
-  [[__nodiscard__]] constexpr
-  inline _Ios_Iostate
-  operator~(_Ios_Iostate __a) noexcept
+  inline constexpr _Ios_Iostate
+  operator~(_Ios_Iostate __a)
   { return _Ios_Iostate(~static_cast<int>(__a)); }
 
-  constexpr
   inline const _Ios_Iostate&
-  operator|=(_Ios_Iostate& __a, _Ios_Iostate __b) noexcept
+  operator|=(_Ios_Iostate& __a, _Ios_Iostate __b)
   { return __a = __a | __b; }
 
-  constexpr
   inline const _Ios_Iostate&
-  operator&=(_Ios_Iostate& __a, _Ios_Iostate __b) noexcept
+  operator&=(_Ios_Iostate& __a, _Ios_Iostate __b)
   { return __a = __a & __b; }
 
-  constexpr
   inline const _Ios_Iostate&
-  operator^=(_Ios_Iostate& __a, _Ios_Iostate __b) noexcept
+  operator^=(_Ios_Iostate& __a, _Ios_Iostate __b)
   { return __a = __a ^ __b; }
 
 
@@ -29004,12 +29362,12 @@ namespace std
   inline error_condition
   make_error_condition(io_errc __e) noexcept
   { return error_condition(static_cast<int>(__e), iostream_category()); }
-# 254 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 233 "/usr/include/c++/13/bits/ios_base.h" 3
   class ios_base
   {
-# 272 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 251 "/usr/include/c++/13/bits/ios_base.h" 3
   public:
-# 281 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 260 "/usr/include/c++/13/bits/ios_base.h" 3
     class __attribute ((__abi_tag__ ("cxx11"))) failure : public system_error
     {
     public:
@@ -29030,7 +29388,7 @@ namespace std
       virtual const char*
       what() const throw();
     };
-# 367 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 346 "/usr/include/c++/13/bits/ios_base.h" 3
     typedef _Ios_Fmtflags fmtflags;
 
 
@@ -29093,7 +29451,7 @@ namespace std
 
 
     static const fmtflags floatfield = _S_floatfield;
-# 442 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 421 "/usr/include/c++/13/bits/ios_base.h" 3
     typedef _Ios_Iostate iostate;
 
 
@@ -29110,7 +29468,7 @@ namespace std
 
 
     static const iostate goodbit = _S_goodbit;
-# 473 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 452 "/usr/include/c++/13/bits/ios_base.h" 3
     typedef _Ios_Openmode openmode;
 
 
@@ -29134,7 +29492,7 @@ namespace std
     static const openmode trunc = _S_trunc;
 
     static const openmode __noreplace = _S_noreplace;
-# 512 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 492 "/usr/include/c++/13/bits/ios_base.h" 3
     typedef _Ios_Seekdir seekdir;
 
 
@@ -29145,16 +29503,16 @@ namespace std
 
 
     static const seekdir end = _S_end;
-# 545 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 525 "/usr/include/c++/13/bits/ios_base.h" 3
     enum event
     {
       erase_event,
       imbue_event,
       copyfmt_event
     };
-# 562 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 542 "/usr/include/c++/13/bits/ios_base.h" 3
     typedef void (*event_callback) (event __e, ios_base& __b, int __i);
-# 574 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 554 "/usr/include/c++/13/bits/ios_base.h" 3
     void
     register_callback(event_callback __fn, int __index);
 
@@ -29265,7 +29623,7 @@ namespace std
     fmtflags
     flags() const
     { return _M_flags; }
-# 692 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 672 "/usr/include/c++/13/bits/ios_base.h" 3
     fmtflags
     flags(fmtflags __fmtfl)
     {
@@ -29273,7 +29631,7 @@ namespace std
       _M_flags = __fmtfl;
       return __old;
     }
-# 708 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 688 "/usr/include/c++/13/bits/ios_base.h" 3
     fmtflags
     setf(fmtflags __fmtfl)
     {
@@ -29281,7 +29639,7 @@ namespace std
       _M_flags |= __fmtfl;
       return __old;
     }
-# 725 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 705 "/usr/include/c++/13/bits/ios_base.h" 3
     fmtflags
     setf(fmtflags __fmtfl, fmtflags __mask)
     {
@@ -29300,7 +29658,7 @@ namespace std
     void
     unsetf(fmtflags __mask)
     { _M_flags &= ~__mask; }
-# 751 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 731 "/usr/include/c++/13/bits/ios_base.h" 3
     streamsize
     precision() const
     { return _M_precision; }
@@ -29340,24 +29698,24 @@ namespace std
       _M_width = __wide;
       return __old;
     }
-# 802 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 782 "/usr/include/c++/13/bits/ios_base.h" 3
     static bool
     sync_with_stdio(bool __sync = true);
-# 814 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 794 "/usr/include/c++/13/bits/ios_base.h" 3
     locale
     imbue(const locale& __loc) throw();
-# 825 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 805 "/usr/include/c++/13/bits/ios_base.h" 3
     locale
     getloc() const
     { return _M_ios_locale; }
-# 836 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 816 "/usr/include/c++/13/bits/ios_base.h" 3
     const locale&
     _M_getloc() const
     { return _M_ios_locale; }
-# 855 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 835 "/usr/include/c++/13/bits/ios_base.h" 3
     static int
     xalloc() throw();
-# 871 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 851 "/usr/include/c++/13/bits/ios_base.h" 3
     long&
     iword(int __ix)
     {
@@ -29365,7 +29723,7 @@ namespace std
    ? _M_word[__ix] : _M_grow_words(__ix, true);
       return __word._M_iword;
     }
-# 892 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 872 "/usr/include/c++/13/bits/ios_base.h" 3
     void*&
     pword(int __ix)
     {
@@ -29373,12 +29731,12 @@ namespace std
    ? _M_word[__ix] : _M_grow_words(__ix, false);
       return __word._M_pword;
     }
-# 909 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 889 "/usr/include/c++/13/bits/ios_base.h" 3
     virtual ~ios_base();
 
   protected:
     ios_base() throw ();
-# 923 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h" 3
+# 903 "/usr/include/c++/13/bits/ios_base.h" 3
   public:
     ios_base(const ios_base&) = delete;
 
@@ -29597,13 +29955,13 @@ namespace std
 
 
 }
-# 45 "C:/msys64/ucrt64/include/c++/14.2.0/ios" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 1 3
-# 36 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 45 "/usr/include/c++/13/ios" 2 3
+# 1 "/usr/include/c++/13/streambuf" 1 3
+# 36 "/usr/include/c++/13/streambuf" 3
        
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
-namespace std
+# 37 "/usr/include/c++/13/streambuf" 3
+# 47 "/usr/include/c++/13/streambuf" 3
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -29613,7 +29971,7 @@ namespace std
     streamsize
     __copy_streambufs_eof(basic_streambuf<_CharT, _Traits>*,
      basic_streambuf<_CharT, _Traits>*, bool&);
-# 123 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 123 "/usr/include/c++/13/streambuf" 3
   template<typename _CharT, typename _Traits>
     class basic_streambuf
     {
@@ -29697,7 +30055,7 @@ namespace std
       virtual
       ~basic_streambuf()
       { }
-# 215 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 215 "/usr/include/c++/13/streambuf" 3
       locale
       pubimbue(const locale& __loc)
       {
@@ -29706,20 +30064,20 @@ namespace std
  _M_buf_locale = __loc;
  return __tmp;
       }
-# 232 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 232 "/usr/include/c++/13/streambuf" 3
       locale
       getloc() const
       { return _M_buf_locale; }
-# 245 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 245 "/usr/include/c++/13/streambuf" 3
       basic_streambuf*
       pubsetbuf(char_type* __s, streamsize __n)
       { return this->setbuf(__s, __n); }
-# 257 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 257 "/usr/include/c++/13/streambuf" 3
       pos_type
       pubseekoff(off_type __off, ios_base::seekdir __way,
    ios_base::openmode __mode = ios_base::in | ios_base::out)
       { return this->seekoff(__off, __way, __mode); }
-# 269 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 269 "/usr/include/c++/13/streambuf" 3
       pos_type
       pubseekpos(pos_type __sp,
    ios_base::openmode __mode = ios_base::in | ios_base::out)
@@ -29730,14 +30088,14 @@ namespace std
 
       int
       pubsync() { return this->sync(); }
-# 290 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 290 "/usr/include/c++/13/streambuf" 3
       streamsize
       in_avail()
       {
  const streamsize __ret = this->egptr() - this->gptr();
  return __ret ? __ret : this->showmanyc();
       }
-# 304 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 304 "/usr/include/c++/13/streambuf" 3
       int_type
       snextc()
       {
@@ -29747,7 +30105,7 @@ namespace std
    __ret = this->sgetc();
  return __ret;
       }
-# 322 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 322 "/usr/include/c++/13/streambuf" 3
       int_type
       sbumpc()
       {
@@ -29761,7 +30119,7 @@ namespace std
    __ret = this->uflow();
  return __ret;
       }
-# 344 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 344 "/usr/include/c++/13/streambuf" 3
       int_type
       sgetc()
       {
@@ -29772,11 +30130,11 @@ namespace std
    __ret = this->underflow();
  return __ret;
       }
-# 363 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 363 "/usr/include/c++/13/streambuf" 3
       streamsize
       sgetn(char_type* __s, streamsize __n)
       { return this->xsgetn(__s, __n); }
-# 378 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 378 "/usr/include/c++/13/streambuf" 3
       int_type
       sputbackc(char_type __c)
       {
@@ -29792,7 +30150,7 @@ namespace std
    }
  return __ret;
       }
-# 403 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 403 "/usr/include/c++/13/streambuf" 3
       int_type
       sungetc()
       {
@@ -29806,7 +30164,7 @@ namespace std
    __ret = this->pbackfail();
  return __ret;
       }
-# 430 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 430 "/usr/include/c++/13/streambuf" 3
       int_type
       sputc(char_type __c)
       {
@@ -29821,19 +30179,19 @@ namespace std
    __ret = this->overflow(traits_type::to_int_type(__c));
  return __ret;
       }
-# 456 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 456 "/usr/include/c++/13/streambuf" 3
       streamsize
       sputn(const char_type* __s, streamsize __n)
       { return this->xsputn(__s, __n); }
 
     protected:
-# 470 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 470 "/usr/include/c++/13/streambuf" 3
       basic_streambuf()
       : _M_in_beg(0), _M_in_cur(0), _M_in_end(0),
       _M_out_beg(0), _M_out_cur(0), _M_out_end(0),
       _M_buf_locale(locale())
       { }
-# 488 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 488 "/usr/include/c++/13/streambuf" 3
       char_type*
       eback() const { return _M_in_beg; }
 
@@ -29842,10 +30200,10 @@ namespace std
 
       char_type*
       egptr() const { return _M_in_end; }
-# 504 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 504 "/usr/include/c++/13/streambuf" 3
       void
       gbump(int __n) { _M_in_cur += __n; }
-# 515 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 515 "/usr/include/c++/13/streambuf" 3
       void
       setg(char_type* __gbeg, char_type* __gnext, char_type* __gend)
       {
@@ -29853,7 +30211,7 @@ namespace std
  _M_in_cur = __gnext;
  _M_in_end = __gend;
       }
-# 535 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 535 "/usr/include/c++/13/streambuf" 3
       char_type*
       pbase() const { return _M_out_beg; }
 
@@ -29862,48 +30220,48 @@ namespace std
 
       char_type*
       epptr() const { return _M_out_end; }
-# 551 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 551 "/usr/include/c++/13/streambuf" 3
       void
       pbump(int __n) { _M_out_cur += __n; }
-# 561 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 561 "/usr/include/c++/13/streambuf" 3
       void
       setp(char_type* __pbeg, char_type* __pend)
       {
  _M_out_beg = _M_out_cur = __pbeg;
  _M_out_end = __pend;
       }
-# 582 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 582 "/usr/include/c++/13/streambuf" 3
       virtual void
       imbue(const locale& __loc __attribute__ ((__unused__)))
       { }
-# 597 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 597 "/usr/include/c++/13/streambuf" 3
       virtual basic_streambuf<char_type,_Traits>*
       setbuf(char_type*, streamsize)
       { return this; }
-# 608 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 608 "/usr/include/c++/13/streambuf" 3
       virtual pos_type
       seekoff(off_type, ios_base::seekdir,
        ios_base::openmode = ios_base::in | ios_base::out)
       { return pos_type(off_type(-1)); }
-# 620 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 620 "/usr/include/c++/13/streambuf" 3
       virtual pos_type
       seekpos(pos_type,
        ios_base::openmode = ios_base::in | ios_base::out)
       { return pos_type(off_type(-1)); }
-# 633 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 633 "/usr/include/c++/13/streambuf" 3
       virtual int
       sync() { return 0; }
-# 655 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 655 "/usr/include/c++/13/streambuf" 3
       virtual streamsize
       showmanyc() { return 0; }
-# 671 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 671 "/usr/include/c++/13/streambuf" 3
       virtual streamsize
       xsgetn(char_type* __s, streamsize __n);
-# 693 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 693 "/usr/include/c++/13/streambuf" 3
       virtual int_type
       underflow()
       { return traits_type::eof(); }
-# 706 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 706 "/usr/include/c++/13/streambuf" 3
       virtual int_type
       uflow()
       {
@@ -29917,18 +30275,18 @@ namespace std
    }
  return __ret;
       }
-# 730 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 730 "/usr/include/c++/13/streambuf" 3
       virtual int_type
       pbackfail(int_type __c __attribute__ ((__unused__)) = traits_type::eof())
       { return traits_type::eof(); }
-# 748 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 748 "/usr/include/c++/13/streambuf" 3
       virtual streamsize
       xsputn(const char_type* __s, streamsize __n);
-# 774 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 774 "/usr/include/c++/13/streambuf" 3
       virtual int_type
       overflow(int_type __c __attribute__ ((__unused__)) = traits_type::eof())
       { return traits_type::eof(); }
-# 801 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 3
+# 801 "/usr/include/c++/13/streambuf" 3
       void
       __safe_gbump(streamsize __n) { _M_in_cur += __n; }
 
@@ -29988,12 +30346,12 @@ namespace std
 
 }
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf.tcc" 1 3
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf.tcc" 3
+# 1 "/usr/include/c++/13/bits/streambuf.tcc" 1 3
+# 37 "/usr/include/c++/13/bits/streambuf.tcc" 3
        
-# 38 "C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf.tcc" 3
+# 38 "/usr/include/c++/13/bits/streambuf.tcc" 3
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -30122,44 +30480,251 @@ namespace std
 
 
 }
-# 861 "C:/msys64/ucrt64/include/c++/14.2.0/streambuf" 2 3
-# 46 "C:/msys64/ucrt64/include/c++/14.2.0/ios" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h" 1 3
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h" 3
+# 861 "/usr/include/c++/13/streambuf" 2 3
+# 46 "/usr/include/c++/13/ios" 2 3
+# 1 "/usr/include/c++/13/bits/basic_ios.h" 1 3
+# 33 "/usr/include/c++/13/bits/basic_ios.h" 3
        
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h" 3
+# 34 "/usr/include/c++/13/bits/basic_ios.h" 3
 
 
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 1 3
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1 "/usr/include/c++/13/bits/locale_facets.h" 1 3
+# 37 "/usr/include/c++/13/bits/locale_facets.h" 3
        
-# 38 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 38 "/usr/include/c++/13/bits/locale_facets.h" 3
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/cwctype" 1 3
-# 39 "C:/msys64/ucrt64/include/c++/14.2.0/cwctype" 3
+# 1 "/usr/include/c++/13/cwctype" 1 3
+# 39 "/usr/include/c++/13/cwctype" 3
        
-# 40 "C:/msys64/ucrt64/include/c++/14.2.0/cwctype" 3
-# 50 "C:/msys64/ucrt64/include/c++/14.2.0/cwctype" 3
-# 1 "C:/msys64/ucrt64/include/wctype.h" 1 3
-# 15 "C:/msys64/ucrt64/include/wctype.h" 3
-#pragma pack(push,_CRT_PACKING)
+# 40 "/usr/include/c++/13/cwctype" 3
+# 50 "/usr/include/c++/13/cwctype" 3
+# 1 "/usr/include/wctype.h" 1 3 4
+# 38 "/usr/include/wctype.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h" 1 3 4
+# 38 "/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h" 3 4
+typedef unsigned long int wctype_t;
+# 56 "/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h" 3 4
+enum
+{
+  __ISwupper = 0,
+  __ISwlower = 1,
+  __ISwalpha = 2,
+  __ISwdigit = 3,
+  __ISwxdigit = 4,
+  __ISwspace = 5,
+  __ISwprint = 6,
+  __ISwgraph = 7,
+  __ISwblank = 8,
+  __ISwcntrl = 9,
+  __ISwpunct = 10,
+  __ISwalnum = 11,
+
+  _ISwupper = ((__ISwupper) < 8 ? (int) ((1UL << (__ISwupper)) << 24) : ((__ISwupper) < 16 ? (int) ((1UL << (__ISwupper)) << 8) : ((__ISwupper) < 24 ? (int) ((1UL << (__ISwupper)) >> 8) : (int) ((1UL << (__ISwupper)) >> 24)))),
+  _ISwlower = ((__ISwlower) < 8 ? (int) ((1UL << (__ISwlower)) << 24) : ((__ISwlower) < 16 ? (int) ((1UL << (__ISwlower)) << 8) : ((__ISwlower) < 24 ? (int) ((1UL << (__ISwlower)) >> 8) : (int) ((1UL << (__ISwlower)) >> 24)))),
+  _ISwalpha = ((__ISwalpha) < 8 ? (int) ((1UL << (__ISwalpha)) << 24) : ((__ISwalpha) < 16 ? (int) ((1UL << (__ISwalpha)) << 8) : ((__ISwalpha) < 24 ? (int) ((1UL << (__ISwalpha)) >> 8) : (int) ((1UL << (__ISwalpha)) >> 24)))),
+  _ISwdigit = ((__ISwdigit) < 8 ? (int) ((1UL << (__ISwdigit)) << 24) : ((__ISwdigit) < 16 ? (int) ((1UL << (__ISwdigit)) << 8) : ((__ISwdigit) < 24 ? (int) ((1UL << (__ISwdigit)) >> 8) : (int) ((1UL << (__ISwdigit)) >> 24)))),
+  _ISwxdigit = ((__ISwxdigit) < 8 ? (int) ((1UL << (__ISwxdigit)) << 24) : ((__ISwxdigit) < 16 ? (int) ((1UL << (__ISwxdigit)) << 8) : ((__ISwxdigit) < 24 ? (int) ((1UL << (__ISwxdigit)) >> 8) : (int) ((1UL << (__ISwxdigit)) >> 24)))),
+  _ISwspace = ((__ISwspace) < 8 ? (int) ((1UL << (__ISwspace)) << 24) : ((__ISwspace) < 16 ? (int) ((1UL << (__ISwspace)) << 8) : ((__ISwspace) < 24 ? (int) ((1UL << (__ISwspace)) >> 8) : (int) ((1UL << (__ISwspace)) >> 24)))),
+  _ISwprint = ((__ISwprint) < 8 ? (int) ((1UL << (__ISwprint)) << 24) : ((__ISwprint) < 16 ? (int) ((1UL << (__ISwprint)) << 8) : ((__ISwprint) < 24 ? (int) ((1UL << (__ISwprint)) >> 8) : (int) ((1UL << (__ISwprint)) >> 24)))),
+  _ISwgraph = ((__ISwgraph) < 8 ? (int) ((1UL << (__ISwgraph)) << 24) : ((__ISwgraph) < 16 ? (int) ((1UL << (__ISwgraph)) << 8) : ((__ISwgraph) < 24 ? (int) ((1UL << (__ISwgraph)) >> 8) : (int) ((1UL << (__ISwgraph)) >> 24)))),
+  _ISwblank = ((__ISwblank) < 8 ? (int) ((1UL << (__ISwblank)) << 24) : ((__ISwblank) < 16 ? (int) ((1UL << (__ISwblank)) << 8) : ((__ISwblank) < 24 ? (int) ((1UL << (__ISwblank)) >> 8) : (int) ((1UL << (__ISwblank)) >> 24)))),
+  _ISwcntrl = ((__ISwcntrl) < 8 ? (int) ((1UL << (__ISwcntrl)) << 24) : ((__ISwcntrl) < 16 ? (int) ((1UL << (__ISwcntrl)) << 8) : ((__ISwcntrl) < 24 ? (int) ((1UL << (__ISwcntrl)) >> 8) : (int) ((1UL << (__ISwcntrl)) >> 24)))),
+  _ISwpunct = ((__ISwpunct) < 8 ? (int) ((1UL << (__ISwpunct)) << 24) : ((__ISwpunct) < 16 ? (int) ((1UL << (__ISwpunct)) << 8) : ((__ISwpunct) < 24 ? (int) ((1UL << (__ISwpunct)) >> 8) : (int) ((1UL << (__ISwpunct)) >> 24)))),
+  _ISwalnum = ((__ISwalnum) < 8 ? (int) ((1UL << (__ISwalnum)) << 24) : ((__ISwalnum) < 16 ? (int) ((1UL << (__ISwalnum)) << 8) : ((__ISwalnum) < 24 ? (int) ((1UL << (__ISwalnum)) >> 8) : (int) ((1UL << (__ISwalnum)) >> 24))))
+};
+
 
 
 extern "C" {
-# 150 "C:/msys64/ucrt64/include/wctype.h" 3
-  typedef wchar_t wctrans_t;
-  wint_t __attribute__((__cdecl__)) towctrans(wint_t,wctrans_t);
-  wctrans_t __attribute__((__cdecl__)) wctrans(const char *);
-  wctype_t __attribute__((__cdecl__)) wctype(const char *);
+
+
+
+
+
+
+
+extern int iswalnum (wint_t __wc) noexcept (true);
+
+
+
+
+
+extern int iswalpha (wint_t __wc) noexcept (true);
+
+
+extern int iswcntrl (wint_t __wc) noexcept (true);
+
+
+
+extern int iswdigit (wint_t __wc) noexcept (true);
+
+
+
+extern int iswgraph (wint_t __wc) noexcept (true);
+
+
+
+
+extern int iswlower (wint_t __wc) noexcept (true);
+
+
+extern int iswprint (wint_t __wc) noexcept (true);
+
+
+
+
+extern int iswpunct (wint_t __wc) noexcept (true);
+
+
+
+
+extern int iswspace (wint_t __wc) noexcept (true);
+
+
+
+
+extern int iswupper (wint_t __wc) noexcept (true);
+
+
+
+
+extern int iswxdigit (wint_t __wc) noexcept (true);
+
+
+
+
+
+extern int iswblank (wint_t __wc) noexcept (true);
+# 155 "/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h" 3 4
+extern wctype_t wctype (const char *__property) noexcept (true);
+
+
+
+extern int iswctype (wint_t __wc, wctype_t __desc) noexcept (true);
+
+
+
+
+
+
+extern wint_t towlower (wint_t __wc) noexcept (true);
+
+
+extern wint_t towupper (wint_t __wc) noexcept (true);
+
+}
+# 39 "/usr/include/wctype.h" 2 3 4
+
+
+
+
+
+extern "C" {
+
+
+
+typedef const __int32_t *wctrans_t;
+
+
+
+extern wctrans_t wctrans (const char *__property) noexcept (true);
+
+
+extern wint_t towctrans (wint_t __wc, wctrans_t __desc) noexcept (true);
+
+
+
+
+
+
+
+extern int iswalnum_l (wint_t __wc, locale_t __locale) noexcept (true);
+
+
+
+
+
+extern int iswalpha_l (wint_t __wc, locale_t __locale) noexcept (true);
+
+
+extern int iswcntrl_l (wint_t __wc, locale_t __locale) noexcept (true);
+
+
+
+extern int iswdigit_l (wint_t __wc, locale_t __locale) noexcept (true);
+
+
+
+extern int iswgraph_l (wint_t __wc, locale_t __locale) noexcept (true);
+
+
+
+
+extern int iswlower_l (wint_t __wc, locale_t __locale) noexcept (true);
+
+
+extern int iswprint_l (wint_t __wc, locale_t __locale) noexcept (true);
+
+
+
+
+extern int iswpunct_l (wint_t __wc, locale_t __locale) noexcept (true);
+
+
+
+
+extern int iswspace_l (wint_t __wc, locale_t __locale) noexcept (true);
+
+
+
+
+extern int iswupper_l (wint_t __wc, locale_t __locale) noexcept (true);
+
+
+
+
+extern int iswxdigit_l (wint_t __wc, locale_t __locale) noexcept (true);
+
+
+
+
+extern int iswblank_l (wint_t __wc, locale_t __locale) noexcept (true);
+
+
+
+extern wctype_t wctype_l (const char *__property, locale_t __locale)
+     noexcept (true);
+
+
+
+extern int iswctype_l (wint_t __wc, wctype_t __desc, locale_t __locale)
+     noexcept (true);
+
+
+
+
+
+
+extern wint_t towlower_l (wint_t __wc, locale_t __locale) noexcept (true);
+
+
+extern wint_t towupper_l (wint_t __wc, locale_t __locale) noexcept (true);
+
+
+
+extern wctrans_t wctrans_l (const char *__property, locale_t __locale)
+     noexcept (true);
+
+
+extern wint_t towctrans_l (wint_t __wc, wctrans_t __desc,
+      locale_t __locale) noexcept (true);
+
 
 
 }
-
-
-#pragma pack(pop)
-# 51 "C:/msys64/ucrt64/include/c++/14.2.0/cwctype" 2 3
-# 80 "C:/msys64/ucrt64/include/c++/14.2.0/cwctype" 3
+# 51 "/usr/include/c++/13/cwctype" 2 3
+# 80 "/usr/include/c++/13/cwctype" 3
 namespace std
 {
   using ::wctrans_t;
@@ -30187,15 +30752,15 @@ namespace std
   using ::wctrans;
   using ::wctype;
 }
-# 40 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/cctype" 1 3
-# 39 "C:/msys64/ucrt64/include/c++/14.2.0/cctype" 3
+# 40 "/usr/include/c++/13/bits/locale_facets.h" 2 3
+# 1 "/usr/include/c++/13/cctype" 1 3
+# 39 "/usr/include/c++/13/cctype" 3
        
-# 40 "C:/msys64/ucrt64/include/c++/14.2.0/cctype" 3
-# 41 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_base.h" 1 3
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_base.h" 3
-namespace std
+# 40 "/usr/include/c++/13/cctype" 3
+# 41 "/usr/include/c++/13/bits/locale_facets.h" 2 3
+# 1 "/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h" 1 3
+# 36 "/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h" 3
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -30208,41 +30773,41 @@ namespace std
 
 
     typedef unsigned short mask;
-    static const mask upper = 1 << 0;
-    static const mask lower = 1 << 1;
-    static const mask alpha = 1 << 2;
-    static const mask digit = 1 << 3;
-    static const mask xdigit = 1 << 4;
-    static const mask space = 1 << 5;
-    static const mask print = 1 << 6;
-    static const mask graph = (1 << 2) | (1 << 3) | (1 << 9);
-    static const mask cntrl = 1 << 8;
-    static const mask punct = 1 << 9;
-    static const mask alnum = (1 << 2) | (1 << 3);
+    static const mask upper = _ISupper;
+    static const mask lower = _ISlower;
+    static const mask alpha = _ISalpha;
+    static const mask digit = _ISdigit;
+    static const mask xdigit = _ISxdigit;
+    static const mask space = _ISspace;
+    static const mask print = _ISprint;
+    static const mask graph = _ISalpha | _ISdigit | _ISpunct;
+    static const mask cntrl = _IScntrl;
+    static const mask punct = _ISpunct;
+    static const mask alnum = _ISalpha | _ISdigit;
 
-    static const mask blank = 1 << 10;
+    static const mask blank = _ISblank;
 
   };
 
 
 }
-# 42 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 2 3
+# 42 "/usr/include/c++/13/bits/locale_facets.h" 2 3
 
 
 
 
 
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf_iterator.h" 1 3
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf_iterator.h" 3
+# 1 "/usr/include/c++/13/bits/streambuf_iterator.h" 1 3
+# 33 "/usr/include/c++/13/bits/streambuf_iterator.h" 3
        
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf_iterator.h" 3
+# 34 "/usr/include/c++/13/bits/streambuf_iterator.h" 3
 
 
 
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -30253,7 +30818,7 @@ namespace std
 
 
  
-# 49 "C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf_iterator.h" 3
+# 49 "/usr/include/c++/13/bits/streambuf_iterator.h" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
@@ -30264,7 +30829,7 @@ namespace std
         _CharT*, _CharT>
     {
     public:
-# 70 "C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf_iterator.h" 3
+# 70 "/usr/include/c++/13/bits/streambuf_iterator.h" 3
       typedef _CharT char_type;
       typedef _Traits traits_type;
       typedef typename _Traits::int_type int_type;
@@ -30348,7 +30913,7 @@ namespace std
       operator*() const
       {
  int_type __c = _M_get();
-# 161 "C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf_iterator.h" 3
+# 161 "/usr/include/c++/13/bits/streambuf_iterator.h" 3
  return traits_type::to_char_type(__c);
       }
 
@@ -30464,7 +31029,7 @@ namespace std
       bool _M_failed;
 
     public:
-# 284 "C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf_iterator.h" 3
+# 284 "/usr/include/c++/13/bits/streambuf_iterator.h" 3
       ostreambuf_iterator(ostream_type& __s) noexcept
       : _M_sbuf(__s.rdbuf()), _M_failed(!_M_sbuf) { }
 
@@ -30661,7 +31226,7 @@ namespace std
       if (__n == 0)
  return;
 
-      do { if (std::__is_constant_evaluated()) if (__builtin_expect(!bool(__n > 0), false)) std::__glibcxx_assert_fail(); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__n > 0)) __builtin_unreachable(); } while (false);
      
 
                            ;
@@ -30700,12 +31265,12 @@ namespace std
 
 
 }
-# 49 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 2 3
+# 49 "/usr/include/c++/13/bits/locale_facets.h" 2 3
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 74 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 74 "/usr/include/c++/13/bits/locale_facets.h" 3
   template<typename _Tp>
     void
     __convert_to_v(const char*, _Tp&, ios_base::iostate&,
@@ -30770,7 +31335,7 @@ namespace std
  *__s = __ws[__j];
       return __s;
     }
-# 152 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 152 "/usr/include/c++/13/bits/locale_facets.h" 3
   template<typename _CharT>
     class __ctype_abstract_base : public locale::facet, public ctype_base
     {
@@ -30778,51 +31343,51 @@ namespace std
 
 
       typedef _CharT char_type;
-# 171 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 171 "/usr/include/c++/13/bits/locale_facets.h" 3
       bool
       is(mask __m, char_type __c) const
       { return this->do_is(__m, __c); }
-# 188 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 188 "/usr/include/c++/13/bits/locale_facets.h" 3
       const char_type*
       is(const char_type *__lo, const char_type *__hi, mask *__vec) const
       { return this->do_is(__lo, __hi, __vec); }
-# 204 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 204 "/usr/include/c++/13/bits/locale_facets.h" 3
       const char_type*
       scan_is(mask __m, const char_type* __lo, const char_type* __hi) const
       { return this->do_scan_is(__m, __lo, __hi); }
-# 220 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 220 "/usr/include/c++/13/bits/locale_facets.h" 3
       const char_type*
       scan_not(mask __m, const char_type* __lo, const char_type* __hi) const
       { return this->do_scan_not(__m, __lo, __hi); }
-# 234 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 234 "/usr/include/c++/13/bits/locale_facets.h" 3
       char_type
       toupper(char_type __c) const
       { return this->do_toupper(__c); }
-# 249 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 249 "/usr/include/c++/13/bits/locale_facets.h" 3
       const char_type*
       toupper(char_type *__lo, const char_type* __hi) const
       { return this->do_toupper(__lo, __hi); }
-# 263 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 263 "/usr/include/c++/13/bits/locale_facets.h" 3
       char_type
       tolower(char_type __c) const
       { return this->do_tolower(__c); }
-# 278 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 278 "/usr/include/c++/13/bits/locale_facets.h" 3
       const char_type*
       tolower(char_type* __lo, const char_type* __hi) const
       { return this->do_tolower(__lo, __hi); }
-# 295 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 295 "/usr/include/c++/13/bits/locale_facets.h" 3
       char_type
       widen(char __c) const
       { return this->do_widen(__c); }
-# 314 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 314 "/usr/include/c++/13/bits/locale_facets.h" 3
       const char*
       widen(const char* __lo, const char* __hi, char_type* __to) const
       { return this->do_widen(__lo, __hi, __to); }
-# 333 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 333 "/usr/include/c++/13/bits/locale_facets.h" 3
       char
       narrow(char_type __c, char __dfault) const
       { return this->do_narrow(__c, __dfault); }
-# 355 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 355 "/usr/include/c++/13/bits/locale_facets.h" 3
       const char_type*
       narrow(const char_type* __lo, const char_type* __hi,
        char __dfault, char* __to) const
@@ -30834,48 +31399,48 @@ namespace std
 
       virtual
       ~__ctype_abstract_base() { }
-# 380 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 380 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual bool
       do_is(mask __m, char_type __c) const = 0;
-# 399 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 399 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual const char_type*
       do_is(const char_type* __lo, const char_type* __hi,
      mask* __vec) const = 0;
-# 418 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 418 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual const char_type*
       do_scan_is(mask __m, const char_type* __lo,
    const char_type* __hi) const = 0;
-# 437 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 437 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual const char_type*
       do_scan_not(mask __m, const char_type* __lo,
     const char_type* __hi) const = 0;
-# 455 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 455 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual char_type
       do_toupper(char_type __c) const = 0;
-# 472 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 472 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual const char_type*
       do_toupper(char_type* __lo, const char_type* __hi) const = 0;
-# 488 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 488 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual char_type
       do_tolower(char_type __c) const = 0;
-# 505 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 505 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual const char_type*
       do_tolower(char_type* __lo, const char_type* __hi) const = 0;
-# 524 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 524 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual char_type
       do_widen(char __c) const = 0;
-# 545 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 545 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual const char*
       do_widen(const char* __lo, const char* __hi, char_type* __to) const = 0;
-# 566 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 566 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual char
       do_narrow(char_type __c, char __dfault) const = 0;
-# 591 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 591 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual const char_type*
       do_narrow(const char_type* __lo, const char_type* __hi,
   char __dfault, char* __to) const = 0;
     };
-# 614 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 614 "/usr/include/c++/13/bits/locale_facets.h" 3
   template<typename _CharT>
     class ctype : public __ctype_abstract_base<_CharT>
     {
@@ -30940,7 +31505,7 @@ namespace std
 
   template<typename _CharT, typename _Traits, typename _Alloc>
     class ctype<basic_string<_CharT, _Traits, _Alloc> >;
-# 688 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 688 "/usr/include/c++/13/bits/locale_facets.h" 3
   template<>
     class ctype<char> : public locale::facet, public ctype_base
     {
@@ -30967,42 +31532,42 @@ namespace std
       static locale::id id;
 
       static const size_t table_size = 1 + static_cast<unsigned char>(-1);
-# 725 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 725 "/usr/include/c++/13/bits/locale_facets.h" 3
       explicit
       ctype(const mask* __table = 0, bool __del = false, size_t __refs = 0);
-# 738 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 738 "/usr/include/c++/13/bits/locale_facets.h" 3
       explicit
       ctype(__c_locale __cloc, const mask* __table = 0, bool __del = false,
      size_t __refs = 0);
-# 751 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 751 "/usr/include/c++/13/bits/locale_facets.h" 3
       inline bool
       is(mask __m, char __c) const;
-# 766 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 766 "/usr/include/c++/13/bits/locale_facets.h" 3
       inline const char*
       is(const char* __lo, const char* __hi, mask* __vec) const;
-# 780 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 780 "/usr/include/c++/13/bits/locale_facets.h" 3
       inline const char*
       scan_is(mask __m, const char* __lo, const char* __hi) const;
-# 794 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 794 "/usr/include/c++/13/bits/locale_facets.h" 3
       inline const char*
       scan_not(mask __m, const char* __lo, const char* __hi) const;
-# 809 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 809 "/usr/include/c++/13/bits/locale_facets.h" 3
       char_type
       toupper(char_type __c) const
       { return this->do_toupper(__c); }
-# 826 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 826 "/usr/include/c++/13/bits/locale_facets.h" 3
       const char_type*
       toupper(char_type *__lo, const char_type* __hi) const
       { return this->do_toupper(__lo, __hi); }
-# 842 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 842 "/usr/include/c++/13/bits/locale_facets.h" 3
       char_type
       tolower(char_type __c) const
       { return this->do_tolower(__c); }
-# 859 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 859 "/usr/include/c++/13/bits/locale_facets.h" 3
       const char_type*
       tolower(char_type* __lo, const char_type* __hi) const
       { return this->do_tolower(__lo, __hi); }
-# 879 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 879 "/usr/include/c++/13/bits/locale_facets.h" 3
       char_type
       widen(char __c) const
       {
@@ -31011,7 +31576,7 @@ namespace std
  this->_M_widen_init();
  return this->do_widen(__c);
       }
-# 906 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 906 "/usr/include/c++/13/bits/locale_facets.h" 3
       const char*
       widen(const char* __lo, const char* __hi, char_type* __to) const
       {
@@ -31025,7 +31590,7 @@ namespace std
    _M_widen_init();
  return this->do_widen(__lo, __hi, __to);
       }
-# 938 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 938 "/usr/include/c++/13/bits/locale_facets.h" 3
       char
       narrow(char_type __c, char __dfault) const
       {
@@ -31036,7 +31601,7 @@ namespace std
    _M_narrow[static_cast<unsigned char>(__c)] = __t;
  return __t;
       }
-# 971 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 971 "/usr/include/c++/13/bits/locale_facets.h" 3
       const char_type*
       narrow(const char_type* __lo, const char_type* __hi,
       char __dfault, char* __to) const
@@ -31073,23 +31638,23 @@ namespace std
 
       virtual
       ~ctype();
-# 1021 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1021 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual char_type
       do_toupper(char_type __c) const;
-# 1038 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1038 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual const char_type*
       do_toupper(char_type* __lo, const char_type* __hi) const;
-# 1054 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1054 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual char_type
       do_tolower(char_type __c) const;
-# 1071 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1071 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual const char_type*
       do_tolower(char_type* __lo, const char_type* __hi) const;
-# 1091 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1091 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual char_type
       do_widen(char __c) const
       { return __c; }
-# 1114 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1114 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual const char*
       do_widen(const char* __lo, const char* __hi, char_type* __to) const
       {
@@ -31097,11 +31662,11 @@ namespace std
    __builtin_memcpy(__to, __lo, __hi - __lo);
  return __hi;
       }
-# 1141 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1141 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual char
       do_narrow(char_type __c, char __dfault __attribute__((__unused__))) const
       { return __c; }
-# 1167 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1167 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual const char_type*
       do_narrow(const char_type* __lo, const char_type* __hi,
   char __dfault __attribute__((__unused__)), char* __to) const
@@ -31115,7 +31680,7 @@ namespace std
       void _M_narrow_init() const;
       void _M_widen_init() const;
     };
-# 1193 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1193 "/usr/include/c++/13/bits/locale_facets.h" 3
   template<>
     class ctype<wchar_t> : public __ctype_abstract_base<wchar_t>
     {
@@ -31141,10 +31706,10 @@ namespace std
 
 
       static locale::id id;
-# 1226 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1226 "/usr/include/c++/13/bits/locale_facets.h" 3
       explicit
       ctype(size_t __refs = 0);
-# 1237 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1237 "/usr/include/c++/13/bits/locale_facets.h" 3
       explicit
       ctype(__c_locale __cloc, size_t __refs = 0);
 
@@ -31155,41 +31720,41 @@ namespace std
 
       virtual
       ~ctype();
-# 1261 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1261 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual bool
       do_is(mask __m, char_type __c) const;
-# 1280 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1280 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual const char_type*
       do_is(const char_type* __lo, const char_type* __hi, mask* __vec) const;
-# 1298 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1298 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual const char_type*
       do_scan_is(mask __m, const char_type* __lo, const char_type* __hi) const;
-# 1316 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1316 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual const char_type*
       do_scan_not(mask __m, const char_type* __lo,
     const char_type* __hi) const;
-# 1333 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1333 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual char_type
       do_toupper(char_type __c) const;
-# 1350 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1350 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual const char_type*
       do_toupper(char_type* __lo, const char_type* __hi) const;
-# 1366 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1366 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual char_type
       do_tolower(char_type __c) const;
-# 1383 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1383 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual const char_type*
       do_tolower(char_type* __lo, const char_type* __hi) const;
-# 1403 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1403 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual char_type
       do_widen(char __c) const;
-# 1425 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1425 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual const char*
       do_widen(const char* __lo, const char* __hi, char_type* __to) const;
-# 1448 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1448 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual char
       do_narrow(char_type __c, char __dfault) const;
-# 1474 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1474 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual const char_type*
       do_narrow(const char_type* __lo, const char_type* __hi,
   char __dfault, char* __to) const;
@@ -31262,17 +31827,16 @@ namespace std
 }
 
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_inline.h" 1 3
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_inline.h" 3
-namespace std
+# 1 "/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h" 1 3
+# 37 "/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h" 3
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
   bool
   ctype<char>::
   is(mask __m, char __c) const
-  { return (_M_table[static_cast<unsigned char>(__c) ] & __m); }
-
+  { return _M_table[static_cast<unsigned char>(__c)] & __m; }
 
   const char*
   ctype<char>::
@@ -31287,7 +31851,8 @@ namespace std
   ctype<char>::
   scan_is(mask __m, const char* __low, const char* __high) const
   {
-    while (__low < __high && !this->is(__m, *__low))
+    while (__low < __high
+    && !(_M_table[static_cast<unsigned char>(*__low)] & __m))
       ++__low;
     return __low;
   }
@@ -31296,16 +31861,17 @@ namespace std
   ctype<char>::
   scan_not(mask __m, const char* __low, const char* __high) const
   {
-    while (__low < __high && this->is(__m, *__low) != 0)
+    while (__low < __high
+    && (_M_table[static_cast<unsigned char>(*__low)] & __m) != 0)
       ++__low;
     return __low;
   }
 
 
 }
-# 1547 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 2 3
+# 1547 "/usr/include/c++/13/bits/locale_facets.h" 2 3
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -31419,7 +31985,7 @@ namespace std
     }
 
 namespace __cxx11 {
-# 1677 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1677 "/usr/include/c++/13/bits/locale_facets.h" 3
   template<typename _CharT>
     class numpunct : public locale::facet
     {
@@ -31448,33 +32014,33 @@ namespace __cxx11 {
       numpunct(size_t __refs = 0)
       : facet(__refs), _M_data(0)
       { _M_initialize_numpunct(); }
-# 1715 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1715 "/usr/include/c++/13/bits/locale_facets.h" 3
       explicit
       numpunct(__cache_type* __cache, size_t __refs = 0)
       : facet(__refs), _M_data(__cache)
       { _M_initialize_numpunct(); }
-# 1729 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1729 "/usr/include/c++/13/bits/locale_facets.h" 3
       explicit
       numpunct(__c_locale __cloc, size_t __refs = 0)
       : facet(__refs), _M_data(0)
       { _M_initialize_numpunct(__cloc); }
-# 1743 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1743 "/usr/include/c++/13/bits/locale_facets.h" 3
       char_type
       decimal_point() const
       { return this->do_decimal_point(); }
-# 1756 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1756 "/usr/include/c++/13/bits/locale_facets.h" 3
       char_type
       thousands_sep() const
       { return this->do_thousands_sep(); }
-# 1787 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1787 "/usr/include/c++/13/bits/locale_facets.h" 3
       string
       grouping() const
       { return this->do_grouping(); }
-# 1800 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1800 "/usr/include/c++/13/bits/locale_facets.h" 3
       string_type
       truename() const
       { return this->do_truename(); }
-# 1813 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1813 "/usr/include/c++/13/bits/locale_facets.h" 3
       string_type
       falsename() const
       { return this->do_falsename(); }
@@ -31483,23 +32049,23 @@ namespace __cxx11 {
 
       virtual
       ~numpunct();
-# 1830 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1830 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual char_type
       do_decimal_point() const
       { return _M_data->_M_decimal_point; }
-# 1842 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1842 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual char_type
       do_thousands_sep() const
       { return _M_data->_M_thousands_sep; }
-# 1855 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1855 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual string
       do_grouping() const
       { return _M_data->_M_grouping; }
-# 1868 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1868 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual string_type
       do_truename() const
       { return _M_data->_M_truename; }
-# 1881 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1881 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual string_type
       do_falsename() const
       { return _M_data->_M_falsename; }
@@ -31564,7 +32130,7 @@ namespace __cxx11 {
 }
 
 
-# 1959 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1959 "/usr/include/c++/13/bits/locale_facets.h" 3
   template<typename _CharT, typename _InIter>
     class num_get : public locale::facet
     {
@@ -31578,15 +32144,15 @@ namespace __cxx11 {
 
 
       static locale::id id;
-# 1980 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 1980 "/usr/include/c++/13/bits/locale_facets.h" 3
       explicit
       num_get(size_t __refs = 0) : facet(__refs) { }
-# 2006 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 2006 "/usr/include/c++/13/bits/locale_facets.h" 3
       iter_type
       get(iter_type __in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, bool& __v) const
       { return this->do_get(__in, __end, __io, __err, __v); }
-# 2043 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 2043 "/usr/include/c++/13/bits/locale_facets.h" 3
       iter_type
       get(iter_type __in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, long& __v) const
@@ -31617,7 +32183,7 @@ namespace __cxx11 {
       get(iter_type __in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, unsigned long long& __v) const
       { return this->do_get(__in, __end, __io, __err, __v); }
-# 2103 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 2103 "/usr/include/c++/13/bits/locale_facets.h" 3
       iter_type
       get(iter_type __in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, float& __v) const
@@ -31632,7 +32198,7 @@ namespace __cxx11 {
       get(iter_type __in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, long double& __v) const
       { return this->do_get(__in, __end, __io, __err, __v); }
-# 2146 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 2146 "/usr/include/c++/13/bits/locale_facets.h" 3
       iter_type
       get(iter_type __in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, void*& __v) const
@@ -31690,7 +32256,7 @@ namespace __cxx11 {
      }
    return __ret;
  }
-# 2219 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 2219 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual iter_type
       do_get(iter_type, iter_type, ios_base&, ios_base::iostate&, bool&) const;
 
@@ -31732,7 +32298,7 @@ namespace __cxx11 {
       virtual iter_type
       do_get(iter_type, iter_type, ios_base&, ios_base::iostate&,
       double&) const;
-# 2271 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 2271 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual iter_type
       do_get(iter_type, iter_type, ios_base&, ios_base::iostate&,
       long double&) const;
@@ -31740,12 +32306,12 @@ namespace __cxx11 {
 
       virtual iter_type
       do_get(iter_type, iter_type, ios_base&, ios_base::iostate&, void*&) const;
-# 2299 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 2299 "/usr/include/c++/13/bits/locale_facets.h" 3
     };
 
   template<typename _CharT, typename _InIter>
     locale::id num_get<_CharT, _InIter>::id;
-# 2317 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 2317 "/usr/include/c++/13/bits/locale_facets.h" 3
   template<typename _CharT, typename _OutIter>
     class num_put : public locale::facet
     {
@@ -31759,14 +32325,14 @@ namespace __cxx11 {
 
 
       static locale::id id;
-# 2338 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 2338 "/usr/include/c++/13/bits/locale_facets.h" 3
       explicit
       num_put(size_t __refs = 0) : facet(__refs) { }
-# 2356 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 2356 "/usr/include/c++/13/bits/locale_facets.h" 3
       iter_type
       put(iter_type __s, ios_base& __io, char_type __fill, bool __v) const
       { return this->do_put(__s, __io, __fill, __v); }
-# 2398 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 2398 "/usr/include/c++/13/bits/locale_facets.h" 3
       iter_type
       put(iter_type __s, ios_base& __io, char_type __fill, long __v) const
       { return this->do_put(__s, __io, __fill, __v); }
@@ -31785,7 +32351,7 @@ namespace __cxx11 {
       put(iter_type __s, ios_base& __io, char_type __fill,
    unsigned long long __v) const
       { return this->do_put(__s, __io, __fill, __v); }
-# 2461 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 2461 "/usr/include/c++/13/bits/locale_facets.h" 3
       iter_type
       put(iter_type __s, ios_base& __io, char_type __fill, double __v) const
       { return this->do_put(__s, __io, __fill, __v); }
@@ -31794,7 +32360,7 @@ namespace __cxx11 {
       put(iter_type __s, ios_base& __io, char_type __fill,
    long double __v) const
       { return this->do_put(__s, __io, __fill, __v); }
-# 2486 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 2486 "/usr/include/c++/13/bits/locale_facets.h" 3
       iter_type
       put(iter_type __s, ios_base& __io, char_type __fill,
    const void* __v) const
@@ -31828,7 +32394,7 @@ namespace __cxx11 {
 
       virtual
       ~num_put() { }
-# 2534 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 2534 "/usr/include/c++/13/bits/locale_facets.h" 3
       virtual iter_type
       do_put(iter_type __s, ios_base& __io, char_type __fill, bool __v) const;
 
@@ -31867,7 +32433,7 @@ namespace __cxx11 {
 
       virtual iter_type
       do_put(iter_type, ios_base&, char_type, const void*) const;
-# 2586 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 3
+# 2586 "/usr/include/c++/13/bits/locale_facets.h" 3
     };
 
   template <typename _CharT, typename _OutIter>
@@ -31969,12 +32535,12 @@ namespace __cxx11 {
 
 }
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.tcc" 1 3
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.tcc" 3
+# 1 "/usr/include/c++/13/bits/locale_facets.tcc" 1 3
+# 33 "/usr/include/c++/13/bits/locale_facets.tcc" 3
        
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.tcc" 3
+# 34 "/usr/include/c++/13/bits/locale_facets.tcc" 3
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -32069,7 +32635,7 @@ namespace std
    throw;
  }
     }
-# 139 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.tcc" 3
+# 139 "/usr/include/c++/13/bits/locale_facets.tcc" 3
   __attribute__ ((__pure__)) bool
   __verify_grouping(const char* __grouping, size_t __grouping_size,
       const string& __grouping_tmp) throw ();
@@ -32648,7 +33214,7 @@ namespace std
  __err |= ios_base::eofbit;
       return __beg;
     }
-# 735 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.tcc" 3
+# 735 "/usr/include/c++/13/bits/locale_facets.tcc" 3
   template<typename _CharT, typename _InIter>
     _InIter
     num_get<_CharT, _InIter>::
@@ -32688,7 +33254,7 @@ namespace std
       __v = reinterpret_cast<void*>(__ul);
       return __beg;
     }
-# 795 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.tcc" 3
+# 795 "/usr/include/c++/13/bits/locale_facets.tcc" 3
   template<typename _CharT, typename _OutIter>
     void
     num_put<_CharT, _OutIter>::
@@ -32872,7 +33438,7 @@ namespace std
  }
       __len = __newlen;
     }
-# 989 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.tcc" 3
+# 989 "/usr/include/c++/13/bits/locale_facets.tcc" 3
   template<typename _CharT, typename _OutIter>
     template<typename _ValueT>
       _OutIter
@@ -32925,7 +33491,7 @@ namespace std
        __len = std::__convert_from_v(_S_get_c_locale(), __cs, __cs_size,
          __fbuf, __v);
    }
-# 1062 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.tcc" 3
+# 1062 "/usr/include/c++/13/bits/locale_facets.tcc" 3
  const ctype<_CharT>& __ctype = use_facet<ctype<_CharT> >(__loc);
 
  _CharT* __ws = static_cast<_CharT*>(__builtin_alloca(sizeof(_CharT)
@@ -33042,7 +33608,7 @@ namespace std
     num_put<_CharT, _OutIter>::
     do_put(iter_type __s, ios_base& __io, char_type __fill, double __v) const
     { return _M_insert_float(__s, __io, __fill, char(), __v); }
-# 1187 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.tcc" 3
+# 1187 "/usr/include/c++/13/bits/locale_facets.tcc" 3
   template<typename _CharT, typename _OutIter>
     _OutIter
     num_put<_CharT, _OutIter>::
@@ -33070,9 +33636,9 @@ namespace std
       __io.flags(__flags);
       return __s;
     }
-# 1224 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.tcc" 3
+# 1224 "/usr/include/c++/13/bits/locale_facets.tcc" 3
 
-# 1233 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.tcc" 3
+# 1233 "/usr/include/c++/13/bits/locale_facets.tcc" 3
   template<typename _CharT, typename _Traits>
     void
     __pad<_CharT, _Traits>::_S_pad(ios_base& __io, _CharT __fill,
@@ -33275,12 +33841,12 @@ namespace std
 
 
 }
-# 2688 "C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h" 2 3
-# 38 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h" 2 3
+# 2688 "/usr/include/c++/13/bits/locale_facets.h" 2 3
+# 38 "/usr/include/c++/13/bits/basic_ios.h" 2 3
 
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -33292,14 +33858,10 @@ namespace std
  __throw_bad_cast();
       return *__f;
     }
-# 66 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h" 3
+# 66 "/usr/include/c++/13/bits/basic_ios.h" 3
   template<typename _CharT, typename _Traits>
     class basic_ios : public ios_base
     {
-
-
-
-
     public:
 
 
@@ -33340,7 +33902,7 @@ namespace std
       const __num_get_type* _M_num_get;
 
     public:
-# 121 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h" 3
+# 117 "/usr/include/c++/13/bits/basic_ios.h" 3
       explicit operator bool() const
       { return !this->fail(); }
 
@@ -33351,11 +33913,11 @@ namespace std
       bool
       operator!() const
       { return this->fail(); }
-# 140 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h" 3
+# 136 "/usr/include/c++/13/bits/basic_ios.h" 3
       iostate
       rdstate() const
       { return _M_streambuf_state; }
-# 151 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h" 3
+# 147 "/usr/include/c++/13/bits/basic_ios.h" 3
       void
       clear(iostate __state = goodbit);
 
@@ -33401,7 +33963,7 @@ namespace std
       bool
       eof() const
       { return (this->rdstate() & eofbit) != 0; }
-# 204 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h" 3
+# 200 "/usr/include/c++/13/bits/basic_ios.h" 3
       bool
       fail() const
       { return (this->rdstate() & (badbit | failbit)) != 0; }
@@ -33415,11 +33977,11 @@ namespace std
       bool
       bad() const
       { return (this->rdstate() & badbit) != 0; }
-# 225 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h" 3
+# 221 "/usr/include/c++/13/bits/basic_ios.h" 3
       iostate
       exceptions() const
       { return _M_exception; }
-# 260 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h" 3
+# 256 "/usr/include/c++/13/bits/basic_ios.h" 3
       void
       exceptions(iostate __except)
       {
@@ -33447,11 +34009,11 @@ namespace std
 
       virtual
       ~basic_ios() { }
-# 298 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h" 3
+# 294 "/usr/include/c++/13/bits/basic_ios.h" 3
       basic_ostream<_CharT, _Traits>*
       tie() const
       { return _M_tie; }
-# 310 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h" 3
+# 306 "/usr/include/c++/13/bits/basic_ios.h" 3
       basic_ostream<_CharT, _Traits>*
       tie(basic_ostream<_CharT, _Traits>* __tiestr)
       {
@@ -33469,10 +34031,10 @@ namespace std
       basic_streambuf<_CharT, _Traits>*
       rdbuf() const
       { return _M_streambuf; }
-# 350 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h" 3
+# 346 "/usr/include/c++/13/bits/basic_ios.h" 3
       basic_streambuf<_CharT, _Traits>*
       rdbuf(basic_streambuf<_CharT, _Traits>* __sb);
-# 364 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h" 3
+# 360 "/usr/include/c++/13/bits/basic_ios.h" 3
       basic_ios&
       copyfmt(const basic_ios& __rhs);
 
@@ -33492,7 +34054,7 @@ namespace std
    }
  return _M_fill;
       }
-# 393 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h" 3
+# 389 "/usr/include/c++/13/bits/basic_ios.h" 3
       char_type
       fill(char_type __ch)
       {
@@ -33500,14 +34062,14 @@ namespace std
  _M_fill = __ch;
  return __old;
       }
-# 413 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h" 3
+# 409 "/usr/include/c++/13/bits/basic_ios.h" 3
       locale
       imbue(const locale& __loc);
-# 433 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h" 3
+# 429 "/usr/include/c++/13/bits/basic_ios.h" 3
       char
       narrow(char_type __c, char __dfault) const
       { return __check_facet(_M_ctype).narrow(__c, __dfault); }
-# 452 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h" 3
+# 448 "/usr/include/c++/13/bits/basic_ios.h" 3
       char_type
       widen(char __c) const
       { return __check_facet(_M_ctype).widen(__c); }
@@ -33576,12 +34138,12 @@ namespace std
 
 }
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.tcc" 1 3
-# 33 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.tcc" 3
+# 1 "/usr/include/c++/13/bits/basic_ios.tcc" 1 3
+# 33 "/usr/include/c++/13/bits/basic_ios.tcc" 3
        
-# 34 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.tcc" 3
+# 34 "/usr/include/c++/13/bits/basic_ios.tcc" 3
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -33679,7 +34241,7 @@ namespace std
 
 
       _M_cache_locale(_M_ios_locale);
-# 146 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.tcc" 3
+# 146 "/usr/include/c++/13/bits/basic_ios.tcc" 3
       _M_fill = _CharT();
       _M_fill_init = false;
 
@@ -33710,32 +34272,15 @@ namespace std
 
 
 }
-# 521 "C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h" 2 3
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/ios" 2 3
+# 517 "/usr/include/c++/13/bits/basic_ios.h" 2 3
+# 47 "/usr/include/c++/13/ios" 2 3
+# 41 "/usr/include/c++/13/ostream" 2 3
 
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 1 3
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-       
-# 48 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-# 50 "C:/msys64/ucrt64/include/c++/14.2.0/ios" 2 3
-# 41 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 2 3
-
-
-
-
-
-
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 1 3
-# 47 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-       
-# 48 "C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h" 3
-# 48 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 2 3
-
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 65 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 59 "/usr/include/c++/13/ostream" 3
   template<typename _CharT, typename _Traits>
     class basic_ostream : virtual public basic_ios<_CharT, _Traits>
     {
@@ -33754,7 +34299,7 @@ namespace std
       typedef num_put<_CharT, ostreambuf_iterator<_CharT, _Traits> >
              __num_put_type;
       typedef ctype<_CharT> __ctype_type;
-# 91 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 85 "/usr/include/c++/13/ostream" 3
       explicit
       basic_ostream(__streambuf_type* __sb)
       { this->init(__sb); }
@@ -33770,7 +34315,7 @@ namespace std
 
       class sentry;
       friend class sentry;
-# 115 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 109 "/usr/include/c++/13/ostream" 3
       __ostream_type&
       operator<<(__ostream_type& (*__pf)(__ostream_type&))
       {
@@ -33799,7 +34344,7 @@ namespace std
  __pf(*this);
  return *this;
       }
-# 173 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 167 "/usr/include/c++/13/ostream" 3
       __ostream_type&
       operator<<(long __n)
       { return _M_insert(__n); }
@@ -33842,7 +34387,7 @@ namespace std
       __ostream_type&
       operator<<(unsigned long long __n)
       { return _M_insert(__n); }
-# 227 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 221 "/usr/include/c++/13/ostream" 3
       __ostream_type&
       operator<<(double __f)
       { return _M_insert(__f); }
@@ -33858,7 +34403,7 @@ namespace std
       __ostream_type&
       operator<<(long double __f)
       { return _M_insert(__f); }
-# 297 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 291 "/usr/include/c++/13/ostream" 3
       __ostream_type&
       operator<<(const void* __p)
       { return _M_insert(__p); }
@@ -33867,25 +34412,25 @@ namespace std
       __ostream_type&
       operator<<(nullptr_t)
       { return *this << "nullptr"; }
-# 335 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 329 "/usr/include/c++/13/ostream" 3
       __ostream_type&
       operator<<(__streambuf_type* __sb);
-# 368 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 362 "/usr/include/c++/13/ostream" 3
       __ostream_type&
       put(char_type __c);
-# 387 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 381 "/usr/include/c++/13/ostream" 3
       __ostream_type&
       write(const char_type* __s, streamsize __n);
-# 400 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 394 "/usr/include/c++/13/ostream" 3
       __ostream_type&
       flush();
-# 410 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 404 "/usr/include/c++/13/ostream" 3
       pos_type
       tellp();
-# 421 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 415 "/usr/include/c++/13/ostream" 3
       __ostream_type&
       seekp(pos_type);
-# 433 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 427 "/usr/include/c++/13/ostream" 3
        __ostream_type&
       seekp(off_type, ios_base::seekdir);
 
@@ -33930,7 +34475,7 @@ namespace std
       { std::__ostream_insert(*this, __s, __n); }
 
     };
-# 485 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 479 "/usr/include/c++/13/ostream" 3
   template <typename _CharT, typename _Traits>
     class basic_ostream<_CharT, _Traits>::sentry
     {
@@ -33939,7 +34484,7 @@ namespace std
       basic_ostream<_CharT, _Traits>& _M_os;
 
     public:
-# 504 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 498 "/usr/include/c++/13/ostream" 3
       explicit
       sentry(basic_ostream<_CharT, _Traits>& __os);
 
@@ -33963,13 +34508,13 @@ namespace std
    }
       }
 #pragma GCC diagnostic pop
-# 536 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 530 "/usr/include/c++/13/ostream" 3
       explicit
 
       operator bool() const
       { return _M_ok; }
     };
-# 558 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 552 "/usr/include/c++/13/ostream" 3
   template<typename _CharT, typename _Traits>
     inline basic_ostream<_CharT, _Traits>&
     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
@@ -34006,7 +34551,7 @@ namespace std
     inline basic_ostream<char, _Traits>&
     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
     { return (__out << static_cast<char>(__c)); }
-# 649 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 643 "/usr/include/c++/13/ostream" 3
   template<typename _CharT, typename _Traits>
     inline basic_ostream<_CharT, _Traits>&
     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
@@ -34046,12 +34591,12 @@ namespace std
     inline basic_ostream<char, _Traits> &
     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
     { return (__out << reinterpret_cast<const char*>(__s)); }
-# 739 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 733 "/usr/include/c++/13/ostream" 3
   template<typename _CharT, typename _Traits>
     inline basic_ostream<_CharT, _Traits>&
     endl(basic_ostream<_CharT, _Traits>& __os)
     { return flush(__os.put(__os.widen('\n'))); }
-# 751 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 745 "/usr/include/c++/13/ostream" 3
   template<typename _CharT, typename _Traits>
     inline basic_ostream<_CharT, _Traits>&
     ends(basic_ostream<_CharT, _Traits>& __os)
@@ -34066,7 +34611,7 @@ namespace std
     inline basic_ostream<_CharT, _Traits>&
     flush(basic_ostream<_CharT, _Traits>& __os)
     { return __os.flush(); }
-# 783 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 777 "/usr/include/c++/13/ostream" 3
   template<typename _Tp>
     using _Require_derived_from_ios_base
       = _Require<is_class<_Tp>, __not_<is_same<_Tp, ios_base>>,
@@ -34077,7 +34622,7 @@ namespace std
     typename
       = decltype(std::declval<_Os&>() << std::declval<const _Tp&>())>
     using __rvalue_stream_insertion_t = _Os&&;
-# 805 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 799 "/usr/include/c++/13/ostream" 3
   template<typename _Ostream, typename _Tp>
     inline __rvalue_stream_insertion_t<_Ostream, _Tp>
     operator<<(_Ostream&& __os, const _Tp& __x)
@@ -34085,18 +34630,18 @@ namespace std
       __os << __x;
       return std::move(__os);
     }
-# 1014 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 3
+# 877 "/usr/include/c++/13/ostream" 3
 
 }
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream.tcc" 1 3
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream.tcc" 3
+# 1 "/usr/include/c++/13/bits/ostream.tcc" 1 3
+# 37 "/usr/include/c++/13/bits/ostream.tcc" 3
        
-# 38 "C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream.tcc" 3
+# 38 "/usr/include/c++/13/bits/ostream.tcc" 3
 
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -34447,22 +34992,22 @@ namespace std
 
 
 }
-# 1018 "C:/msys64/ucrt64/include/c++/14.2.0/ostream" 2 3
-# 42 "C:/msys64/ucrt64/include/c++/14.2.0/iostream" 2 3
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 1 3
-# 36 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 881 "/usr/include/c++/13/ostream" 2 3
+# 42 "/usr/include/c++/13/iostream" 2 3
+# 1 "/usr/include/c++/13/istream" 1 3
+# 36 "/usr/include/c++/13/istream" 3
        
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 37 "/usr/include/c++/13/istream" 3
 
 
 
 
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 59 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 59 "/usr/include/c++/13/istream" 3
   template<typename _CharT, typename _Traits>
     class basic_istream : virtual public basic_ios<_CharT, _Traits>
     {
@@ -34515,7 +35060,7 @@ namespace std
 
       class sentry;
       friend class sentry;
-# 121 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 121 "/usr/include/c++/13/istream" 3
       __istream_type&
       operator>>(__istream_type& (*__pf)(__istream_type&))
       { return __pf(*this); }
@@ -34533,7 +35078,7 @@ namespace std
  __pf(*this);
  return *this;
       }
-# 169 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 169 "/usr/include/c++/13/istream" 3
       __istream_type&
       operator>>(bool& __n)
       { return _M_extract(__n); }
@@ -34568,7 +35113,7 @@ namespace std
       __istream_type&
       operator>>(unsigned long long& __n)
       { return _M_extract(__n); }
-# 215 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 215 "/usr/include/c++/13/istream" 3
       __istream_type&
       operator>>(float& __f)
       { return _M_extract(__f); }
@@ -34580,45 +35125,45 @@ namespace std
       __istream_type&
       operator>>(long double& __f)
       { return _M_extract(__f); }
-# 324 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 324 "/usr/include/c++/13/istream" 3
       __istream_type&
       operator>>(void*& __p)
       { return _M_extract(__p); }
-# 348 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 348 "/usr/include/c++/13/istream" 3
       __istream_type&
       operator>>(__streambuf_type* __sb);
-# 358 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 358 "/usr/include/c++/13/istream" 3
       streamsize
       gcount() const
       { return _M_gcount; }
-# 391 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 391 "/usr/include/c++/13/istream" 3
       int_type
       get();
-# 405 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 405 "/usr/include/c++/13/istream" 3
       __istream_type&
       get(char_type& __c);
-# 432 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 432 "/usr/include/c++/13/istream" 3
       __istream_type&
       get(char_type* __s, streamsize __n, char_type __delim);
-# 443 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 443 "/usr/include/c++/13/istream" 3
       __istream_type&
       get(char_type* __s, streamsize __n)
       { return this->get(__s, __n, this->widen('\n')); }
-# 466 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 466 "/usr/include/c++/13/istream" 3
       __istream_type&
       get(__streambuf_type& __sb, char_type __delim);
-# 476 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 476 "/usr/include/c++/13/istream" 3
       __istream_type&
       get(__streambuf_type& __sb)
       { return this->get(__sb, this->widen('\n')); }
-# 505 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 505 "/usr/include/c++/13/istream" 3
       __istream_type&
       getline(char_type* __s, streamsize __n, char_type __delim);
-# 516 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 516 "/usr/include/c++/13/istream" 3
       __istream_type&
       getline(char_type* __s, streamsize __n)
       { return this->getline(__s, __n, this->widen('\n')); }
-# 540 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 540 "/usr/include/c++/13/istream" 3
       __istream_type&
       ignore(streamsize __n, int_type __delim);
 
@@ -34627,31 +35172,31 @@ namespace std
 
       __istream_type&
       ignore();
-# 557 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 557 "/usr/include/c++/13/istream" 3
       int_type
       peek();
-# 575 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 575 "/usr/include/c++/13/istream" 3
       __istream_type&
       read(char_type* __s, streamsize __n);
-# 594 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 594 "/usr/include/c++/13/istream" 3
       streamsize
       readsome(char_type* __s, streamsize __n);
-# 611 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 611 "/usr/include/c++/13/istream" 3
       __istream_type&
       putback(char_type __c);
-# 627 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 627 "/usr/include/c++/13/istream" 3
       __istream_type&
       unget();
-# 645 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 645 "/usr/include/c++/13/istream" 3
       int
       sync();
-# 660 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 660 "/usr/include/c++/13/istream" 3
       pos_type
       tellg();
-# 675 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 675 "/usr/include/c++/13/istream" 3
       __istream_type&
       seekg(pos_type);
-# 691 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 691 "/usr/include/c++/13/istream" 3
       __istream_type&
       seekg(off_type, ios_base::seekdir);
 
@@ -34726,7 +35271,7 @@ namespace std
     basic_istream<wchar_t>&
     basic_istream<wchar_t>::
     ignore(streamsize __n, int_type __delim);
-# 775 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 775 "/usr/include/c++/13/istream" 3
   template<typename _CharT, typename _Traits>
     class basic_istream<_CharT, _Traits>::sentry
     {
@@ -34740,16 +35285,16 @@ namespace std
       typedef basic_istream<_CharT, _Traits> __istream_type;
       typedef typename __istream_type::__ctype_type __ctype_type;
       typedef typename _Traits::int_type __int_type;
-# 811 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 811 "/usr/include/c++/13/istream" 3
       explicit
       sentry(basic_istream<_CharT, _Traits>& __is, bool __noskipws = false);
-# 822 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 822 "/usr/include/c++/13/istream" 3
       explicit
 
       operator bool() const
       { return _M_ok; }
     };
-# 840 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 840 "/usr/include/c++/13/istream" 3
   template<typename _CharT, typename _Traits>
     basic_istream<_CharT, _Traits>&
     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT& __c);
@@ -34771,13 +35316,13 @@ namespace std
     __istream_extract(basic_istream<_CharT, _Traits>&, _CharT*, streamsize);
 
   void __istream_extract(istream&, char*, streamsize);
-# 890 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 890 "/usr/include/c++/13/istream" 3
   template<typename _CharT, typename _Traits>
     __attribute__((__nonnull__(2), __access__(__write_only__, 2)))
     inline basic_istream<_CharT, _Traits>&
     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT* __s)
     {
-# 924 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 924 "/usr/include/c++/13/istream" 3
  {
 
    streamsize __n = __gnu_cxx::__numeric_traits<streamsize>::__max;
@@ -34798,7 +35343,7 @@ namespace std
     inline basic_istream<char, _Traits>&
     operator>>(basic_istream<char, _Traits>& __in, signed char* __s)
     { return __in >> reinterpret_cast<char*>(__s); }
-# 979 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 979 "/usr/include/c++/13/istream" 3
   template<typename _CharT, typename _Traits>
     class basic_iostream
     : public basic_istream<_CharT, _Traits>,
@@ -34861,16 +35406,16 @@ namespace std
       { __istream_type::swap(__rhs); }
 
     };
-# 1062 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 1062 "/usr/include/c++/13/istream" 3
   template<typename _CharT, typename _Traits>
     basic_istream<_CharT, _Traits>&
     ws(basic_istream<_CharT, _Traits>& __is);
-# 1078 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 1078 "/usr/include/c++/13/istream" 3
   template<typename _Is, typename _Tp,
     typename = _Require_derived_from_ios_base<_Is>,
     typename = decltype(std::declval<_Is&>() >> std::declval<_Tp>())>
     using __rvalue_stream_extraction_t = _Is&&;
-# 1094 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 3
+# 1094 "/usr/include/c++/13/istream" 3
   template<typename _Istream, typename _Tp>
     inline __rvalue_stream_extraction_t<_Istream, _Tp>
     operator>>(_Istream&& __is, _Tp&& __x)
@@ -34883,14 +35428,14 @@ namespace std
 
 }
 
-# 1 "C:/msys64/ucrt64/include/c++/14.2.0/bits/istream.tcc" 1 3
-# 37 "C:/msys64/ucrt64/include/c++/14.2.0/bits/istream.tcc" 3
+# 1 "/usr/include/c++/13/bits/istream.tcc" 1 3
+# 37 "/usr/include/c++/13/bits/istream.tcc" 3
        
-# 38 "C:/msys64/ucrt64/include/c++/14.2.0/bits/istream.tcc" 3
+# 38 "/usr/include/c++/13/bits/istream.tcc" 3
 
 
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
@@ -35386,7 +35931,7 @@ namespace std
               const int_type __eof = traits_type::eof();
               __streambuf_type* __sb = this->rdbuf();
               int_type __c = __sb->sgetc();
-# 545 "C:/msys64/ucrt64/include/c++/14.2.0/bits/istream.tcc" 3
+# 545 "/usr/include/c++/13/bits/istream.tcc" 3
        bool __large_ignore = false;
        while (true)
   {
@@ -36010,13 +36555,13 @@ namespace std
 
 
 }
-# 1107 "C:/msys64/ucrt64/include/c++/14.2.0/istream" 2 3
-# 43 "C:/msys64/ucrt64/include/c++/14.2.0/iostream" 2 3
+# 1107 "/usr/include/c++/13/istream" 2 3
+# 43 "/usr/include/c++/13/iostream" 2 3
 
-namespace std
+namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 62 "C:/msys64/ucrt64/include/c++/14.2.0/iostream" 3
+# 62 "/usr/include/c++/13/iostream" 3
   extern istream cin;
   extern ostream cout;
   extern ostream cerr;
@@ -36027,7 +36572,10 @@ namespace std
   extern wostream wcout;
   extern wostream wcerr;
   extern wostream wclog;
-# 85 "C:/msys64/ucrt64/include/c++/14.2.0/iostream" 3
+# 82 "/usr/include/c++/13/iostream" 3
+  __extension__ __asm (".globl _ZSt21ios_base_library_initv");
+
+
 
 }
 # 2 "main.cpp" 2
